@@ -1,2 +1,3 @@
-# genuary2022
-# genuary2022.github.io
+# GENUARY
+
+This is the repository for the Genuary websites.
