@@ -33,9 +33,20 @@ header, section, footer {
   display:block;
 }
 
-header #logo { width: 100vw; height: 25vw; display: block; }
+header #logo { width: 100vw; height: 25vw; display: block; position: relative; }
 header #logo img { width: 100vw; height: 25vw; display: block; }
 header #logo canvas { width: 100vw; height: 25vw; display: block; }
+header #logo a { 
+  display: none;
+  position: absolute;
+  right: 16px; bottom: 16px;
+  font-size: 24px;
+  padding: 8px 12px;
+  color: var(--textstrong);
+  background: var(--bgcolor);
+  border: 1px solid #000;
+}
+header #logo:hover a { display: block; }
 
 section strong { color: var(--textstrong); font-weight: bold; }
 section em { color: var(--texthighlight); font-style: italic; }
