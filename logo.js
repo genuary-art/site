@@ -39,7 +39,7 @@ while (k>0) {
 		}
 	} else k--;
 }
-U=(x,y,f,s,w)=>`<text text-anchor="middle" x="${W/2+x}" y="${W*as*.8+y|0}" fill="${f}" stroke="#${s}" stroke-width="${w}">GENUARY2022</text>`;
+U=(x,y,f,s,w)=>`<text text-anchor="middle" x="${W/2+x}" y="${W*as*.8+y|0}" fill="${f}" stroke="#${s}" stroke-width="${w}">GENUARY</text>`;
 document.write(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${W*as|0}" style="font-size: 650px; font-weight: bold">
 	<mask id="M">${U(0,0,'#fff','fff',19)}</mask>
 	${U(25,25,'#000','000',35)}	
