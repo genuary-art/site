@@ -36,11 +36,26 @@ log_end=()=>{
   // commented version
   //
   // featuring some comments and white space
+  B=logo; // logo container element
+  show_svg = s=>{
+    (im=new Image).src=`data:image/svg+xml,`+encodeURIComponent(s);
+    im.decode().then(_=>{
+      B.replaceChildren(im)
+      // add reload button here
+    }); 
+  }
   
+  gen_svg = (use_cache=1)=>{
+    if (use_cache && localStorage['cache_img'] === k) {
+      show_svg(localStorage['cache_img']);
+      return;
+    }
+
+  }
   // get options from URL
-  O={lw:.45,d:.6,h:140,bg:1,inv:0}; // default options
+  O={lw:.45,d:.6,h:140,bg:1,inv:0,res:1e4}; // default options
   (new(U=URLSearchParams)(location.search)).forEach((v,k)=>O[k]=v);
-  seed = O.seed || 'GENUARY2023' + Date.now();
+  O.seed = seed = O.seed || 'GENUARY2023' + Date.now();
 
   // init PRNG
   S=Uint32Array.of(9,7,5,3);
@@ -82,14 +97,15 @@ log_end=()=>{
   // init canvas
   M=O.h; // height in mm
   Y2=(Y=4)/2; // aspect ratio
-  H=1e5; // viewbox height
-  B=logo; // logo container element
+  H=O.res; // viewbox height
+  DR=O.d*(LW=O.lw/M); // dot radius
   V=document.createElement`canvas`;
   B.appendChild(V);
   C=V.getContext`2d`;
   cw=V.width=Y*(ch=V.height=B.offsetWidth/Y);
-  C.strokeStyle=O.inv?'#ff8':'#008';
-  C.fillStyle=O.inv?'#111':'#ddd';
+  C.strokeStyle=O.inv?'#ff8':'#123';
+  C.lineWidth=LW*ch;
+  C.fillStyle=O.inv?'#111':'#eee8dd';
   C.fillRect(0,0,cw,ch);
 
   // init 3D stuff
@@ -284,13 +300,12 @@ log_end=()=>{
   Qh=({x,y,w,p,r},X,Y,W,f)=>X<x+w&&X+W>x&&Y<y+w&&Y+W>y&&(p.some(([a,b])=>a>=X&&a<X+W&&b>=Y&&b<Y+W&&f(a,b))||r&&r.some(s=>Qh(s,X,Y,W,f)));
   Q=(x,y,w)=>({x,y,w,p:[]});
 
-  DR=O.d*(LW=O.lw/M); // dot radius
-
-  v=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${H*Y|0} ${H}" width="${M*Y}mm" height="${M}mm">\n<!-`+`- `+Date(),new U(O),,`seed='${seed}';(code=${code})()\n-`+`->`,O.bg?`<rect x="${-H*Y}" y="${-H}" width="${H*Y*3}" height="${H*3}" fill="#${O.inv?'000000':'ffffff'}"/>`:``]; // init SVG
+  v=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${H*Y|0} ${H}" width="${M*Y}mm" height="${M}mm">\n<!-`+`- `+Date(),new U(O),,`seed='${seed}';(code=${code})()\n-`+`->`,O.bg?`<rect x="${-H*Y}" y="${-H}" width="${H*Y*3}" height="${H*3}" fill="#${O.inv?'000000':'eee8dd'}"/>`:``]; // init SVG
   
   function* E() {
     // flow field tracing rendering SVG creating function
-    v.push([`<g fill="none" stroke="#${O.inv?'ffffff':'000000'}" stroke-width="${(LW*H).toFixed(4)}" stroke-linecap="round">`]);
+    v.push([`<g fill="none" stroke="#${O.inv?'ffffff':'112233'}" stroke-width="${(LW*H).toFixed(4)}" stroke-linecap="round">`]);
+    pp=['M 0 0'];cx=0;cy=0;
     hv=N(A(A(rt,fw,1/Z),up,.5)); // hatch direction
     QT=Q(-2,-2,4); // init empty QuadTree
     log_start();
@@ -314,19 +329,27 @@ log_end=()=>{
         if(qq[9]){
           // accept only if trace has more than 10 pts
           log_trace(I);
-          C.beginPath(I=0); // begin path and also reset fail counter
-          n=v.push(`<path d="M ${qq.map(([x,y])=>(Qa(QT,[x,y]),x+=Y2,y+=.5,C.lineTo(x*ch,y*ch),[x*H|0,y*H|0])).join` `}"/>`); // draw trace to canvas and also add it to the SVG and add points to QuadTree
+          I=0; // reset fail counter
+          C.beginPath();
+          // M p0x p0y m 0 0 d1x d2x
+          // M p0x p0y l d1x d2x
+          // M 0 0 m 
+          // n=v.push(`<path d="M ${qq.map(([x,y])=>(Qa(QT,[x,y]),x+=Y2,y+=.5,C.lineTo(x*ch,y*ch),[x*H|0,y*H|0])).join` `}"/>`); // draw trace to canvas and also add it to the SVG and add points to QuadTree
+          // cx=cy=0;
+          // n=v.push(`<path d="${qq.map(([x,y],i)=>(Qa(QT,[x,y]),x+=Y2,y+=.5,C.lineTo(x*ch,y*ch),x=x*H-cx|0,y=y*H-cy|0,cx+=x,cy+=y,
+          //   (i<2?'Ml'[i]+' ':'')+[x,y]
+          // )).join` `}"/>`);
+          n=pp.push('m '+qq.map(([x,y],i)=>(Qa(QT,[x,y]),x+=Y2,y+=.5,C.lineTo(x*ch,y*ch),x=x*H|0,y=y*H|0,dx=x-cx,dy=y-cy,cx=x,cy=y,[dx,dy])).join` `);
+
           C.stroke(); // stroke path
           if(n%63<1)yield // periodically return control to timeout function, so the browser doesn't hang
         }
       }
     }
     log_end();
-    v.push`</g></svg>`; // finish SVG
-    // show SVG 
-    B.append(im=new Image);
-    B.removeChild(V) // remove canvas
-    im.src=`data:image/svg+xml,`+encodeURIComponent(v.join`\n`);
+    v.push(`<path d="${pp.join` `}"/></g></svg>`); // finish SVG
+    // show SVG
+    show_svg(v.join`\n`);
   }
 
   J=_=>E.next().done||setTimeout(J); // timeout loop function loops until E iterator is done
