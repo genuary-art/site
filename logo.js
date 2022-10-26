@@ -22,7 +22,7 @@ log_end=()=>{
   }
   dd=new Date();
   time=`${dd.getHours()}:${(dd.getMinutes()+'').padStart(2,'0')}.${(dd.getSeconds()+'').padStart(2,'0')}`;
-  log.push(`[${time}] ${(elapserd/1000).toFixed(2)}s / ${v.length} paths / ${(Npts/1000)|0}K pts / seed=${fxhash}`); 
+  log.push(`[${time}] ${(elapserd/1000).toFixed(2)}s / ${v.length} paths / ${(Npts/1000)|0}K pts / seed=${seed}`); 
   log = log.slice(-9);
   localStorage[key]=log; N = log.length;
   log.reverse();
@@ -40,14 +40,13 @@ log_end=()=>{
   // get options from URL
   O={lw:.45,d:.6,h:140,bg:1,inv:0}; // default options
   (new(U=URLSearchParams)(location.search)).forEach((v,k)=>O[k]=v);
-  fxhash = O.fxhash || fxhash;
+  seed = O.seed || 'GENUARY2023' + Date.now();
 
   // init PRNG
-  fxhash='zorp'+Date.now();
   S=Uint32Array.of(9,7,5,3);
   // R=(a=1)=>a*(t=S[3],S[3]=S[2],S[2]=S[1],S[1]=n=S[0],t^=t<<11,S[0]^=(t^t>>>8)^(n>>>19),S[0]/2**32); // orig PRNG 97
   R=(a=1)=>a*(a=S[3],S[3]=S[2],S[2]=S[1],a^=a<<11,S[0]^=a^a>>>8^(S[1]=S[0])>>>19,S[0]/2**32);
-  [...fxhash+'SOURCERY'].map(c=>R(S[3]^=c.charCodeAt()*23205));
+  [...seed+'SOURCERY'].map(c=>R(S[3]^=c.charCodeAt()*23205));
   console.log(R(999)|0,R(999)|0,R(999)|0,R(999)|0); // 497 969 812 15
 
   // maaaaaath
@@ -287,7 +286,7 @@ log_end=()=>{
 
   DR=O.d*(LW=O.lw/M); // dot radius
 
-  v=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${H*Y|0} ${H}" width="${M*Y}mm" height="${M}mm">\n<!-`+`- `+Date(),new U(O),,`fxhash='${fxhash}';(code=${code})()\n-`+`->`,O.bg?`<rect x="${-H*Y}" y="${-H}" width="${H*Y*3}" height="${H*3}" fill="#${O.inv?'000000':'ffffff'}"/>`:``]; // init SVG
+  v=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${H*Y|0} ${H}" width="${M*Y}mm" height="${M}mm">\n<!-`+`- `+Date(),new U(O),,`seed='${seed}';(code=${code})()\n-`+`->`,O.bg?`<rect x="${-H*Y}" y="${-H}" width="${H*Y*3}" height="${H*3}" fill="#${O.inv?'000000':'ffffff'}"/>`:``]; // init SVG
   
   function* E() {
     // flow field tracing rendering SVG creating function
