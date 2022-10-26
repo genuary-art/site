@@ -33,9 +33,9 @@ header, section, footer {
   display:block;
 }
 
-header #logo img {
-  width: 100%;
-}
+header #logo { width: 100vw; height: 25vw; display: block; }
+header #logo img { width: 100vw; height: 25vw; display: block; }
+header #logo canvas { width: 100vw; height: 25vw; display: block; }
 
 section strong { color: var(--textstrong); font-weight: bold; }
 section em { color: var(--texthighlight); font-style: italic; }

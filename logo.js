@@ -81,13 +81,13 @@ log_end=()=>{
 
   // init canvas
   M=O.h; // height in mm
-  Y2=(Y=3)/2; // aspect ratio
+  Y2=(Y=4)/2; // aspect ratio
   H=1e5; // viewbox height
   B=logo; // logo container element
   V=document.createElement`canvas`;
   B.appendChild(V);
   C=V.getContext`2d`;
-  cw=V.width=Y*(ch=V.height=innerWidth/Y);
+  cw=V.width=Y*(ch=V.height=B.offsetWidth/Y);
   C.strokeStyle=O.inv?'#ff8':'#008';
   C.fillStyle=O.inv?'#111':'#ddd';
   C.fillRect(0,0,cw,ch);
@@ -325,8 +325,8 @@ log_end=()=>{
     v.push`</g></svg>`; // finish SVG
     // show SVG 
     B.append(im=new Image);
-    im.src=`data:image/svg+xml,`+encodeURIComponent(v.join`\n`);
     B.removeChild(V) // remove canvas
+    im.src=`data:image/svg+xml,`+encodeURIComponent(v.join`\n`);
   }
 
   J=_=>E.next().done||setTimeout(J); // timeout loop function loops until E iterator is done
