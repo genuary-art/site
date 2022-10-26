@@ -37,18 +37,15 @@ log_end=()=>{
   //
   // featuring some comments and white space
 
-  let reload_button = document.createElement('a');
-  reload_button.innerHTML = '🗘';
-  reload_button.onclick = _=>{
+  logo.onclick = _=>{
     localStorage['cache_img'] = '';
     gen_svg();
-    return false;
   }
 
   show_svg = s=>{
     (im=new Image).src=`data:image/svg+xml,`+encodeURIComponent(s);
     im.decode().then(_=>{
-      logo.replaceChildren(im, reload_button);
+      logo.replaceChildren(im);
     }); 
   }
   
@@ -69,7 +66,7 @@ log_end=()=>{
     H=O.res; // viewbox height
     DR=O.d*(LW=O.lw/M); // dot radius
     V=document.createElement`canvas`;
-    logo.replaceChildren(V); // also deleted previous image and reload button
+    logo.replaceChildren(V); // also deleted previous image
     C=V.getContext`2d`;
     cw=V.width=Y*(ch=V.height=logo.offsetWidth/Y);
     C.strokeStyle='#123';
