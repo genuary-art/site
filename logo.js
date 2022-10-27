@@ -50,11 +50,6 @@ log_end=()=>{
   }
   
   gen_svg = _=>{
-    let cache=localStorage['cache_img'];
-    if (cache) {
-      show_svg(cache);
-      return;
-    }
     // get options from URL
     O={lw:.45,d:.6,h:140,bg:1,res:1e4}; // default options
     (new(U=URLSearchParams)(location.search)).forEach((v,k)=>O[k]=v);
@@ -73,6 +68,13 @@ log_end=()=>{
     C.lineWidth=LW*ch;
     C.fillStyle='#eee8dd';
     C.fillRect(0,0,cw,ch);
+
+    // load cache after creating canvas to reduce flicker
+    let cache=localStorage['cache_img'];
+    if (cache) {
+      show_svg(cache);
+      return;
+    }
 
     // init PRNG
     S=Uint32Array.of(9,7,5,3);
