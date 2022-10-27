@@ -81,40 +81,13 @@ section h1, section h2, section h3, section h4, section h5, section h6 {
   font-size: 1.25em;
   line-height: 1;
   font-weight: bold;
-  color: var(--textstrong);
-  text-shadow: .0625em .0625em 0 var(--shadow);
-}
-
-.today {
-  font-size: 2em;
   color: var(--textcolor);
-  text-shadow: 0 0 0.1em var(--textstrong), .0625em .0625em 0 var(--shadow);
-}
-
-.today::after {
-  background-color: var(--textstrong);
-  color: var(--textstronginverse);
-  content: "that's today!";
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 0.4375em;
-  font-weight: normal;
-  margin-left: 2em;
-  padding: .5em .75em;
-  box-shadow: 0.25em 0.5em 0 var(--shadow);
-  text-shadow: none;
-}
-
-.credit {
-  font-size: 0.5em;
-}
-.credit a {
-  text-decoration: none;
 }
 
 section h1 {
-    font-size: 2em;
-    text-align: center;
+  text-shadow: .0625em .0625em 0 var(--shadow);
+  font-size: 2em;
+  text-align: center;
 }
 
 section h2 {
@@ -174,3 +147,31 @@ footer a { color: var(--infolinkhover); }
     font-size: 1.0em;
   }
 }
+
+.today {
+  font-size: 2em;
+  color: var(--textcolor);
+  text-shadow: 0 0 0.1em var(--textstrong), .0625em .0625em 0 var(--shadow);
+}
+
+.today::after {
+  background-color: var(--textstrong);
+  color: var(--textstronginverse);
+  content: "that's today!";
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.4375em;
+  font-weight: normal;
+  margin-left: 2em;
+  padding: .5em .75em;
+  box-shadow: 0.25em 0.5em 0 var(--shadow);
+  text-shadow: none;
+}
+
+.credit {
+  font-size: 0.5em;
+}
+.credit a {
+  text-decoration: none;
+}
+
