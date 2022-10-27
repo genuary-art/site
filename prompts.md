@@ -17,11 +17,9 @@ Four-fold rotational symmetry only. Bonus challenge: keep it to right angles onl
 
 ## JAN.27 <span class="credit">(credit: [Piter Pasma](https://twitter.com/piterpasma))</span> {#jan27}
 
-<b style="background-color: #000000">#000000</b>
-<b style="background-color: #990000">#ffffff</b>
-<b style="background-color: #ffffff; color:#161616">#ffffff</b>
-<b style="background-color: #FFD400">#FFD400</b>
-<b style="background-color: #D90368">#D90368</b>
+<b style="background-color: #000000; color:#eee8dd">#000000</b>
+<b style="background-color: #990000; color:#eee8dd">#990000</b>
+<b style="background-color: #ffffff">#ffffff</b>
 
 # [THANKS](thanks)
 
