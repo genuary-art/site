@@ -11,15 +11,13 @@ Draw a rectangle. No shenanigans.
 
 Reverse code golf: Make the longest program, how much code can you write in a day to make something interesting? 
 
-## JAN.3 <span class="credit">([Piter Pasma](https://twitter.com/piterpasma))</span> {#jan3}
-
-Four-fold rotational symmetry only. Bonus challenge: keep it to right angles only.
-
-## JAN.27 <span class="credit">(credit: [Piter Pasma](https://twitter.com/piterpasma))</span> {#jan27}
+## JAN.3 <span class="credit">(credit: [Piter Pasma](https://twitter.com/piterpasma))</span> {#jan3}
 
 <b style="background-color: #000000; color:#eee8dd">#000000</b>
-<b style="background-color: #990000; color:#eee8dd">#990000</b>
-<b style="background-color: #ffffff">#ffffff</b>
+<b style="background-color: #000000; color:#eee8dd">#000000</b>
+<b style="background-color: #000000; color:#eee8dd">#000000</b>
+
+(No gradients)
 
 # [THANKS](thanks)
 
