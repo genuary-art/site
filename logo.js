@@ -68,7 +68,7 @@ log_end=()=>{
     V=document.createElement`canvas`;
     logo.replaceChildren(V); // also deleted previous image
     C=V.getContext`2d`;
-    cw=V.width=Y*(ch=V.height=logo.offsetWidth/Y);
+    cw=V.width=Y*(ch=V.height=devicePixelRatio*logo.offsetWidth/Y);
     C.strokeStyle='#321';
     C.lineWidth=LW*ch;
     C.fillStyle='#eee8dd';
