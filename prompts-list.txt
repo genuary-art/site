@@ -55,6 +55,7 @@ depth
 # generetame
 Horror
 Low contrast
+3 letters
 
 # Rudxane
 Half
@@ -85,6 +86,14 @@ Negative 144 characters of code
 Chromie squiggle in your style
 Fire
 Tell a story
+PFP
+Make an original visual noise.
+Aesemic
+Optical Illusion
+Epileptic trigger
+Emulate another genartist
+A flow field that doesn't look like one
+Mandala
 
 # Licia He
 is this art
@@ -129,3 +138,15 @@ In the style of [Hilma Af Klint](https://www.wikiart.org/en/hilma-af-klint/all-w
 
 # Yazid
 Make some noise
+Generative art, wrong answers only
+Intersections
+Minimalist
+Maximalist
+Dream brand collab
+Sound
+
+# Jos Vromans
+Up
+
+# Rudxane
+Nothing
