@@ -26,6 +26,8 @@ Spirals
 Isometric
 Movie villain 60 second countdown interface
 Steal Like An Artist
+All code, no output.
+
 
 # r4v3n
 colors only
@@ -40,6 +42,8 @@ remix of previous works
 
 # Piter
 Reverse code golf: Make the longest program, how much code can you write in a day to make something interesting?
+Physical modelling / simulation
+
 
 # Jess Hewitt
 Sine waves!
@@ -50,6 +54,7 @@ depth
 
 # generetame
 Horror
+Low contrast
 
 # Rudxane
 Half
@@ -75,6 +80,11 @@ Bling
 Genart by hand on paper.
 Pixel art
 Tie dye
+No code.
+Negative 144 characters of code
+Chromie squiggle in your style
+Fire
+Tell a story
 
 # Licia He
 is this art
@@ -101,3 +111,21 @@ Self Deleting
 Rules
 Emergence
 Layers
+
+# Lars Wander
+no randomness (but still surprising)
+
+# Reva
+dreamcore/weirdcore, or any Algo core
+infinite loop/feedback/endless gifs
+a walking creature
+
+# Roni
+Make something useful
+Make something useless
+Generative code
+Generative poetry
+In the style of [Hilma Af Klint](https://www.wikiart.org/en/hilma-af-klint/all-works#!#filterName:all-paintings-chronologically,resultType:masonry)
+
+# Yazid
+Make some noise

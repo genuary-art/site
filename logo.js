@@ -1,3 +1,6 @@
+// TODO
+// make output canvas
+
 let start_time;
 log_start=()=>{
   start_time = performance.now();
@@ -308,7 +311,7 @@ log_end=()=>{
     
     function* E() {
       // flow field tracing rendering SVG creating function
-      v.push([`<g fill="none" stroke="#112233" stroke-width="${(LW*H).toFixed(4)}" stroke-linecap="round">`]);
+      v.push([`<g fill="none" stroke="#0a141e" stroke-width="${(LW*H).toFixed(4)}" stroke-linecap="round">`]);
       pp=['M 0 0'];cx=0;cy=0;
       hv=N(A(A(rt,fw,1/Z),up,.5)); // hatch direction
       QT=Q(-2,-2,4); // init empty QuadTree
