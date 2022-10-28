@@ -13,6 +13,9 @@ pixel perfect
 # jbarbeau
 Absurdism
 Ceiling simulation
+Make a Human 10 print ( like a legit grid on a field with people positionned according to even odd results, could be fun in the snow too)
+make it with CSS
+use your voice
 
 # rvig
 RGB gradients
@@ -37,4 +40,60 @@ remix of previous works
 
 # Piter
 Reverse code golf: Make the longest program, how much code can you write in a day to make something interesting?
+
+# Jess Hewitt
+Sine waves!
+
+# ippsketch
+imposter syndrome
+depth
+
+# generetame
+Horror
+
+# Rudxane
+Half
+
+# Shawn Kemp
+kaleidoscope
+Fontography
+Cave paintings.
+Mycelium
+
+# Melissa Wiederrecht
+My kid could have made that.
+Ballpoint pen.
+Lightning
+Light
+Squish
+Seamless
+Grungy
+Iridescent
+Van Gogh
+Bedazzled
+Bling
+Genart by hand on paper.
+Pixel art
+Tie dye
+
+# Licia He
+is this art
+Sunday afternoon
+
+# Andrew Strauss
+Invocation
+The Fourth Dimension
+One Pixel to rule them all
+Public transport / airport / movie theater floor patterns
+Photograph something generative
+
+# Shawn Kemp
+Stepstones
+
+# Eric Davidson
+Two Styles
+One Eye Closed
+Physics Reimagined
+Supermatism
+Self Deleting
 
