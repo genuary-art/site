@@ -157,7 +157,24 @@ Nothing
 # Bart Simons
 Animal print
 ASCII Art
+Food
 
 # Tyler Boswell
 (huge? tiny?) sense of scale
+
+# KRANKARTA
+Tubes
+Reflection
+Only one shape
+Can’t use the letter ‘e’ (or other) in the code
+
+# Quad
+Fjord(s)
+Cave(s)
+Island(s)
+Waterfall(s)
+Hill(s)
+Mountain(s)
+Virtual Machine
+
 
