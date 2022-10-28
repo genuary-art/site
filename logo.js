@@ -45,16 +45,16 @@ log_end=()=>{
     gen_svg();
   }
 
-  show_svg = s=>{
-    (im=new Image).src=`data:image/svg+xml,`+encodeURIComponent(s);
+  show_img = s=>{
+    (im=new Image).src=s;
     im.decode().then(_=>{
       logo.replaceChildren(im);
     }); 
   }
-  
+
   gen_svg = _=>{
     // get options from URL
-    O={lw:.45,d:.6,h:140,bg:1,res:1e4}; // default options
+    O={lw:.45,d:.6,h:140,bg:1,res:1e4,svg:0}; // default options
     (new(U=URLSearchParams)(location.search)).forEach((v,k)=>O[k]=v);
     O.seed = seed = O.seed || 'GENUARY2023' + Date.now();
 
@@ -67,24 +67,22 @@ log_end=()=>{
     logo.replaceChildren(V); // also deleted previous image
     C=V.getContext`2d`;
     cw=V.width=Y*(ch=V.height=devicePixelRatio*logo.offsetWidth/Y);
-    C.strokeStyle='#321';
+    C.strokeStyle='#0a141e';
     C.lineWidth=LW*ch;
     C.fillStyle='#eee8dd';
     C.fillRect(0,0,cw,ch);
 
     // load cache after creating canvas to reduce flicker
     let cache=localStorage['cache_img'];
-    if (cache) {
-      show_svg(cache);
+    if (!O.svg && cache.startsWith('data:image/png')) {
+      show_img(cache);
       return;
     }
 
     // init PRNG
     S=Uint32Array.of(9,7,5,3);
-    // R=(a=1)=>a*(t=S[3],S[3]=S[2],S[2]=S[1],S[1]=n=S[0],t^=t<<11,S[0]^=(t^t>>>8)^(n>>>19),S[0]/2**32); // orig PRNG 97
     R=(a=1)=>a*(a=S[3],S[3]=S[2],S[2]=S[1],a^=a<<11,S[0]^=a^a>>>8^(S[1]=S[0])>>>19,S[0]/2**32);
     [...seed+'SOURCERY'].map(c=>R(S[3]^=c.charCodeAt()*23205));
-    console.log(R(999)|0,R(999)|0,R(999)|0,R(999)|0); // 497 969 812 15
 
     // maaaaaath
     TAU=PI*2;
@@ -312,7 +310,7 @@ log_end=()=>{
     
     function* E() {
       // flow field tracing rendering SVG creating function
-      v.push([`<g fill="none" stroke="#0a141e" stroke-width="${(LW*H).toFixed(4)}" stroke-linecap="round">`]);
+      v.push([`<g fill="none" stroke="#000000" stroke-width="${(LW*H).toFixed(4)}" stroke-linecap="round">`]);
       pp=['M 0 0'];cx=0;cy=0;
       hv=N(A(A(rt,fw,1/Z),up,.5)); // hatch direction
       QT=Q(-2,-2,4); // init empty QuadTree
@@ -356,10 +354,12 @@ log_end=()=>{
       }
       log_end();
       v.push(`<path d="${pp.join` `}"/></g></svg>`); // finish SVG
-      // show SVG
-      let svg_str = v.join`\n`;
-      show_svg(svg_str);
-      localStorage['cache_img'] = svg_str; 
+      if(O.svg){
+        // show SVG
+        let svg_str = `data:image/svg+xml,`+encodeURIComponent(v.join`\n`);
+        show_img(svg_str);
+      }
+      localStorage['cache_img'] = V.toDataURL(); 
     }
 
     J=_=>E.next().done||setTimeout(J); // timeout loop function loops until E iterator is done
