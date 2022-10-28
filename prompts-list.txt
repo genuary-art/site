@@ -120,6 +120,9 @@ Self Deleting
 Rules
 Emergence
 Layers
+No numbers
+No loop
+Collaboration
 
 # Lars Wander
 no randomness (but still surprising)
@@ -150,3 +153,8 @@ Up
 
 # Rudxane
 Nothing
+
+# Bart Simons
+Animal print
+ASCII Art
+

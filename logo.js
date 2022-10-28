@@ -137,10 +137,11 @@ log_end=()=>{
     const KNUTH = 0x9e3779b1;
     let NSEED = R(2**32);
     ri=(i,j,k)=>(
+      // this function returns random numbers based on integer coordinates i,j,k
       i=imul((((i&1023)<<20)|((j&1023)<<10)|(k&1023))^NSEED,KNUTH),
       i<<=3+(i>>>29),(i>>>1)/2**31
     );
-    no=F(99,_=>R(999));
+    no=F(99,_=>R(999)); 
     // SM=(a,b,x)=>(x=min(max((x-a)/(b-a),0),1),x*x*(3-2*x)); // smoothstep
 
     nr=(x,y,z,s,i,xi=floor(x=x*s+no[i]),
