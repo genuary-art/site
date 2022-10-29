@@ -168,7 +168,7 @@ Reflection
 Only one shape
 Can’t use the letter ‘e’ (or other) in the code
 
-# Quad
+# Quag
 Fjord(s)
 Cave(s)
 Island(s)
@@ -179,5 +179,7 @@ Virtual Machine
 Conflate: To bring together; meld or fuse. To blow together; to bring together; to collect; to fuse together; to join or wld; to consolidate.
 Seats
 Generative kata
+Invert
+
 
 
