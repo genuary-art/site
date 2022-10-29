@@ -74,7 +74,7 @@ log_end=()=>{
 
     // load cache after creating canvas to reduce flicker
     let cache=localStorage['cache_img'];
-    if (!O.svg && cache.startsWith('data:image/png')) {
+    if (!O.svg && cache && cache.startsWith('data:image/png')) {
       show_img(cache);
       return;
     }
