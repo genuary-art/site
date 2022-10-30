@@ -1,13 +1,13 @@
 // TODO
 // clean up code
 
-let start_time;
+let start_time,max_fails;
 log_start=()=>{
   start_time = performance.now();
+  max_fails = 0;
   console.log(`log start (${Math.round(start_time*1000)/1000}ms)`);
   console.table(O);
 }
-max_fails = 0;
 log_trace=(fails)=>{
   if (fails > max_fails) {
     max_fails = fails;
@@ -42,7 +42,8 @@ log_end=()=>{
 
   logo.onclick = _=>{ // click to refresh
     localStorage['cache_img'] = '';
-    gen_svg();
+    I=9e9;
+    gen_img();
   }
 
   show_img = s=>{ 
@@ -52,7 +53,9 @@ log_end=()=>{
     }); 
   }
 
-  gen_svg = _=>{
+  gen_img = _=>{
+    // this function checks if an image is cached and if not generates a new one
+
     // get options from URL
     // h = page height in mm
     // lw = line width in mm
@@ -198,12 +201,12 @@ log_end=()=>{
       y+=(n1*2-3)*2.0;
       z+=(n2*2-3)*1.6;
       let yw = SM(15,3,y); // makes the letters fatter at the bottom
-      let br = .8 + 1 * yw;
+      let br = .8 + 1 * yw; // letter thickness
       y -= 4; // letters base line
       x += 49; // centre horizontally
       z -= cl(z,yw-1,1-yw); // make the thinner parts of letters a bit fatter in z-direction
 
-      // distance functions for all the letters -- it's magic
+      // distance functions for all the letters, it's magic
       let x0,ay9=abs(y-9),ay12=abs(y-12),y9=y>9,y6=y>6;
       x0=(x>0)*3;
       let G = k(min(x-1,y-8),L(k(abs(x)-1-x0,ay9-3-x0)-3+x0,z));
@@ -222,36 +225,36 @@ log_end=()=>{
       x -= 16; x0=(!y6&&x<0)*3;
       let d2a = k(L(z, k(x-1,ay12)-3),-3-x+3*(y<12));
       let d2b = k(L(z, k(-x-1-x0,abs(y-6)-x0)-3+x0),-3+x+3*(y>6));
-      let d2 = min(d2a,d2b);
+      let d2 = min(d2a,d2b); // digit 2
       x -= 12;
-      let d3 = k(L(z, k(x-1,abs(ay9-3))-3),-3-x);
-      let dd = min(G, E, N, U, A, R, Y, d2, d3)-br;
-      return min(bar,dd); // return distance function for union of letters and object around letters
+      let d3 = k(L(z, k(x-1,abs(ay9-3))-3),-3-x); // digit 3
+      let letters = min(G, E, N, U, A, R, Y, d2, d3)-br; // union of letters inflated by br
+      return min(bar,letters); // return distance function for union of letters and object around letters
     };
 
     Npts=0;
     u=([x,y])=>{ // raytrace function, evaluate point (x,y) on screen
       Npts++;
-      fd=k(abs(x)-Y2+.03,abs(y)-.5+.03)-.012;
-      if(fd<0){ // page margins
+      fd=k(abs(x)-Y2+.03,abs(y)-.5+.03)-.012; // 2D SDF for page margins
+      if(fd<0) {
         d=IX(cp,rd=N(A(A(fw,rt,x),up,y)),150); // trace a ray
         if(d<150){ // did we hit anything
           n=nl(p=A(cp,rd,d)); // calc normal
           lv=N(A(lp,p,-1));ld=m; // lv = light vector, ld = light distance
           shade=.4+.6*(ld<150 && IX(A(p,n,.02),lv,ld,.02)>=ld); // apply shadow
-          shade *= max(0,D(n,lv)); // diffuse lighting
-          edg=(1-cl(-D(n,rd)+.5*n[1]**2,0,1))**2; // how edgy it is
-          d=1-cl(shade,0,1); // clamp
+          shade *= max(0,D(n,lv)); // apply diffuse lighting
+          edg=(1-cl(-D(n,rd),0,1))**2; // how edgy it is (changes the hatch dir)
+          d=1-cl(shade,0,1); // clamp brightness
         } else {
           d=.5*SM(1,0,rd[2]+.2*rd[1]); // background gradient
           edg=1;
           n=[0,0,-1];
         }
         cr=DR/(d+1e-3); // transform grey value 1..0 into clear radius
-        hhv=mix(hv,rd,edg); // hatch direction
+        hhv=mix(hv,rd,edg); // hatch direction based on edge
         // hhv=hv;
         return [
-          N([D(sx,hd=N(X(n,hhv))),D(sy,hd),0]), // surface hatch direction
+          N([D(sx,hd=N(X(n,hhv))),D(sy,hd),0]), // cross product hatch direction with normal (surface direction), then inv cam transform to 2D, and normalize
           cr<.3&&!Qh(QT,x-cr,y-cr,cr*2,(u,v)=>(x-u)**2+(y-v)**2<cr*cr) // clear test
           ]
       }
@@ -266,64 +269,50 @@ log_end=()=>{
     Qh=({x,y,w,p,r},X,Y,W,f)=>X<x+w&&X+W>x&&Y<y+w&&Y+W>y&&(p.some(([a,b])=>a>=X&&a<X+W&&b>=Y&&b<Y+W&&f(a,b))||r&&r.some(s=>Qh(s,X,Y,W,f)));
     Q=(x,y,w)=>({x,y,w,p:[]});
 
-    v=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${H*Y|0} ${H}" width="${M*Y}mm" height="${M}mm">\n<!-`+`- `+Date(),new U(O),,`seed='${seed}';(code=${code})()\n-`+`->`,O.bg?`<rect x="${-H*Y}" y="${-H}" width="${H*Y*3}" height="${H*3}" fill="#eee8dd"/>`:``]; // init SVG
+    v=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${H*Y|0} ${H}" width="${M*Y}mm" height="${M}mm">\n<!-`+`- `+Date(),new U(O),,`seed='${seed}';(code=${code})()\n-`+`->`,O.bg?`<rect x="${-H*Y}" y="${-H}" width="${H*Y*3}" height="${H*3}" fill="#eee8dd"/>`:``]; // init SVG array
     
     function* E() {
-      // flow field tracing rendering SVG creating function
-      v.push([`<g fill="none" stroke="#000000" stroke-width="${(LW*H).toFixed(4)}" stroke-linecap="round">`]);
-      pp=['M 0 0'];cx=0;cy=0;
-      hv=N(A(A(rt,fw,1/Z),up,.5)); // hatch direction
+      // flow field tracing canvas rendering + SVG creating function
+      // this function is a generator function to occasionally yield control to the calling function,
+      // which is a setTimeout loop, so the browser can update and doesn't hang
+      v.push([`<g fill="none" stroke="#000000" stroke-width="${(LW*H).toFixed(4)}" stroke-linecap="round">`]); // use SVG group element to set  style
+      hv=N(A(A(rt,fw,1/Z),up,.5)); // hatch direction based on camera vectors
       QT=Q(-2,-2,4); // init empty QuadTree
-      log_start();
-      DR0=DR;
+      log_start(); // debug
       for(I=0;I<1e3;I++){ // I = fail counter
-        DR=DR0;
         [f0,h]=u(q0=[R(Y)-Y2,R()-.5]); // evaluate random point
         if(h){ // if OK then trace bidirectionally
           qq=[q0]; // init trace with first point
-          ss=[]; // these six characters could have been saved
-          [m=T()<0?DR0:-DR0,-m].map(s=>{ // randomly start in one or the other direction
+          [m=T()<0?DR:-DR,-m].map(s=>{ // randomly start in one or the other direction
             qq.reverse(); // flip trace so we are adding on the right side
             q=q0; // current pos
             pd=fq=f0; // current+start direction
-            for(h=1;h&&D(pd,fq)>0&&D(f0,fq)>-.7;qq.push(q)) {// trace as long as: 1) clear, 2) not too sharp corners, 3) maximum turn wrt starting direction (to prevent infinite spiral)
-              // DR=DR0*(.5+.5*d);
-              // DR=DR0*.5;
+            for(h=1;h&&D(pd,fq)>0&&D(f0,fq)>-.7;qq.push(q)) // trace as long as: 1) clear, 2) not too sharp corners, 3) maximum turn wrt starting direction (to prevent infinite spiral)
               [fq,h]=u(q=A(q,pd=fq,s)); // take a step and evaluate
-            }
           });
           if(qq[9]){
-            // accept only if trace has more than 10 pts
-            log_trace(I);
+            // accept only if trace has at least 10 pts
+            log_trace(I); // debug
             I=0; // reset fail counter
             C.beginPath();
-            // M p0x p0y m 0 0 d1x d2x
-            // M p0x p0y l d1x d2x
-            // M 0 0 m 
-            // n=v.push(`<path d="M ${qq.map(([x,y])=>(Qa(QT,[x,y]),x+=Y2,y+=.5,C.lineTo(x*ch,y*ch),[x*H|0,y*H|0])).join` `}"/>`); // draw trace to canvas and also add it to the SVG and add points to QuadTree
-            // cx=cy=0;
-            // n=v.push(`<path d="${qq.map(([x,y],i)=>(Qa(QT,[x,y]),x+=Y2,y+=.5,C.lineTo(x*ch,y*ch),x=x*H-cx|0,y=y*H-cy|0,cx+=x,cy+=y,
-            //   (i<2?'Ml'[i]+' ':'')+[x,y]
-            // )).join` `}"/>`);
-            n=pp.push('m '+qq.map(([x,y],i)=>(Qa(QT,[x,y]),x+=Y2,y+=.5,C.lineTo(x*ch,y*ch),x=x*H|0,y=y*H|0,dx=x-cx,dy=y-cy,cx=x,cy=y,[dx,dy])).join` `);
-
+            n=v.push(`<path d="M ${qq.map(([x,y])=>(Qa(QT,[x,y]),x+=Y2,y+=.5,C.lineTo(x*ch,y*ch),[x*H|0,y*H|0])).join` `}"/>`); // draw trace to canvas and also add it to the SVG and add points to QuadTree
             C.stroke(); // stroke path
             if(n%63<1)yield // periodically return control to timeout function, so the browser doesn't hang
           }
         }
       }
-      log_end();
-      v.push(`<path d="${pp.join` `}"/></g></svg>`); // finish SVG
+      log_end(); // debug
+      v.push(`</g></svg>`); // finish SVG
       if(O.svg){
         // show SVG
-        let svg_str = `data:image/svg+xml,`+encodeURIComponent(v.join`\n`);
+        svg_str = `data:image/svg+xml;charset=utf-8,`+encodeURIComponent(v.join`\n`);
         show_img(svg_str);
       }
-      localStorage['cache_img'] = V.toDataURL(); 
+      localStorage['cache_img'] = V.toDataURL(); // save canvas to localStorage
     }
 
     J=_=>E.next().done||setTimeout(J); // timeout loop function loops until E iterator is done
     J(E=E()) // start the render generator function
   }
-  gen_svg();
-})() // start the program
+  gen_img(); // also start the program, or something
+})() // start the program for real
