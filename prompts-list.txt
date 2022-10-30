@@ -1,448 +1,3 @@
-# jenslabs
-Mirror
-out of place
-one color
-debug view
-grid
-layers
-continuous line
-extreme aspect ratio
-pixel perfect
-"that can't be right"?!.
-
-# jbarbeau
-Absurdism
-Ceiling simulation
-Make a Human 10 print (like a legit grid on a field with people positioned according to even odd results, could be fun in the snow too)
-make it with CSS
-use your voice
-
-# rvig
-RGB gradients
-Spirals
-Packing (squares,circles, any shape...)
-
-# Daniel Catt
-60s diner wallpaper
-Isometric
-Movie villain 60 second countdown interface
-Steal Like An Artist
-All code, no output.
-
-# r4v3n
-colors only
-monochrome
-144 chars or less
-
-# RalenArc
-paint / brushstrokes
-underwater
-silhouettes
-remix of previous works
-
-# Piter
-Reverse code golf: Make the longest program, how much code can you write in a day to make something interesting?
-Physical modelling / simulation
-Bonus day: continue working on that one prompt from the other day, you know which one. make it count
-Draw a spiral in a complicated way
-Make a PFP generator
-Use text / typography
-Use this photo as input: [TBD]
-Wavy Rectangles
-You got bitten by a radioactive photocopy machine. Describe your superpower using code.
-pick a https://twitter.com/GenerativeBot/ prompt and use that
-
-# Jess Hewitt
-Sine waves!
-
-# ippsketch
-imposter syndrome
-depth
-
-# generetame
-Horror
-Low contrast
-3 letters
-2022 colors
-8bit computer graphics (ZX Spectrum, Atari, C64, etc)
-Depth of Field
-Fonts
-Glitch Art
-VHS
-
-# Rudxane
-Half
-
-# Shawn Kemp
-kaleidoscope
-Fontography
-Cave paintings.
-Mycelium
-
-# Melissa Wiederrecht
-My kid could have made that.
-Ballpoint pen.
-Lightning
-Light
-Squish
-Seamless
-Grungy
-Iridescent
-Van Gogh
-Bedazzled
-Bling
-Genart by hand on paper.
-Pixel art
-Tie dye
-No code.
-Negative 144 characters of code
-Chromie squiggle in your style
-Fire
-Tell a story
-PFP
-Make an original visual noise.
-Aesemic
-Optical Illusion
-Epileptic trigger
-Emulate another genartist
-A flow field that doesn't look like one
-Mandala
-
-# Licia He
-is this art
-Sunday afternoon
-As if there's no tomorrow
-Atypical rainbow
-Crayon
-Typo
-
-# Andrew Strauss
-Invocation
-The Fourth Dimension
-One Pixel to rule them all
-Public transport / airport / movie theater floor patterns
-Photograph something generative
-Tarot
-
-# Shawn Kemp
-Stepstones
-
-# Eric Davidson
-Two Styles
-One Eye Closed
-Physics Reimagined
-Supermatism
-Self Deleting
-
-# Camille Roux
-Rules
-Emergence
-Layers
-No numbers
-No loop
-Collaboration
-Signed Distance Functions
-
-# Lars Wander
-no randomness (but still surprising)
-
-# Reva
-dreamcore/weirdcore, or any Algo core
-infinite loop/feedback/endless gifs
-a walking creature
-
-# Roni
-Make something useful
-Make something useless
-Generative code
-Generative poetry
-In the style of [Hilma Af Klint](https://www.wikiart.org/en/hilma-af-klint/all-works#!#filterName:all-paintings-chronologically,resultType:masonry)
-Machine learning, wrong answers only
-One
-Sol LeWitt Wall Drawing
-Tell a story
-random(255)
-
-# Yazid
-Make some noise
-Generative art, wrong answers only
-Intersections
-Minimalist
-Maximalist
-Dream brand collab
-Sound
-Design a Fictional GUI
-Design a screensaver for Windows 95
-Put a sin() in it
-Rainbow on black
-Recreate something you saw in nature
-Sample colors from a photo you love
-Something mirrored in the x- and y-axis
-Your breakfast
-
-# Jos Vromans
-Up
-Circles of n-gons
-If I was a butterfly, this would be my pattern
-Like Mondriaan
-Single lines only without path forming (so no endpoints touching)
-a square for each triangle
-perspective
-
-# Rudxane
-Nothing
-
-# Bart Simons
-Animal print
-ASCII Art
-Food
-
-# Tyler Boswell
-(huge? tiny?) sense of scale
-
-# KRANKARTA
-Tubes
-Reflection
-Only one shape
-Can’t use the letter ‘e’ (or other) in the code
-
-# Quag
-Fjord(s)
-Cave(s)
-Island(s)
-Waterfall(s)
-Hill(s)
-Mountain(s)
-Virtual Machine
-Conflate: To bring together; meld or fuse. To blow together; to bring together; to collect; to fuse together; to join or weld; to consolidate.
-Seats
-Generative kata
-Invert
-Airport carpet
-Color gradients gone wrong
-God rays
-Interference
-It just won't work
-Keep time
-Raindrops
-Trees.. so many trees
-create your own pseudo-random number generator and visually check the results
-Cellular automata: https://conwaylife.com/wiki/List_of_Life-like_cellular_automata
-Frost flowers.
-Skateboard design: 9x34 inches.
-Verlet integration — https://youtu.be/3HjO_RGIjCU
-Use no color twice
-
-# Neel
-metaballs
-meatballs
-antigravity
-
-# Kenny
-Code art with a BASIC emulator (e.g., Apple, C64, etc) or similar retro/antique computer. 
-
-# Devi
-Tessellation
-Symmetry
-Script of an imaginary language
-Something you'd never make
-Zentangles
-
-# Alex Naka
-Mandala
-Steganography
-Take one of your previous works and ruin it // degenerate degenerative Friday: deliberately break one of your previous images.
-Trade styles with a friend
-
-# Alexis
-Can't erase the frame
-Harmonics
-LEGO
-New Mac OS default wallpaper
-Only negative parameters
-The next Fidenza
-The next next Fidenza
-Whatever you did yesterday, do the opposite
-
-# Andrea Diotallevi
-Draw infinity
-Draw the wind
-draw a chessboard
-
-# Anna Lucia
-Dithering
-Infinite
-Lissajous
-Respond to sound
-Retro screensavers
-Yayoi Kusama
-
-# Bart Simons
-Only use/show points
-Organic looking output using only rectangular shapes
-Use (part of) a TBD dataset
-
-# Ben Kovach
-80x800
-ASCII
-Imaginary music notation
-No geometry
-Something impossible
-
-# Bruce Holmer
-Single curve only
-
-# Chris Ried
-Isometric perspective
-
-# Deniz
-3 colors
-alternative pixels
-chaos
-optical illusion
-repetition
-
-# Islam Adel
-No edges/boundaries
-endless loop / gif / animation
-
-# Jonathan Barbeau
-Only use an ellipse
-
-# Lionel Radisson
-Architecture
-Black and white
-Empty space
-Layers
-Light
-Moving
-No computer
-Rocks
-Something alive
-Space
-circles, wrong answers only
-no fill
-plants
-
-# Louis-André Labadie
-Abstract vegetation
-Generate some text (see http://tracery.io/)
-Gravity
-
-# Luca
-make a sketch adapting to the current daytime
-plug in some data from an API
-sample a color palette from your favorite movie/album cover
-shadows
-
-# Marc Edwards/Ben Kovach
-Spaghetti and metaballs / Meat-a-balls
-
-# Marc Edwards
-A quiet evening in space.
-A volatile attraction.
-Decorate a shape.
-Deferred gratification
-Half empty. Half full.
-Leakage.
-Mistakes. Only mistakes.
-Spandex and glitter
-The darkness within.
-What's big is actually small.
-sin() on the dotted line
-
-# Michael Lowe
-Combine two (or more) of your pieces from previous days to make a new piece.
-Draw 10,000 of something.
-Make something that will look completely different in a year.
-Negative space
-Radial Symmetry
-Replicate a pattern from nature.
-Self portrait
-Triangles!
-Cosmic space palette by Michael Lowe: #2E294E, #541388, #F1E9DA, #FFD400, #D90368
-
-# Ryan
-Make a clock (or other mechanism of keeping time)
-Polyrhythm (loops that do things at different intervals)
-Press 'a' to jump
-Reflection of a reflection
-
-# Sabin T
-Make a sea of shapes
-Something cultural: e.g., patterns you'd find on the columns of a temple, tiles on roads, something based on an art style that is local, local textile/loom patterns, could be based on a culture other than your own too
-
-# Stefano Contiero
-Create a wallpaper pattern to use in your library
-Design the rug for your bedroom
-
-# Yann Le Gall
-Make something with 2022 items/iterations
-
-# thomas
-Air
-Destroy a square
-Sand
-Something tile-able
-Water
-simulate an analogue printing method
-
-# Magnogen
-The Flow Of Time
-
-# Noah Doersing (doersino)
-There and back again: Start at one point, do something interesting, returning to that point. Dragons are optional.
-
-# Alexandre Zajac (alexZajac)
-Only one rule: don't go back.
-Tell me you know GLSL without telling me you know GLSL.
-Make colors from black and white.
-
-# Philip Bell (processprocess)
-dissolve
-
-# Nikola Ubavić (ubavic)
-Get inspired by [Moebius](https://en.wikipedia.org/wiki/Jean_Giraud) or [Möbius](https://en.wikipedia.org/wiki/August_Ferdinand_M%C3%B6bius)
-
-# arikwex
-The Wind
-Perfect Loop
-Organic Matter
-Ships
-Lamps
-Persian Rug
-Changing Seasons
-
-# metilcarboxilico
-Feedback
-
-# Wozeo
-Life Form
-
-# JaJaBinxx
-Conway's game of life
-Turbulence
-Integer arithmetic only
-
-# eliyastein
-weather
-
-# Nadav Recca (nadavoosh)
-The Medium is the Message
-
-# steganon
-Three-Body Problem
-
-# Meghan - The Tidy Trekker (Meghansaha)
-fire and ice
-the elements
-
-# Steve Chantry-Taylor (stevetnz, @kiwiSteveTaylor)
-Retro: 80s & 90s
-
-# Fernando Jerez (ferjerez, @ferjerez3d)
-Beer
-
 # Daniel Simu (hapiel)
 Gas, liquid, solid
 Joy
@@ -476,106 +31,63 @@ Video game
 10PRINT
 Library
 
-# aotearoan
-Analog
-Prehistory
-Africa
-Frozen
-Prime numbers
-Duotone
-Wax
-#bada55
+# Melissa Wiederrecht
+My kid could have made that
+Ballpoint pen
+Lightning
+Light
+Squish
+Seamless
+Grungy
+Iridescent
+Van Gogh
+Bedazzled
+Bling
+Genart by hand on paper
+Pixel art
+Tie dye
+No code
+Negative 144 characters of code
+Chromie squiggle in your style
+Fire
+Tell a story
+PFP
+Make an original visual noise
+Aesemic
+Optical Illusion
+Epileptic trigger
+Emulate another genartist
+A flow field that doesn't look like one
+Mandala
 
-# andrew-aaron
-Get one of your old works you don't like and re-create it.
-Anti-pattern.
-Code Golf - 200 characters or less.
-
-# Axel Tanner (xabbu137)
-Not seeing the forest for the trees.
-
-# Charlie Hall (charlie-map)
-Sad to happy.
-Fruit.
-Most wanted.
-Favorite Animal.
-
-# Artefakt (Artefakt7)
-Art Deco
-Oriental
-
-# Hwanhee Kim (greentec)
-dungeon
-texture
-graph
-
-# z0rg (seb776)
-mirror
-voxels
-ribbon
-
-# Luka Piskorec (lukapiskorec, @LukaPiskorec)
-1-bit b&w
-diagram that teaches something you know
-unexpected gamification
-
-# huminaboz
-Something you've always wanted to learn
-Gestalt Law of Closure
-Duchamp
-Futurism
-
-# Ruben Torres (rubentd)
-Something inspired by [GEB](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)
-Chromatic Aberration
-Flow fields in 3D
-Watercolor
-
-# Paul Hertz (Ignotus-mago)
-Devoid of any aesthetic value.
-Does code that succeeds at at this prompt immediately become aesthetically significant and thus self-defeating?
-
-# Chase Marangu (cmarangu, @C010011012)
-Fire.
-Fireworks.
-Meteor Shower
-Snowflake.
-Do You Want to Build a Snowman?
-Quine
-Keyboard
-Sierpinski
-Spiral Tree
-
-# @arikwex
-Changing Seasons
-
-# @eliyastein
-Weather
-
-# @andrew-aaron
-Anti-pattern
-
-# @JaJaBinxx
-Conway's Game of Life
-
-# Stevan Dedovic (sdedovic)
-define a process on paper for someone else to implement. share their creation.
-
-
-# Rachel (R4chel)
-morse code
-ALLL THE COLORS (all https://allrgb.com or just really colorful)
-recreate a work or create a work inspired by an artist you didn't know existed before genuary
-
-# freeimp (freeimprisonment)
-Still Life...wrong answers only.
-
-# Bruno De Angelis (brunodeangelis)
-The Infinite Game
-Time destroys all things
-
-# Jeff Palmer
-Have a group of people independently recreate a work and compare approaches after the fact.
+# quag
+Fjord(s)
+Cave(s)
+Island(s)
+Waterfall(s)
+Hill(s)
+Mountain(s)
+Virtual Machine
+Conflate: To bring together; meld or fuse. To blow together; to bring together; to collect; to fuse together; to join or weld; to consolidate
+Seats
+Generative kata
+Invert
+Airport carpet
+Color gradients gone wrong
+God rays
+Interference
+It just won't work
+Keep time
+Raindrops
+Trees.. so many trees
+Create your own pseudo-random number generator and visually check the results
+Cellular automata
+=> https://conwaylife.com/wiki/List_of_Life-like_cellular_automata
+Frost flowers
+Skateboard design: 9x34 inches
+Verlet integration
+=> https://youtu.be/3HjO_RGIjCU
+Use no color twice
 
 # Steve Pikelny (scyclow)
 hsl(?deg, 100%, 50%)
@@ -596,15 +108,499 @@ Dopamine machine
 Play with fire
 GET RICH QUICK
 
+# Yazid
+Make some noise
+Generative art, wrong answers only
+Intersections
+Minimalist
+Maximalist
+Dream brand collab
+Sound
+Design a Fictional GUI
+Design a screensaver for Windows 95
+Put a sin() in it
+Rainbow on black
+Recreate something you saw in nature
+Sample colors from a photo you love
+Something mirrored in the x- and y-axis
+Your breakfast
+
+# Lionel Radisson
+Architecture
+Black and white
+Empty space
+Layers
+Light
+Moving
+No computer
+Rocks
+Something alive
+Space
+Circles, wrong answers only
+No fill
+Plants
+
+# Marc Edwards
+A quiet evening in space
+A volatile attraction
+Decorate a shape
+Deferred gratification
+Half empty. Half full
+Leakage
+Mistakes. Only mistakes
+Spandex and glitter
+The darkness within
+What's big is actually small
+sin() on the dotted line
+
+# Piter
+Reverse code golf: Make the longest program, how much code can you write in a day to make something interesting?
+Physical modelling / simulation
+Bonus day: continue working on that one prompt from the other day, you know which one. make it count
+Draw a spiral in a complicated way
+Make a PFP generator
+Use text / typography
+Use this photo as input: [TBD]
+Wavy Rectangles
+You got bitten by a radioactive photocopy machine. Describe your superpower using code
+Pick a @GenerativeBot prompt and use that
+=> https://twitter.com/GenerativeBot/
+
+# Roni
+Make something useful
+Make something useless
+Generative code
+Generative poetry
+In the style of Hilma Af Klint
+=> https://www.wikiart.org/en/hilma-af-klint/all-works#!#filterName:all-paintings-chronologically,resultType:masonry
+Machine learning, wrong answers only
+One
+Sol LeWitt Wall Drawing
+Tell a story
+random(255)
+
+# jenslabs
+Mirror
+Out of place
+One color
+Debug view
+Grid
+Layers
+Continuous line
+Extreme aspect ratio
+Pixel perfect
+“That can't be right?!”
+
+# Chase Marangu (cmarangu, @C010011012)
+Fire
+Fireworks
+Meteor Shower
+Snowflake
+Do You Want to Build a Snowman?
+Quine
+Keyboard
+Sierpinski
+Spiral Tree
+
+# Michael Lowe
+Combine two (or more) of your pieces from previous days to make a new piece
+Draw 10,000 of something
+Make something that will look completely different in a year
+Negative space
+Radial Symmetry
+Replicate a pattern from nature
+Self portrait
+Triangles!
+Cosmic space palette by Michael Lowe: #2E294E, #541388, #F1E9DA, #FFD400, #D90368
+
+# generetame
+Horror
+Low contrast
+3 letters
+2022 colors
+8bit computer graphics (ZX Spectrum, Atari, C64, etc)
+Depth of Field
+Fonts
+Glitch Art
+VHS
+
+# Alexis
+Can't erase the frame
+Harmonics
+LEGO®
+New Mac OS default wallpaper
+Only negative parameters
+The next Fidenza
+The next next Fidenza
+Whatever you did yesterday, do the opposite
+
+# aotearoan
+Analog
+Prehistory
+Africa
+Frozen
+Prime numbers
+Duotone
+Wax
+#bada55
+
+# Camille Roux
+Rules
+Emergence
+Layers
+No numbers
+No loop
+Collaboration
+Signed Distance Functions
+
+# Jos Vromans
+Up
+Circles of n-gons
+If I was a butterfly, this would be my pattern
+Like Mondriaan
+Single lines only without path forming (so no endpoints touching)
+A square for each triangle
+Perspective
+
+# arikwex
+The Wind
+Perfect Loop
+Organic Matter
+Ships
+Lamps
+Persian Rug
+Changing Seasons
+
+# Andrew Strauss
+Invocation
+The Fourth Dimension
+One Pixel to rule them all
+Public transport / airport / movie theater floor patterns
+Photograph something generative
+Tarot
+
+# Anna Lucia
+Dithering
+Infinite
+Lissajous
+Respond to sound
+Retro screensavers
+Yayoi Kusama
+
+# Bart Simons
+Animal print
+ASCII Art
+Food
+Only use/show points
+Organic looking output using only rectangular shapes
+Use (part of) a TBD dataset
+
+# Licia He
+Is this art?
+Sunday afternoon
+As if there's no tomorrow
+Atypical rainbow
+Crayon
+Typo
+
+# thomas
+Air
+Destroy a square
+Sand
+Something tile-able
+Water
+Simulate an analogue printing method
+
+# Ben Kovach
+80x800
+ASCII
+Imaginary music notation
+No geometry
+Something impossible
+
+# Daniel Catt
+60s diner wallpaper
+Isometric
+Movie villain 60 second countdown interface
+Steal Like An Artist
+All code, no output
+
+# Deniz
+3 colors
+Alternative pixels
+Chaos
+Optical illusion
+Repetition
+
+# Devi
+Tessellation
+Symmetry
+Script of an imaginary language
+Something you'd never make
+Zentangles
+
+# Eric Davidson
+Two Styles
+One Eye Closed
+Physics Reimagined
+Supermatism
+Self Deleting
+
+# Shawn Kemp
+Kaleidoscope
+Fontography
+Cave paintings
+Mycelium
+Stepstones
+
+# jbarbeau
+Absurdism
+Ceiling simulation
+Make a Human 10 print (like a legit grid on a field with people positioned according to even odd results, could be fun in the snow too)
+Make it with CSS
+Use your voice
+
+# Alex Naka
+Mandala
+Steganography
+Take one of your previous works and ruin it // degenerate degenerative Friday: deliberately break one of your previous images
+Trade styles with a friend
+
+# Charlie Hall (charlie-map)
+Sad to happy
+Fruit
+Most wanted
+Favorite Animal
+
+# KRANKARTA
+Tubes
+Reflection
+Only one shape
+Can’t use the letter ‘e’ (or other) in the code
+
+# Luca
+Make a sketch adapting to the current daytime
+Plug in some data from an API
+Sample a color palette from your favorite movie/album cover
+Shadows
+
+# RalenArc
+Paint / brushstrokes
+Underwater
+Silhouettes
+Remix of previous works
+
+# Ruben Torres (rubentd)
+Something inspired by [GEB](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)
+Chromatic Aberration
+Flow fields in 3D
+Watercolor
+
+# Ryan
+Make a clock (or other mechanism of keeping time)
+Polyrhythm (loops that do things at different intervals)
+Press ‘a’ to jump
+Reflection of a reflection
+
+# huminaboz
+Something you've always wanted to learn
+Gestalt Law of Closure
+Duchamp
+Futurism
+
+# Alexandre Zajac (alexZajac)
+Only one rule: don't go back
+Tell me you know GLSL without telling me you know GLSL
+Make colors from black and white
+
+# Andrea Diotallevi
+Draw infinity
+Draw the wind
+Draw a chessboard
+
+# Hwanhee Kim (greentec)
+Dungeon
+Texture
+Graph
+
+# JaJaBinxx
+Conway's game of life
+Turbulence
+Integer arithmetic only
+
+# Louis-André Labadie
+Abstract vegetation
+Generate some text (see http://tracery.io/)
+Gravity
+
+# Luka Piskorec (lukapiskorec, @LukaPiskorec)
+1-bit b&w
+Diagram that teaches something you know
+Unexpected gamification
+
+# Neel
+Metaballs
+Meatballs
+Antigravity
+
+# Rachel (R4chel)
+Morse code
+ALL THE COLORS (all https://allrgb.com or just really colorful)
+Recreate a work or create a work inspired by an artist you didn't know existed before genuary
+
+# Reva
+Dreamcore/weirdcore, or any Algo core
+Infinite loop/feedback/endless gifs
+A walking creature
+
+# andrew-aaron
+Get one of your old works you don't like and re-create it
+Anti-pattern
+Code Golf - 200 characters or less
+
+# r4v3n
+Colors only
+Monochrome
+144 chars or less
+
+# rvig
+RGB gradients
+Spirals
+Packing (squares, circles, any shape…)
+
+# z0rg (seb776)
+Mirror
+Voxels
+Ribbon
+
+# Bruno De Angelis (brunodeangelis)
+The Infinite Game
+Time destroys all things
+
+# Islam Adel
+No edges/boundaries
+Endless loop / gif / animation
+
 # Jorge Ledezma (zjorge)
 4th dimension or beyond
 Impossible objects (undecidable figures)
 
+# Meghan - The Tidy Trekker (Meghansaha)
+Fire and ice
+The elements
+
+# Paul Hertz (Ignotus-mago)
+Devoid of any aesthetic value
+Does code that succeeds at at this prompt immediately become aesthetically significant and thus self-defeating?
+
+# Rudxane
+Half
+Nothing
+
+# Sabin T
+Make a sea of shapes
+Something cultural: e.g., patterns you'd find on the columns of a temple, tiles on roads, something based on an art style that is local, local textile/loom patterns, could be based on a culture other than your own too
+
+# Stefano Contiero
+Create a wallpaper pattern to use in your library
+Design the rug for your bedroom
+
+# ippsketch
+Imposter syndrome
+Depth
+
+# @JaJaBinxx
+Conway's Game of Life
+
+# @andrew-aaron
+Anti-pattern
+
+# @arikwex
+Changing Seasons
+
+# @eliyastein
+Weather
+
+# Artefakt (Artefakt7)
+Art Deco
+
+# Axel Tanner (xabbu137)
+Not seeing the forest for the trees
+
+# Bruce Holmer
+Single curve only
+
+# Chris Ried
+Isometric perspective
+
+# Fernando Jerez (ferjerez, @ferjerez3d)
+Beer
+
+# Jeff Palmer
+Have a group of people independently recreate a work and compare approaches after the fact
+
+# Jess Hewitt
+Sine waves!
+
+# Jonathan Barbeau
+Only use an ellipse
+
+# Kenny
+Code art with a BASIC emulator (e.g., Apple, C64, etc) or similar retro/antique computer.
+
+# Lars Wander
+No randomness (but still surprising)
+
+# Magnogen
+The Flow Of Time
+
+# Mar Kralovna (markralovna)
+A flag that represents you
+
+# Marc Edwards/Ben Kovach
+Spaghetti and metaballs / Meat-a-balls
+
+# Nadav Recca (nadavoosh)
+The Medium is the Message
+
+# Nikola Ubavić (ubavic)
+Get inspired by [Moebius](https://en.wikipedia.org/wiki/Jean_Giraud) or [Möbius](https://en.wikipedia.org/wiki/August_Ferdinand_M%C3%B6bius)
+
+# Noah Doersing (doersino)
+There and back again: Start at one point, do something interesting, returning to that point. Dragons are optional
+
 # Pete Vermeer (petevermeer)
-murmuration
+Murmuration
+
+# Philip Bell (processprocess)
+Dissolve
+
+# Stevan Dedovic (sdedovic)
+Define a process on paper for someone else to implement. Share their creation
+
+# Steve Chantry-Taylor (stevetnz, @kiwiSteveTaylor)
+Retro: 80s & 90s
+
+# Tyler Boswell
+(huge? tiny?) sense of scale
+
+# Wozeo
+Life Form
+
+# Yann Le Gall
+Make something with 2022 items/iterations
+
+# eliyastein
+Weather
+
+# freeimp (freeimprisonment)
+Still Life… wrong answers only
 
 # illus0r
 Use log(x) creatively
 
-# Mar Kralovna (markralovna)
-A flag that represents you
+# metilcarboxilico
+Feedback
+
+# steganon
+Three-Body Problem
