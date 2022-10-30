@@ -13,13 +13,14 @@ pixel perfect
 # jbarbeau
 Absurdism
 Ceiling simulation
-Make a Human 10 print ( like a legit grid on a field with people positioned according to even odd results, could be fun in the snow too)
+Make a Human 10 print (like a legit grid on a field with people positioned according to even odd results, could be fun in the snow too)
 make it with CSS
 use your voice
 
 # rvig
 RGB gradients
 Spirals
+Packing (squares,circles, any shape...)
 
 # Daniel Catt
 60s diner wallpaper
@@ -27,7 +28,6 @@ Isometric
 Movie villain 60 second countdown interface
 Steal Like An Artist
 All code, no output.
-
 
 # r4v3n
 colors only
@@ -43,7 +43,14 @@ remix of previous works
 # Piter
 Reverse code golf: Make the longest program, how much code can you write in a day to make something interesting?
 Physical modelling / simulation
-
+Bonus day: continue working on that one prompt from the other day, you know which one. make it count
+Draw a spiral in a complicated way
+Make a PFP generator
+Use text / typography
+Use this photo as input: [TBD]
+Wavy Rectangles
+You got bitten by a radioactive photocopy machine. Describe your superpower using code.
+pick a https://twitter.com/GenerativeBot/ prompt and use that
 
 # Jess Hewitt
 Sine waves!
@@ -56,6 +63,12 @@ depth
 Horror
 Low contrast
 3 letters
+2022 colors
+8bit computer graphics (ZX Spectrum, Atari, C64, etc)
+Depth of Field
+Fonts
+Glitch Art
+VHS
 
 # Rudxane
 Half
@@ -98,6 +111,10 @@ Mandala
 # Licia He
 is this art
 Sunday afternoon
+As if there's no tomorrow
+Atypical rainbow
+Crayon
+Typo
 
 # Andrew Strauss
 Invocation
@@ -140,6 +157,11 @@ Make something useless
 Generative code
 Generative poetry
 In the style of [Hilma Af Klint](https://www.wikiart.org/en/hilma-af-klint/all-works#!#filterName:all-paintings-chronologically,resultType:masonry)
+Machine learning, wrong answers only
+One
+Sol LeWitt Wall Drawing
+Tell a story
+random(255)
 
 # Yazid
 Make some noise
@@ -149,9 +171,23 @@ Minimalist
 Maximalist
 Dream brand collab
 Sound
+Design a Fictional GUI
+Design a screensaver for Windows 95
+Put a sin() in it
+Rainbow on black
+Recreate something you saw in nature
+Sample colors from a photo you love
+Something mirrored in the x- and y-axis
+Your breakfast
 
 # Jos Vromans
 Up
+Circles of n-gons
+If I was a butterfly, this would be my pattern
+Like Mondriaan
+Single lines only without path forming (so no endpoints touching)
+a square for each triangle
+perspective
 
 # Rudxane
 Nothing
@@ -182,6 +218,15 @@ Conflate: To bring together; meld or fuse. To blow together; to bring together; 
 Seats
 Generative kata
 Invert
+Airport carpet
+Color gradients gone wrong
+God rays
+Interference
+It just won't work
+Keep time
+Raindrops
+Trees.. so many trees
+create your own pseudo-random number generator and visually check the results
 
 # Neel
 metaballs
@@ -194,3 +239,145 @@ Code art with a BASIC emulator (e.g., Apple, C64, etc) or similar retro/antique 
 # Devi
 Tessellation
 Symmetry
+Script of an imaginary language
+Something you'd never make
+Zentangles
+
+# Alex Naka
+Mandala
+Steganography
+Take one of your previous works and ruin it // degenerate degenerative Friday: deliberately break one of your previous images.
+Trade styles with a friend
+
+# Alexis
+Can't erase the frame
+Harmonics
+LEGO
+New Mac OS default wallpaper
+Only negative parameters
+The next Fidenza
+The next next Fidenza
+Whatever you did yesterday, do the opposite
+
+# Andrea Diotallevi
+Draw infinity
+Draw the wind
+draw a chessboard
+
+# Anna Lucia
+Dithering
+Infinite
+Lissajous
+Respond to sound
+Retro screensavers
+Yayoi Kusama
+
+# Bart Simons
+Only use/show points
+Organic looking output using only rectangular shapes
+Use (part of) a TBD dataset
+
+# Ben Kovach
+80x800
+ASCII
+Imaginary music notation
+No geometry
+Something impossible
+
+# Bruce Holmer
+Single curve only
+
+# Chris Ried
+Isometric perspective
+
+# Deniz
+3 colors
+alternative pixels
+chaos
+optical illusion
+repetition
+
+# Islam Adel
+No edges/boundaries
+endless loop / gif / animation
+
+# Jonathan Barbeau
+Only use an ellipse
+
+# Lionel Radisson
+Architecture
+Black and white
+Empty space
+Layers
+Light
+Moving
+No computer
+Rocks
+Something alive
+Space
+circles, wrong answers only
+no fill
+plants
+
+# Louis-André Labadie
+Abstract vegetation
+Generate some text (see http://tracery.io/)
+Gravity
+
+# Luca
+make a sketch adapting to the current daytime
+plug in some data from an API
+sample a color palette from your favorite movie/album cover
+shadows
+
+# Marc Edwards/Ben Kovach
+Spaghetti and metaballs / Meat-a-balls
+
+# Marc Edwards
+A quiet evening in space.
+A volatile attraction.
+Decorate a shape.
+Deferred gratification
+Half empty. Half full.
+Leakage.
+Mistakes. Only mistakes.
+Spandex and glitter
+The darkness within.
+What's big is actually small.
+sin() on the dotted line
+
+# Michael Lowe
+Combine two (or more) of your pieces from previous days to make a new piece.
+Draw 10,000 of something.
+Make something that will look completely different in a year.
+Negative space
+Radial Symmetry
+Replicate a pattern from nature.
+Self portrait
+Triangles!
+Cosmic space palette by Michael Lowe: #2E294E, #541388, #F1E9DA, #FFD400, #D90368
+
+# Ryan
+Make a clock (or other mechanism of keeping time)
+Polyrhythm (loops that do things at different intervals)
+Press 'a' to jump
+Reflection of a reflection
+
+# Sabin T
+Make a sea of shapes
+Something cultural: e.g., patterns you'd find on the columns of a temple, tiles on roads, something based on an art style that is local, local textile/loom patterns, could be based on a culture other than your own too
+
+# Stefano Contiero
+Create a wallpaper pattern to use in your library
+Design the rug for your bedroom
+
+# Yann Le Gall
+Make something with 2022 items/iterations
+
+# thomas
+Air
+Destroy a square
+Sand
+Something tile-able
+Water
+simulate an analogue printing method
