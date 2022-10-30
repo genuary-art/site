@@ -105,6 +105,7 @@ The Fourth Dimension
 One Pixel to rule them all
 Public transport / airport / movie theater floor patterns
 Photograph something generative
+Tarot
 
 # Shawn Kemp
 Stepstones
@@ -123,6 +124,7 @@ Layers
 No numbers
 No loop
 Collaboration
+Signed Distance Functions
 
 # Lars Wander
 no randomness (but still surprising)
@@ -181,5 +183,14 @@ Seats
 Generative kata
 Invert
 
+# Neel
+metaballs
+meatballs
+antigravity
 
+# Kenny
+Code art with a BASIC emulator (e.g., Apple, C64, etc) or similar retro/antique computer. 
 
+# Devi
+Tesselation
+Symmetry
