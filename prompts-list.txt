@@ -227,6 +227,11 @@ Keep time
 Raindrops
 Trees.. so many trees
 create your own pseudo-random number generator and visually check the results
+Cellular automata: https://conwaylife.com/wiki/List_of_Life-like_cellular_automata
+Frost flowers.
+Skateboard design: 9x34 inches.
+Verlet integration — https://youtu.be/3HjO_RGIjCU
+Use no color twice
 
 # Neel
 metaballs
@@ -381,3 +386,225 @@ Sand
 Something tile-able
 Water
 simulate an analogue printing method
+
+# Magnogen
+The Flow Of Time
+
+# Noah Doersing (doersino)
+There and back again: Start at one point, do something interesting, returning to that point. Dragons are optional.
+
+# Alexandre Zajac (alexZajac)
+Only one rule: don't go back.
+Tell me you know GLSL without telling me you know GLSL.
+Make colors from black and white.
+
+# Philip Bell (processprocess)
+dissolve
+
+# Nikola Ubavić (ubavic)
+Get inspired by [Moebius](https://en.wikipedia.org/wiki/Jean_Giraud) or [Möbius](https://en.wikipedia.org/wiki/August_Ferdinand_M%C3%B6bius)
+
+# arikwex
+The Wind
+Perfect Loop
+Organic Matter
+Ships
+Lamps
+Persian Rug
+Changing Seasons
+
+# metilcarboxilico
+Feedback
+
+# Wozeo
+Life Form
+
+# JaJaBinxx
+Conway's game of life
+Turbulence
+Integer arithmetic only
+
+# eliyastein
+weather
+
+# Nadav Recca (nadavoosh)
+The Medium is the Message
+
+# steganon
+Three-Body Problem
+
+# Meghan - The Tidy Trekker (Meghansaha)
+fire and ice
+the elements
+
+# Steve Chantry-Taylor (stevetnz, @kiwiSteveTaylor)
+Retro: 80s & 90s
+
+# Fernando Jerez (ferjerez, @ferjerez3d)
+Beer
+
+# Daniel Simu (hapiel)
+Gas, liquid, solid
+Joy
+Pain
+Definitely not a grid
+Camouflage
+More Moire
+Sound
+Feedback
+Shocking
+Droopy
+Sleeping
+The Mona Lisa reimagined
+Diagonal
+Made in 10 minutes
+Erasing
+Alien
+Working with data
+Growing
+A mathematical formula
+Fibonacci
+Textile
+Wood
+Rotating
+Sine
+Clouds
+Explosion
+Unity
+The world
+Video game
+10PRINT
+Library
+
+# aotearoan
+Analog
+Prehistory
+Africa
+Frozen
+Prime numbers
+Duotone
+Wax
+#bada55
+
+# andrew-aaron
+Get one of your old works you don't like and re-create it.
+Anti-pattern.
+Code Golf - 200 characters or less.
+
+# Axel Tanner (xabbu137)
+Not seeing the forest for the trees.
+
+# Charlie Hall (charlie-map)
+Sad to happy.
+Fruit.
+Most wanted.
+Favorite Animal.
+
+# Artefakt (Artefakt7)
+Art Deco
+Oriental
+
+# Hwanhee Kim (greentec)
+dungeon
+texture
+graph
+
+# z0rg (seb776)
+mirror
+voxels
+ribbon
+
+# Luka Piskorec (lukapiskorec, @LukaPiskorec)
+1-bit b&w
+diagram that teaches something you know
+unexpected gamification
+
+# huminaboz
+Something you've always wanted to learn
+Gestalt Law of Closure
+Duchamp
+Futurism
+
+# Ruben Torres (rubentd)
+Something inspired by [GEB](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)
+Chromatic Aberration
+Flow fields in 3D
+Watercolor
+
+# Paul Hertz (Ignotus-mago)
+Devoid of any aesthetic value.
+Does code that succeeds at at this prompt immediately become aesthetically significant and thus self-defeating?
+
+# Chase Marangu (cmarangu, @C010011012)
+Fire.
+Fireworks.
+Meteor Shower
+Snowflake.
+Do You Want to Build a Snowman?
+Quine
+Keyboard
+Sierpinski
+Spiral Tree
+
+# @arikwex
+Changing Seasons
+
+# @eliyastein
+Weather
+
+# @andrew-aaron
+Anti-pattern
+
+# @JaJaBinxx
+Conway's Game of Life
+
+# Stevan Dedovic (sdedovic)
+define a process on paper for someone else to implement. share their creation.
+
+
+# Rachel (R4chel)
+morse code
+ALLL THE COLORS (all https://allrgb.com or just really colorful)
+recreate a work or create a work inspired by an artist you didn't know existed before genuary
+
+# freeimp (freeimprisonment)
+Still Life...wrong answers only.
+
+# Bruno De Angelis (brunodeangelis)
+The Infinite Game
+Time destroys all things
+
+# Jeff Palmer
+Have a group of people independently recreate a work and compare approaches after the fact.
+
+# Steve Pikelny (scyclow)
+hsl(?deg, 100%, 50%)
+Single hue
+Monochrome
+Optical illusions
+Minimalism
+Maximalism
+Generative music
+Topology
+Something you've always wanted to try
+Build something in 20 minutes or less
+Make something that no one else will make for this prompt
+What you saw before you opened your eyes this morning
+Advertisement for a fake product
+Scam art
+Dopamine machine
+Play with fire
+GET RICH QUICK
+
+# Jorge Ledezma (zjorge)
+4th dimension or beyond
+Impossible objects (undecidable figures)
+
+# Pete Vermeer (petevermeer)
+murmuration
+
+# illus0r
+Use log(x) creatively
+
+# Mar Kralovna (markralovna)
+A flag that represents you
