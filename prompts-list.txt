@@ -13,7 +13,7 @@ pixel perfect
 # jbarbeau
 Absurdism
 Ceiling simulation
-Make a Human 10 print ( like a legit grid on a field with people positionned according to even odd results, could be fun in the snow too)
+Make a Human 10 print ( like a legit grid on a field with people positioned according to even odd results, could be fun in the snow too)
 make it with CSS
 use your voice
 
@@ -178,7 +178,7 @@ Waterfall(s)
 Hill(s)
 Mountain(s)
 Virtual Machine
-Conflate: To bring together; meld or fuse. To blow together; to bring together; to collect; to fuse together; to join or wld; to consolidate.
+Conflate: To bring together; meld or fuse. To blow together; to bring together; to collect; to fuse together; to join or weld; to consolidate.
 Seats
 Generative kata
 Invert
@@ -192,5 +192,5 @@ antigravity
 Code art with a BASIC emulator (e.g., Apple, C64, etc) or similar retro/antique computer. 
 
 # Devi
-Tesselation
+Tessellation
 Symmetry
