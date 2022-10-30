@@ -52,13 +52,20 @@ Chromie squiggle in your style
 Fire
 Tell a story
 PFP
+=> https://www.urbandictionary.com/define.php?term=pfp urbandictionary: PFP (profile picture)
 Make an original visual noise
 Aesemic
+=> https://dictionary.cambridge.org/us/dictionary/english/asemic Dictionary: asemic
+=> https://en.wikipedia.org/wiki/Asemic_writing Wikipedia: Asemic writing
 Optical Illusion
 Epileptic trigger
+=> https://en.wikipedia.org/wiki/Reflex_epilepsy#Triggers
 Emulate another genartist
 A flow field that doesn't look like one
 Mandala
+=> https://en.wikipedia.org/wiki/Mandala Wikipedia: Mandala
+=> https://twitter.com/search?q=%23Mandala #Mandala on Twitter
+=> https://www.instagram.com/explore/tags/mandala/ #mandala on Instagram
 
 # quag
 Fjord(s)
@@ -69,24 +76,30 @@ Hill(s)
 Mountain(s)
 Virtual Machine
 Conflate: To bring together; meld or fuse. To blow together; to bring together; to collect; to fuse together; to join or weld; to consolidate
+=> https://en.wikipedia.org/wiki/Conflation Wikipedia: conflation
 Seats
 Generative kata
+=> http://codekata.com/
+=> https://codingdojo.org/kata/
 Invert
 Airport carpet
 Color gradients gone wrong
 God rays
+=> https://en.wikipedia.org/wiki/Crepuscular_rays Wikipedia: Crepuscular rays
 Interference
 It just won't work
 Keep time
 Raindrops
-Trees.. so many trees
+Trees… so many trees
 Create your own pseudo-random number generator and visually check the results
 Cellular automata
 => https://conwaylife.com/wiki/List_of_Life-like_cellular_automata
 Frost flowers
+=> https://en.wikipedia.org/wiki/Frost_flower Wikipedia: Frost flower
 Skateboard design: 9x34 inches
 Verlet integration
-=> https://youtu.be/3HjO_RGIjCU
+=> https://youtu.be/3HjO_RGIjCU (YouTube) Coding Math: Episode 36 - Verlet Integration Part I
+=> https://en.wikipedia.org/wiki/Verlet_integration Wikipedia: Verlet integration
 Use no color twice
 
 # Steve Pikelny (scyclow)
@@ -176,6 +189,8 @@ In the style of Hilma Af Klint
 Machine learning, wrong answers only
 One
 Sol LeWitt Wall Drawing
+=> https://publicdelivery.org/sol-lewitt-wall-drawings/
+=> https://massmoca.org/sol-lewitt/
 Tell a story
 random(255)
 
@@ -198,8 +213,11 @@ Meteor Shower
 Snowflake
 Do You Want to Build a Snowman?
 Quine
+=> https://en.wikipedia.org/wiki/Quine_%28computing%29 Wikipedia: Quine
 Keyboard
 Sierpinski
+=> https://en.wikipedia.org/wiki/Wac%C5%82aw_Sierpi%C5%84ski
+=> https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle
 Spiral Tree
 
 # Michael Lowe
@@ -220,13 +238,17 @@ Low contrast
 2022 colors
 8bit computer graphics (ZX Spectrum, Atari, C64, etc)
 Depth of Field
+=> https://en.wikipedia.org/wiki/Depth_of_field
 Fonts
 Glitch Art
+=> https://en.wikipedia.org/wiki/Glitch_art
 VHS
+=> https://en.wikipedia.org/wiki/VHS
 
 # Alexis
 Can't erase the frame
 Harmonics
+=> https://en.wikipedia.org/wiki/Harmonic
 LEGO®
 New Mac OS default wallpaper
 Only negative parameters
@@ -237,10 +259,12 @@ Whatever you did yesterday, do the opposite
 # aotearoan
 Analog
 Prehistory
+=> https://en.wikipedia.org/wiki/Prehistory
 Africa
 Frozen
 Prime numbers
 Duotone
+=> https://en.wikipedia.org/wiki/Duotone
 Wax
 #bada55
 
@@ -252,32 +276,41 @@ No numbers
 No loop
 Collaboration
 Signed Distance Functions
+=> https://iquilezles.org/articles/distfunctions/
+=> https://iquilezles.org/articles/distfunctions2d/
+=> https://en.wikipedia.org/wiki/Signed_distance_function
 
 # Jos Vromans
 Up
 Circles of n-gons
 If I was a butterfly, this would be my pattern
 Like Mondriaan
+=> https://en.wikipedia.org/wiki/Piet_Mondrian#Paris_(1918%E2%80%931938)
 Single lines only without path forming (so no endpoints touching)
 A square for each triangle
 Perspective
+=> https://en.wikipedia.org/wiki/Perspective_(graphical)
 
 # arikwex
 The Wind
 Perfect Loop
+=> https://giphy.com/search/perfect-loop
 Organic Matter
 Ships
 Lamps
 Persian Rug
+=> https://en.wikipedia.org/wiki/Persian_carpet
 Changing Seasons
 
 # Andrew Strauss
 Invocation
+=> https://en.wikipedia.org/wiki/Invocation
 The Fourth Dimension
 One Pixel to rule them all
 Public transport / airport / movie theater floor patterns
 Photograph something generative
 Tarot
+=> https://en.wikipedia.org/wiki/Tarot
 
 # Anna Lucia
 Dithering
@@ -286,9 +319,11 @@ Lissajous
 Respond to sound
 Retro screensavers
 Yayoi Kusama
+=> https://en.wikipedia.org/wiki/Yayoi_Kusama
 
 # Bart Simons
 Animal print
+=> https://en.wikipedia.org/wiki/Animal_print
 ASCII Art
 Food
 Only use/show points
@@ -321,6 +356,8 @@ Something impossible
 # Daniel Catt
 60s diner wallpaper
 Isometric
+=> https://en.wikipedia.org/wiki/Isometric_projection
+=> https://en.wikipedia.org/wiki/Isometric_video_game_graphics
 Movie villain 60 second countdown interface
 Steal Like An Artist
 All code, no output
@@ -334,16 +371,20 @@ Repetition
 
 # Devi
 Tessellation
+=> https://en.wikipedia.org/wiki/Tessellation
 Symmetry
 Script of an imaginary language
 Something you'd never make
 Zentangles
+=> https://zentangle.com/pages/what-is-the-zentangle-method
+=> https://www.wikihow.com/Make-a-Zentangle
 
 # Eric Davidson
 Two Styles
 One Eye Closed
 Physics Reimagined
 Supermatism
+=> https://en.wikipedia.org/wiki/Suprematism
 Self Deleting
 
 # Shawn Kemp
@@ -351,10 +392,12 @@ Kaleidoscope
 Fontography
 Cave paintings
 Mycelium
+=> https://en.wikipedia.org/wiki/Mycelium
 Stepstones
 
 # jbarbeau
 Absurdism
+=> https://en.wikipedia.org/wiki/Absurdism
 Ceiling simulation
 Make a Human 10 print (like a legit grid on a field with people positioned according to even odd results, could be fun in the snow too)
 Make it with CSS
@@ -362,7 +405,11 @@ Use your voice
 
 # Alex Naka
 Mandala
+=> https://en.wikipedia.org/wiki/Mandala Wikipedia: Mandala
+=> https://twitter.com/search?q=%23Mandala #Mandala on Twitter
+=> https://www.instagram.com/explore/tags/mandala/ #mandala on Instagram
 Steganography
+=> https://en.wikipedia.org/wiki/Steganography
 Take one of your previous works and ruin it // degenerate degenerative Friday: deliberately break one of your previous images
 Trade styles with a friend
 
@@ -388,10 +435,12 @@ Shadows
 Paint / brushstrokes
 Underwater
 Silhouettes
+=> https://en.wikipedia.org/wiki/Silhouette
 Remix of previous works
 
 # Ruben Torres (rubentd)
-Something inspired by [GEB](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)
+Something inspired by GEB
+=> https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach Wikipedia: Gödel, Escher, Bach: an Eternal Golden Braid
 Chromatic Aberration
 Flow fields in 3D
 Watercolor
@@ -399,6 +448,7 @@ Watercolor
 # Ryan
 Make a clock (or other mechanism of keeping time)
 Polyrhythm (loops that do things at different intervals)
+=> https://en.wikipedia.org/wiki/Polyrhythm
 Press ‘a’ to jump
 Reflection of a reflection
 
@@ -406,7 +456,9 @@ Reflection of a reflection
 Something you've always wanted to learn
 Gestalt Law of Closure
 Duchamp
+=> https://en.wikipedia.org/wiki/List_of_works_by_Marcel_Duchamp
 Futurism
+=> https://en.wikipedia.org/wiki/Futurism
 
 # Alexandre Zajac (alexZajac)
 Only one rule: don't go back
@@ -425,7 +477,9 @@ Graph
 
 # JaJaBinxx
 Conway's game of life
+=> https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 Turbulence
+=> https://en.wikipedia.org/wiki/Turbulence
 Integer arithmetic only
 
 # Louis-André Labadie
@@ -440,12 +494,16 @@ Unexpected gamification
 
 # Neel
 Metaballs
+=> https://en.wikipedia.org/wiki/Metaballs
 Meatballs
+=> https://en.wikipedia.org/wiki/Meatball
 Antigravity
 
 # Rachel (R4chel)
 Morse code
+=> https://en.wikipedia.org/wiki/Morse_code
 ALL THE COLORS (all https://allrgb.com or just really colorful)
+=> https://allrgb.com
 Recreate a work or create a work inspired by an artist you didn't know existed before genuary
 
 # Reva
@@ -457,16 +515,20 @@ A walking creature
 Get one of your old works you don't like and re-create it
 Anti-pattern
 Code Golf - 200 characters or less
+=> https://en.wikipedia.org/wiki/Code_golf
 
 # r4v3n
 Colors only
 Monochrome
+=> https://en.wikipedia.org/wiki/Monochrome
 144 chars or less
 
 # rvig
 RGB gradients
 Spirals
+=> https://en.wikipedia.org/wiki/Spiral
 Packing (squares, circles, any shape…)
+=> https://en.wikipedia.org/wiki/Circle_packing
 
 # z0rg (seb776)
 Mirror
@@ -511,6 +573,7 @@ Depth
 
 # @JaJaBinxx
 Conway's Game of Life
+=> https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 # @andrew-aaron
 Anti-pattern
@@ -523,6 +586,7 @@ Weather
 
 # Artefakt (Artefakt7)
 Art Deco
+=> https://en.wikipedia.org/wiki/Circle_packing
 
 # Axel Tanner (xabbu137)
 Not seeing the forest for the trees
@@ -532,9 +596,12 @@ Single curve only
 
 # Chris Ried
 Isometric perspective
+=> https://en.wikipedia.org/wiki/Isometric_projection
+=> https://en.wikipedia.org/wiki/Isometric_video_game_graphics
 
 # Fernando Jerez (ferjerez, @ferjerez3d)
 Beer
+=> https://en.wikipedia.org/wiki/Beer
 
 # Jeff Palmer
 Have a group of people independently recreate a work and compare approaches after the fact
@@ -544,9 +611,11 @@ Sine waves!
 
 # Jonathan Barbeau
 Only use an ellipse
+=> https://en.wikipedia.org/wiki/Ellipse
 
 # Kenny
 Code art with a BASIC emulator (e.g., Apple, C64, etc) or similar retro/antique computer.
+=> https://en.wikipedia.org/wiki/BASIC
 
 # Lars Wander
 No randomness (but still surprising)
@@ -562,15 +631,19 @@ Spaghetti and metaballs / Meat-a-balls
 
 # Nadav Recca (nadavoosh)
 The Medium is the Message
+=> https://en.wikipedia.org/wiki/The_medium_is_the_message
 
 # Nikola Ubavić (ubavic)
 Get inspired by [Moebius](https://en.wikipedia.org/wiki/Jean_Giraud) or [Möbius](https://en.wikipedia.org/wiki/August_Ferdinand_M%C3%B6bius)
 
 # Noah Doersing (doersino)
 There and back again: Start at one point, do something interesting, returning to that point. Dragons are optional
+=> https://en.wikipedia.org/wiki/The_Hobbit
+=> https://en.wikipedia.org/wiki/There_and_Back_Again_(novel)
 
 # Pete Vermeer (petevermeer)
-Murmuration
+Murmuration (flocking of starlings)
+=> https://en.wikipedia.org/wiki/Starling#Behaviour
 
 # Philip Bell (processprocess)
 Dissolve
@@ -604,3 +677,5 @@ Feedback
 
 # steganon
 Three-Body Problem
+=> https://en.wikipedia.org/wiki/Three-body_problem
+=> https://en.wikipedia.org/wiki/Euler%27s_three-body_problem
