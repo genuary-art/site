@@ -101,6 +101,23 @@ Verlet integration
 => https://youtu.be/3HjO_RGIjCU (YouTube) Coding Math: Episode 36 - Verlet Integration Part I
 => https://en.wikipedia.org/wiki/Verlet_integration Wikipedia: Verlet integration
 Use no color twice
+Gestalt laws of perceptal organization
+=> https://www.verywellmind.com/gestalt-laws-of-perceptual-organization-2795835 Gestalt Laws of Perceptual Organization
+Deck of playing cards
+=> https://en.wikipedia.org/wiki/Playing_card
+A single playing card
+=> https://en.wikipedia.org/wiki/Playing_card
+A single tree
+Flowers
+Sci-fi movie UI
+Human eyes
+Non-human eyes
+Faces
+Album cover
+Make a “Dictionary of color combinations” book generator
+=> https://github.com/mattdesl/dictionary-of-colour-combinations
+=> https://coloursmayvary.com/products/a-dictionary-of-colour-combinations-by-sanzo-wada-vol-1
+=> https://www.amazon.com/dp/B094NTK2RB/
 
 # Steve Pikelny (scyclow)
 hsl(?deg, 100%, 50%)
@@ -185,7 +202,7 @@ Make something useless
 Generative code
 Generative poetry
 In the style of Hilma Af Klint
-=> https://www.wikiart.org/en/hilma-af-klint/all-works#!#filterName:all-paintings-chronologically,resultType:masonry
+=> https://www.wikiart.org/en/hilma-af-klint/all-works#!#filterName:all-paintings-chronologically,resultType:masonry Hilma af Klint: List of works
 Machine learning, wrong answers only
 One
 Sol LeWitt Wall Drawing
@@ -316,6 +333,7 @@ Tarot
 Dithering
 Infinite
 Lissajous
+=> https://en.wikipedia.org/wiki/Lissajous_curve
 Respond to sound
 Retro screensavers
 Yayoi Kusama
@@ -455,6 +473,9 @@ Reflection of a reflection
 # huminaboz
 Something you've always wanted to learn
 Gestalt Law of Closure
+=> https://www.ipoxstudios.com/law-of-closure-video-gestalt-psychology-for-artists/ What is the law of closure?
+=> https://youblr.com/en/records/5318-what-is-the-law-of-gestalt-closure-and-examples What is the law of Gestalt closure and examples
+=> https://www.verywellmind.com/gestalt-laws-of-perceptual-organization-2795835 Gestalt Laws of Perceptual Organization
 Duchamp
 => https://en.wikipedia.org/wiki/List_of_works_by_Marcel_Duchamp
 Futurism
@@ -469,6 +490,16 @@ Make colors from black and white
 Draw infinity
 Draw the wind
 Draw a chessboard
+A mirror in front of a mirror
+Reflections on a lake
+Roads
+Structural engineering
+Reverse copywriting
+280 characters
+Balustrades
+A drop of water
+Golden ratio gone wrong
+A grid inside a grid inside a grid
 
 # Hwanhee Kim (greentec)
 Dungeon
@@ -655,7 +686,7 @@ Define a process on paper for someone else to implement. Share their creation
 Retro: 80s & 90s
 
 # Tyler Boswell
-(huge? tiny?) sense of scale
+Sense of scale (Tiny? Huge?)
 
 # Wozeo
 Life Form
