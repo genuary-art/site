@@ -136,16 +136,16 @@ Deliberately break one of your previous images, take one of your previous works 
 Came up with a brilliant idea for next year's prompt? There will be a link for suggestions, soon.
 
 <script>
-    function setHighlight () {
-        const now = new Date();
-        // The if statement makes sure we only highlight days in January 2023
-        if (now.getFullYear() !== 2023 || now.getMonth() !== 0) return;
-        const hash = "#jan" + now.getDate();
-        if (!document.location.hash) document.location = hash;
-        document.querySelector(hash).classList.add("today");
-    }
+  function setHighlight () {
+    const now = new Date();
+    // The if statement makes sure we only highlight days in January 2023
+    // if (now.getFullYear() !== 2023 || now.getMonth() !== 0) return;
+    const hash = "#jan" + now.getDate();
+    if (!document.location.hash) document.location = hash;
+    document.querySelector(hash).classList.add("today");
+  }
 
-    // Make sure we aren't trying to do this before
-    // the browser has loaded the whole page
-    onload=setHighlight;
+  // Make sure we aren't trying to do this before
+  // the browser has loaded the whole page
+  onload=setHighlight;
 </script>

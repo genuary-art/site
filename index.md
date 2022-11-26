@@ -1,7 +1,5 @@
 # GENUARY 2023
 
-(TODO: explain about tags)
-
 GENUARY returns! GENUARY is an artificially generated month of time where we build code that makes beautiful things.
 
 It's happening during the month of January 2023, and everybody is invited!
@@ -12,7 +10,7 @@ You don't have to follow the prompt exactly. Or even at all. But, y'know, we put
 
 You can use any language, framework or medium, on any planet.
 
-Share your work and tag it with **#genuary** and **#genuary2023**.
+Share your work and tag it with **#genuary** and **#genuary2023** and also **#genuary1**, **#genuary2**, etc, depending on the date.
 
 # [PROMPTS](prompts)
 
