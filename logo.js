@@ -258,7 +258,7 @@ log_end=()=>{
           cr<.3&&!Qh(QT,x-cr,y-cr,cr*2,(u,v)=>(x-u)**2+(y-v)**2<cr*cr) // clear test
           ]
       }
-      return [] // fail
+      return [[0,0],0] // fail
     };
 
     IX=(o,d,z,t=0,h=9)=>{for(;t<z&&h>.005;t+=h=.7*P(A(o,d,t)));return t}; // ray intersect
@@ -287,8 +287,11 @@ log_end=()=>{
             qq.reverse(); // flip trace so we are adding on the right side
             q=q0; // current pos
             pd=fq=f0; // current+start direction
-            for(h=1;h&&D(pd,fq)>0&&D(f0,fq)>-.7;qq.push(q)) // trace as long as: 1) clear, 2) not too sharp corners, 3) maximum turn wrt starting direction (to prevent infinite spiral)
+            for(sh=0;sh<3&&D(pd,fq)>0&&D(f0,fq)>-.7;qq.push(q)) {// trace as long as: 1) clear (two steps leeway), 2) not too sharp corners, 3) maximum turn wrt starting direction (to prevent infinite spiral)
               [fq,h]=u(q=A(q,pd=fq,s)); // take a step and evaluate
+              sh=h?0:sh+1;
+
+            }
           });
           if(qq[9]){
             // accept only if trace has at least 10 pts
