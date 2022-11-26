@@ -1,23 +1,131 @@
 # PROMPTS
 
-## JAN.1 <span class="credit">(credit: [Piter Pasma](https://twitter.com/piterpasma))</span> {#jan1}
+## JAN. 1 <span class="credit">(credit: [arikwex, Reva](#))</span> {#jan1}
 
-Draw a rectangle. No shenanigans.
+Perfect loop / Infinite loop / endless GIFs
 
-[What even is a rectangle](https://en.wikipedia.org/wiki/Rectangle)  
+## JAN. 2 <span class="credit">(credit: [Daniel Simu (hapiel)](#))</span> {#jan2}
+
+Made in 10 minutes
+
+[Click here to find out how long 10 minutes take](https://www.google.com/search?hl=en&q=timer%2010%20minutes)  
 {:.info}
 
-## JAN.2 <span class="credit">(credit: [Piter Pasma](https://twitter.com/piterpasma))</span> {#jan2}
+## JAN. 3 <span class="credit">(credit: [generetame](#))</span> {#jan3}
 
-Reverse code golf: Make the longest program, how much code can you write in a day to make something interesting? 
+Glitch Art
 
-## JAN.3 <span class="credit">(credit: [Piter Pasma](https://twitter.com/piterpasma))</span> {#jan3}
+## JAN. 4 <span class="credit">(credit: [Yazid](#))</span> {#jan4}
 
-<b style="background-color: #000000; color:#eee8dd">#000000</b>
-<b style="background-color: #000000; color:#eee8dd">#000000</b>
-<b style="background-color: #000000; color:#eee8dd">#000000</b>
+Intersections
 
-(No gradients)
+## JAN. 5 <span class="credit">(credit: [jenslabs](#))</span> {#jan5}
+
+Debug view
+
+## JAN. 6 <span class="credit">(credit: [Daniel Catt](#))</span> {#jan6}
+
+Steal Like An Artist
+
+## JAN. 7 <span class="credit">(credit: [Luca](#))</span> {#jan7}
+
+Sample a color palette from your favorite movie/album cover
+
+## JAN. 8 <span class="credit">(credit: [Camille Roux](#))</span> {#jan8}
+
+Signed Distance Functions
+
+## JAN. 9 <span class="credit">(credit: [Lionel Radisson](#))</span> {#jan9}
+
+Plants
+
+## JAN. 10 <span class="credit">(credit: [Steve Pikelny (scyclow)](#))</span> {#jan10}
+
+Generative music
+
+## JAN. 11 <span class="credit">(credit: [Eric Davidson](#))</span> {#jan11}
+
+Suprematism
+
+## JAN. 12 <span class="credit">(credit: [Devi](#))</span> {#jan12}
+
+Tessellation
+
+## JAN. 13 <span class="credit">(credit: [huminaboz](#))</span> {#jan13}
+
+Something you've always wanted to learn
+
+## JAN. 14 <span class="credit">(credit: [Melissa Wiederrecht](#))</span> {#jan14}
+
+Aesemic
+
+## JAN. 15 <span class="credit">(credit: [Jess Hewitt, Yazid](#))</span> {#jan15}
+
+Sine waves
+
+## JAN. 16 <span class="credit">(credit: [Ryan](#))</span> {#jan16}
+
+Reflection of a reflection
+
+## JAN. 17 <span class="credit">(credit: [Andrea Diotallevi](#))</span> {#jan17}
+
+A grid inside a grid inside a grid
+
+## JAN. 18 <span class="credit">(credit: [Daniel Simu (hapiel)](#))</span> {#jan18}
+
+Definitely not a grid
+
+## JAN. 19 <span class="credit">(credit: [Lionel Radisson](#))</span> {#jan19}
+
+Black and white
+
+## JAN. 20 <span class="credit">(credit: [Artefakt (Artefakt7)](#))</span> {#jan20}
+
+Art Deco
+
+## JAN. 21 <span class="credit">(credit: [arikwex](#))</span> {#jan21}
+
+Persian Rug
+
+## JAN. 22 <span class="credit">(credit: [Luca](#))</span> {#jan22}
+
+Shadows
+
+## JAN. 23 <span class="credit">(credit: [Daniel Simu (hapiel)](#))</span> {#jan23}
+
+More Moire
+
+## JAN. 24 <span class="credit">(credit: [Daniel Simu (hapiel)](#))</span> {#jan24}
+
+Textile
+
+## JAN. 25 <span class="credit">(credit: [Anna Lucia](#))</span> {#jan25}
+
+Yayoi Kusama
+
+## JAN. 26 <span class="credit">(credit: [Melissa Wiederrecht](#))</span> {#jan26}
+
+My kid could have made that
+
+## JAN. 27 <span class="credit">(credit: [Roni](#))</span> {#jan27}
+
+In the style of Hilma Af Klint
+
+## JAN. 28 <span class="credit">(credit: [Roni](#))</span> {#jan28}
+
+Generative poetry
+
+## JAN. 29 <span class="credit">(credit: [Steve Pikelny (scyclow)](#))</span> {#jan29}
+
+Maximalism
+
+## JAN. 30 <span class="credit">(credit: [Steve Pikelny (scyclow), Yazid](#))</span> {#jan30}
+
+Minimalism
+
+## JAN. 31 <span class="credit">(credit: [Alex Naka, RalenArc](#))</span> {#jan31}
+
+Deliberately break one of your previous images, take one of your previous works and ruin it. Alternatively, remix one of your previous works.
 
 # [THANKS](thanks)
 
