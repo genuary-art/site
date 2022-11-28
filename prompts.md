@@ -4,6 +4,11 @@
 
 Perfect loop / Infinite loop / endless GIFs
 
+[Examples of perfect loops on Giphy](https://giphy.com/search/perfect-loop)  
+TIP, use ffmpeg to turn a bunch of PNG frames into an MP4:  
+`ffmpeg -framerate 30 -i "frame%04d.png" -r 30 -pix_fmt yuv420p perfectloop.mp4`
+{:.info}
+
 ## JAN. 2 <span class="credit">(credit: [Daniel Simu (hapiel)](https://twitter.com/Hapiel))</span> {#jan2}
 
 Made in 10 minutes
@@ -14,6 +19,9 @@ Made in 10 minutes
 ## JAN. 3 <span class="credit">(credit: [generetame](https://twitter.com/generateme_blog))</span> {#jan3}
 
 Glitch Art
+
+[Wikipedia on Glitch Art](https://en.wikipedia.org/wiki/Glitch_art)
+{:.info}
 
 ## JAN. 4 <span class="credit">(credit: [Yazid](https://twitter.com/Yazid))</span> {#jan4}
 
@@ -35,6 +43,12 @@ Sample a color palette from your favorite movie/album cover
 
 Signed Distance Functions
 
+[Piter explains how to use SDFs](wtsdf)  
+[2D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions2d/)  
+[3D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions/)  
+[Wikipedia on Signed Distance Functions](https://en.wikipedia.org/wiki/Signed_distance_function)  
+{:.info}
+
 ## JAN. 9 <span class="credit">(credit: [Lionel Radisson](https://twitter.com/MAKIO135))</span> {#jan9}
 
 Plants
@@ -43,13 +57,24 @@ Plants
 
 Generative music
 
+[Aleatoric music](https://en.wikipedia.org/wiki/Aleatoric_music)
+{:.info}
+
 ## JAN. 11 <span class="credit">(credit: [Eric Davidson](https://twitter.com/TheBuffED))</span> {#jan11}
 
 Suprematism
 
+[Wikipedia on Suprematism](https://en.wikipedia.org/wiki/Suprematism)
+{:.info}
+
 ## JAN. 12 <span class="credit">(credit: [Devi](https://twitter.com/deviparikh))</span> {#jan12}
 
 Tessellation
+
+[Wikipedia on Tesselation](https://en.wikipedia.org/wiki/Tessellation)  
+[List of Tesselations](https://en.wikipedia.org/wiki/List_of_tessellations)  
+
+{:.info}
 
 ## JAN. 13 <span class="credit">(credit: [huminaboz](https://twitter.com/huminaboz))</span> {#jan13}
 

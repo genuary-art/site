@@ -64,8 +64,8 @@ section strong { color: var(--textstrong); font-weight: bold; }
 section em { color: var(--texthighlight); font-style: italic; }
 section code { color: var(--textcode); font-family: monospace; }
 section a { color: var(--textlink); }
-section .info { line-height: 1.25; }
-section .info a {color: var(--infolink); font-size: .7em; font-weight: bold; }
+section .info { font-size: .7em; line-height: 1.25; }
+section .info a {color: var(--infolink); font-weight: bold; }
 section .info a:hover {color: var(--infolinkhover); }
 
 section b { /* for styling colour swatches in the prompts list */
