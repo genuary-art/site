@@ -4,7 +4,7 @@
 - prompts style edits
 - make that the prompt highlight works properly + mention hashtags
 - edits to the text about hashtags
-- finish the thanks page
+- finish the thanks page (Jess)
 - doublecheck if all thumb / logo / preview / icon link images are correct
 
 - add RW simplification to logo :)
