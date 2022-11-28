@@ -1,6 +1,6 @@
-// TODO
-// clean up code
+// Genuary 2023 logo code, Copyright by Piter Pasma
 
+// debug/logging functions
 let start_time,max_fails;
 log_start=()=>{
   start_time = performance.now();
@@ -33,6 +33,7 @@ log_end=()=>{
   console.log(log.map((s,i)=>`${N-i} .. ${s}`).join('\n'));
 }
 
+// the actual code
 (code=({copyright:piterpasma,max,floor,abs,sin,cos,min,imul,PI}=Math)=>{
   // RAYHATCHER (c) 2022 by Piter Pasma
   //
@@ -269,7 +270,7 @@ log_end=()=>{
     Qh=({x,y,w,p,r},X,Y,W,f)=>X<x+w&&X+W>x&&Y<y+w&&Y+W>y&&(p.some(([a,b])=>a>=X&&a<X+W&&b>=Y&&b<Y+W&&f(a,b))||r&&r.some(s=>Qh(s,X,Y,W,f)));
     Q=(x,y,w)=>({x,y,w,p:[]});
 
-    v=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${H*Y|0} ${H}" width="${M*Y}mm" height="${M}mm">\n<!-`+`- `+Date(),new U(O),,`seed='${seed}';(code=${code})()\n-`+`->`,O.bg?`<rect x="${-H*Y}" y="${-H}" width="${H*Y*3}" height="${H*3}" fill="#eee8dd"/>`:``]; // init SVG array
+    v=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${H*Y|0} ${H}" width="${M*Y}mm" height="${M}mm">\n<!-`+`- `+Date(),new U(O),,`seed='${seed}';(code=${code})()\n-`+`->`,O.bg==1?`<rect x="${-H*Y}" y="${-H}" width="${H*Y*3}" height="${H*3}" fill="#eee8dd"/>`:``]; // init SVG array
     
     function* E() {
       // flow field tracing canvas rendering + SVG creating function

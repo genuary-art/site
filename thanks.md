@@ -88,3 +88,6 @@ Thanks go out to these wonderful people for contributing prompts, website help, 
 [z0rg](https://twitter.com/z0rien).
 
 And the support of the #genartclub community.
+
+If you prefer a different link to your name, please send me a message. If you helped out with Genuary 2023 and I forgot your name I am really sorry, also please send me a message, I will fix it ASAP.
+{:.info}
