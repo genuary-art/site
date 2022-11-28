@@ -6,7 +6,7 @@ Perfect loop / Infinite loop / endless GIFs
 
 [Examples of perfect loops on Giphy](https://giphy.com/search/perfect-loop)  
 TIP, use ffmpeg to turn a bunch of PNG frames into an MP4:  
-`ffmpeg -framerate 30 -i "frame%04d.png" -r 30 -pix_fmt yuv420p perfectloop.mp4`
+`ffmpeg -r 30 -i "frame%04d.png" -pix_fmt yuv420p -movflags +faststart perfectloop.mp4`
 {:.info}
 
 ## JAN. 2 <span class="credit">(credit: [Daniel Simu (hapiel)](https://twitter.com/Hapiel))</span> {#jan2}
