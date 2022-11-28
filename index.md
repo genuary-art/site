@@ -10,7 +10,7 @@ You don't have to follow the prompt exactly. Or even at all. But, y'know, we put
 
 You can use any language, framework or medium, on any planet.
 
-Share your work and tag it with **#genuary** and **#genuary2023** and also **#genuary1**, **#genuary2**, etc, depending on which prompt it is. This makes it easier to compare with results from other people doing the same prompt, which might not always be on the same day, because some people are from the future. GENUARY happens on all the social media at once.
+Share your work and tag it with **#genuary** and **#genuary2023** and also **#genuary1**, **#genuary2**, etc, depending on which prompt it is. This makes it easier to find other people doing the same prompt, which might not always be on the same day, because some people are from the future. GENUARY happens on all the social media sites at once.
 
 # [PROMPTS](prompts)
 
