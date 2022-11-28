@@ -66,7 +66,7 @@ There are also a couple of other options:
 * [Don't include background rectangle](https://genuary.art/?svg=1&bg=0). Default `bg=1`, recommended for plotting is 0.
 * [Change coordinate resolution](https://genuary.art/?svg=1&res=10), Default `res=10000`, lower values break it in fun and interesting ways.
 
-## Is there a community or Discord server or something where I can discuss Genuary with others?
+## Is there a community or Discord server or something where I can discuss GENUARY with others?
 
-No. Well there are, but none of them officially organised by Genuary. Every creative coding, generative art or other (un)related community is encouraged to create their own #genuary channel. The reason is that the organisers of Genuary want to participate in the Genuary challenge, and don't have the time to moderate a community.
+No. Well there are, but none of them officially organised by GENUARY. Every creative coding, generative art or other related *and* unrelated community is encouraged to create their own #GENUARY channel. The reason is that the organisers of GENUARY want to participate in the GENUARY challenge, and don't have the time to moderate a community.
 
