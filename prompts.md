@@ -20,7 +20,7 @@ Made in 10 minutes
 
 Glitch Art
 
-[Wikipedia on Glitch Art](https://en.wikipedia.org/wiki/Glitch_art)
+[Wikipedia: Glitch Art](https://en.wikipedia.org/wiki/Glitch_art)
 {:.info}
 
 ## JAN. 4 <span class="credit">(credit: [Yazid](https://twitter.com/Yazid))</span> {#jan4}
@@ -43,10 +43,10 @@ Sample a color palette from your favorite movie/album cover
 
 Signed Distance Functions
 
-[Piter explains how to use SDFs](wtsdf)  
+[Piter explains how to SDFs](wtsdf)  
 [2D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions2d/)  
 [3D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions/)  
-[Wikipedia on Signed Distance Functions](https://en.wikipedia.org/wiki/Signed_distance_function)  
+[Wikipedia: Signed Distance Functions](https://en.wikipedia.org/wiki/Signed_distance_function)  
 {:.info}
 
 ## JAN. 9 <span class="credit">(credit: [Lionel Radisson](https://twitter.com/MAKIO135))</span> {#jan9}
@@ -57,23 +57,22 @@ Plants
 
 Generative music
 
-[Aleatoric music](https://en.wikipedia.org/wiki/Aleatoric_music)
+[Wikipedia: Aleatoric music](https://en.wikipedia.org/wiki/Aleatoric_music)
 {:.info}
 
 ## JAN. 11 <span class="credit">(credit: [Eric Davidson](https://twitter.com/TheBuffED))</span> {#jan11}
 
 Suprematism
 
-[Wikipedia on Suprematism](https://en.wikipedia.org/wiki/Suprematism)
+[Wikipedia: Suprematism](https://en.wikipedia.org/wiki/Suprematism)
 {:.info}
 
 ## JAN. 12 <span class="credit">(credit: [Devi](https://twitter.com/deviparikh))</span> {#jan12}
 
 Tessellation
 
-[Wikipedia on Tesselation](https://en.wikipedia.org/wiki/Tessellation)  
-[List of Tesselations](https://en.wikipedia.org/wiki/List_of_tessellations)  
-
+[Wikipedia: Tesselation](https://en.wikipedia.org/wiki/Tessellation)  
+[Wikipedia: List of Tesselations](https://en.wikipedia.org/wiki/List_of_tessellations)  
 {:.info}
 
 ## JAN. 13 <span class="credit">(credit: [huminaboz](https://twitter.com/huminaboz))</span> {#jan13}
@@ -84,9 +83,16 @@ Something you've always wanted to learn
 
 Aesemic
 
+[Dictionary: Asemic](https://dictionary.cambridge.org/us/dictionary/english/asemic)
+[Wikipedia: Asemic writing](https://en.wikipedia.org/wiki/Asemic_writing)
+{:.info}
+
 ## JAN. 15 <span class="credit">(credit: [Jess Hewitt](https://twitter.com/rustysniper1), [Yazid](https://twitter.com/Yazid))</span> {#jan15}
 
 Sine waves
+
+[Fun with sine waves: 1D wobbly noise](https://www.desmos.com/calculator/nhbzwkhij3)
+{:.info}
 
 ## JAN. 16 <span class="credit">(credit: [Ryan](https://twitter.com/keisans))</span> {#jan16}
 
@@ -108,17 +114,27 @@ Black and white
 
 Art Deco
 
+[Wikipedia: Art Deco](https://en.wikipedia.org/wiki/Art_Deco)
+{:.info}
+
 ## JAN. 21 <span class="credit">(credit: [arikwex](https://github.com/arikwex))</span> {#jan21}
 
 Persian Rug
 
+[Wikipedia: Persian carpet](https://en.wikipedia.org/wiki/Persian_carpet)
+{:.info}
+
 ## JAN. 22 <span class="credit">(credit: [Luca](https://twitter.com/ioan1x))</span> {#jan22}
 
 Shadows
+{:.shadows}
 
 ## JAN. 23 <span class="credit">(credit: [Daniel Simu (hapiel)](https://twitter.com/Hapiel))</span> {#jan23}
 
-More Moire
+More Moiré
+
+[Wikipedia: Moiré](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern)
+{:.info}
 
 ## JAN. 24 <span class="credit">(credit: [Daniel Simu (hapiel)](https://twitter.com/Hapiel))</span> {#jan24}
 
@@ -128,6 +144,10 @@ Textile
 
 Yayoi Kusama
 
+[Wikipedia: Yayoi Kusama](https://en.wikipedia.org/wiki/Yayoi_Kusama)
+[Image search: Yayoi Kusama](https://duckduckgo.com/?q=yayoi+kusama&ia=images&iax=images)
+{:.info}
+
 ## JAN. 26 <span class="credit">(credit: [Melissa Wiederrecht](https://twitter.com/mwiederrecht))</span> {#jan26}
 
 My kid could have made that
@@ -136,11 +156,14 @@ My kid could have made that
 
 In the style of Hilma Af Klint
 
+[Hilma af Klint: List of works](https://www.wikiart.org/en/hilma-af-klint/all-works#!#filterName:all-paintings-chronologically,resultType:masonry)
+{:.info}
+
 ## JAN. 28 <span class="credit">(credit: [Roni](https://twitter.com/KaufmanRoni))</span> {#jan28}
 
 Generative poetry
 
-## JAN. 29 <span class="credit">(credit: [Steve Pikelny (scyclow)](https://twitter.com/steviepxyz))</span> {#jan29}
+## JAN. 29 <span class="credit">(credit: [Steve Pikelny (scyclow)](https://twitter.com/steviepxyz), [Yazid](https://twitter.com/Yazid))</span> {#jan29}
 
 Maximalism
 
@@ -150,7 +173,9 @@ Minimalism
 
 ## JAN. 31 <span class="credit">(credit: [Alex Naka](https://twitter.com/gottapatchemall), [RalenArc](https://twitter.com/RalenArc))</span> {#jan31}
 
-Deliberately break one of your previous images, take one of your previous works and ruin it. Alternatively, remix one of your previous works.
+Deliberately break one of your previous images, take one of your previous works and ruin it. 
+
+Alternatively, remix one of your previous works.
 
 # [THANKS](thanks)
 

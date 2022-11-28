@@ -67,6 +67,7 @@ section a { color: var(--textlink); }
 section .info { font-size: .7em; line-height: 1.25; }
 section .info a {color: var(--infolink); font-weight: bold; }
 section .info a:hover {color: var(--infolinkhover); }
+p.shadows { text-shadow: .25em .25em .0625em #0004; }
 
 section b { /* for styling colour swatches in the prompts list */
   padding: 0.25em;
