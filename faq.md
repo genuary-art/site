@@ -70,3 +70,11 @@ There are also a couple of other options:
 
 No. Well there are, but none of them officially organised by GENUARY. Every creative coding, generative art or other related *and* unrelated community is encouraged to create their own #GENUARY channel. The reason is that the organisers of GENUARY want to participate in the GENUARY challenge, and don't have the time to moderate a community.
 
+## Where did the 2022 website go?
+
+See [genuary.art/2022](https://genuary.art/2022).
+
+## Where did the 2021 website go?
+
+See [genuary2021.github.io/](https://genuary2021.github.io/).
+
