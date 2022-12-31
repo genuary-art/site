@@ -67,6 +67,10 @@ section a { color: var(--textlink); }
 section .info { font-size: .7em; line-height: 1.25; }
 section .info a {color: var(--infolink); font-weight: bold; }
 section .info a:hover {color: var(--infolinkhover); }
+
+section .share { font-size: .7em; line-height: 1.25; color: var(--texthighlight); }
+section .share b { font-weight: bold; border: none; padding: 0; }
+
 p.shadows { text-shadow: .25em .25em .0625em #0004; }
 
 section b { /* for styling colour swatches in the prompts list */
@@ -171,20 +175,21 @@ footer a { color: var(--infolinkhover); }
 .today {
   font-size: 2em;
   color: var(--textcolor);
-  text-shadow: 0 0 0.1em var(--textstrong), .0625em .0625em 0 var(--shadow);
+/*  text-shadow: 0 0 0.1em #fff, .0625em .0625em 0 #fff;*/
 }
 
 .today::after {
-  background-color: var(--textstrong);
+  background-color: #fff;
   color: var(--textstronginverse);
   content: "that's today!";
   display: inline-block;
   vertical-align: middle;
   font-size: 0.4375em;
-  font-weight: normal;
+  font-weight: bold;
   margin-left: 2em;
   padding: .5em .75em;
   box-shadow: 0.25em 0.5em 0 var(--shadow);
+  border-radius: .5em;
   text-shadow: none;
 }
 
