@@ -192,7 +192,7 @@ Came up with a brilliant idea for next year's prompt? There will be a link for s
         month = now.getMonth(),
         day = now.getDate();
     
-    // if (year !== 2023 || month !== 0) return; // The if statement makes sure we only highlight days in January 2023
+    if (year !== 2023 || month !== 0) return; // The if statement makes sure we only highlight days in January 2023
     let hash = `#jan${day}`;
     if (!document.location.hash) document.location = hash;
     let h2 = document.querySelector(hash);
