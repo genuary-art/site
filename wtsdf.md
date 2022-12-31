@@ -4,7 +4,7 @@ Signed distance functions are an incredibly powerful technique to define 2D or 3
 
 ## You don't need shaders to make use of SDFs
 
-If you already use shaders you will find SDFs come very naturally, but if you don't, they're still very useful. 
+If you are using shaders you will find SDFs come very naturally, but if you don't, they're still very useful. 
 
 It's mainly a matter of recognizing that you are using or could be using an SDF, because they got superpowers. 
 

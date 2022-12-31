@@ -78,3 +78,6 @@ See [genuary.art/2022](https://genuary.art/2022).
 
 See [genuary2021.github.io/](https://genuary2021.github.io/).
 
+## How did Genuary?
+
+There is a story on the old Genuary 2021 webpage: https://genuary2021.github.io/story 
