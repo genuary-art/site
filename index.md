@@ -10,7 +10,15 @@ You don't have to follow the prompt exactly. Or even at all. But, y'know, we put
 
 You can use any language, framework or medium, on any planet.
 
-Share your work and tag it with **#genuary** and **#genuary2023** and also **#genuary1**, **#genuary2**, etc, depending on which prompt it is. This makes it easier to find other people doing the same prompt, which might not always be on the same day, because some people are from the future. GENUARY happens on all the social media sites at once.
+# HASHTAGS
+
+GENUARY is made of HASHTAGS!
+
+Share your work and tag it with **#genuary** and **#genuary2023** and also **#genuary1**, **#genuary2**, etc, depending on which prompt it is. 
+
+This makes it easier to find other people doing the same prompt, which might not always be on the same day, because some people are from the future. GENUARY happens on all the social media sites at once.
+
+[Joyn](https://joyn.xyz) is helping out collecting all the hashtags if you tag them with the tag for the right prompt (**#genuary1**, **#genuary2**, etc), you can check out the galleries for each day here: [GENUARY on Joyn](https://app.joyn.xyz/project/genuary-f38cfe2e2fac)
 
 # [PROMPTS](prompts)
 
