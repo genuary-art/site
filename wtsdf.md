@@ -10,4 +10,4 @@ It's mainly a matter of recognizing that you are using or could be using an SDF,
 
 I made a video!
 
-[Signed DIstance Functions for generative art (#genuary8)](https://youtu.be/KRB57wyo8_4)
+[Signed Distance Functions for generative art (#genuary8)](https://youtu.be/KRB57wyo8_4)
