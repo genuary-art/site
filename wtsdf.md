@@ -8,7 +8,6 @@ If you are using shaders you will find SDFs come very naturally, but if you don'
 
 It's mainly a matter of recognizing that you are using or could be using an SDF, because they got superpowers. 
 
-Huh wat is deze
+I made a video!
 
-Don't worry I got you. To be continued. I still got over a month to finish this page. I might even do a video.
-
+[Signed DIstance Functions for generative art (#genuary8)](https://youtu.be/KRB57wyo8_4)
