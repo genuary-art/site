@@ -64,7 +64,7 @@ log_end=()=>{
     // bg = 1=include background rect 0=don't include
     // res = resolution
     // svg = 1=draw as SVG (for plotters etc) 0=draw as Canvas/PNG
-    O={lw:.3,d:.6,h:280,bg:1,res:1e4,svg:1}; // default options
+    O={lw:.3,d:.6,h:280,bg:1,res:1e4,svg:1,obj:1}; // default options
     (new(U=URLSearchParams)(location.search)).forEach((v,k)=>O[k]=v);
     O.seed = seed = O.seed || 'GENUARY2023' + Date.now();
 
@@ -233,7 +233,7 @@ log_end=()=>{
       let d2 = min(d2a,d2b); // digit 2
       let letters = min(G, E, N, U, A, R, Y, d3, d2)-br;
       // return letters;
-      return min(bar,letters); // return distance function for union of letters and object around letters
+      return O.obj==1?min(bar,letters):letters; // return distance function for union of letters and object around letters
     };
 
     Npts=0;
@@ -283,7 +283,7 @@ log_end=()=>{
       hv=N(A(A(rt,fw,1/Z),up,.5)); // hatch direction based on camera vectors
       QT=Q(-2,-2,4); // init empty QuadTree
       log_start(); // debug
-      for(I=0;I<1e3;I++){ // I = fail counter
+      for(I=0;I<2e3;I++){ // I = fail counter
         [f0,h]=u(q0=[R(Y)-Y2,R()-.5]); // evaluate random point
         if(h){ // if OK then trace bidirectionally
           qq=[q0]; // init trace with first point
