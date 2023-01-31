@@ -297,7 +297,7 @@ log_end=()=>{
       for (pass=0; pass<2; pass++) {
         hcolr=[colr0,colr1][pass];
         C.strokeStyle=hcolr;
-        let lw = [.3,.4][pass];
+        let lw = [.3,.4][pass]; // 
         let dens=[.5,.4][pass];
         DR=dens*(LW=lw/M); // dot radius
         C.lineWidth=LW*ch;
