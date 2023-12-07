@@ -4,7 +4,7 @@
 
 Ask ChatGPT for 31 cool generative art prompts.
 
-Ask ChatGPT to implement them.
+Ask ChatGPT to implement one.
 
 Repeat for 31 days.
 
