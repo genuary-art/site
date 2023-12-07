@@ -9,17 +9,16 @@ hmix=(a,b,p)=>'#'+[1,3,5].map(i=>((1-p)*('0x'+a.substr(i,2))+p*('0x'+b.substr(i,
 */
 
 :root {
-  --bgcolor: #1D1828;
-  --textcolor: #ffcc44;
-  --textstrong: #ff6611;
-  --textstrongheader: #ff8800;
+  --bgcolor: #eee8dd;
+  --textcolor: #112233;
+  --textstrong: #535d66;
   --textstronginverse: #f80;
   --texthighlight: #137;
-  --textcode: #cf4;
-  --textlink: #44bbff;
+  --textcode: #155;
+  --textlink: #114477;
   --infolink: #7f8588;
   --infolinkhover: #535d66;
-  --shadow: #000000;
+  --shadow: #eee8dd;
 }
 
 body {
@@ -106,7 +105,7 @@ section h1, section h2, section h3, section h4, section h5, section h6 {
   font-size: 1.25em;
   line-height: 1;
   font-weight: bold;
-  color: var(--textstrongheader);
+  color: var(--textstrong);
 }
 
 section h1 {
@@ -130,22 +129,17 @@ section ul li {
 }
 
 section pre {
-  background:#121416;
+  background:#023;
   border: solid 1px #000;
   border-radius: 0.25em;
   box-shadow: inset 0 0.25em 1em rgba(0,0,0,0.2);
-  color: #0fc;
+  color: #9ff;
   padding: 1em;
-  text-shadow: 0 0 3px #120, 0 0 10px #0fc;
+  text-shadow: 0 0 3px #222, 0 0 10px #9ff;
   overflow-x: auto;
   margin-top: 1em;
   /*white-space: pre-wrap;*/
 }
-
-section pre code {
-    color: #0fc;
-  }
-
 
 section pre .cursor {
   animation: blink 0.7s infinite;

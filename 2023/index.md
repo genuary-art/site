@@ -1,30 +1,24 @@
-# GENUARY 2024
+# GENUARY 2023
 
-```
-genuary(2024).then(prompts=>{
-	prompts.forEach(prompt=>make(prompt));
-});
-```
+GENUARY returns! GENUARY is an artificially generated month of time where we build code that makes beautiful things.
 
-It's almost 2024 and GENUARY resolves its Promise! GENUARY is an artificially generated month of time where we build code that makes beautiful things.
-
-It's happening during the month of January 2024, and everybody is invited!
+It's happening during the month of January 2023, and everybody is invited!
 
 Over the 744 hours of January, for every 24 hours there will be one prompt for your code art.
 
 You don't have to follow the prompt exactly. Or even at all. But, y'know, we put effort into this.
 
-You can use any language, framework or medium, on any planet. Feel free to use your own brain or an inscrutable matrix of weights. You can even use `vim`, it's not like I can stop you.
+You can use any language, framework or medium, on any planet.
 
 # HASHTAGS
 
 GENUARY is made of HASHTAGS!
 
-Share your work and tag it with **#genuary** and **#genuary2024** and also **#genuary1**, **#genuary2**, etc, depending on which prompt it is. 
+Share your work and tag it with **#genuary** and **#genuary2023** and also **#genuary1**, **#genuary2**, etc, depending on which prompt it is. 
 
 This makes it easier to find other people doing the same prompt, which might not always be on the same day, because some people are from the future. GENUARY happens on all the social media sites at once.
 
-To help out keeping track of all this we're getting help from [Joyn](https://joyn.xyz) again. They're collecting all the hashtags if you tag your work with the tag for the right prompt (**#genuary1**, **#genuary2**, etc), you can check out the galleries for each day here: [GENUARY 2024 on Joyn](#todo). You can also view a [gallery of GENUARY 2023 on Joyn](https://www.joyn.xyz/space/genuary-f38cfe2e2fac?tab=open-calls), and you can curate your own collections of favourite pieces, even put them up for sale, so check it out!
+[Joyn](https://joyn.xyz) is helping out collecting all the hashtags if you tag them with the tag for the right prompt (**#genuary1**, **#genuary2**, etc), you can check out the galleries for each day here: [GENUARY on Joyn](https://app.joyn.xyz/project/genuary-f38cfe2e2fac)
 
 # [PROMPTS](prompts)
 

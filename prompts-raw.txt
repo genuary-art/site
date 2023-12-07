@@ -1,0 +1,602 @@
+[Piter] In the style of Wassily Kandinsky (1846-1944)
+
+[Neel] Iterate on one of your previous Genuary posts (could be good towards the end of the month)
+
+[Neel] Make a piece of art inspired by your new year's resolution
+
+[Amy] Make a set of rules to follow without a computer
+
+[Julien Labat] Human figure(s)
+
+[Julien Labat] Make a visualizer for any Kraftwerk's title
+
+[Neel] collaborate with chat gpt
+
+[Camille Roux] make the ugliest piece you can
+
+[Camille Roux] ask an artist to teach you a technique and use it
+
+[Camille Roux] SDF again !!
+
+[Camille Roux] ASCII
+
+[Camille Roux] emoji
+
+[Camille Roux] Rule-based system
+
+[Camille Roux] Finite-state machine
+
+[Camille Roux] Collaborate
+
+[Piter] Write the longest program. How much code can you write in a day that still produces something interesting?
+
+[Camille Roux] do something that looks complex/hard to do, but it's not
+
+[Camille Roux] music theory
+
+[Neel] generative music / generative audio
+
+[Yazid] Use AR
+
+[Yazid] Is this AI? :D
+
+[Amy] Node based programming
+
+[Yazid] Song lyric
+
+[Monokai] You can only use a single number value
+
+[Monokai] Driven by data from the real world
+
+[Monokai] Grow a seed
+
+[Monokai] Make your code explode
+
+[Monokai] Mutations
+
+[Monokai] Make a sound
+
+[encapsuled / michelangelo] In the style of Lucio Fontana (1899-1968)
+
+
+[Julien Labat]
+@Piter
+ I love how your last suggestion is the exact opposite of the wholesome "take a break today" you mentioned in your intro :laughing:
+:joy:
+2
+
+
+
+[encapsuled / michelangelo]
+In the style of Olafur Eliasson (1967-still living)
+
+
+[encapsuled / michelangelo]
+Make something that would make a 10-years old say “Wow”
+
+
+[encapsuled / michelangelo]
+Make something that would make a 10-years old say “I could’ve done that”
+
+
+[Piter]
+Make something that a 2-year old AI says "Wow"
+
+
+[Piter]
+(but genuinely)
+
+
+[nicolas barradeau]
+make a 3*3 grid representing 2 animated quantities ( cf. https://rockcontent.com/blog/45-ways-to-communicate-two-quantities/ )
+
+
+[Jussi Jokinen]
+Language
+:heavy_plus_sign:
+1
+
+
+
+[Amy]
+Algorithmic Botany [https://thecodingtrain.com/tracks/algorithmic-botany | http://algorithmicbotany.org/papers/#abop | https://www.youtube.com/watch?v=KWoJgHFYWxY ]
+:heavy_plus_sign:
+3
+
+
+
+[Amy]
+Code for one hour. At the one hour mark, you're done. (edited) 
+
+
+[Neel]
+satellites
+
+
+[Neel]
+calendar
+
+
+[Neel]
+I'm just saying words now
+
+
+[Yazid]
+Words lol
+:laughing:
+2
+
+
+
+[Amy]
+Use a physics library [https://thecodingtrain.com/tracks/physics-libraries]
+:heavy_plus_sign:
+1
+
+
+
+[Neel]
+ooh, that's a nice one. Also, using any second library would be an interesting challenge for many people. like, combining your typical library with a new one
+:fire:
+2
+
+
+
+[Roni]
+Generative typography
+
+
+[Roni]
+Create a book cover
+:orange_heart:
+2
+
+
+
+[Roni]
+Saturation
+
+
+[Roni]
+In the style of Anni Albers (https://www.moma.org/artists/96)
+
+
+[Roni]
+Break the rules
+:100:
+2
+
+
+
+[Piter]
+Animation
+
+
+[Piter]
+Pixels
+
+
+[Piter]
+4D / too many dimensions (edited) 
+
+
+[Piter]
+Unlikely
+
+
+[Piter]
+Get a thing or program to do something generative that wasn't intended for this purpose
+:heavy_plus_sign:
+1
+
+
+
+[Yazid]
+Remake a movie poster
+
+
+[Jussi Jokinen]
+Something funny
+
+
+[Yazid]
+Explain generative art to your mom
+
+
+[Jussi Jokinen]
+Where’s Waldo/Wally?
+
+
+[greweb]
+Hexagonal
+
+
+[greweb]
+Plottable
+
+
+[greweb]
+Figurative
+
+
+[greweb]
+Spirals Only
+
+
+[Melissa]
+@Yazid
+ Explain generative art to your dad and husband and sons.  (My daughter and I gonna be here a while explaining.)
+:smile:
+7
+:green_heart:
+5
+
+
+
+[nicolas barradeau]
+“Particles, lots of them.”
+
+
+[Marc Edwards]
+16×16.
+Moving in pairs.
+Vase illusion.
+Fog orchestra.
+Heart submarine.
+Tele-vision.
+Block by block.
+Around the world, around the world.
+Stitched together.
+(edited)
+:robot_face:
+1
+
+
+
+[Marc Edwards]
+Squeeze the juice.
+To the beat.
+Napkin machine.
+Digging deeper.
+Time quilt.
+
+
+[Marc Edwards]
+Summer vs winter.
+
+
+[Yazid]
+Food
+
+
+[Yazid]
+Culture
+
+
+[Yazid]
+Small progress on an unfinished project
+
+
+[Yazid]
+Take a finished project and make it weird
+
+
+[Neel]
+Typo
+
+
+[Neel]
+Bug
+
+
+[Jussi Jokinen]
+Frog orchestra (just because I misread 
+@Marc Edwards
+’s suggestion “fog orchestra” :smile:)
+:joy:
+1
+
+
+
+[Claus Wilke]
+Use five different probability distributions or noise types.
+:heavy_plus_sign:
+1
+
+
+
+[Melissa]
+Make voronoi look good
+:heavy_plus_sign:
+1
+
+
+
+[Melissa]
+Inspired by islamic art
+:heavy_plus_sign:
+1
+
+
+
+[Melissa]
+Art that is also a game
+:heart:
+2
+
+
+
+[abstractment (aka preston)]
+Copy pasta meets AI: Make something solely by copying and pasting from chatGPT.  No starter templates allowed. (edited) 
+
+
+[abstractment (aka preston)]
+Animate something that was previously unanimated.
+
+
+[abstractment (aka preston)]
+Designed for a post card.
+
+
+[abstractment (aka preston)]
+Hollywood to Bollywood: Inspired by a movie. (edited) 
+
+
+[abstractment (aka preston)]
+It might be broken: show us your debug view (edited) 
+
+
+[Piter]
+Wobbly function day!
+ sin(a * b + c + d * sin(e * f + g)) + sin(h * i + j + k * sin(l * m + n)) + ...
+(or something along those lines) (edited) 
+
+
+[Piter]
+No Pixels
+
+
+[abstractment (aka preston)]
+Take something you’ve created previously and imagine it from the opposite perspective (i.e., behind the canvas).
+
+
+[abstractment (aka preston)]
+Culinary creativity: make something that looks like food.
+:heavy_plus_sign:
+1
+
+
+
+[abstractment (aka preston)]
+Handwriting
+
+
+[Piter]
+If you like generative art, you probably have some photos on your phone of cool looking patterns, textures, shapes or things that you've seen. You might have even thought, "I should try to recreate this with code". Today is the day.
+:heavy_plus_sign:
+4
+
+
+
+[Piter]
+these were inspired / adapted from the Minacoding Daily Coding challenge:
+Write code in an unusual place
+Write pretty code
+Take a break from writing code today. Share ideas that come to you while you are resting
+
+
+[RVig]
+Victor Vasarely
+Newton's law of universal gravitation
+
+
+[abstractment (aka preston)]
+Look at what I learned from someone else. Could all be the same person, like Shiffman, or just open ended.
+
+
+[PaoloCurtoni]
+Cut-up : whether for text and/or images, implement some concepts of découpé (https://en.wikipedia.org/wiki/Cut-up_technique)
+
+WikipediaWikipedia
+Cut-up technique
+The cut-up technique (or découpé in French) is an aleatory literary technique in which a written text is cut up and rearranged to create a new text. The concept can be traced to the Dadaists of the 1920s, but it was developed and popularized in the 1950s and early 1960s, especially by writer William S. Burroughs. It has since been used in a wide variety of contexts.
+https://en.wikipedia.org/wiki/Cut-up_technique
+
+:heavy_plus_sign:
+4
+
+
+
+[PaoloCurtoni]
+organic growth : create a world of organic entities
+
+
+[PaoloCurtoni]
+The Solitude of Prime Numbers: show how prime numbers are outsiders in relation to the other numbers
+
+
+[PaoloCurtoni]
+Point–Line–Plane: create a composition using only basic elements such as points and lines
+:heavy_plus_sign:
+2
+
+
+
+[Fabrice (EcirBaff)]
+• One thousand paths
+• Only one path
+4, 8, 15,16, 23, 42
+An object lost (in the plane)
+(edited)
+:airplane:
+1
+
+
+
+[Haiver]
+Thread a needle
+Make it wrong
+Entropy
+Turn up the heat
+Make flow fields great again
+
+
+[PaoloCurtoni]
+Write code that reads like a story
+
+
+[Roni]
+(Un)satisfying
+Hello world
+Sculpture
+Translucent
+Draw me a sheep! (https://en.m.wikiquote.org/wiki/The_Little_Prince)
+4th dimension
+Library
+Bounce
+Clouds
+Shade
+Collage
+Cross-stitching/embroidery
+(edited)
+
+
+[PaoloCurtoni]
+Drip Till You Drop: create an artwork inspired by the "drip painting" technique (https://en.wikipedia.org/wiki/Drip_painting)
+
+WikipediaWikipedia
+Drip painting
+Drip painting is a form of abstract art in which paint is dripped or poured on to the canvas. This style of action painting was experimented with in the first half of the twentieth century by such artists as Francis Picabia, André Masson and Max Ernst, who employed drip painting in his works The Bewildered Planet, and Young Man Intrigued by the Flight of a Non-Euclidean Fly (1942). Ernst used the novel means of painting Lissajous figures by swinging a punctured bucket of paint over a horizontal canvas.Drip painting found particular expression in the work of the mid-twentieth-century artists Janet Sobel—who pioneered the technique—and Jackson Pollock. Pollock found drip painting to his liking… Show more
+
+
+[KristinHenry]
+Mycellium and Lichen were two of my favorite prompts for my hand drawn pieces last month. Actually, most of those prompts might be fun to play with in code. https://www.patreon.com/posts/sciartinktober-90115158
+
+
+[KristinHenry]
+"Venetian Glass" might also be fun indpiration to play with
+
+
+[KristinHenry]
+Oh! "Milkweed" has so many interesting geometries and movement to play  with " https://artatomic.social/tags/milkweed "   here's a great photo/post https://artatomic.social/@val@cutie.city/111349084829876266 (edited) 
+
+Mastodon hosted on artatomic.socialMastodon hosted on artatomic.social
+Mastodon
+This instance is dedicated to boosting the work of artists, especially #SciArt. The founder of this instance can also be found at @kristinHenry@vis.social (2 MB)
+https://artatomic.social/tags/milkweed
+
+
+YastodonYastodon
+val (@val@cutie.city)
+Attached: 1 image
+Gorgeous gorgeous milkweed. #milkweed
+Nov 3rd (400 kB)
+https://artatomic.social/@val@cutie.city/111349084829876266
+
+
+
+[Andrea Diotallevi]
+classical music
+electrical engineering
+stripes
+middle east
+functional programming
+
+
+[Bart Simons]
+Intersections
+White space
+Punk visual
+Variable typography
+Generative data visualisation
+
+
+[Kenny]
+Art that tells a story
+
+
+[Yazid]
+Screensaver
+:raised_hands::skin-tone-2::raised_hands:
+3
+:tada:
+3
+:100:
+2
+:heart:
+1
+:joy:
+2
+:fire:
+3
+
+
+
+[Marc Edwards]
+90s rave
+Summer of love
+Flower power
+
+
+[Melissa]
+Lava lamp
+:heart:
+1
+
+
+
+[nicolas barradeau]
+... or screensaver   apparently submitted 43 times already:stuck_out_tongue: (edited) 
+:fire:
+3
+
+
+
+[Kenny]
+Live-coding session. Create new gen art with an audience who can see the evolving outputs and/or code
+:fire:
+1
+
+
+
+
+
+
+[Heeey]
+<1KB artwork
+:heart:
+1
+
+
+
+[Haiver]
+Or perhaps: 30 lines or less
+
+
+[Monokai]
+what is a line
+:sweat_smile:
+2
+
+
+
+
+
+
+
+
+
+
+
+
+Reply…
+Also send to genuary
+
+
+
+
+
+
+
+
+

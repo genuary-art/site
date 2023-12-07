@@ -1,4 +1,4 @@
-  // Genuary 2023 logo code, Copyright by Piter Pasma
+// Genuary 2023 logo code, Copyright by Piter Pasma
 
 // debug/logging functions
 let start_time,max_fails;
@@ -41,11 +41,11 @@ log_end=()=>{
   //
   // featuring some comments and white space
 
-  // logo.onclick = _=>{ // click to refresh
-  //   localStorage['cache_img'] = '';
-  //   I=9e9;
-  //   gen_img();
-  // }
+  logo.onclick = _=>{ // click to refresh
+    localStorage['cache_img'] = '';
+    I=9e9;
+    gen_img();
+  }
 
   show_img = s=>{ 
     (im=new Image).src=s;
@@ -64,29 +64,26 @@ log_end=()=>{
     // bg = 1=include background rect 0=don't include
     // res = resolution
     // svg = 1=draw as SVG (for plotters etc) 0=draw as Canvas/PNG
-    O={lw:.3,d:.5,h:280,bg:1,res:1e4,svg:1,obj:1}; // default options
+    O={lw:.45,d:.6,h:140,bg:1,res:1e4,svg:0}; // default options
     (new(U=URLSearchParams)(location.search)).forEach((v,k)=>O[k]=v);
     O.seed = seed = O.seed || 'GENUARY2023' + Date.now();
 
     // init canvas
     M=O.h; // height in mm
-    Y2=(Y=1)/2; // aspect ratio
+    Y2=(Y=4)/2; // aspect ratio
     H=O.res; // viewbox height
+    DR=O.d*(LW=O.lw/M); // dot radius
     V=document.createElement`canvas`;
     C=V.getContext`2d`;
     cw=V.width=Y*(ch=V.height=devicePixelRatio*logo.offsetWidth/Y);
     logo.replaceChildren(V);
-    pals=[
-      ['#1199cc', '#441188', '#ffaa22'],
-      ['#1199cc', '#441188', '#ffaa22'],
-    ];
-
-    [bgcolr,colr0,colr1]=pals[0];
-    C.fillStyle=bgcolr;
+    C.strokeStyle='#0a141e';
+    C.lineWidth=LW*ch;
+    C.fillStyle='#eee8dd';
     C.fillRect(0,0,cw,ch);
 
     // load cache after creating canvas to reduce flicker
-    let cache=0;//localStorage['cache_img'];
+    let cache=localStorage['cache_img'];
     if (!O.svg && cache && cache.startsWith('data:image/png')) {
       show_img(cache);
       return;
@@ -121,12 +118,11 @@ log_end=()=>{
     box2=(a,b,c)=>(a=abs(a)-c,b=abs(b)-c,a>0&&b>0?L(a,b):a>b?a:b);
 
     // init 3D stuff
-    Z=1; // zoom / FOV
-    cp=[0,4,-96]; // camera pos
-    la=[0,4,0]; // camera look at
+    Z=1.15; // zoom / FOV
+    cp=[T(8),3+T(12),-48]; // camera pos
     lp=[cp[0],40,-50]; // light pos
 
-    fw=N(A(la,cp,-1)); // camera forward axis
+    fw=N(A([0,12,0],cp,-1)); // camera forward axis
     console.log(`lookat distance = ${m.toFixed(3)}`);
     rt=N(X(fw,[T(.05),-1,0])); // camera right axis
     up=X(rt,fw); // camera up axis
@@ -205,10 +201,10 @@ log_end=()=>{
       x+=(n0*2-3)*2.0;
       y+=(n1*2-3)*2.0;
       z+=(n2*2-3)*1.6;
-      let yw = SM(15,3,abs(y)); // makes the letters fatter at the bottom
+      let yw = SM(15,3,y); // makes the letters fatter at the bottom
       let br = .8 + 1 * yw; // letter thickness
       y -= 4; // letters base line
-      x += 49-15; // centre horizontally
+      x += 49; // centre horizontally
       z -= cl(z,yw-1,1-yw); // make the thinner parts of letters a bit fatter in z-direction
 
       // distance functions for all the letters, it's magic
@@ -227,24 +223,14 @@ log_end=()=>{
       let R = k(L(z,k((y9?ay12:y-6)-x0,abs(x)-1-x0)-3+x0),3-y);
       x -= 12; 
       let Y = L(z,k(min(abs(k(-1-x,12-y)-3),abs(k(x-1,-y+1)-3)),k(y-15,x-4)));
-      y += 24;y6=y>6;ay12=abs(y-12);ay9=abs(y-9);
-      x += 54; 
-      x0=(!y6&&x<0)*3;  
+      x -= 16; x0=(!y6&&x<0)*3;
       let d2a = k(L(z, k(x-1,ay12)-3),-3-x+3*(y<12));
       let d2b = k(L(z, k(-x-1-x0,abs(y-6)-x0)-3+x0),-3+x+3*(y>6));
       let d2 = min(d2a,d2b); // digit 2
       x -= 12;
-      let d0 = k(L(z,k(ay9-3,abs(x)-1)-3+x0),y-15); // digit 0
-      x -= 12;
-      x0=(!y6&&x<0)*3;  
-      d2a = k(L(z, k(x-1,ay12)-3),-3-x+3*(y<12));
-      d2b = k(L(z, k(-x-1-x0,abs(y-6)-x0)-3+x0),-3+x+3*(y>6));
-      let d2_ = min(d2a,d2b); // digit 2
-      x -= 12;
       let d3 = k(L(z, k(x-1,abs(ay9-3))-3),-3-x); // digit 3
-      let letters = min(G, E, N, U, A, R, Y, d2, d0, d2_, d3)-br;
-      // return letters;
-      return O.obj==1?min(bar,letters):letters; // return distance function for union of letters and object around letters
+      let letters = min(G, E, N, U, A, R, Y, d2, d3)-br; // union of letters inflated by br
+      return min(bar,letters); // return distance function for union of letters and object around letters
     };
 
     Npts=0;
@@ -252,26 +238,22 @@ log_end=()=>{
       Npts++;
       fd=k(abs(x)-Y2+.03,abs(y)-.5+.03)-.012; // 2D SDF for page margins
       if(fd<0) {
-        d=IX(cp,rd=N(A(A(fw,rt,x),up,y)),250); // trace a ray
-        if(d<250){ // did we hit anything
+        d=IX(cp,rd=N(A(A(fw,rt,x),up,y)),150); // trace a ray
+        if(d<150){ // did we hit anything
           n=nl(p=A(cp,rd,d)); // calc normal
           lv=N(A(lp,p,-1));ld=m; // lv = light vector, ld = light distance
-          shade=.4+.6*(ld<250 && IX(A(p,n,.02),lv,ld,.02)>=ld); // apply shadow
+          shade=.4+.6*(ld<150 && IX(A(p,n,.02),lv,ld,.02)>=ld); // apply shadow
           shade *= max(0,D(n,lv)); // apply diffuse lighting
           edg=(1-cl(-D(n,rd),0,1))**2; // how edgy it is (changes the hatch dir)
-          if(pass==0){
-            d=1-SM(0,.6,shade);
-          } else {
-            d=SM(.4,1,shade); // clamp brightness
-          }
+          d=1-cl(shade,0,1); // clamp brightness
         } else {
-          d=pass==0?SM(1,.6,rd[2]):0; // background gradient
+          d=.5*SM(1,0,rd[2]+.2*rd[1]); // background gradient
           edg=1;
-          n=X(rd,[0,0,1]);
+          n=[0,0,-1];
         }
-        cr=DR/(1-(1-d)**.4+1e-3); // transform grey value 1..0 into clear radius
+        cr=DR/(d+1e-3); // transform grey value 1..0 into clear radius
         hhv=mix(hv,rd,edg); // hatch direction based on edge
-        // hhv=hv;edg
+        // hhv=hv;
         return [
           N([D(sx,hd=N(X(n,hhv))),D(sy,hd),0]), // cross product hatch direction with normal (surface direction), then inv cam transform to 2D, and normalize
           cr<.3&&!Qh(QT,x-cr,y-cr,cr*2,(u,v)=>(x-u)**2+(y-v)**2<cr*cr) // clear test
@@ -288,53 +270,43 @@ log_end=()=>{
     Qh=({x,y,w,p,r},X,Y,W,f)=>X<x+w&&X+W>x&&Y<y+w&&Y+W>y&&(p.some(([a,b])=>a>=X&&a<X+W&&b>=Y&&b<Y+W&&f(a,b))||r&&r.some(s=>Qh(s,X,Y,W,f)));
     Q=(x,y,w)=>({x,y,w,p:[]});
 
-    v=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${H*Y|0} ${H}" width="${M*Y}mm" height="${M}mm">\n<!-`+`- `+Date(),new U(O),,`seed='${seed}';(code=${code})()\n-`+`->`,O.bg==1?`<rect x="${-H*Y}" y="${-H}" width="${H*Y*3}" height="${H*3}" fill="${bgcolr}"/>`:``]; // init SVG array
+    v=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${H*Y|0} ${H}" width="${M*Y}mm" height="${M}mm">\n<!-`+`- `+Date(),new U(O),,`seed='${seed}';(code=${code})()\n-`+`->`,O.bg==1?`<rect x="${-H*Y}" y="${-H}" width="${H*Y*3}" height="${H*3}" fill="#eee8dd"/>`:``]; // init SVG array
     
     function* E() {
       // flow field tracing canvas rendering + SVG creating function
       // this function is a generator function to occasionally yield control to the calling function,
       // which is a setTimeout loop, so the browser can update and doesn't hang
-      for (pass=0; pass<2; pass++) {
-        hcolr=[colr0,colr1][pass];
-        C.strokeStyle=hcolr;
-        let lw = [.3,.4][pass]; // 
-        let dens=[.5,.4][pass];
-        DR=dens*(LW=lw/M); // dot radius
-        C.lineWidth=LW*ch;
+      v.push([`<g fill="none" stroke="#000000" stroke-width="${(LW*H).toFixed(4)}" stroke-linecap="round">`]); // use SVG group element to set  style
+      hv=N(A(A(rt,fw,1/Z),up,.5)); // hatch direction based on camera vectors
+      QT=Q(-2,-2,4); // init empty QuadTree
+      log_start(); // debug
+      for(I=0;I<1e3;I++){ // I = fail counter
+        [f0,h]=u(q0=[R(Y)-Y2,R()-.5]); // evaluate random point
+        if(h){ // if OK then trace bidirectionally
+          qq=[q0]; // init trace with first point
+          [m=T()<0?DR:-DR,-m].map(s=>{ // randomly start in one or the other direction
+            qq.reverse(); // flip trace so we are adding on the right side
+            q=q0; // current pos
+            pd=fq=f0; // current+start direction
+            for(sh=0;sh<3&&D(pd,fq)>0&&D(f0,fq)>-.7;qq.push(q)) {// trace as long as: 1) clear (two steps leeway), 2) not too sharp corners, 3) maximum turn wrt starting direction (to prevent infinite spiral)
+              [fq,h]=u(q=A(q,pd=fq,s)); // take a step and evaluate
+              sh=h?0:sh+1;
 
-        v.push([`<g fill="none" stroke="${hcolr}" stroke-width="${(LW*H).toFixed(4)}" stroke-linecap="round">`]); // use SVG group element to set  style
-        hv=N(A(A(rt,fw,1/Z),up,.5)); // hatch direction based on camera vectors
-        QT=Q(-2,-2,4); // init empty QuadTree
-        log_start(); // debug
-        for(I=0;I<2e3;I++){ // I = fail counter
-          [f0,h]=u(q0=[R(Y)-Y2,R()-.5]); // evaluate random point
-          if(h){ // if OK then trace bidirectionally
-            qq=[q0]; // init trace with first point
-            [m=T()<0?DR:-DR,-m].map(s=>{ // randomly start in one or the other direction
-              qq.reverse(); // flip trace so we are adding on the right side
-              q=q0; // current pos
-              pd=fq=f0; // current+start direction
-              for(sh=0;sh<3&&D(pd,fq)>0&&D(f0,fq)>-.7;qq.push(q)) {// trace as long as: 1) clear (two steps leeway), 2) not too sharp corners, 3) maximum turn wrt starting direction (to prevent infinite spiral)
-                [fq,h]=u(q=A(q,pd=fq,s)); // take a step and evaluate
-                sh=h?0:sh+1;
-
-              }
-            });
-            if(qq[9]){
-              // accept only if trace has at least 10 pts
-              log_trace(I); // debug
-              I=0; // reset fail counter
-              C.beginPath();
-              n=v.push(`<path d="M ${qq.map(([x,y])=>(Qa(QT,[x,y]),x+=Y2,y+=.5,C.lineTo(x*ch,y*ch),[x*H|0,y*H|0])).join` `}"/>`); // draw trace to canvas and also add it to the SVG and add points to QuadTree
-              C.stroke(); // stroke path
-              if(n%22<1)yield // periodically return control to timeout function, so the browser doesn't hang
             }
+          });
+          if(qq[9]){
+            // accept only if trace has at least 10 pts
+            log_trace(I); // debug
+            I=0; // reset fail counter
+            C.beginPath();
+            n=v.push(`<path d="M ${qq.map(([x,y])=>(Qa(QT,[x,y]),x+=Y2,y+=.5,C.lineTo(x*ch,y*ch),[x*H|0,y*H|0])).join` `}"/>`); // draw trace to canvas and also add it to the SVG and add points to QuadTree
+            C.stroke(); // stroke path
+            if(n%63<1)yield // periodically return control to timeout function, so the browser doesn't hang
           }
         }
-        v.push('</g>');
       }
       log_end(); // debug
-      v.push(`</svg>`); // finish SVG
+      v.push(`</g></svg>`); // finish SVG
       if(O.svg){
         // show SVG
         svg_str = `data:image/svg+xml;charset=utf-8,`+encodeURIComponent(v.join`\n`);

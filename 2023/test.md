@@ -1,8 +1,4 @@
-# TEST PAGE
-
-# IT'S THE
-
-# BEST PAGE
+# This is a test
 
 Testing with *strong* text.
 
