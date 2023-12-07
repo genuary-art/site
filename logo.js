@@ -40,7 +40,7 @@ log_end=()=>{
   // commented version
   //
   // featuring some comments and white space
-    localStorage['cache_img_2024'] = '';
+    // localStorage['cache_img_2024'] = '';
 
   logo.onclick = _=>{ // click to refresh
     localStorage['cache_img_2024'] = '';
