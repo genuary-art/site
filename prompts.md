@@ -10,6 +10,10 @@ Repeat for 31 days.
 
 Fun!!
 
+## Wait wat
+
+Actual real prompts will be revealed in a week or two.
+
 # [THANKS](thanks)
 
 [Big thanks goes out to all these people](thanks) for contributing to GENUARY and generally being awesome.
