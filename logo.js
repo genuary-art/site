@@ -64,7 +64,7 @@ onkeyup=e=>{
     // init canvas
     M=140; // height in mm
     Y2=(Y=4)/2; // aspect ratio
-    DR=.7*(LW=.4/M); // dot radius
+    DR=.6*(LW=.5/M); // dot radius
     V=document.createElement`canvas`;
     C=V.getContext`2d`;
     cw=V.width=Y*(ch=V.height=devicePixelRatio*logo.offsetWidth/Y);
@@ -182,7 +182,6 @@ onkeyup=e=>{
     balx = T(299); baly=T(99);
     P=([x,y,z])=>{
       let by=y-12,bz=rc*z+rs*by;by=rc*by-rs*z;
-      let bal = len3(x+balx,y+baly,z-260)-240;
       let bar = barfn((x+bz*ra+rx)*r2,by,(x-bz*ra+rx)*r2); // object around logo
       // noise distortion for the letters
       let ns=.04;
@@ -192,6 +191,7 @@ onkeyup=e=>{
       x+=(n0*2-3)*2.0;
       y+=(n1*2-3)*2.0;
       z+=(n2*2-3)*1.6;
+      let bal = y*21/29-z*20/29+8;
       let yw = SM(15,3,y); // makes the letters fatter at the bottom
       let br = .8 + 1 * yw; // letter thickness
       y -= 4; // letters base line
@@ -238,7 +238,7 @@ onkeyup=e=>{
           lv=N(A(lp,p,-1));ld=m; // lv = light vector, ld = light distance
           shade=.4+.6*(ld<MAXD && IX(A(p,n,.02),lv,ld,.02)>=ld); // apply shadow
           shade *= max(0,D(n,lv)); // apply diffuse lighting
-          shade *= SM(MAXD,.7*MAXD,d);
+          shade *= SM(MAXD,.3*MAXD,d);
           d=1-cl(shade,0,1); // clamp brightness
           P(p);
           cc=d<R(R(.5))?['#ff8','#8ff','#ccc'][ma]:['#fc4','#4cf','#888'][ma];          
