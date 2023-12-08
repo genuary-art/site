@@ -44,17 +44,8 @@ onkeyup=e=>{
   // if (location.hostname=='localhost') localStorage['cache_img_2024'] = ''; // for debug testing
 
   logo.onclick = _=>{ // click to refresh
-    localStorage['cache_img_2024'] = '';
-    I=9e9;
     seed="blarf"+Date.now();
     gen_img();
-  }
-
-  show_img = s=>{ 
-    (im=new Image).src=s;
-    im.decode().then(_=>{
-      logo.replaceChildren(im);
-    }); 
   }
 
   gen_img = _=>{
@@ -64,20 +55,13 @@ onkeyup=e=>{
     // init canvas
     M=140; // height in mm
     Y2=(Y=4)/2; // aspect ratio
-    DR=.6*(LW=.5/M); // dot radius
+    DR=.7*(LW=.5/M); // dot radius
     V=document.createElement`canvas`;
     C=V.getContext`2d`;
     cw=V.width=Y*(ch=V.height=devicePixelRatio*logo.offsetWidth/Y);
     logo.replaceChildren(V);
     C.fillStyle='#1D1828';
     C.fillRect(0,0,cw,ch);
-
-    // load cache after creating canvas to reduce flicker
-    let cache=localStorage['cache_img_2024'];
-    if (0 && cache && cache.startsWith('data:image/png')) {
-      show_img(cache);
-      return;
-    }
 
     // init PRNG
     S=Uint32Array.of(9,7,5,3); // dont init to 0
@@ -102,7 +86,7 @@ onkeyup=e=>{
     SM=(a,b,x)=>(x=min(max((x-a)/(b-a),0),1),x*x*(3-2*x)); // smoothstep
     SM=(a,b,x)=>(x=(x-a)/(b-a),x=x<0?0:x>1?1:x,x*x*(3-2*x)); // smoothstep
     cl=(x,a,b)=>x<a?a:x>b?b:x; // clamp
-    k=(a,b)=>a>0&&b>0?L(a,b):a>b?a:b; // 2D edge distance function
+    k=(a,b)=>a>0&&b>0?(a*a+b*b)**.5:a>b?a:b; // 2D edge distance function
     k3=(a,b,c)=>k(a,k(b,c)); // 3D edge distance function
 
     box2=(a,b,c)=>(a=abs(a)-c,b=abs(b)-c,a>0&&b>0?L(a,b):a>b?a:b);
@@ -184,10 +168,10 @@ onkeyup=e=>{
       let by=y-12,bz=rc*z+rs*by;by=rc*by-rs*z;
       let bar = barfn((x+bz*ra+rx)*r2,by,(x-bz*ra+rx)*r2); // object around logo
       // noise distortion for the letters
-      let ns=.04;
-      let n0 = 2*nr(x,y,z,ns,0) + nr(x,y,z,ns*PHI,3);
-      let n1 = 2*nr(x,y,z,ns,6) + nr(x,y,z,ns*PHI,9);
-      let n2 = 2*nr(x,y,z,ns,12) + nr(x,y,z,ns*PHI,15);
+      let ns=.04,nsp=ns*PHI;
+      let n0 = 2*nr(x,y,z,ns,0) + nr(x,y,z,nsp,3);
+      let n1 = 2*nr(x,y,z,ns,6) + nr(x,y,z,nsp,9);
+      let n2 = 2*nr(x,y,z,ns,12) + nr(x,y,z,nsp,15);
       x+=(n0*2-3)*2.0;
       y+=(n1*2-3)*2.0;
       z+=(n2*2-3)*1.6;
@@ -201,30 +185,30 @@ onkeyup=e=>{
       // distance functions for all the letters, it's magic
       let x0,ay9=abs(y-9),ay12=abs(y-12),y9=y>9,y6=y>6;
       x0=(x>0)*3;
-      let G = k(min(x-1,y-8),L(k(abs(x)-1-x0,ay9-3-x0)-3+x0,z));
+      let G = k(x<y-7?x-1:y-8,L(k(abs(x)-1-x0,ay9-3-x0)-3+x0,z)); // G
       x -= 12;
-      let E = k(L(z,k(-4-x,abs(ay9-3)-3)),x-3);
+      let E = k(L(z,k(-4-x,abs(ay9-3)-3)),x-3); // E
       x -= 12; x0=(x<0)*3;
-      let N = k(y-12-x0,abs(x)-1-x0)-3+x0;
+      let N = k(y-12-x0,abs(x)-1-x0)-3+x0; // N
       x -= 12; x0=(x>0)*3;
-      let U = k(L(z,k(6-y-x0,abs(x)-1-x0)-3+x0),y-15);
+      let U = k(L(z,k(6-y-x0,abs(x)-1-x0)-3+x0),y-15); // U
       x -= 12;
-      let A = max(-abs(6-abs(y-3)),k(y-12,abs(x)-1)-3);
+      let A = max(-abs(6-abs(y-3)),k(y-12,abs(x)-1)-3); // A
       x -= 12; x0=(x<0)*3;
-      let R = k((y9?ay12:y-6)-x0,abs(x)-1-x0)-3+x0;
-      let NAR = k(L(z,min(N,A,R)),3-y);
+      let R = k((y9?ay12:y-6)-x0,abs(x)-1-x0)-3+x0; // R
+      let NAR = k(L(z,min(N,A,R)),3-y); // NAR
       x -= 12; 
-      let Y = L(z,k(min(abs(k(-1-x,12-y)-3),abs(k(x-1,-y+1)-3)),k(y-15,x-4)));
+      let Y = L(z,k(min(abs(k(-1-x,12-y)-3),abs(k(x-1,-y+1)-3)),k(y-15,x-4))); // Y
       x -= 16; x0=(!y6&&x<0)*3;
-      let d2a = k(L(z, k(x-1,ay12)-3),-3-x+3*(y<12));
-      let d2b = k(L(z, k(-x-1-x0,abs(y-6)-x0)-3+x0),-3+x+3*(y>6));
-      let d2 = min(d2a,d2b); // digit 2
+      let d2a = k(L(z, k(x-1,ay12)-3),-3-x+3*(y<12)); // d2a
+      let d2b = k(L(z, k(-x-1-x0,abs(y-6)-x0)-3+x0),-3+x+3*y6); // d2b
+      // let d2 = min(d2a,d2b); // digit 2 // d2
       x -= 12;
-      let d4 = L(z,k(min(abs(k(-1-x,12-y)-3),k(abs(x-3),3-y)  ),k(y-15,x-4)));
+      let d4 = L(z,k(min(abs(k(-1-x,12-y)-3),k(abs(x-3),3-y)  ),k(y-15,x-4))); // d4
       // let d = k(L(z, k(x-1,abs(ay9-3))-3),-3-x); // digit 3
-      let letters = min(G, E, U, NAR, Y, d2, d4)-br; // union of letters inflated by br
-      ma=bar<letters&&bar<bal?1:letters<bal?0:2;
-      return min(bar,letters,bal); // return distance function for union of letters and object around letters
+      let letters = min(G, E, U, NAR, Y, d2a,d2b, d4)-br; // union of letters inflated by br
+      return bar<letters&&bar<bal?(ma=1,bar):letters<bal?(ma=0,letters):(ma=2,bal);
+      // return min(bar,letters,bal); // return distance function for union of letters and object around letters
     };
 
     Npts=0;MAXD=300;
@@ -248,7 +232,7 @@ onkeyup=e=>{
           n=[0,0,-1];
           cc='#888';
         }
-        cr=DR/(1-d**.4+1e-3); // transform grey value 1..0 into clear radius
+        cr=DR/(1-d**.4*.999); // transform grey value 1..0 into clear radius
         // hhv=mix(hv,rd,edg); // hatch direction based on edge
         // hhv=hv;
         return [
@@ -264,7 +248,7 @@ onkeyup=e=>{
     nl=([x,y,z],e=1e-4,l=P([x+e,y,z]),s=P([x,y,z+e]),n=P([x,y+=e,z]),o=P([x+e,y,z+e]))=>N([l-s-n+o,o-l-s+n,o-l+s-n]); // normal (tetrahedral method)
 
     // very very tiny QuadTree (spatial data structure to speed up 2D point queries)
-    Qa=(q,v,{x,y,w,p}=q)=>p[7]?(w/=2,q.r?0:q.r=[Q(x+w,y+w,w),Q(x+w,y,w),Q(x,y+w,w),Q(x,y,w)],Qa(q.r[(v[0]<x+w)*2+(v[1]<y+w)],v)):p.push(v);
+    Qa=(q,v,{x,y,w,p}=q)=>p[2]?(w/=2,q.r?0:q.r=[Q(x+w,y+w,w),Q(x+w,y,w),Q(x,y+w,w),Q(x,y,w)],Qa(q.r[(v[0]<x+w)*2+(v[1]<y+w)],v)):p.push(v);
     Qh=({x,y,w,p,r},X,Y,W,f)=>X<x+w&&X+W>x&&Y<y+w&&Y+W>y&&(p.some(([a,b])=>a>=X&&a<X+W&&b>=Y&&b<Y+W&&f(a,b))||r&&r.some(s=>Qh(s,X,Y,W,f)));
     Q=(x,y,w)=>({x,y,w,p:[]});
 
@@ -272,7 +256,6 @@ onkeyup=e=>{
       C.moveTo(x + r, y); C.arc(x, y, r, 0, TAU); 
     }
     let rpt=_=>[R(Y),R()];
-    let mpt=([x,y],[a,b])=>[(x+a+Y)%Y,(y+b+1)%1];
     function* E() {
       // rendering function
       // this function is a generator function to occasionally yield control to the calling function,
@@ -283,7 +266,8 @@ onkeyup=e=>{
       for(let I=0;I<999;I++){ // I = fail counter
         let [qx,qy]=rpt();
         let q = [qx-Y2,qy-.5];
-        let [h,c,r]=u(q); // evaluate random point
+        if(Qh(QT,q[0]-DR,q[1]-DR,DR*2,(qu,qv)=>(q[0]-qu)**2+(q[1]-qv)**2<DR*DR))continue;
+        let [h,c,r]=u(q); // evaluate point
         if(h){
           Qa(QT,q);
           C.fillStyle=c;
@@ -292,14 +276,10 @@ onkeyup=e=>{
           C.fill();
           if(I>maxf){maxf=I;console.log(maxf);}
           I=0;np++;
-          // [qx,qy]=mpt([qx,qy],[T(r)/2,T(r)/2]);
-        } else {
-          // [qx,qy]=rpt();
         }
         if(++nn>999){nn=0;yield;}
       }
       done({n_test:Npts,n_pts:np,ratio:(1000*np/Npts|0)/1000});
-      localStorage['cache_img_2024'] = V.toDataURL(); // save canvas to localStorage
     }
 
     J=_=>E.next().done||setTimeout(J); // timeout loop function loops until E iterator is done
