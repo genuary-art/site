@@ -74,7 +74,7 @@ onkeyup=e=>{
 
     // load cache after creating canvas to reduce flicker
     let cache=localStorage['cache_img_2024'];
-    if (cache && cache.startsWith('data:image/png')) {
+    if (0 && cache && cache.startsWith('data:image/png')) {
       show_img(cache);
       return;
     }
