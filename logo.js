@@ -64,7 +64,7 @@ onkeyup=e=>{
     // init canvas
     M=140; // height in mm
     Y2=(Y=4)/2; // aspect ratio
-    DR=.6*(LW=.4/M); // dot radius
+    DR=.7*(LW=.4/M); // dot radius
     V=document.createElement`canvas`;
     C=V.getContext`2d`;
     cw=V.width=Y*(ch=V.height=devicePixelRatio*logo.offsetWidth/Y);
@@ -108,8 +108,8 @@ onkeyup=e=>{
     box2=(a,b,c)=>(a=abs(a)-c,b=abs(b)-c,a>0&&b>0?L(a,b):a>b?a:b);
 
     // init 3D stuff
-    Z=1.15; // zoom / FOV
-    cp=[T(8),3+T(12),-48]; // camera pos
+    Z=2.  ; // zoom / FOV
+    cp=[T(8),T(12),-72]; // camera pos
     lp=[cp[0],40,-50]; // light pos
 
     fw=N(A([0,12,0],cp,-1)); // camera forward axis
@@ -179,10 +179,11 @@ onkeyup=e=>{
     barfn = barfns[R(barfns.length)|0]; // pick random object
 
     // === THE BIG DISTANCE FUNCTION FOR EVERYTHING ===
+    balx = T(299); baly=T(99);
     P=([x,y,z])=>{
       let by=y-12,bz=rc*z+rs*by;by=rc*by-rs*z;
+      let bal = len3(x+balx,y+baly,z-260)-240;
       let bar = barfn((x+bz*ra+rx)*r2,by,(x-bz*ra+rx)*r2); // object around logo
-
       // noise distortion for the letters
       let ns=.04;
       let n0 = 2*nr(x,y,z,ns,0) + nr(x,y,z,ns*PHI,3);
@@ -204,13 +205,14 @@ onkeyup=e=>{
       x -= 12;
       let E = k(L(z,k(-4-x,abs(ay9-3)-3)),x-3);
       x -= 12; x0=(x<0)*3;
-      let N = k(L(z,k(y-12-x0,abs(x)-1-x0)-3+x0),3-y);
+      let N = k(y-12-x0,abs(x)-1-x0)-3+x0;
       x -= 12; x0=(x>0)*3;
       let U = k(L(z,k(6-y-x0,abs(x)-1-x0)-3+x0),y-15);
       x -= 12;
-      let A = k(L(z,max(-abs(6-abs(y-3)),k(y-12,abs(x)-1)-3) ),3-y);
+      let A = max(-abs(6-abs(y-3)),k(y-12,abs(x)-1)-3);
       x -= 12; x0=(x<0)*3;
-      let R = k(L(z,k((y9?ay12:y-6)-x0,abs(x)-1-x0)-3+x0),3-y);
+      let R = k((y9?ay12:y-6)-x0,abs(x)-1-x0)-3+x0;
+      let NAR = k(L(z,min(N,A,R)),3-y);
       x -= 12; 
       let Y = L(z,k(min(abs(k(-1-x,12-y)-3),abs(k(x-1,-y+1)-3)),k(y-15,x-4)));
       x -= 16; x0=(!y6&&x<0)*3;
@@ -220,29 +222,29 @@ onkeyup=e=>{
       x -= 12;
       let d4 = L(z,k(min(abs(k(-1-x,12-y)-3),k(abs(x-3),3-y)  ),k(y-15,x-4)));
       // let d = k(L(z, k(x-1,abs(ay9-3))-3),-3-x); // digit 3
-      let letters = min(G, E, N, U, A, R, Y, d2, d4)-br; // union of letters inflated by br
-      ma=bar<letters;
-      return min(bar,letters); // return distance function for union of letters and object around letters
+      let letters = min(G, E, U, NAR, Y, d2, d4)-br; // union of letters inflated by br
+      ma=bar<letters&&bar<bal?1:letters<bal?0:2;
+      return min(bar,letters,bal); // return distance function for union of letters and object around letters
     };
 
-    Npts=0;
+    Npts=0;MAXD=300;
     u=([x,y])=>{ // raytrace function, evaluate point (x,y) on screen
       Npts++;
       fd=k(abs(x)-Y2+.03,abs(y)-.5+.03)-.012; // 2D SDF for page margins
       if(fd<0) {
-        d=IX(cp,rd=N(A(A(fw,rt,x),up,y)),150); // trace a ray
-        if(d<150){ // did we hit anything
+        d=IX(cp,rd=N(A(A(fw,rt,x),up,y)),MAXD); // trace a ray
+        if(d<MAXD){ // did we hit anything
           n=nl(p=A(cp,rd,d)); // calc normal
           lv=N(A(lp,p,-1));ld=m; // lv = light vector, ld = light distance
-          shade=.4+.6*(ld<150 && IX(A(p,n,.02),lv,ld,.02)>=ld); // apply shadow
+          shade=.4+.6*(ld<MAXD && IX(A(p,n,.02),lv,ld,.02)>=ld); // apply shadow
           shade *= max(0,D(n,lv)); // apply diffuse lighting
-          edg=(1-cl(-D(n,rd),0,1))**2; // how edgy it is (changes the hatch dir)
+          shade *= SM(MAXD,.7*MAXD,d);
           d=1-cl(shade,0,1); // clamp brightness
-          P(p);cc=d<R(R(.5))?ma?'#8ff':'#ff8':ma?'#4cf':'#fc4';          
+          P(p);
+          cc=d<R(R(.5))?['#ff8','#8ff','#ccc'][ma]:['#fc4','#4cf','#888'][ma];          
         } else {
-          d= 1-.5*SM(1,0,rd[2]+.2*rd[1]); // background gradient
+          d= 1;//-.5*SM(1,0,rd[2]+.2*rd[1]); // background gradient
           // d=1;
-          edg=1;
           n=[0,0,-1];
           cc='#888';
         }
@@ -269,16 +271,17 @@ onkeyup=e=>{
     function draw_circle(x, y, r) {
       C.moveTo(x + r, y); C.arc(x, y, r, 0, TAU); 
     }
-
+    let rpt=_=>[R(Y),R()];
+    let mpt=([x,y],[a,b])=>[(x+a+Y)%Y,(y+b+1)%1];
     function* E() {
       // rendering function
       // this function is a generator function to occasionally yield control to the calling function,
       // which is a setTimeout loop, so the browser can update and doesn't hang
       QT=Q(-2,-2,4); // init empty QuadTree
-      let nn=0;
+      let nn=0,np=0;
       maxf=0;
-      for(let I=0;I<1e3;I++){ // I = fail counter
-        let [qx,qy]=[R(Y),R()];
+      for(let I=0;I<999;I++){ // I = fail counter
+        let [qx,qy]=rpt();
         let q = [qx-Y2,qy-.5];
         let [h,c,r]=u(q); // evaluate random point
         if(h){
@@ -287,12 +290,15 @@ onkeyup=e=>{
           C.beginPath();
           draw_circle(qx*ch, qy*ch, LW * ch);
           C.fill();
-          if(I>maxf)maxf=I;
-          I=0;
+          if(I>maxf){maxf=I;console.log(maxf);}
+          I=0;np++;
+          // [qx,qy]=mpt([qx,qy],[T(r)/2,T(r)/2]);
+        } else {
+          // [qx,qy]=rpt();
         }
-        if(++nn>999){console.log(maxf);nn=0;yield;}
+        if(++nn>999){nn=0;yield;}
       }
-      done();
+      done({n_test:Npts,n_pts:np,ratio:(1000*np/Npts|0)/1000});
       localStorage['cache_img_2024'] = V.toDataURL(); // save canvas to localStorage
     }
 
