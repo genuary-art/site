@@ -1,50 +1,52 @@
-// Genuary 2023 logo code, Copyright by Piter Pasma
+// Genuary 2024 logo code, Copyright by Piter Pasma
 
-// debug/logging functions
-let start_time,max_fails;
-log_start=()=>{
-  start_time = performance.now();
-  max_fails = 0;
-  console.log(`log start (${Math.round(start_time*1000)/1000}ms)`);
-  console.table(O);
+function dateFormat (date, fstr, utc=false) {
+  // from https://stackoverflow.com/a/10647272
+  utc = utc ? 'getUTC' : 'get';
+  return fstr.replace (/%[YmdHMS]/g, function (m) {
+    switch (m) {
+    case '%Y': return date[utc + 'FullYear'] (); // no leading zeros required
+    case '%m': m = 1 + date[utc + 'Month'] (); break;
+    case '%d': m = date[utc + 'Date'] (); break;
+    case '%H': m = date[utc + 'Hours'] (); break;
+    case '%M': m = date[utc + 'Minutes'] (); break;
+    case '%S': m = date[utc + 'Seconds'] (); break;
+    default: return m.slice (1); // unknown code, remove %
+    }
+    // add leading zero if required
+    return ('0' + m).slice (-2);
+  });
 }
-log_trace=(fails)=>{
-  if (fails > max_fails) {
-    max_fails = fails;
-    console.log(`max_fails = ${max_fails}`);
-  }
+
+done=(info={})=>{
+  let elapsed = (Date.now()-start_time)/1000;
+  let els = `${elapsed/60|0}m${(elapsed%60).toFixed(2)}s`;
+  let wen = dateFormat(new Date(), '%Y-%m-%d-%H-%M-%S');
+  let key=location.pathname+'_hist';
+  let hist=JSON.parse(localStorage[key]||'[]')
+  hist.push({wen,seed,elapsed,...info});
+  localStorage[key]=JSON.stringify(hist.slice(-9));
+  console.table(hist.toReversed());
 }
-log_end=()=>{
-  elapserd = performance.now() - start_time;
-  let key = location.pathname;
-  let log;
-  if (localStorage[key]) {
-    log = localStorage[key].split(',');
-  } else {
-    log = [];
-  }
-  dd=new Date();
-  time=`${dd.getHours()}:${(dd.getMinutes()+'').padStart(2,'0')}.${(dd.getSeconds()+'').padStart(2,'0')}`;
-  log.push(`[${time}] ${(elapserd/1000).toFixed(2)}s / ${v.length} paths / ${(Npts/1000)|0}K pts / seed=${seed}`); 
-  log = log.slice(-9);
-  localStorage[key]=log; N = log.length;
-  log.reverse();
-  console.log(`log .. key=${key}`);
-  console.log(log.map((s,i)=>`${N-i} .. ${s}`).join('\n'));
+
+opts={/* default URL options go here */};
+new URL(location).searchParams.forEach((v,k)=>opts[k]=v); // read the URL params
+seed=opts.seed>''?opts.seed:"blemk"+Date.now();
+
+onkeyup=e=>{
+  if(e.key=='l')location.search="?seed="+seed; // lock the seed
+  if(e.key=='u')location.search=""; // unlock the seed
 }
 
 // the actual code
 (code=({copyright:piterpasma,max,floor,abs,sin,cos,min,imul,PI}=Math)=>{
-  // RAYHATCHER (c) 2022 by Piter Pasma
-  //
-  // commented version
-  //
   // featuring some comments and white space
-    // localStorage['cache_img_2024'] = '';
+  // if (location.hostname=='localhost') localStorage['cache_img_2024'] = ''; // for debug testing
 
   logo.onclick = _=>{ // click to refresh
     localStorage['cache_img_2024'] = '';
     I=9e9;
+    seed="blarf"+Date.now();
     gen_img();
   }
 
@@ -58,34 +60,21 @@ log_end=()=>{
   gen_img = _=>{
     // this function checks if an image is cached and if not generates a new one
 
-    // get options from URL
-    // h = page height in mm
-    // lw = line width in mm
-    // d = line density multiplier (smaller is more dense)
-    // bg = 1=include background rect 0=don't include
-    // res = resolution
-    // svg = 1=draw as SVG (for plotters etc) 0=draw as Canvas/PNG
-    O={lw:.45,d:.6,h:140,bg:1,res:1e4,svg:0}; // default options
-    (new(U=URLSearchParams)(location.search)).forEach((v,k)=>O[k]=v);
-    O.seed = seed = O.seed || 'GENUARY2023' + Date.now();
-
+    start_time=Date.now();
     // init canvas
-    M=O.h; // height in mm
+    M=140; // height in mm
     Y2=(Y=4)/2; // aspect ratio
-    H=O.res; // viewbox height
-    DR=O.d*(LW=O.lw/M); // dot radius
+    DR=.6*(LW=.4/M); // dot radius
     V=document.createElement`canvas`;
     C=V.getContext`2d`;
     cw=V.width=Y*(ch=V.height=devicePixelRatio*logo.offsetWidth/Y);
     logo.replaceChildren(V);
-    C.strokeStyle='#ffcc44';
-    C.lineWidth=LW*ch;
     C.fillStyle='#1D1828';
     C.fillRect(0,0,cw,ch);
 
     // load cache after creating canvas to reduce flicker
     let cache=localStorage['cache_img_2024'];
-    if (!O.svg && cache && cache.startsWith('data:image/png')) {
+    if (cache && cache.startsWith('data:image/png')) {
       show_img(cache);
       return;
     }
@@ -93,7 +82,7 @@ log_end=()=>{
     // init PRNG
     S=Uint32Array.of(9,7,5,3); // dont init to 0
     R=(a=1)=>a*(a=S[3],S[3]=S[2],S[2]=S[1],a^=a<<11,S[0]^=a^a>>>8^(S[1]=S[0])>>>19,S[0]/2**32);
-    [...seed+'SOURCERY'].map(c=>R(S[3]^=c.charCodeAt()*23205));
+    [...seed+Infinity].map(c=>R(S[3]^=c.charCodeAt()*23205));
 
     // math defs and functions
     TAU=PI*2;
@@ -232,6 +221,7 @@ log_end=()=>{
       let d4 = L(z,k(min(abs(k(-1-x,12-y)-3),k(abs(x-3),3-y)  ),k(y-15,x-4)));
       // let d = k(L(z, k(x-1,abs(ay9-3))-3),-3-x); // digit 3
       let letters = min(G, E, N, U, A, R, Y, d2, d4)-br; // union of letters inflated by br
+      ma=bar<letters;
       return min(bar,letters); // return distance function for union of letters and object around letters
     };
 
@@ -248,21 +238,24 @@ log_end=()=>{
           shade *= max(0,D(n,lv)); // apply diffuse lighting
           edg=(1-cl(-D(n,rd),0,1))**2; // how edgy it is (changes the hatch dir)
           d=1-cl(shade,0,1); // clamp brightness
+          P(p);cc=d<R(R(.5))?ma?'#8ff':'#ff8':ma?'#4cf':'#fc4';          
         } else {
-          d= 1-.2*SM(1,0,rd[2]+.2*rd[1]); // background gradient
+          d= 1-.5*SM(1,0,rd[2]+.2*rd[1]); // background gradient
           // d=1;
           edg=1;
           n=[0,0,-1];
+          cc='#888';
         }
         cr=DR/(1-d**.4+1e-3); // transform grey value 1..0 into clear radius
-        hhv=mix(hv,rd,edg); // hatch direction based on edge
+        // hhv=mix(hv,rd,edg); // hatch direction based on edge
         // hhv=hv;
         return [
-          N([D(sx,hd=N(X(n,hhv))),D(sy,hd),0]), // cross product hatch direction with normal (surface direction), then inv cam transform to 2D, and normalize
-          cr<.3&&!Qh(QT,x-cr,y-cr,cr*2,(u,v)=>(x-u)**2+(y-v)**2<cr*cr) // clear test
+          // N([D(sx,hd=N(X(n,hhv))),D(sy,hd),0]), // cross product hatch direction with normal (surface direction), then inv cam transform to 2D, and normalize
+          cr<.3&&!Qh(QT,x-cr,y-cr,cr*2,(u,v)=>(x-u)**2+(y-v)**2<cr*cr), // clear test
+          cc,cr
           ]
       }
-      return [[0,0],0] // fail
+      return [0,'#0f0',9] // fail
     };
 
     IX=(o,d,z,t=0,h=9)=>{for(;t<z&&h>.005;t+=h=.7*P(A(o,d,t)));return t}; // ray intersect
@@ -273,48 +266,33 @@ log_end=()=>{
     Qh=({x,y,w,p,r},X,Y,W,f)=>X<x+w&&X+W>x&&Y<y+w&&Y+W>y&&(p.some(([a,b])=>a>=X&&a<X+W&&b>=Y&&b<Y+W&&f(a,b))||r&&r.some(s=>Qh(s,X,Y,W,f)));
     Q=(x,y,w)=>({x,y,w,p:[]});
 
-    v=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${H*Y|0} ${H}" width="${M*Y}mm" height="${M}mm">\n<!-`+`- `+Date(),new U(O),,`seed='${seed}';(code=${code})()\n-`+`->`,O.bg==1?`<rect x="${-H*Y}" y="${-H}" width="${H*Y*3}" height="${H*3}" fill="#eee8dd"/>`:``]; // init SVG array
-    
+    function draw_circle(x, y, r) {
+      C.moveTo(x + r, y); C.arc(x, y, r, 0, TAU); 
+    }
+
     function* E() {
-      // flow field tracing canvas rendering + SVG creating function
+      // rendering function
       // this function is a generator function to occasionally yield control to the calling function,
       // which is a setTimeout loop, so the browser can update and doesn't hang
-      v.push([`<g fill="none" stroke="#000000" stroke-width="${(LW*H).toFixed(4)}" stroke-linecap="round">`]); // use SVG group element to set  style
-      hv=N(A(A(rt,fw,1/Z),up,.5)); // hatch direction based on camera vectors
       QT=Q(-2,-2,4); // init empty QuadTree
-      log_start(); // debug
-      for(I=0;I<1e3;I++){ // I = fail counter
-        [f0,h]=u(q0=[R(Y)-Y2,R()-.5]); // evaluate random point
-        if(h){ // if OK then trace bidirectionally
-          qq=[q0]; // init trace with first point
-          [m=T()<0?DR:-DR,-m].map(s=>{ // randomly start in one or the other direction
-            qq.reverse(); // flip trace so we are adding on the right side
-            q=q0; // current pos
-            pd=fq=f0; // current+start direction
-            for(sh=0;sh<3&&D(pd,fq)>0&&D(f0,fq)>-.7;qq.push(q)) {// trace as long as: 1) clear (two steps leeway), 2) not too sharp corners, 3) maximum turn wrt starting direction (to prevent infinite spiral)
-              [fq,h]=u(q=A(q,pd=fq,s)); // take a step and evaluate
-              sh=h?0:sh+1;
-
-            }
-          });
-          if(qq[9]){
-            // accept only if trace has at least 10 pts
-            log_trace(I); // debug
-            I=0; // reset fail counter
-            C.beginPath();
-            n=v.push(`<path d="M ${qq.map(([x,y])=>(Qa(QT,[x,y]),x+=Y2,y+=.5,C.lineTo(x*ch,y*ch),[x*H|0,y*H|0])).join` `}"/>`); // draw trace to canvas and also add it to the SVG and add points to QuadTree
-            C.stroke(); // stroke path
-            if(n%63<1)yield // periodically return control to timeout function, so the browser doesn't hang
-          }
+      let nn=0;
+      maxf=0;
+      for(let I=0;I<1e3;I++){ // I = fail counter
+        let [qx,qy]=[R(Y),R()];
+        let q = [qx-Y2,qy-.5];
+        let [h,c,r]=u(q); // evaluate random point
+        if(h){
+          Qa(QT,q);
+          C.fillStyle=c;
+          C.beginPath();
+          draw_circle(qx*ch, qy*ch, LW * ch);
+          C.fill();
+          if(I>maxf)maxf=I;
+          I=0;
         }
+        if(++nn>999){console.log(maxf);nn=0;yield;}
       }
-      log_end(); // debug
-      v.push(`</g></svg>`); // finish SVG
-      if(O.svg){
-        // show SVG
-        svg_str = `data:image/svg+xml;charset=utf-8,`+encodeURIComponent(v.join`\n`);
-        show_img(svg_str);
-      }
+      done();
       localStorage['cache_img_2024'] = V.toDataURL(); // save canvas to localStorage
     }
 
