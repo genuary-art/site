@@ -46,6 +46,14 @@ If you rather sort of try to do a prompt maybe, then do that!
 
 Yes.
 
+## Is it true about the GENUARY Police
+
+No.
+
+## Is GENUARY a competition?
+
+Genuary is not a competition. It's about the challenge you set for yourself, and providing people with prompts to find fruitful challenges that other people are also participating in.
+
 ## Nice logo you got there, can I steal teh code?
 
 No the code is copyrighted, but it is also not minified and commented extensively. You are very much invited to [check it out](logo.js), read and learn from it :)
