@@ -19,7 +19,8 @@ Point–line–plane: create a composition using only basic elements such as poi
 [https://bbadesign.jimdofree.com/design-foundations/point-line-plane/](https://bbadesign.jimdofree.com/design-foundations/point-line-plane/)  
 
 ## JAN. 4 <span class="credit">(credit: Piter)</span> {#jan4}
-Pixels
+Pixels  
+[https://en.wikipedia.org/wiki/Pixel](https://en.wikipedia.org/wiki/Pixel)  
 
 ## JAN. 5 <span class="credit">(credit: Luis Fraguada)</span> {#jan5}
 No palettes (generative colors, procedural colors, emergent colors)
