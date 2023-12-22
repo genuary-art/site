@@ -28,7 +28,7 @@ To help out keeping track of all this we're getting help from [Joyn](https://joy
 
 # [PROMPTS](prompts)
 
-Click for the [prompts](prompts) for each day. These are not really the actual prompts, but we'll get to that soon.
+Click for the [prompts](prompts) for each day. These are the actual 100% real prompts for GENUARY 2004, we won't change them after you've seen them.
 
 Cheating is encouraged. Feel free to implement all these prompts before January. We will be seriously impressed if you do! Please share them!
 
