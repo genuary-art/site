@@ -22,6 +22,8 @@ Droste effect.
 
 Pixels.
 
+[Wikipedia: Pixel](https://en.wikipedia.org/wiki/Pixel)
+
 ## JAN. 5 <span class="credit">(credit: Luis Fraguada)</span> {#jan5}
 
 No palettes.
@@ -64,6 +66,10 @@ In the style of Anni Albers (1899-1994).
 ## JAN. 12 <span class="credit">(credit: Melissa)</span> {#jan12}
 
 Lava lamp.
+
+[Wikipedia: Lava lamp](https://en.wikipedia.org/wiki/Lava_lamp)  
+[Reddit: /r/Lavalamps/](https://www.reddit.com/r/Lavalamps/)  
+{:.info}
 
 ## JAN. 13 <span class="credit">(credit: Piter)</span> {#jan13}
 
@@ -131,10 +137,13 @@ Use a library that you haven't used before.
 
 ## JAN. 22 <span class="credit">(credit: Paolo Curtoni & Piter)</span> {#jan22}
 
-Point and line to plane.
+Point - line - plane.
 
 [Wassily Kandinsky - Point and line to plane](https://www.wassilykandinsky.net/book-117.php)  
-[Wikipedia: Wassily Kandinsky](https://en.wikipedia.org/wiki/Wassily_Kandinsky)
+[Wikipedia: Wassily Kandinsky](https://en.wikipedia.org/wiki/Wassily_Kandinsky)  
+[Wikipedia: Point–line–plane postulate](https://en.wikipedia.org/wiki/Point%E2%80%93line%E2%80%93plane_postulate)  
+[2D Design Basics: Points, Lines, and Planes](https://www.aiga.org/sites/default/files/2021-03/2B_2D_Design_PointsLinesAndPlains.pdf)  
+[Point, Line, Plane - The fundamental elements of design](https://bbadesign.jimdofree.com/design-foundations/point-line-plane/)
 {:.info}
 
 ## JAN. 23 <span class="credit">(credit: Marc Edwards)</span> {#jan23}
