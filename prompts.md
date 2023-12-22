@@ -11,12 +11,11 @@ In the style of Vera Molnár (1924-2023).
 [Wikipedia: Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r)
 {:.info}
 
-## JAN. 3 <span class="credit">(credit: PaoloCurtoni)</span> {#jan3}
+## JAN. 3 <span class="credit">(credit: Stranger in the Q)</span> {#jan3}
 
-Point-Line-Plane. 
+Droste effect.
 
-Create a composition using only basic elements such as points, lines and planes.  
-[Kandinsky - Point and line to plane](https://www.wassilykandinsky.net/book-117.php)
+[Wikipedia: Droste effect](https://en.wikipedia.org/wiki/Droste_effect)
 {:.info}
 
 ## JAN. 4 <span class="credit">(credit: Piter)</span> {#jan4}
@@ -130,10 +129,11 @@ Generative typography.
 
 Use a library that you haven't used before.
 
-## JAN. 22 <span class="credit">(credit: Piter)</span> {#jan22}
+## JAN. 22 <span class="credit">(credit: Paolo Curtoni & Piter)</span> {#jan22}
 
-In the style of Wassily Kandinsky (1846-1944).
+Point and line to plane.
 
+[Wassily Kandinsky - Point and line to plane](https://www.wassilykandinsky.net/book-117.php)  
 [Wikipedia: Wassily Kandinsky](https://en.wikipedia.org/wiki/Wassily_Kandinsky)
 {:.info}
 
