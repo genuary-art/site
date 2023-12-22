@@ -4,7 +4,8 @@
 Lava lamp
 
 ## JAN. 2 <span class="credit">(credit: Piter)</span> {#jan2}
-In the style of Wassily Kandinsky (1846-1944)
+In the style of Wassily Kandinsky (1846–1944)  
+[https://en.wikipedia.org/wiki/Wassily_Kandinsky](https://en.wikipedia.org/wiki/Wassily_Kandinsky)
 
 ## JAN. 3 <span class="credit">(credit: PaoloCurtoni)</span> {#jan3}
 Point–Line–Plane: create a composition using only basic elements such as points and lines
@@ -61,10 +62,12 @@ Flocking
 Generative typography
 
 ## JAN. 21 <span class="credit">(credit: Roni)</span> {#jan21}
-In the style of Anni Albers
+In the style of Anni Albers (1899–1994)  
+[https://en.wikipedia.org/wiki/Anni_Albers](https://en.wikipedia.org/wiki/Anni_Albers)
 
 ## JAN. 22 <span class="credit">(credit: Melissa & Piter)</span> {#jan22}
-(In the style of) Vera Molnár
+In the style of Vera Molnár (1924–2023)  
+[https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r)
 
 ## JAN. 23 <span class="credit">(credit: Marc Edwards)</span> {#jan23}
 16×16
