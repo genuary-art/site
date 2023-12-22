@@ -5,7 +5,10 @@ Lava lamp
 
 ## JAN. 2 <span class="credit">(credit: Piter)</span> {#jan2}
 In the style of Wassily Kandinsky (1846–1944)  
-[https://en.wikipedia.org/wiki/Wassily_Kandinsky](https://en.wikipedia.org/wiki/Wassily_Kandinsky)
+[https://en.wikipedia.org/wiki/Wassily_Kandinsky](https://en.wikipedia.org/wiki/Wassily_Kandinsky)  
+[https://www.theartstory.org/artist/kandinsky-wassily/](https://www.theartstory.org/artist/kandinsky-wassily/)  
+[https://www.tate.org.uk/art/artists/wassily-kandinsky-1382](https://www.tate.org.uk/art/artists/wassily-kandinsky-1382)  
+[https://www.wassilykandinsky.net/](https://www.wassilykandinsky.net/)  
 
 ## JAN. 3 <span class="credit">(credit: PaoloCurtoni)</span> {#jan3}
 Point–Line–Plane: create a composition using only basic elements such as points and lines
@@ -63,11 +66,16 @@ Generative typography
 
 ## JAN. 21 <span class="credit">(credit: Roni)</span> {#jan21}
 In the style of Anni Albers (1899–1994)  
-[https://en.wikipedia.org/wiki/Anni_Albers](https://en.wikipedia.org/wiki/Anni_Albers)
+[https://en.wikipedia.org/wiki/Anni_Albers](https://en.wikipedia.org/wiki/Anni_Albers)  
+[https://www.albersfoundation.org/](https://www.albersfoundation.org/)  
+[https://www.moma.org/artists/96](https://www.moma.org/artists/96)  
+[https://www.tate.org.uk/whats-on/tate-modern/anni-albers](https://www.tate.org.uk/whats-on/tate-modern/anni-albers)  
 
 ## JAN. 22 <span class="credit">(credit: Melissa & Piter)</span> {#jan22}
 In the style of Vera Molnár (1924–2023)  
-[https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r)
+[https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r)  
+[https://www.nytimes.com/2023/12/15/arts/vera-molnar-dead.html](https://www.nytimes.com/2023/12/15/arts/vera-molnar-dead.html)  
+[https://ropac.net/artists/231-vera-molnar/](https://ropac.net/artists/231-vera-molnar/)  
 
 ## JAN. 23 <span class="credit">(credit: Marc Edwards)</span> {#jan23}
 16×16
