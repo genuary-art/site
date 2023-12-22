@@ -16,7 +16,7 @@ And this is the code for an animated full screen frag shader (655 chars):
 <!doctype html><html><style>*{margin:0}#V{display:block}</style><canvas id=V><script>a=V.width=innerWidth;a/=V.height=innerHeight+.01;with(V.getContext`webgl2`){p=createProgram(t=35633);[`out O{X x=X(-1);x[gl_VertexID]=3.;gl_Position=X(u=x.xy,0,1);u.x*=${a};}`,`uniform F t;out X c;in O{c=X(.5+.5*fract(u*7.+t),.5,1);}`].map(x=>attachShader(p,s=createShader(t--),shaderSource(s,`#version 300 es\n~V vec2~X vec4~F float~O V u;void main()\nprecision highp F;`.split`~`.join`\n#define `+x),compileShader(s)));linkProgram(p);useProgram(p);k=_=>requestAnimationFrame(k,uniform1f(getUniformLocation(p,'t'),performance.now()/5e2),drawArrays(5,0,3));k()}</script>
 ```
 
-My advice is to add some newlines to this code and try to understand it. One important thing is that both of them have a section for making many `#define` statements. The code could be even shorter without it, but when you add more code, it quickly becomes worth it to squeeze every bit of repeated code into a single character `#define`. See for example the trick with the letter `O` in the code above.
+My advice is to add some newlines to this code and try to understand it. One important thing is that both of them have a section for making many `#define` statements, it's the part of the code with all the `~` in it. The code could be even shorter without it, but when you add more code, it quickly becomes worth it to squeeze every bit of repeated code into a single character `#define`. See for example the trick with the letter `O` in the code above.
 
 The "magic number" 35633 is the value of `gl.VERTEX_SHADER`. It also gets decreased once, to 35632, which is the value of `gl.FRAGMENT_SHADER`.
 
