@@ -13,7 +13,10 @@ In the style of Wassily Kandinsky (1846–1944)
 [https://www.wassilykandinsky.net/](https://www.wassilykandinsky.net/)  
 
 ## JAN. 3 <span class="credit">(credit: PaoloCurtoni)</span> {#jan3}
-Point–Line–Plane: create a composition using only basic elements such as points and lines
+Point–line–plane: create a composition using only basic elements such as points and lines  
+[https://en.wikipedia.org/wiki/Point–line–plane_postulate](https://en.wikipedia.org/wiki/Point%E2%80%93line%E2%80%93plane_postulate)  
+[https://www.aiga.org/sites/default/files/2021-03/2B_2D_Design_PointsLinesAndPlains.pdf](https://www.aiga.org/sites/default/files/2021-03/2B_2D_Design_PointsLinesAndPlains.pdf)  
+[https://bbadesign.jimdofree.com/design-foundations/point-line-plane/](https://bbadesign.jimdofree.com/design-foundations/point-line-plane/)  
 
 ## JAN. 4 <span class="credit">(credit: Piter)</span> {#jan4}
 Pixels
