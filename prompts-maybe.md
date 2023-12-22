@@ -29,7 +29,7 @@ No palettes.
 Generative colors, procedural colors, emergent colors.
 {:.info}
 
-## JAN. 6 <span class="credit">(credit: nicolas barradeau & Yazid)</span> {#jan6}
+## JAN. 6 <span class="credit">(credit: Nicolas barradeau & Yazid)</span> {#jan6}
 
 Screensaver.
 
