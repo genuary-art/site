@@ -15,7 +15,8 @@ In the style of Vera Molnár (1924-2023).
 
 Point-Line-Plane. 
 
-Create a composition using only basic elements such as points, lines and planes.
+Create a composition using only basic elements such as points, lines and planes.  
+[Kandinsky - Point and line to plane](https://www.wassilykandinsky.net/book-117.php)
 {:.info}
 
 ## JAN. 4 <span class="credit">(credit: Piter)</span> {#jan4}
