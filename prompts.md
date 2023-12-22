@@ -213,4 +213,7 @@ While many of you probably know that Ambient music often employs generative stra
     p.innerHTML=`Share your results using the hashtags <b>#genuary${day}</b> (this prompt) and <b>#genuary</b>!`;
     h2.after(p)
   }
+
+  // this is the bit of code that may infuriate people
+  a=2**(3+Math.random()*5|0);document.querySelector('#jan23 + p').innerText=a+'×'+a+'.';
 </script>
