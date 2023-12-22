@@ -8,6 +8,9 @@ Lava lamp.
 
 In the style of Vera Molnár (1924-2023).
 
+[Wikipedia: Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r)
+{:.info}
+
 ## JAN. 3 <span class="credit">(credit: PaoloCurtoni)</span> {#jan3}
 
 Point-Line-Plane. 
@@ -66,7 +69,7 @@ Particles, lots of them.
 
 Wobbly function day.
 
-[Piter Pasma on Wobbly Functions](https://piterpasma.nl/articles/wobbly). It's a name I've given to smoothly undulating formulas made from modulated sine waves. Usually it's formulas of the form:
+[Wobbly Functions](https://piterpasma.nl/articles/wobbly) are a name I've given to smoothly undulating formulas made from modulated sine waves. Usually it's formulas of the form:
 {:.info}
 
 `sin(a * b + c + d * sin(e * f + g)) + sin(h * i + j + k * sin(l * m + n)) + ...`
