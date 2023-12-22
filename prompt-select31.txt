@@ -1,124 +1,31 @@
-26
-Melissa & Piter
-(In the style of) Vera Molnár
-
-26
-Piter
-If you like generative art, you probably have some photos on your phone of cool looking patterns, textures, shapes or things that you've seen. You might have even thought, "I should try to recreate this with code". Today is the day
-
-25
-Heeey
-Less than 1KB artwork
-
-23
-Bruce Holmer & Michael Lowe
-Draw 10000 of something
-
-23
-Luis Fraguada
-No palettes (generative colors, procedural colors, emergent colors)
-
-23
-Chris Barber (code_rgb)
-Bauhaus
-
-22
-Melissa & Camille Roux
-SDFs. (if we keep trying once per year, eventually we will be good at it!)
-
-22
-Marc Edwards
-16×16
-
-21
-Melissa & nicolas barradeau
-"Particles, lots of them."
-
-20
-Roni
-Generative typography
-
-20
-Camille Roux
-ASCII
-
-20
-Melissa
-Skeuomorphism
-
-20
-Amy
-Code for one hour. At the one hour mark, you're done
-
-20
-Piter
-In the style of Wassily Kandinsky (1846-1944)
-
-20
-Neel & Monokai
-Generative music / Generative audio / Generative sound
-
-20
-Melissa
-Glitch
-
-19
-Piter
-Wobbly function day! sin(a * b + c + d * sin(e * f + g)) + sin(h * i + j + k * sin(l * m + n)) + ... (or something along those lines)
-
-19
-Monokai
-Grow a seed
-
-19
-Bart Simons
-Intersections
-
-19
-Melissa
-Shaders
-
-18
-Neel
-Use a library that you haven't used before
-
-18
-greweb
-Hexagonal
-
-18
-Roni
-In the style of Anni Albers
-
-17
-greweb
-Plottable
-
-17
-Piter
-Pixels
-
-17
-Melissa
-Inspired by islamic art
-
-17
-PaoloCurtoni
-Point–Line–Plane: create a composition using only basic elements such as points and lines
-
-17
-Jorge Ledezma
-Impossible objects (undecided geometry)
-
-17
-Shaderism
-Flocking
-
-16
-Luis Fraguada
-No libraries
-
-16
-Amy
-Use a physics library
-
+(16) Lava lamp [Melissa]
+(21) In the style of Wassily Kandinsky (1846-1944) [Piter]
+(18) Point–Line–Plane: create a composition using only basic elements such as points and lines [PaoloCurtoni]
+(17) Pixels [Piter]
+(23) No palettes (generative colors, procedural colors, emergent colors) [Luis Fraguada]
+(17) Screensaver [nicolas barradeau & Yazid]
+(16) Progress bar / indicator / loading animation [Piter]
+(17) Chaotic system [Darien]
+(20) ASCII [Camille Roux]
+(18) Hexagonal [greweb]
+(18) Use a library that you haven't used before [Neel]
+(23) "Particles, lots of them." [Melissa & nicolas barradeau]
+(19) Wobbly function day! sin(a * b + c + d * sin(e * f + g)) + sin(h * i + j + k * sin(l * m + n)) + ... (or something along those lines) [Piter]
+(26) Less than 1KB artwork [Heeey]
+(16) Use a physics library [Amy]
+(23) Draw 10000 of something [Bruce Holmer & Michael Lowe]
+(18) Inspired by Islamic art [Melissa]
+(25) Bauhaus [Chris Barber (code_rgb)]
+(17) Flocking [Shaderism]
+(20) Generative typography [Roni]
+(18) In the style of Anni Albers [Roni]
+(27) (In the style of) Vera Molnár [Melissa & Piter]
+(22) 16×16 [Marc Edwards]
+(17) Impossible objects (undecided geometry) [Jorge Ledezma]
+(27) If you like generative art, you probably have some photos on your phone of cool looking patterns, textures, shapes or things that you've seen. You might have even thought, "I should try to recreate this with code". Today is the day [Piter]
+(19) Grow a seed [Monokai]
+(20) Code for one hour. At the one hour mark, you're done [Amy]
+(20) Skeuomorphism [Melissa]
+(23) SDFs. (if we keep trying once per year, eventually we will be good at it!) [Melissa & Camille Roux]
+(19) Shaders [Melissa]
+(20) Generative music / Generative audio / Generative sound [Neel & Monokai]

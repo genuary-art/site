@@ -1,14 +1,18 @@
-26
+27
 Melissa & Piter
 (In the style of) Vera Molnár
 
-26
+27
 Piter
 If you like generative art, you probably have some photos on your phone of cool looking patterns, textures, shapes or things that you've seen. You might have even thought, "I should try to recreate this with code". Today is the day
 
-25
+26
 Heeey
 Less than 1KB artwork
+
+25
+Chris Barber (code_rgb)
+Bauhaus
 
 23
 Bruce Holmer & Michael Lowe
@@ -19,20 +23,20 @@ Luis Fraguada
 No palettes (generative colors, procedural colors, emergent colors)
 
 23
-Chris Barber (code_rgb)
-Bauhaus
-
-22
 Melissa & Camille Roux
 SDFs. (if we keep trying once per year, eventually we will be good at it!)
+
+23
+Melissa & nicolas barradeau
+"Particles, lots of them."
 
 22
 Marc Edwards
 16×16
 
 21
-Melissa & nicolas barradeau
-"Particles, lots of them."
+Piter
+In the style of Wassily Kandinsky (1846-1944)
 
 20
 Roni
@@ -49,10 +53,6 @@ Skeuomorphism
 20
 Amy
 Code for one hour. At the one hour mark, you're done
-
-20
-Piter
-In the style of Wassily Kandinsky (1846-1944)
 
 20
 Neel & Monokai
@@ -87,6 +87,14 @@ greweb
 Hexagonal
 
 18
+Melissa
+Inspired by islamic art
+
+18
+PaoloCurtoni
+Point–Line–Plane: create a composition using only basic elements such as points and lines
+
+18
 Roni
 In the style of Anni Albers
 
@@ -99,28 +107,36 @@ Piter
 Pixels
 
 17
-Melissa
-Inspired by islamic art
-
-17
-PaoloCurtoni
-Point–Line–Plane: create a composition using only basic elements such as points and lines
+Darien
+Chaotic system
 
 17
 Jorge Ledezma
 Impossible objects (undecided geometry)
 
 17
+nicolas barradeau & Yazid
+Screensaver
+
+17
 Shaderism
 Flocking
 
+17
+Camille Roux
+Make the ugliest piece you can
+
 16
-Darien
-Chaotic system
+Samir Ghosh
+Spinning, Turning, or Flipping
 
 16
 Amy
 Use a physics library
+
+16
+30 lines or less
+Make flow fields great again
 
 16
 Luis Fraguada
@@ -131,10 +147,6 @@ Martijn Cohen
 Art purely made with css/html
 
 16
-nicolas barradeau & Yazid
-Screensaver
-
-16
 Stranger in the Q
 Droste effect
 
@@ -143,12 +155,16 @@ Chris Barber (code_rgb) & Shaderism
 Wireframe
 
 16
+Melissa
+Lava lamp
+
+16
 Luis Fraguada
 No libraries
 
 16
-Camille Roux
-Make the ugliest piece you can
+Piter
+Progress bar / indicator / loading animation
 
 15
 Monokai
@@ -159,8 +175,8 @@ Amy
 Algorithmic Botany
 
 15
-Samir Ghosh
-Spinning, Turning, or Flipping
+Roni
+Translucent
 
 15
 Martijn Cohen
@@ -171,36 +187,48 @@ Bart Simons
 White space
 
 15
-30 lines or less
-Make flow fields great again
+Yazid
+Take a finished project and make it weird
+
+15
+Fabrice (EcirBaff)
+One thousand paths
 
 15
 Monokai
 Mutations
 
 15
-Fabrice (EcirBaff)
-Only one path
+Darien
+Self-portrait
 
 15
-Melissa
-Lava lamp
+Roni
+Clouds
+
+15
+Fabrice (EcirBaff)
+Only one path
 
 15
 Camille Roux
 Rule-based system
 
-15
-Piter
-Progress bar / indicator / loading animation
+14
+Stranger in the Q
+Snowflake
 
 14
-Roni
-Translucent
+Jussi Jokinen
+Where’s Waldo/Wally?
 
 14
 Chris Barber (code_rgb)
 Retro
+
+14
+Melissa
+Make voronoi look good
 
 14
 Darien
@@ -211,40 +239,28 @@ Neel
 Satellites
 
 14
-Yazid
-Take a finished project and make it weird
-
-14
-Fabrice (EcirBaff)
-One thousand paths
-
-14
 Kenny
 Art that tells a story
 
 14
-Darien
-Self-portrait
+Melissa
+Iridescent
 
 14
 Roni
 Create a book cover
-
-14
-Roni
-Clouds
 
 13
 Melissa
 CMYK
 
 13
-Jussi Jokinen & Martijn Cohen
-Code with a sense of humor
+Samir Ghosh
+Mouse interaction
 
 13
-Jussi Jokinen
-Where’s Waldo/Wally?
+Jussi Jokinen & Martijn Cohen
+Code with a sense of humor
 
 13
 Camille Roux
@@ -263,10 +279,6 @@ Handwriting
 Make it wrong
 
 13
-Melissa
-Make voronoi look good
-
-13
 Reva
 Skyline
 
@@ -275,12 +287,20 @@ Samir Ghosh
 Botanical
 
 13
+Melissa
+Rain
+
+13
+Melissa
+Labyrinth
+
+13
 Camille Roux
 Collaborate
 
 13
 Melissa
-Iridescent
+Flowers
 
 13
 encapsuled / michelangelo
@@ -307,10 +327,6 @@ Melissa
 Pulse
 
 12
-Stranger in the Q
-Snowflake
-
-12
 Andrea Diotallevi
 Stripes
 
@@ -319,16 +335,16 @@ Neel
 Iterate on one of your previous Genuary posts (could be good towards the end of the month)
 
 12
-Samir Ghosh
-Mouse interaction
-
-12
 abstractment (aka preston)
 Animate something that was previously unanimated
 
 12
 greweb
 Spirals Only
+
+12
+Samir Ghosh
+Zooming In
 
 12
 Melissa
@@ -343,20 +359,8 @@ Shaderism
 Trails
 
 12
-Melissa
-Rain
-
-12
 Amy
 Make a set of rules to follow without a computer
-
-12
-Melissa
-Labyrinth
-
-12
-Melissa
-Flowers
 
 12
 Monokai
@@ -369,10 +373,6 @@ Figurative
 11
 Roni
 Bounce
-
-11
-Samir Ghosh
-Zooming In
 
 11
 Marc Edwards
@@ -407,6 +407,10 @@ Monokai
 You can only use a single number value
 
 11
+Melissa
+RGB
+
+11
 Stranger in the Q
 Pareidolia
 
@@ -435,8 +439,16 @@ Melissa
 How to display art - wrong answers only
 
 10
+abstractment (aka preston)
+It might be broken: show us your debug view
+
+10
 Melissa
 Origami
+
+10
+abstractment (aka preston)
+Designed for a post card
 
 10
 Claus Wilke
@@ -455,10 +467,6 @@ Bart Simons
 Generative data visualisation
 
 10
-Melissa
-RGB
-
-10
 30 lines or less
 Entropy
 
@@ -474,6 +482,18 @@ Copy pasta meets AI: Make something solely by copying and pasting from chatGPT. 
 Shaderism
 Volume
 
+10
+Piter
+Pole
+
+10
+Melissa
+Art that is also a game
+
+9
+Samir Ghosh
+Outer Space
+
 9
 Roni
 Shade
@@ -485,6 +505,10 @@ Take something you’ve created previously and imagine it from the opposite pers
 9
 encapsuled / michelangelo
 In the style of Lucio Fontana (1899-1968)
+
+9
+RVig
+Victor Vasarely
 
 9
 PaoloCurtoni
@@ -499,16 +523,16 @@ PaoloCurtoni
 Write code that reads like a story
 
 9
-abstractment (aka preston)
-It might be broken: show us your debug view
+Reva
+Calligraphy
 
 9
 Marc Edwards
 Moving in pairs
 
 9
-abstractment (aka preston)
-Designed for a post card
+RVig
+Newton's law of universal gravitation
 
 9
 Neel
@@ -531,24 +555,12 @@ Roni
 (Un)satisfying
 
 9
-Piter
-Pole
-
-9
-Melissa
-Art that is also a game
-
-9
 Neel
 Typo
 
 9
 Chris Barber (code_rgb)
 Bagels or Donuts
-
-8
-Samir Ghosh
-Outer Space
 
 8
 Julien Labat
@@ -563,16 +575,8 @@ encapsuled / michelangelo
 Make something that would make a 10-year old say “Wow”
 
 8
-RVig
-Victor Vasarely
-
-8
 Roni
 Cross-stitching / embroidery
-
-8
-Reva
-Calligraphy
 
 8
 Stranger in the Q
@@ -581,10 +585,6 @@ Time-travel
 8
 Neel
 Bug
-
-8
-RVig
-Newton's law of universal gravitation
 
 8
 Darien
@@ -659,6 +659,10 @@ Roni
 Hello world
 
 7
+Camille Roux
+Emoji
+
+7
 Piter
 Get a thing or program to do something generative that wasn't intended for this purpose
 
@@ -681,6 +685,10 @@ Normal looking hands with a reasonable number of fingers
 6
 Kenny
 Generative art created outside in or by nature
+
+6
+Andrea Diotallevi
+Electrical engineering
 
 6
 Marc Edwards
@@ -727,10 +735,6 @@ Marc Edwards
 Time quilt
 
 5
-Andrea Diotallevi
-Electrical engineering
-
-5
 Marc Edwards
 Stitched together
 
@@ -751,8 +755,8 @@ Darien
 Moving life (as opposed to "still life")
 
 5
-Camille Roux
-Emoji
+Stranger in the Q
+CRT-display
 
 5
 Neel
@@ -775,8 +779,8 @@ Marc Edwards
 Digging deeper
 
 4
-Stranger in the Q
-CRT-display
+Samir Ghosh
+Flying
 
 4
 Marc Edwards
@@ -793,6 +797,10 @@ Middle East
 4
 Marc Edwards
 Tele-vision
+
+4
+Yazid
+Song lyric
 
 3
 Andrea Diotallevi
@@ -811,20 +819,12 @@ Melissa
 Mirage
 
 3
-Samir Ghosh
-Flying
-
-3
 nicolas barradeau
 Make a 3\*3 grid representing 2 animated quantities
 
 3
 Piter
 No Pixels
-
-3
-Yazid
-Song lyric
 
 2
 KristinHenry
