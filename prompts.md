@@ -215,5 +215,6 @@ While many of you probably know that Ambient music often employs generative stra
   }
 
   // this is the bit of code that may infuriate people
-  a=2**(3+Math.random()*5|0);document.querySelector('#jan23 + p').innerText=a+'×'+a+'.';
+  a=localStorage['g2004jan23']||(localStorage['g2004jan23']=2**(3+Math.random()*5|0));
+  document.querySelector('#jan23 + p').innerText=a+'×'+a+'.';
 </script>
