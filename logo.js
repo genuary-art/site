@@ -223,25 +223,27 @@ onkeyup=e=>{
           shade=.4+.6*(ld<MAXD && IX(A(p,n,.02),lv,ld,.02)>=ld); // apply shadow
           shade *= max(0,D(n,lv)); // apply diffuse lighting
           shade *= SM(MAXD,.3*MAXD,d);
-          d=1-cl(shade,0,1); // clamp brightness
+          d=cl(shade,0,1); // clamp brightness
           P(p);
-          cc=d<R(R(.5))?['#ff8','#8ff','#ccc'][ma]:['#fc4','#4cf','#888'][ma];          
+          cc=d*d>.5+R(.5)?['#ff8','#8ff','#ccc'][ma]:['#fc4','#4cf','#888'][ma];          
         } else {
           d= 1;//-.5*SM(1,0,rd[2]+.2*rd[1]); // background gradient
           // d=1;
           n=[0,0,-1];
           cc='#888';
         }
-        cr=DR/(1-d**.4*.999); // transform grey value 1..0 into clear radius
+        rr=.5+d*2;
+        cr=rr*DR/(d**2*.999+.001); // transform grey value 1..0 into clear radius
         // hhv=mix(hv,rd,edg); // hatch direction based on edge
         // hhv=hv;
         return [
           // N([D(sx,hd=N(X(n,hhv))),D(sy,hd),0]), // cross product hatch direction with normal (surface direction), then inv cam transform to 2D, and normalize
           cr<.3&&!Qh(QT,x-cr,y-cr,cr*2,(u,v)=>(x-u)**2+(y-v)**2<cr*cr), // clear test
-          cc,cr
+          cc,
+          rr
           ]
       }
-      return [0,'#0f0',9] // fail
+      return [0,'#0f0',1] // fail
     };
 
     IX=(o,d,z,t=0,h=9)=>{for(;t<z&&h>.005;t+=h=.7*P(A(o,d,t)));return t}; // ray intersect
@@ -272,7 +274,7 @@ onkeyup=e=>{
           Qa(QT,q);
           C.fillStyle=c;
           C.beginPath();
-          draw_circle(qx*ch, qy*ch, LW * ch);
+          draw_circle(qx*ch, qy*ch, LW * ch * r);
           C.fill();
           if(I>maxf){maxf=I;console.log(maxf);}
           I=0;np++;

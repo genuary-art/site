@@ -1,0 +1,213 @@
+In the style of Wassily Kandinsky (1846-1944)
+Iterate on one of your previous Genuary posts (could be good towards the end of the month)
+Make a piece of art inspired by your new year's resolution
+Make a set of rules to follow without a computer
+Human figure(s)
+Make a visualizer for any Kraftwerk's title
+Collaborate with chat gpt
+Make the ugliest piece you can
+Ask an artist to teach you a technique and use it
+ASCII
+Emoji
+Rule-based system
+Finite-state machine
+Collaborate
+Write the longest program. How much code can you write in a day that still produces something interesting?
+Do something that looks complex/hard to do, but it's not
+Music theory
+Generative music / Generative audio / Generative sound
+Use AR
+Is this AI? :D
+Node based programming / gen-art
+Song lyric
+You can only use a single number value
+Driven by data from the real world
+Grow a seed
+Make your code explode
+Mutations
+In the style of Lucio Fontana (1899-1968)
+Make something that would make a 10-year old say “Wow”
+Make something that would make a 10-year old say “I could’ve done that”
+Make a 3\*3 grid representing 2 animated quantities ( cf. https://rockcontent.com/blog/45-ways-to-communicate-two-quantities/ )
+Language
+Algorithmic Botany ( https://thecodingtrain.com/tracks/algorithmic-botany | http://algorithmicbotany.org/papers/#abop | https://www.youtube.com/watch?v=KWoJgHFYWxY )
+Code for one hour. At the one hour mark, you're done.
+Satellites
+Calendar
+Use a physics library ( https://thecodingtrain.com/tracks/physics-libraries )
+Use a library that you haven't used before
+Generative typography
+Create a book cover
+Saturation
+In the style of Anni Albers ( https://www.moma.org/artists/96 )
+Break the rules
+Animation
+Pixels
+4th dimension
+N-dimensional
+Unlikely
+Get a thing or program to do something generative that wasn't intended for this purpose
+Code with a sense of humor
+Where’s Waldo/Wally?
+Hexagonal
+Plottable
+Figurative
+Spirals Only
+"Particles, lots of them."
+16×16.
+Moving in pairs.
+Vase illusion.
+Fog orchestra.
+Heart submarine.
+Tele-vision.
+Block by block.
+Around the world, around the world.
+Stitched together.
+Squeeze the juice.
+To the beat.
+Napkin machine.
+Digging deeper.
+Time quilt.
+Summer vs winter.
+Culture
+Small progress on an unfinished project
+Take a finished project and make it weird
+Typo
+Bug
+Use five different probability distributions or noise types.
+Make voronoi look good
+Inspired by islamic art
+Art that is also a game
+Copy pasta meets AI: Make something solely by copying and pasting from chatGPT.  No starter templates allowed.
+Animate something that was previously unanimated.
+Designed for a post card.
+Inspired by a movie / Remake a movie poster
+It might be broken: show us your debug view
+Wobbly function day! sin(a * b + c + d * sin(e * f + g)) + sin(h * i + j + k * sin(l * m + n)) + ... (or something along those lines) see https://piterpasma.nl/articles/wobbly 
+No Pixels
+Take something you’ve created previously and imagine it from the opposite perspective (i.e., behind the canvas).
+Food.
+Handwriting
+If you like generative art, you probably have some photos on your phone of cool looking patterns, textures, shapes or things that you've seen. You might have even thought, "I should try to recreate this with code". Today is the day.
+Write code in an unusual place
+Write pretty code
+Take a break from writing code today. Share ideas that come to you while you are resting
+Victor Vasarely
+Newton's law of universal gravitation
+Cut-up : whether for text and/or images, implement some concepts of découpé ( https://en.wikipedia.org/wiki/Cut-up_technique )
+Organic growth : create a world of organic entities
+The Solitude of Prime Numbers: show how prime numbers are outsiders in relation to the other numbers
+Point–Line–Plane: create a composition using only basic elements such as points and lines
+One thousand paths
+Only one path
+4, 8, 15,16, 23, 42
+An object lost (in the plane)
+Thread a needle
+Make it wrong
+Entropy
+Turn up the heat
+Make flow fields great again
+Write code that reads like a story
+(Un)satisfying
+Hello world
+Sculpture
+Translucent
+Draw me a sheep! ( https://en.m.wikiquote.org/wiki/The_Little_Prince )
+Library
+Bounce
+Clouds
+Shade
+Collage
+Cross-stitching / embroidery
+Drip Till You Drop: create an artwork inspired by the "drip painting" technique ( https://en.wikipedia.org/wiki/Drip_painting )
+Mycellium and Lichen
+Venetian Glass
+Milkweed ( https://artatomic.social/tags/milkweed, https://artatomic.social/@val@cutie.city/111349084829876266 )
+Classical music
+Electrical engineering
+Stripes
+Middle East
+Functional programming
+Intersections
+White space
+Punk visual
+Variable typography
+Generative data visualisation
+Art that tells a story
+Screensaver
+90s rave / Summer of love / Flower power
+Lava lamp
+Live-coding session. Create new gen art with an audience who can see the evolving outputs and/or code
+Less than 1KB artwork
+30 lines or less
+What is a line
+Trails
+Flocking
+Volume
+Splitting
+Wireframe
+Ropes
+How to display art - wrong answers only
+Rain
+Skeuomorphism
+Not Skeuomorphism
+Metaverse
+RGB
+CMYK
+Flowers
+Generative art created outside in or by nature
+Normal looking hands with a reasonable number of fingers
+SDFs. (if we keep trying once per year, eventually we will be good at it!)
+Shaders
+Glitch
+Origami
+Iridescent
+Mirage
+Pulse
+Abyss
+Vivid
+Warp speed
+Labyrinth
+Surreal
+(In the style of) Vera Molnár
+Retro
+Bauhaus
+Bagels or Donuts
+Droste effect ( https://en.wikipedia.org/wiki/Droste_effect ) 
+Electromagnetism
+CRT-display
+Pareidolia
+Time-travel
+Star Wars
+Rayhatcher
+Calligraphy
+Skyline
+Impossible objects (undecided geometry)
+Non-euclidian geometry ( https://en.wikipedia.org/wiki/Non-Euclidean_geometry ) 
+Chaotic system
+Square roots
+Audio reactive
+Self-portrait
+Still life
+Moving life (as opposed to "still life")
+Markov chain
+No libraries
+Komorebi ( https://www.google.com/search?hl=en&q=Komorebi ) 
+Progress bar / indicator / loading animation
+Clock/timer
+Pole
+Visualizing infinity
+Art purely made with css/html
+Breaking color theory
+No palettes (generative colors, procedural colors, emergent colors)
+The algorithmic-equivalent of a "graffiti-tag"
+Snowflake
+Code golf
+Draw 10000 of something
+Spinning, Turning, or Flipping
+The THIRD DIMENSION
+Mouse interaction
+Zooming In
+Flying
+Outer Space
+Botanical

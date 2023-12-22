@@ -1,0 +1,847 @@
+26
+Melissa & Piter
+(In the style of) Vera Molnár
+
+26
+Piter
+If you like generative art, you probably have some photos on your phone of cool looking patterns, textures, shapes or things that you've seen. You might have even thought, "I should try to recreate this with code". Today is the day
+
+25
+Heeey
+Less than 1KB artwork
+
+23
+Bruce Holmer & Michael Lowe
+Draw 10000 of something
+
+23
+Luis Fraguada
+No palettes (generative colors, procedural colors, emergent colors)
+
+23
+Chris Barber (code_rgb)
+Bauhaus
+
+22
+Melissa & Camille Roux
+SDFs. (if we keep trying once per year, eventually we will be good at it!)
+
+22
+Marc Edwards
+16×16
+
+21
+Melissa & nicolas barradeau
+"Particles, lots of them."
+
+20
+Roni
+Generative typography
+
+20
+Camille Roux
+ASCII
+
+20
+Melissa
+Skeuomorphism
+
+20
+Amy
+Code for one hour. At the one hour mark, you're done
+
+20
+Piter
+In the style of Wassily Kandinsky (1846-1944)
+
+20
+Neel & Monokai
+Generative music / Generative audio / Generative sound
+
+20
+Melissa
+Glitch
+
+19
+Piter
+Wobbly function day! sin(a * b + c + d * sin(e * f + g)) + sin(h * i + j + k * sin(l * m + n)) + ... (or something along those lines)
+
+19
+Monokai
+Grow a seed
+
+19
+Bart Simons
+Intersections
+
+19
+Melissa
+Shaders
+
+18
+Neel
+Use a library that you haven't used before
+
+18
+greweb
+Hexagonal
+
+18
+Roni
+In the style of Anni Albers
+
+17
+greweb
+Plottable
+
+17
+Piter
+Pixels
+
+17
+Melissa
+Inspired by islamic art
+
+17
+PaoloCurtoni
+Point–Line–Plane: create a composition using only basic elements such as points and lines
+
+17
+Jorge Ledezma
+Impossible objects (undecided geometry)
+
+17
+Shaderism
+Flocking
+
+16
+Darien
+Chaotic system
+
+16
+Amy
+Use a physics library
+
+16
+Luis Fraguada
+Markov chain
+
+16
+Martijn Cohen
+Art purely made with css/html
+
+16
+nicolas barradeau & Yazid
+Screensaver
+
+16
+Stranger in the Q
+Droste effect
+
+16
+Chris Barber (code_rgb) & Shaderism
+Wireframe
+
+16
+Luis Fraguada
+No libraries
+
+16
+Camille Roux
+Make the ugliest piece you can
+
+15
+Monokai
+What is a line
+
+15
+Amy
+Algorithmic Botany
+
+15
+Samir Ghosh
+Spinning, Turning, or Flipping
+
+15
+Martijn Cohen
+Breaking color theory
+
+15
+Bart Simons
+White space
+
+15
+30 lines or less
+Make flow fields great again
+
+15
+Monokai
+Mutations
+
+15
+Fabrice (EcirBaff)
+Only one path
+
+15
+Melissa
+Lava lamp
+
+15
+Camille Roux
+Rule-based system
+
+15
+Piter
+Progress bar / indicator / loading animation
+
+14
+Roni
+Translucent
+
+14
+Chris Barber (code_rgb)
+Retro
+
+14
+Darien
+Audio reactive
+
+14
+Neel
+Satellites
+
+14
+Yazid
+Take a finished project and make it weird
+
+14
+Fabrice (EcirBaff)
+One thousand paths
+
+14
+Kenny
+Art that tells a story
+
+14
+Darien
+Self-portrait
+
+14
+Roni
+Create a book cover
+
+14
+Roni
+Clouds
+
+13
+Melissa
+CMYK
+
+13
+Jussi Jokinen & Martijn Cohen
+Code with a sense of humor
+
+13
+Jussi Jokinen
+Where’s Waldo/Wally?
+
+13
+Camille Roux
+Ask an artist to teach you a technique and use it
+
+13
+Roni
+Collage
+
+13
+abstractment (aka preston)
+Handwriting
+
+13
+30 lines or less
+Make it wrong
+
+13
+Melissa
+Make voronoi look good
+
+13
+Reva
+Skyline
+
+13
+Samir Ghosh
+Botanical
+
+13
+Camille Roux
+Collaborate
+
+13
+Melissa
+Iridescent
+
+13
+encapsuled / michelangelo
+Make something that would make a 10-year old say “I could’ve done that”
+
+13
+Martijn Cohen
+Visualizing infinity
+
+13
+Darien
+Non-euclidian geometry
+
+13
+Roni
+Break the rules
+
+13
+Bart Simons
+Punk visual
+
+12
+Melissa
+Pulse
+
+12
+Stranger in the Q
+Snowflake
+
+12
+Andrea Diotallevi
+Stripes
+
+12
+Neel
+Iterate on one of your previous Genuary posts (could be good towards the end of the month)
+
+12
+Samir Ghosh
+Mouse interaction
+
+12
+abstractment (aka preston)
+Animate something that was previously unanimated
+
+12
+greweb
+Spirals Only
+
+12
+Melissa
+Surreal
+
+12
+KristinHenry
+Mycellium and Lichen
+
+12
+Shaderism
+Trails
+
+12
+Melissa
+Rain
+
+12
+Amy
+Make a set of rules to follow without a computer
+
+12
+Melissa
+Labyrinth
+
+12
+Melissa
+Flowers
+
+12
+Monokai
+Make your code explode
+
+11
+greweb
+Figurative
+
+11
+Roni
+Bounce
+
+11
+Samir Ghosh
+Zooming In
+
+11
+Marc Edwards
+To the beat
+
+11
+Monokai
+Driven by data from the real world
+
+11
+Melissa & Jorge Ledezma
+N-dimensional
+
+11
+Fabrice (EcirBaff)
+4, 8, 15, 16, 23, 42
+
+11
+Melissa
+Not Skeuomorphism
+
+11
+Roni
+Saturation
+
+11
+PaoloCurtoni
+Organic growth : create a world of organic entities
+
+11
+Monokai
+You can only use a single number value
+
+11
+Stranger in the Q
+Pareidolia
+
+11
+Roni
+Sculpture
+
+10
+Camille Roux
+Music theory
+
+10
+Yazid & abstractment (aka preston)
+Inspired by a movie / Remake a movie poster
+
+10
+Stranger in the Q
+Electromagnetism
+
+10
+Marc Edwards
+Block by block
+
+10
+Melissa
+How to display art - wrong answers only
+
+10
+Melissa
+Origami
+
+10
+Claus Wilke
+Use five different probability distributions or noise types
+
+10
+Yazid
+Small progress on an unfinished project
+
+10
+Marc Edwards
+90s rave / Summer of love / Flower power
+
+10
+Bart Simons
+Generative data visualisation
+
+10
+Melissa
+RGB
+
+10
+30 lines or less
+Entropy
+
+10
+PaoloCurtoni
+Drip Till You Drop: create an artwork inspired by the "drip painting" technique
+
+10
+abstractment (aka preston)
+Copy pasta meets AI: Make something solely by copying and pasting from chatGPT. No starter templates allowed
+
+10
+Shaderism
+Volume
+
+9
+Roni
+Shade
+
+9
+abstractment (aka preston)
+Take something you’ve created previously and imagine it from the opposite perspective (i.e., behind the canvas)
+
+9
+encapsuled / michelangelo
+In the style of Lucio Fontana (1899-1968)
+
+9
+PaoloCurtoni
+Cut-up : whether for text and/or images, implement some concepts of découpé
+
+9
+Melissa
+Vivid
+
+9
+PaoloCurtoni
+Write code that reads like a story
+
+9
+abstractment (aka preston)
+It might be broken: show us your debug view
+
+9
+Marc Edwards
+Moving in pairs
+
+9
+abstractment (aka preston)
+Designed for a post card
+
+9
+Neel
+Collaborate with chat gpt
+
+9
+Martijn Cohen
+The algorithmic-equivalent of a "graffiti-tag"
+
+9
+Kenny
+Live-coding session. Create new gen art with an audience who can see the evolving outputs and/or code
+
+9
+Minacoding
+Take a break from writing code today. Share ideas that come to you while you are resting
+
+9
+Roni
+(Un)satisfying
+
+9
+Piter
+Pole
+
+9
+Melissa
+Art that is also a game
+
+9
+Neel
+Typo
+
+9
+Chris Barber (code_rgb)
+Bagels or Donuts
+
+8
+Samir Ghosh
+Outer Space
+
+8
+Julien Labat
+Human figure(s)
+
+8
+30 lines or less
+Thread a needle
+
+8
+encapsuled / michelangelo
+Make something that would make a 10-year old say “Wow”
+
+8
+RVig
+Victor Vasarely
+
+8
+Roni
+Cross-stitching / embroidery
+
+8
+Reva
+Calligraphy
+
+8
+Stranger in the Q
+Time-travel
+
+8
+Neel
+Bug
+
+8
+RVig
+Newton's law of universal gravitation
+
+8
+Darien
+Square roots
+
+8
+Minacoding
+Write code in an unusual place
+
+8
+Bart Simons
+Variable typography
+
+7
+Yazid & abstractment (aka preston)
+Food
+
+7
+Stranger in the Q
+Star Wars
+
+7
+Piter & Roni
+4th dimension
+
+7
+30 lines or less
+Turn up the heat
+
+7
+KristinHenry
+Venetian Glass
+
+7
+Shaderism
+Splitting
+
+7
+Yazid
+Is this AI? :D
+
+7
+Roni
+Library
+
+7
+Marc Edwards
+Summer vs winter
+
+7
+Jussi Jokinen
+Language
+
+7
+Neel
+Code golf
+
+7
+Luis Fraguada
+Komorebi
+
+7
+Shaderism
+Ropes
+
+7
+Julien Labat
+Make a visualizer for any Kraftwerk's title
+
+7
+Roni
+Hello world
+
+7
+Piter
+Get a thing or program to do something generative that wasn't intended for this purpose
+
+7
+Camille Roux
+Do something that looks complex/hard to do, but it's not
+
+6
+Camille Roux
+Finite-state machine
+
+6
+Melissa
+Abyss
+
+6
+Kenny
+Normal looking hands with a reasonable number of fingers
+
+6
+Kenny
+Generative art created outside in or by nature
+
+6
+Marc Edwards
+Around the world, around the world
+
+6
+Andrea Diotallevi
+Classical music
+
+6
+Piter
+Animation
+
+6
+Samir Ghosh
+The THIRD DIMENSION
+
+6
+Piter
+Write the longest program. How much code can you write in a day that still produces something interesting?
+
+6
+Yazid
+Culture
+
+6
+Reva
+Clock/timer
+
+6
+Amy & Melissa
+Node based programming / gen-art
+
+6
+Roni
+Draw me a sheep!
+
+6
+Minacoding
+Write pretty code
+
+6
+Marc Edwards
+Time quilt
+
+5
+Andrea Diotallevi
+Electrical engineering
+
+5
+Marc Edwards
+Stitched together
+
+5
+Yazid
+Use AR
+
+5
+Piter
+Unlikely
+
+5
+PaoloCurtoni
+The Solitude of Prime Numbers: show how prime numbers are outsiders in relation to the other numbers
+
+5
+Darien
+Moving life (as opposed to "still life")
+
+5
+Camille Roux
+Emoji
+
+5
+Neel
+Calendar
+
+4
+Stranger in the Q
+Rayhatcher
+
+4
+Marc Edwards
+Squeeze the juice
+
+4
+Fabrice (EcirBaff)
+An object lost (in the plane)
+
+4
+Marc Edwards
+Digging deeper
+
+4
+Stranger in the Q
+CRT-display
+
+4
+Marc Edwards
+Fog orchestra
+
+4
+Melissa
+Warp speed
+
+4
+Andrea Diotallevi
+Middle East
+
+4
+Marc Edwards
+Tele-vision
+
+3
+Andrea Diotallevi
+Functional programming
+
+3
+Darien
+Still life
+
+3
+Marc Edwards
+Heart submarine
+
+3
+Melissa
+Mirage
+
+3
+Samir Ghosh
+Flying
+
+3
+nicolas barradeau
+Make a 3\*3 grid representing 2 animated quantities
+
+3
+Piter
+No Pixels
+
+3
+Yazid
+Song lyric
+
+2
+KristinHenry
+Milkweed
+
+2
+Marc Edwards
+Vase illusion
+
+2
+Marc Edwards
+Napkin machine
+
+2
+Melissa
+Metaverse
+
+2
+Neel
+Make a piece of art inspired by your new year's resolution
