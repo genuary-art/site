@@ -82,6 +82,9 @@ Or something along those lines. Don't worry about angles or trigonometric identi
 
 Less than 1KB artwork.
 
+You can decide if you want to go for size coding, for 1KB of output, or whatever you think would be appropriate, today. If you go for size coding, we made some [tiny boiler plate code samples](tinycode) for you to start with.
+{:.info}
+
 ## JAN. 15 <span class="credit">(credit: Amy)</span> {#jan15}
 
 Use a physics library.

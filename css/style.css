@@ -19,7 +19,7 @@ hmix=(a,b,p)=>'#'+[1,3,5].map(i=>((1-p)*('0x'+a.substr(i,2))+p*('0x'+b.substr(i,
   --textlink: #44bbff;
   --infolink: #ff3344;
   --infocolor: #ff6611;
-  --infolinkhover: #3399ff;
+  --infolinkhover: #ff6688;
   --shadow: #000000;
 }
 
@@ -141,9 +141,10 @@ section pre {
   color: #0fc;
   padding: 1em;
   text-shadow: 0 0 3px #120, 0 0 10px #0fc;
-  overflow-x: auto;
+/*  overflow-x: auto;*/
   margin-top: 1em;
-  /*white-space: pre-wrap;*/
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 section pre code {
