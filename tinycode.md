@@ -10,7 +10,7 @@ This is a basic full screen fragment shader setup (548 chars):
 <!doctype html><html><style>*{margin:0}#V{display:block}</style><canvas id=V><script>a=V.width=innerWidth;a/=V.height=innerHeight+.01;with(V.getContext`webgl2`){p=createProgram(t=35633);[`out O{X x=X(-1);x[gl_VertexID]=3.;gl_Position=X(u=x.xy,0,1);u.x*=${a};}`,`out X c;in O{c=X(.5+.5*fract(u*7.),.5,1);}`].map(x=>attachShader(p,s=createShader(t--),shaderSource(s,`#version 300 es\n~V vec2~X vec4~F float~O V u;void main()\nprecision highp F;`.split`~`.join`\n#define `+x),compileShader(s)));linkProgram(p);useProgram(p);drawArrays(5,0,3)}</script>
 ```
 
-And this is the code for an animated full screen frag shader:
+And this is the code for an animated full screen frag shader (655 chars):
 
 ```js
 <!doctype html><html><style>*{margin:0}#V{display:block}</style><canvas id=V><script>a=V.width=innerWidth;a/=V.height=innerHeight+.01;with(V.getContext`webgl2`){p=createProgram(t=35633);[`out O{X x=X(-1);x[gl_VertexID]=3.;gl_Position=X(u=x.xy,0,1);u.x*=${a};}`,`uniform F t;out X c;in O{c=X(.5+.5*fract(u*7.+t),.5,1);}`].map(x=>attachShader(p,s=createShader(t--),shaderSource(s,`#version 300 es\n~V vec2~X vec4~F float~O V u;void main()\nprecision highp F;`.split`~`.join`\n#define `+x),compileShader(s)));linkProgram(p);useProgram(p);k=_=>requestAnimationFrame(k,uniform1f(getUniformLocation(p,'t'),performance.now()/5e2),drawArrays(5,0,3));k()}</script>
