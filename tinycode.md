@@ -24,9 +24,13 @@ The "magic number" 35633 is the value of `gl.VERTEX_SHADER`. It also gets decrea
 
 (TODO)
 
+[This tweet maybe](https://twitter.com/piterpasma/status/1525927224209199106)
+
 ## Tiny SVG code
 
 (TODO)
+
+[Epihyperderpflardioids on FXhash](https://www.fxhash.xyz/generative/21343) (source)[https://gateway.fxhash2.xyz/ipfs/QmS7mdKKLHAAvoc5gVU1ASc3d8SPXPgkce1NzAm8g5GBQB/?fxhash=ooevZgrtKftGMCmF2kRG2MBNgvRw8gTLNHEKBTvLB1YfQEkof9g]
 
 ## What counts?
 
