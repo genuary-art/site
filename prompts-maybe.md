@@ -1,7 +1,9 @@
 # PROMPTS
 
 ## JAN. 1 <span class="credit">(credit: Melissa)</span> {#jan1}
-Lava lamp
+Lava lamp  
+[https://en.wikipedia.org/wiki/Lava_lamp](https://en.wikipedia.org/wiki/Lava_lamp)  
+[https://www.reddit.com/r/Lavalamps/](https://www.reddit.com/r/Lavalamps/)  
 
 ## JAN. 2 <span class="credit">(credit: Piter)</span> {#jan2}
 In the style of Wassily Kandinsky (1846–1944)  
