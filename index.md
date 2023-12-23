@@ -24,7 +24,7 @@ Share your work and tag it with **#genuary** and **#genuary2024** and also **#ge
 
 This makes it easier to find other people doing the same prompt, which might not always be on the same day, because some people are from the future. GENUARY happens on all the social media sites at once.
 
-To help out keeping track of all this we're getting help from [Joyn](https://joyn.xyz) again. They're collecting all the hashtags if you tag your work with the tag for the right prompt (**#genuary1**, **#genuary2**, etc), you can check out the galleries for each day here: [GENUARY 2024 on Joyn](#todo). You can also view a [gallery of GENUARY 2023 on Joyn](https://www.joyn.xyz/space/genuary-f38cfe2e2fac?tab=open-calls), and you can curate your own collections of favourite pieces, even put them up for sale, so check it out!
+To help out keeping track of all this we're getting help from [Joyn](https://joyn.xyz) again. They're collecting all the hashtags if you tag your work with the tag for the right prompt (**#genuary1**, **#genuary2**, etc), you can check out the galleries for each day here: [GENUARY 2024 on Joyn](https://www.joyn.xyz/space/genuary--86970064ea53?tab=). You can also view a [gallery of GENUARY 2023 on Joyn](https://www.joyn.xyz/space/genuary-f38cfe2e2fac?tab=open-calls), and you can curate your own collections of favourite pieces, even put them up for sale, so check it out!
 
 # [PROMPTS](prompts)
 
