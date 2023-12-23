@@ -4,11 +4,11 @@
 
 Particles, lots of them.
 
-## JAN. 2 <span class="credit">(credit: Melissa & Piter)</span> {#jan2}
+## JAN. 2 <span class="credit">(credit: Luis Fraguada)</span> {#jan2}
 
-In the style of Vera Molnár (1924-2023).
+No palettes.
 
-[Wikipedia: Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r)
+Generative colors, procedural colors, emergent colors.
 {:.info}
 
 ## JAN. 3 <span class="credit">(credit: Stranger in the Q)</span> {#jan3}
@@ -24,11 +24,11 @@ Pixels.
 
 [Wikipedia: Pixel](https://en.wikipedia.org/wiki/Pixel)
 
-## JAN. 5 <span class="credit">(credit: Luis Fraguada)</span> {#jan5}
+## JAN. 5 <span class="credit">(credit: Melissa & Piter)</span> {#jan5}
 
-No palettes.
+In the style of Vera Molnár (1924-2023).
 
-Generative colors, procedural colors, emergent colors.
+[Wikipedia: Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r)
 {:.info}
 
 ## JAN. 6 <span class="credit">(credit: Nicolas barradeau & Yazid)</span> {#jan6}
