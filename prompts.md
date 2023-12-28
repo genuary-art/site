@@ -15,20 +15,20 @@ Generative colors, procedural colors, emergent colors.
 
 Droste effect.
 
-[Wikipedia: Droste effect](https://en.wikipedia.org/wiki/Droste_effect)
+[Wikipedia: Droste effect](https://en.wikipedia.org/wiki/Droste_effect){:target="\_blank"}
 {:.info}
 
 ## JAN. 4 <span class="credit">(credit: Piter)</span> {#jan4}
 
 Pixels.
 
-[Wikipedia: Pixel](https://en.wikipedia.org/wiki/Pixel)
+[Wikipedia: Pixel](https://en.wikipedia.org/wiki/Pixel){:target="\_blank"}
 
 ## JAN. 5 <span class="credit">(credit: Melissa & Piter)</span> {#jan5}
 
 In the style of Vera Molnár (1924-2023).
 
-[Wikipedia: Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r)
+[Wikipedia: Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r){:target="\_blank"}
 {:.info}
 
 ## JAN. 6 <span class="credit">(credit: Nicolas barradeau & Yazid)</span> {#jan6}
@@ -47,35 +47,35 @@ Chaotic system.
 
 ASCII.
 
-[Wikipedia: ASCII](https://en.wikipedia.org/wiki/ASCII)
+[Wikipedia: ASCII](https://en.wikipedia.org/wiki/ASCII){:target="\_blank"}
 
 ## JAN. 10 <span class="credit">(credit: greweb)</span> {#jan10}
 
 Hexagonal.
 
-[Red Blob Games on Hexagonal Grids](https://www.redblobgames.com/grids/hexagons/) is an in-depth article if you'd like to learn about hexagonal grids. Not all hexagons come in grids though, so use your creativity!
+[Red Blob Games on Hexagonal Grids](https://www.redblobgames.com/grids/hexagons/){:target="\_blank"} is an in-depth article if you'd like to learn about hexagonal grids. Not all hexagons come in grids though, so use your creativity!
 {:.info}
 
 ## JAN. 11 <span class="credit">(credit: Roni)</span> {#jan11}
 
 In the style of Anni Albers (1899-1994).
 
-[Wikipedia: Anni Albers](https://en.wikipedia.org/wiki/Anni_Albers)
+[Wikipedia: Anni Albers](https://en.wikipedia.org/wiki/Anni_Albers){:target="\_blank"}
 {:.info}
 
 ## JAN. 12 <span class="credit">(credit: Melissa)</span> {#jan12}
 
 Lava lamp.
 
-[Wikipedia: Lava lamp](https://en.wikipedia.org/wiki/Lava_lamp)  
-[Reddit: /r/Lavalamps/](https://www.reddit.com/r/Lavalamps/)  
+[Wikipedia: Lava lamp](https://en.wikipedia.org/wiki/Lava_lamp)
+[Reddit: /r/Lavalamps/](https://www.reddit.com/r/Lavalamps/){:target="\_blank"}
 {:.info}
 
 ## JAN. 13 <span class="credit">(credit: Piter)</span> {#jan13}
 
 Wobbly function day.
 
-[Wobbly Functions](https://piterpasma.nl/articles/wobbly) are a name I've given to smoothly undulating formulas made from modulated sine waves. Usually it's formulas of the form:
+[Wobbly Functions](https://piterpasma.nl/articles/wobbly){:target="\_blank"} are a name I've given to smoothly undulating formulas made from modulated sine waves. Usually it's formulas of the form:
 {:.info}
 
 `sin(a * b + c + d * sin(e * f + g)) + sin(h * i + j + k * sin(l * m + n)) + ...`
@@ -95,7 +95,7 @@ You can decide if you want to go for size coding, for 1KB of output, or whatever
 
 Use a physics library.
 
-[The Coding Train: physics libraries](https://thecodingtrain.com/tracks/physics-libraries)
+[The Coding Train: physics libraries](https://thecodingtrain.com/tracks/physics-libraries){:target="\_blank"}
 {:.info}
 
 ## JAN. 16 <span class="credit">(credit: Bruce Holmer & Michael Lowe)</span> {#jan16}
@@ -106,21 +106,21 @@ Draw 10 000 of something.
 
 Inspired by Islamic art.
 
-[Islamic star patterns](https://cs.uwaterloo.ca/~csk/other/starpatterns/)  
-[Producing computer generated Islamic patterns](https://www.researchgate.net/figure/A-typical-workflow-for-producing-computer-generated-Islamic-patterns-Further_fig1_221448409)  
-[Quasicrystals and Islamic patterns](https://medium.com/@orkhanart/forbidden-symmetry-unveiling-the-interconnections-of-quasicrystals-islamic-patterns-and-3caa27445d71)  
-[Shape grammar model for Islamic patterns](https://www.semanticscholar.org/paper/Paper%3A-A-SHAPE-GRAMMAR-MODEL-TO-GENERATE-ISLAMIC-Ulu-Ener/fdf81ccdb9536d9374ec208c90cc3e0db6e60ae6)  
-[More publications on/related to Islamic patterns](https://www.researchgate.net/profile/Lars-Eriksson-11)  
-[Best practice in Islamic geometric design](https://www.amazon.com/dp/B07N6CWWQ4?ref_=k4w_ss_dp_lp_uc)  
-[Islamic Star Patterns in Absolute Geometry](https://grail.cs.washington.edu/wp-content/uploads/2015/08/kaplan-2004-isp.pdf)  
-[Computer Generated Islamic Star Patterns](https://archive.bridgesmathart.org/2000/bridges2000-105.pdf)  
+[Islamic star patterns](https://cs.uwaterloo.ca/~csk/other/starpatterns/){:target="\_blank"}
+[Producing computer generated Islamic patterns](https://www.researchgate.net/figure/A-typical-workflow-for-producing-computer-generated-Islamic-patterns-Further_fig1_221448409){:target="\_blank"}
+[Quasicrystals and Islamic patterns](https://medium.com/@orkhanart/forbidden-symmetry-unveiling-the-interconnections-of-quasicrystals-islamic-patterns-and-3caa27445d71){:target="\_blank"}
+[Shape grammar model for Islamic patterns](https://www.semanticscholar.org/paper/Paper%3A-A-SHAPE-GRAMMAR-MODEL-TO-GENERATE-ISLAMIC-Ulu-Ener/fdf81ccdb9536d9374ec208c90cc3e0db6e60ae6){:target="\_blank"}
+[More publications on/related to Islamic patterns](https://www.researchgate.net/profile/Lars-Eriksson-11){:target="\_blank"}
+[Best practice in Islamic geometric design](https://www.amazon.com/dp/B07N6CWWQ4?ref_=k4w_ss_dp_lp_uc){:target="\_blank"}
+[Islamic Star Patterns in Absolute Geometry](https://grail.cs.washington.edu/wp-content/uploads/2015/08/kaplan-2004-isp.pdf){:target="\_blank"}
+[Computer Generated Islamic Star Patterns](https://archive.bridgesmathart.org/2000/bridges2000-105.pdf){:target="\_blank"}
 {:.info}
 
 ## JAN. 18 <span class="credit">(credit: Chris Barber (code_rgb))</span> {#jan18}
 
 Bauhaus.
 
-[Wikipedia: Bauhaus](https://en.wikipedia.org/wiki/Bauhaus)
+[Wikipedia: Bauhaus](https://en.wikipedia.org/wiki/Bauhaus){:target="\_blank"}
 {:.info}
 
 ## JAN. 19 <span class="credit">(credit: Shaderism)</span> {#jan19}
@@ -139,11 +139,11 @@ Use a library that you haven't used before.
 
 Point - line - plane.
 
-[Wassily Kandinsky - Point and line to plane](https://www.wassilykandinsky.net/book-117.php)  
-[Wikipedia: Wassily Kandinsky](https://en.wikipedia.org/wiki/Wassily_Kandinsky)  
-[Wikipedia: Point–line–plane postulate](https://en.wikipedia.org/wiki/Point%E2%80%93line%E2%80%93plane_postulate)  
-[2D Design Basics: Points, Lines, and Planes](https://www.aiga.org/sites/default/files/2021-03/2B_2D_Design_PointsLinesAndPlains.pdf)  
-[Point, Line, Plane - The fundamental elements of design](https://bbadesign.jimdofree.com/design-foundations/point-line-plane/)
+[Wassily Kandinsky - Point and line to plane](https://www.wassilykandinsky.net/book-117.php){:target="\_blank"}
+[Wikipedia: Wassily Kandinsky](https://en.wikipedia.org/wiki/Wassily_Kandinsky){:target="\_blank"}
+[Wikipedia: Point–line–plane postulate](https://en.wikipedia.org/wiki/Point%E2%80%93line%E2%80%93plane_postulate){:target="\_blank"}
+[2D Design Basics: Points, Lines, and Planes](https://www.aiga.org/sites/default/files/2021-03/2B_2D_Design_PointsLinesAndPlains.pdf){:target="\_blank"}
+[Point, Line, Plane - The fundamental elements of design](https://bbadesign.jimdofree.com/design-foundations/point-line-plane/){:target="\_blank"}
 {:.info}
 
 ## JAN. 23 <span class="credit">(credit: Marc Edwards)</span> {#jan23}
@@ -166,42 +166,43 @@ Grow a seed.
 
 Code for one hour. At the one hour mark, you're done.
 
-Click [here](https://www.google.com/search?q=1+hour+timer) to find out how long an hour takes.
+Click [here](https://www.google.com/search?q=1+hour+timer){:target="\_blank"} to find out how long an hour takes.
 {:.info}
 
 ## JAN. 28 <span class="credit">(credit: Melissa)</span> {#jan28}
 
 Skeuomorphism.
 
-A skeuomorph is a derivative object that retains attributes from structures that were necessary in the original. Skeuomorphs are typically used to ~~gate keep generative art styles~~ make something new feel familiar in an effort to speed understanding and acclimation. They employ elements that, while essential to the original object, serve no pragmatic purpose in the new system. (from [Wikipedia on Skeuomorphs](https://en.wikipedia.org/wiki/Skeuomorph))
+A skeuomorph is a derivative object that retains attributes from structures that were necessary in the original. Skeuomorphs are typically used to ~~gate keep generative art styles~~ make something new feel familiar in an effort to speed understanding and acclimation. They employ elements that, while essential to the original object, serve no pragmatic purpose in the new system. (from [Wikipedia on Skeuomorphs](https://en.wikipedia.org/wiki/Skeuomorph){:target="\_blank"})
 {:.info}
 
 ## JAN. 29 <span class="credit">(credit: Melissa & Camille Roux)</span> {#jan29}
 
 Signed Distance Functions (if we keep trying once per year, eventually we will be good at it!).
 
-[Piter explains how to SDFs in 2023](2023/wtsdf)  
-[Video tutorial about 2D SDFs](https://youtu.be/KRB57wyo8_4)  
-[2D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions2d/)  
-[3D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions/)  
-[Wikipedia: Signed Distance Functions](https://en.wikipedia.org/wiki/Signed_distance_function)  
+[Piter explains how to SDFs in 2023](2023/wtsdf){:target="\_blank"}
+[Video tutorial about 2D SDFs](https://youtu.be/KRB57wyo8_4){:target="\_blank"}
+[2D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions2d/){:target="\_blank"}
+[3D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions/){:target="\_blank"}
+[Wikipedia: Signed Distance Functions](https://en.wikipedia.org/wiki/Signed_distance_function){:target="\_blank"}
 {:.info}
 
 ## JAN. 30 <span class="credit">(credit: Melissa)</span> {#jan30}
 
 Shaders.
 
-Use the GPU. I did a [Shader Workshop](https://www.youtube.com/watch?v=EGvuSOvuREQ) a while back where I explain how to code a shader in WebGL2 from scratch (and also finally a simple raymarcher, but you can do many other things with shaders too). 
+Use the GPU. I did a [Shader Workshop](https://www.youtube.com/watch?v=EGvuSOvuREQ){:target="\_blank"} a while back where I explain how to code a shader in WebGL2 from scratch (and also finally a simple raymarcher, but you can do many other things with shaders too).
 {:.info}
 
 ## JAN. 31 <span class="credit">(credit: Neel & Monokai)</span> {#jan31}
 
 Generative music / Generative audio / Generative sound.
 
-While many of you probably know that Ambient music often employs generative strategies, Psy-Trance is another genre that uses generative techniques. Check out e.g. [Dash Glitch on YouTube](https://www.youtube.com/results?search_query=dash+glitch+generative)
+While many of you probably know that Ambient music often employs generative strategies, Psy-Trance is another genre that uses generative techniques. Check out e.g. [Dash Glitch on YouTube](https://www.youtube.com/results?search_query=dash+glitch+generative){:target="\_blank"}
 {:.info}
 
 # [THANKS](thanks)
+
 [Big thanks goes out to all these people](thanks) for contributing to GENUARY and generally being awesome.
 
 <script>
@@ -211,7 +212,7 @@ While many of you probably know that Ambient music often employs generative stra
         year = now.getFullYear(),
         month = now.getMonth(),
         day = now.getDate();
-    
+
     if (year !== 2024 || month !== 0) return; // The if statement makes sure we only highlight days in January 2023
     let hash = `#jan${day}`;
     if (!location.hash) location = hash;
