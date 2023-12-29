@@ -15,20 +15,20 @@ Generative colors, procedural colors, emergent colors.
 
 Droste effect.
 
-[Wikipedia: Droste effect](https://en.wikipedia.org/wiki/Droste_effect){:target="\_blank"}
+[Wikipedia: Droste effect](https://en.wikipedia.org/wiki/Droste_effect){:target="\_blank"}  
 {:.info}
 
 ## JAN. 4 <span class="credit">(credit: Piter)</span> {#jan4}
 
 Pixels.
 
-[Wikipedia: Pixel](https://en.wikipedia.org/wiki/Pixel){:target="\_blank"}
+[Wikipedia: Pixel](https://en.wikipedia.org/wiki/Pixel){:target="\_blank"}  
 
 ## JAN. 5 <span class="credit">(credit: Melissa & Piter)</span> {#jan5}
 
 In the style of Vera Molnár (1924-2023).
 
-[Wikipedia: Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r){:target="\_blank"}
+[Wikipedia: Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r){:target="\_blank"}  
 {:.info}
 
 ## JAN. 6 <span class="credit">(credit: Nicolas barradeau & Yazid)</span> {#jan6}
@@ -47,7 +47,8 @@ Chaotic system.
 
 ASCII.
 
-[Wikipedia: ASCII](https://en.wikipedia.org/wiki/ASCII){:target="\_blank"}
+[Wikipedia: ASCII](https://en.wikipedia.org/wiki/ASCII){:target="\_blank"}  
+{:.info}
 
 ## JAN. 10 <span class="credit">(credit: greweb)</span> {#jan10}
 
@@ -60,15 +61,15 @@ Hexagonal.
 
 In the style of Anni Albers (1899-1994).
 
-[Wikipedia: Anni Albers](https://en.wikipedia.org/wiki/Anni_Albers){:target="\_blank"}
+[Wikipedia: Anni Albers](https://en.wikipedia.org/wiki/Anni_Albers){:target="\_blank"}  
 {:.info}
 
 ## JAN. 12 <span class="credit">(credit: Melissa)</span> {#jan12}
 
 Lava lamp.
 
-[Wikipedia: Lava lamp](https://en.wikipedia.org/wiki/Lava_lamp)
-[Reddit: /r/Lavalamps/](https://www.reddit.com/r/Lavalamps/){:target="\_blank"}
+[Wikipedia: Lava lamp](https://en.wikipedia.org/wiki/Lava_lamp){:target="\_blank"}  
+[Reddit: /r/Lavalamps](https://www.reddit.com/r/Lavalamps/){:target="\_blank"}  
 {:.info}
 
 ## JAN. 13 <span class="credit">(credit: Piter)</span> {#jan13}
@@ -95,7 +96,7 @@ You can decide if you want to go for size coding, for 1KB of output, or whatever
 
 Use a physics library.
 
-[The Coding Train: physics libraries](https://thecodingtrain.com/tracks/physics-libraries){:target="\_blank"}
+[The Coding Train: physics libraries](https://thecodingtrain.com/tracks/physics-libraries){:target="\_blank"}  
 {:.info}
 
 ## JAN. 16 <span class="credit">(credit: Bruce Holmer & Michael Lowe)</span> {#jan16}
@@ -106,21 +107,21 @@ Draw 10 000 of something.
 
 Inspired by Islamic art.
 
-[Islamic star patterns](https://cs.uwaterloo.ca/~csk/other/starpatterns/){:target="\_blank"}
-[Producing computer generated Islamic patterns](https://www.researchgate.net/figure/A-typical-workflow-for-producing-computer-generated-Islamic-patterns-Further_fig1_221448409){:target="\_blank"}
-[Quasicrystals and Islamic patterns](https://medium.com/@orkhanart/forbidden-symmetry-unveiling-the-interconnections-of-quasicrystals-islamic-patterns-and-3caa27445d71){:target="\_blank"}
-[Shape grammar model for Islamic patterns](https://www.semanticscholar.org/paper/Paper%3A-A-SHAPE-GRAMMAR-MODEL-TO-GENERATE-ISLAMIC-Ulu-Ener/fdf81ccdb9536d9374ec208c90cc3e0db6e60ae6){:target="\_blank"}
-[More publications on/related to Islamic patterns](https://www.researchgate.net/profile/Lars-Eriksson-11){:target="\_blank"}
-[Best practice in Islamic geometric design](https://www.amazon.com/dp/B07N6CWWQ4?ref_=k4w_ss_dp_lp_uc){:target="\_blank"}
-[Islamic Star Patterns in Absolute Geometry](https://grail.cs.washington.edu/wp-content/uploads/2015/08/kaplan-2004-isp.pdf){:target="\_blank"}
-[Computer Generated Islamic Star Patterns](https://archive.bridgesmathart.org/2000/bridges2000-105.pdf){:target="\_blank"}
+[Islamic star patterns](https://cs.uwaterloo.ca/~csk/other/starpatterns/){:target="\_blank"}  
+[Producing computer generated Islamic patterns](https://www.researchgate.net/figure/A-typical-workflow-for-producing-computer-generated-Islamic-patterns-Further_fig1_221448409){:target="\_blank"}  
+[Quasicrystals and Islamic patterns](https://medium.com/@orkhanart/forbidden-symmetry-unveiling-the-interconnections-of-quasicrystals-islamic-patterns-and-3caa27445d71){:target="\_blank"}  
+[Shape grammar model for Islamic patterns](https://www.semanticscholar.org/paper/Paper%3A-A-SHAPE-GRAMMAR-MODEL-TO-GENERATE-ISLAMIC-Ulu-Ener/fdf81ccdb9536d9374ec208c90cc3e0db6e60ae6){:target="\_blank"}  
+[More publications on/related to Islamic patterns](https://www.researchgate.net/profile/Lars-Eriksson-11){:target="\_blank"}  
+[Best practice in Islamic geometric design](https://www.amazon.com/dp/B07N6CWWQ4?ref_=k4w_ss_dp_lp_uc){:target="\_blank"}  
+[Islamic Star Patterns in Absolute Geometry](https://grail.cs.washington.edu/wp-content/uploads/2015/08/kaplan-2004-isp.pdf){:target="\_blank"}  
+[Computer Generated Islamic Star Patterns](https://archive.bridgesmathart.org/2000/bridges2000-105.pdf){:target="\_blank"}  
 {:.info}
 
 ## JAN. 18 <span class="credit">(credit: Chris Barber (code_rgb))</span> {#jan18}
 
 Bauhaus.
 
-[Wikipedia: Bauhaus](https://en.wikipedia.org/wiki/Bauhaus){:target="\_blank"}
+[Wikipedia: Bauhaus](https://en.wikipedia.org/wiki/Bauhaus){:target="\_blank"}  
 {:.info}
 
 ## JAN. 19 <span class="credit">(credit: Shaderism)</span> {#jan19}
@@ -139,11 +140,11 @@ Use a library that you haven't used before.
 
 Point - line - plane.
 
-[Wassily Kandinsky - Point and line to plane](https://www.wassilykandinsky.net/book-117.php){:target="\_blank"}
-[Wikipedia: Wassily Kandinsky](https://en.wikipedia.org/wiki/Wassily_Kandinsky){:target="\_blank"}
-[Wikipedia: Point–line–plane postulate](https://en.wikipedia.org/wiki/Point%E2%80%93line%E2%80%93plane_postulate){:target="\_blank"}
-[2D Design Basics: Points, Lines, and Planes](https://www.aiga.org/sites/default/files/2021-03/2B_2D_Design_PointsLinesAndPlains.pdf){:target="\_blank"}
-[Point, Line, Plane - The fundamental elements of design](https://bbadesign.jimdofree.com/design-foundations/point-line-plane/){:target="\_blank"}
+[Wassily Kandinsky - Point and line to plane](https://www.wassilykandinsky.net/book-117.php){:target="\_blank"}  
+[Wikipedia: Wassily Kandinsky](https://en.wikipedia.org/wiki/Wassily_Kandinsky){:target="\_blank"}  
+[Wikipedia: Point–line–plane postulate](https://en.wikipedia.org/wiki/Point%E2%80%93line%E2%80%93plane_postulate){:target="\_blank"}  
+[2D Design Basics: Points, Lines, and Planes](https://www.aiga.org/sites/default/files/2021-03/2B_2D_Design_PointsLinesAndPlains.pdf){:target="\_blank"}  
+[Point, Line, Plane - The fundamental elements of design](https://bbadesign.jimdofree.com/design-foundations/point-line-plane/){:target="\_blank"}  
 {:.info}
 
 ## JAN. 23 <span class="credit">(credit: Marc Edwards)</span> {#jan23}
@@ -180,11 +181,11 @@ A skeuomorph is a derivative object that retains attributes from structures that
 
 Signed Distance Functions (if we keep trying once per year, eventually we will be good at it!).
 
-[Piter explains how to SDFs in 2023](2023/wtsdf){:target="\_blank"}
-[Video tutorial about 2D SDFs](https://youtu.be/KRB57wyo8_4){:target="\_blank"}
-[2D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions2d/){:target="\_blank"}
-[3D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions/){:target="\_blank"}
-[Wikipedia: Signed Distance Functions](https://en.wikipedia.org/wiki/Signed_distance_function){:target="\_blank"}
+[Piter explains how to SDFs in 2023](2023/wtsdf){:target="\_blank"}  
+[Video tutorial about 2D SDFs](https://youtu.be/KRB57wyo8_4){:target="\_blank"}  
+[2D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions2d/){:target="\_blank"}  
+[3D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions/){:target="\_blank"}  
+[Wikipedia: Signed Distance Functions](https://en.wikipedia.org/wiki/Signed_distance_function){:target="\_blank"}  
 {:.info}
 
 ## JAN. 30 <span class="credit">(credit: Melissa)</span> {#jan30}
