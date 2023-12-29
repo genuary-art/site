@@ -36,7 +36,7 @@ The "magic number" 35633 is the value of `gl.VERTEX_SHADER`. It also gets decrea
 
 As you can see, the above code samples include both the Javascript code, the HTML code and sometimes even GLSL code. So does it count if only your Javascript code is under 1KB? What if you made a cool thing in [Shadertoy](https://www.shadertoy.com/) or [Twigl](https://twigl.app/) and the GLSL code is just under 1KB? You might ask, does this count? But I ask you:
 
-Who is the master who makes the grass green?
+*Who is the master who makes the grass green?*
 
 Genuary is not a competition. It's about the challenge you set for yourself, and providing people with prompts to find fruitful challenges that other people are also participating in.
 

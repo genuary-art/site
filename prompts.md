@@ -166,7 +166,7 @@ Grow a seed.
 
 Code for one hour. At the one hour mark, you're done.
 
-Click [here](https://www.google.com/search?q=1+hour+timer) to find out how long an hour takes.
+Click [here](https://www.google.com/search?q=1+hour+timer) to find out how long an hour takes. PRO-TIP: Use the progress indicator from Genuary 7th!
 {:.info}
 
 ## JAN. 28 <span class="credit">(credit: Melissa)</span> {#jan28}

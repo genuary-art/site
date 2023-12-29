@@ -1,6 +1,9 @@
 # GENUARY TODO
 
-- logo
-- write pages
-- vote prompts
+- wobbly functions
+- homepage "almost"
+- thanks people
+- tiny canvas code
+- tiny SVG code
+- code golf links
 
