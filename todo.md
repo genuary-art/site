@@ -1,9 +1,9 @@
 # GENUARY TODO
 
 - wobbly functions
-- homepage "almost"
-- thanks people
 - tiny canvas code
 - tiny SVG code
-- code golf links
-
+- tinycode code golf links
+- Gen30 shader info links (wegl2fundamental, specs, etc)
+- gen music links tips
+- fireworks codingtrain link
