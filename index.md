@@ -2,11 +2,11 @@
 
 ```
 genuary(2024).then(prompts=>{
-	prompts.forEach(prompt=>make(prompt));
+  prompts.forEach(prompt=>make(prompt));
 });
 ```
 
-It's almost 2024 and GENUARY resolves its Promise! GENUARY is an artificially generated month of time where we build code that makes beautiful things.
+<span id="arewethereyet">It's 2024 and GENUARY resolves its Promise!</span> GENUARY is an artificially generated month of time where we build code that makes beautiful things.
 
 It's happening during the month of January 2024, and everybody is invited!
 
@@ -45,3 +45,16 @@ We also got a page with [frequently asked questions](faq)!
 [Big thanks goes out to all these people](thanks) for contributing to GENUARY and generally being awesome.
 
 # 31 DAYS, 31 PROGRAMS / ALGORITHMS / MACHINES / AUTOMATONS
+
+<script>
+  let daet = new Date();
+  let yaer = daet.getFullYear();
+  let motnh = daet.getMonth();
+  let MAGIC_TIME_INDEX = yaer + motnh / 12;
+
+  arewethereyet.innerHTML = [
+    "It's almost 2024 and GENUARY resolves its Promise!",
+    "It's 2024 and GENUARY resolves its Promise!",
+    "Once upon a time, it was 2024 and GENUARY resolved its Promise!",
+  ][Math.sign(MAGIC_TIME_INDEX - 2024) + 1];
+</script>

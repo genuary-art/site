@@ -31,7 +31,7 @@ In the style of Vera Molnár (1924-2023).
 [Wikipedia: Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r){:target="\_blank"}  
 {:.info}
 
-## JAN. 6 <span class="credit">(credit: Nicolas barradeau & Yazid)</span> {#jan6}
+## JAN. 6 <span class="credit">(credit: Nicolas barradeau, Yazid & Jess Hewitt)</span> {#jan6}
 
 Screensaver.
 
