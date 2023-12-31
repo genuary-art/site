@@ -95,6 +95,23 @@ section p {
   margin: 1em 0;
 }
 
+p.box {
+  display: inline-block;
+  width: 45%;
+  margin: 1em .5em;
+}
+
+p.box img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+p.box em {
+  display: block;
+  text-align: center;
+} 
+
 section hr {
   margin: 3em 0;
   border-top: .25em solid var(--textstrong);

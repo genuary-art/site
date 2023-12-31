@@ -37,6 +37,7 @@ Cheating is encouraged. Feel free to implement all these prompts before January.
 * Prepare a nice framework for yourself before January to quickly be able to start trying out ideas.
 * Don't get burned out doing dailies. This is supposed to be fun and creative. If you start to resent dailies, or you find that it's stunting you creatively, take a break and think about what you want to get out of this. Fun? Practicing skills? Learning? Breaking boredom? Getting ideas? It's fine to skip days. If you've been on a streak and only have a few days left, you've got this.
 * There's a prompt for each day, but you can do them in advance (or later!) if it's convenient. No one is here to throw off your schedule.
+* Does your calendar for this month fumble the spelling of *Genuary*, perhaps like "January" or something? We've got you covered, check out these cool [GENUARY Calendars](calendar)!
 
 We also got a page with [frequently asked questions](faq)!
 
