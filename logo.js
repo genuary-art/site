@@ -1,70 +1,23 @@
 // Genuary 2024 logo code, Copyright by Piter Pasma
-
-function dateFormat (date, fstr, utc=false) {
-  // from https://stackoverflow.com/a/10647272
-  utc = utc ? 'getUTC' : 'get';
-  return fstr.replace (/%[YmdHMS]/g, function (m) {
-    switch (m) {
-    case '%Y': return date[utc + 'FullYear'] (); // no leading zeros required
-    case '%m': m = 1 + date[utc + 'Month'] (); break;
-    case '%d': m = date[utc + 'Date'] (); break;
-    case '%H': m = date[utc + 'Hours'] (); break;
-    case '%M': m = date[utc + 'Minutes'] (); break;
-    case '%S': m = date[utc + 'Seconds'] (); break;
-    default: return m.slice (1); // unknown code, remove %
-    }
-    // add leading zero if required
-    return ('0' + m).slice (-2);
-  });
-}
-
-done=(info={})=>{
-  let elapsed = (Date.now()-start_time)/1000;
-  let els = `${elapsed/60|0}m${(elapsed%60).toFixed(2)}s`;
-  let wen = dateFormat(new Date(), '%Y-%m-%d-%H-%M-%S');
-  let key=location.pathname+'_hist';
-  let hist=JSON.parse(localStorage[key]||'[]')
-  hist.push({wen,seed,elapsed,...info});
-  localStorage[key]=JSON.stringify(hist.slice(-9));
-  console.table(hist.toReversed());
-}
-
-opts={/* default URL options go here */};
-new URL(location).searchParams.forEach((v,k)=>opts[k]=v); // read the URL params
-seed=opts.seed>''?opts.seed:"blemk"+Date.now();
-
-onkeyup=e=>{
-  if(e.key=='l')location.search="?seed="+seed; // lock the seed
-  if(e.key=='u')location.search=""; // unlock the seed
-}
-
-// the actual code
 (code=({copyright:piterpasma,max,floor,abs,sin,cos,min,imul,PI}=Math)=>{
   // featuring some comments and white space
-  // if (location.hostname=='localhost') localStorage['cache_img_2024'] = ''; // for debug testing
-
-  logo.onclick = _=>{ // click to refresh
-    seed="blarf"+Date.now();
-    gen_img();
-  }
 
   gen_img = _=>{
-    // this function checks if an image is cached and if not generates a new one
-
-    start_time=Date.now();
     // init canvas
-    M=140; // height in mm
     Y2=(Y=4)/2; // aspect ratio
-    DR=.7*(LW=.5/M); // dot radius
+    DR=.7*(LW=.0035); // dot radius 
     V=document.createElement`canvas`;
     C=V.getContext`2d`;
     cw=V.width=Y*(ch=V.height=devicePixelRatio*logo.offsetWidth/Y);
     logo.replaceChildren(V);
+
+    // clear
     C.fillStyle='#1D1828';
     C.fillRect(0,0,cw,ch);
 
     // init PRNG
-    S=Uint32Array.of(9,7,5,3); // dont init to 0
+    seed="blemk"+Date.now();
+    S=Uint32Array.of(9,7,5,3); // dont init to 0, or seed after midnight
     R=(a=1)=>a*(a=S[3],S[3]=S[2],S[2]=S[1],a^=a<<11,S[0]^=a^a>>>8^(S[1]=S[0])>>>19,S[0]/2**32);
     [...seed+Infinity].map(c=>R(S[3]^=c.charCodeAt()*23205));
 
@@ -89,23 +42,20 @@ onkeyup=e=>{
     k=(a,b)=>a>0&&b>0?(a*a+b*b)**.5:a>b?a:b; // 2D edge distance function
     k3=(a,b,c)=>k(a,k(b,c)); // 3D edge distance function
 
-    box2=(a,b,c)=>(a=abs(a)-c,b=abs(b)-c,a>0&&b>0?L(a,b):a>b?a:b);
+    box2=(a,b,c)=>(a=abs(a)-c,b=abs(b)-c,a>0&&b>0?L(a,b):a>b?a:b); // 2D box distance function
 
     // init 3D stuff
-    Z=2.  ; // zoom / FOV
+    Z=2; // zoom / FOV
     cp=[T(8),T(12),-72]; // camera pos
     lp=[cp[0],40,-50]; // light pos
 
     fw=N(A([0,12,0],cp,-1)); // camera forward axis
-    console.log(`lookat distance = ${m.toFixed(3)}`);
     rt=N(X(fw,[T(.05),-1,0])); // camera right axis
     up=X(rt,fw); // camera up axis
 
-    [sx,sy]=(([a,d,g],[b,e,h],[c,f,i])=>(t=a*(e*i-h*f)-b*(d*i-f*g)+c*(d*h-g*e),[[(e*i-f*h)/t,(c*h-b*i)/t,(b*f-c*e)/t],[(f*g-d*i)/t,(a*i-c*g)/t,(c*d-a*f)/t]]))(rt,up,fw); // inverse camera matrix, used to convert 3D direction to 2D
-
     fw=fw.map(v=>v*Z); // pre multiply fwd vector (used later in raytrace fn)
 
-    // minimal value noise function
+    // tiny value noise function
     const KNUTH = 0x9e3779b1; // prime number close to PHI*2**32 (used for multiplicative hash)
     let NSEED = R(2**32); // random 32 bit integer (yes it's an integer)
     ri=(i,j,k)=>(
@@ -148,9 +98,9 @@ onkeyup=e=>{
     // distance function for the object around the logo
     ra=T()<0?1:-1; // angle left or right
     rx=T(35);
-    r2=.5**.5; // sin(45°) (xz rotation)
+    r2=.5**.5; // sin(45°) = 1/sqrt(2) (xz rotation)
     a=R(TAU);rs=sin(a);rc=cos(a); // random angle for yz rotation
-    rid = T()<0?0:8+T(6); // x reflection distance, if >0 then there's two of the object
+    rid = T()<0?0:8+T(6); // flip coin, x reflection distance, if >0 then there's two of the object
     rir = max(15+r2*rid,R(30));riw=1+T(.6); // radius and width of the object
     frw = .7+T(.3);frr = 9+R(9)+frw; // different settings if object is a box frame
     b8d = 9+R(3); b8r = b8d/4+R(2); // distance and radius for 8-balls object
@@ -182,7 +132,8 @@ onkeyup=e=>{
       x += 49; // centre horizontally
       z -= cl(z,yw-1,1-yw); // make the thinner parts of letters a bit fatter in z-direction
 
-      // distance functions for all the letters, it's magic
+      // distance functions for all the letters, don't worry it's magic -- I had a hard 
+      // time figuring it out again this year, and I only had to change a 3 to a 4 :)
       let x0,ay9=abs(y-9),ay12=abs(y-12),y9=y>9,y6=y>6;
       x0=(x>0)*3;
       let G = k(x<y-7?x-1:y-8,L(k(abs(x)-1-x0,ay9-3-x0)-3+x0,z)); // G
@@ -205,10 +156,9 @@ onkeyup=e=>{
       // let d2 = min(d2a,d2b); // digit 2 // d2
       x -= 12;
       let d4 = L(z,k(min(abs(k(-1-x,12-y)-3),k(abs(x-3),3-y)  ),k(y-15,x-4))); // d4
-      // let d = k(L(z, k(x-1,abs(ay9-3))-3),-3-x); // digit 3
+
       let letters = min(G, E, U, NAR, Y, d2a,d2b, d4)-br; // union of letters inflated by br
       return bar<letters&&bar<bal?(ma=1,bar):letters<bal?(ma=0,letters):(ma=2,bal);
-      // return min(bar,letters,bal); // return distance function for union of letters and object around letters
     };
 
     Npts=0;MAXD=300;
@@ -222,25 +172,20 @@ onkeyup=e=>{
           lv=N(A(lp,p,-1));ld=m; // lv = light vector, ld = light distance
           shade=.4+.6*(ld<MAXD && IX(A(p,n,.02),lv,ld,.02)>=ld); // apply shadow
           shade *= max(0,D(n,lv)); // apply diffuse lighting
-          shade *= SM(MAXD,.3*MAXD,d);
+          shade *= SM(MAXD,.3*MAXD,d); // depth shading
           d=cl(shade,0,1); // clamp brightness
-          P(p);
+          P(p); // evaluate dist func to get material
           cc=d*d>.5+R(.5)?['#ff8','#8ff','#ccc'][ma]:['#fc4','#4cf','#888'][ma];          
         } else {
-          d= 1;//-.5*SM(1,0,rd[2]+.2*rd[1]); // background gradient
-          // d=1;
-          n=[0,0,-1];
+          d= 1;
           cc='#888';
         }
         rr=.5+d*2;
         cr=rr*DR/(d**2*.999+.001); // transform grey value 1..0 into clear radius
-        // hhv=mix(hv,rd,edg); // hatch direction based on edge
-        // hhv=hv;
         return [
-          // N([D(sx,hd=N(X(n,hhv))),D(sy,hd),0]), // cross product hatch direction with normal (surface direction), then inv cam transform to 2D, and normalize
           cr<.3&&!Qh(QT,x-cr,y-cr,cr*2,(u,v)=>(x-u)**2+(y-v)**2<cr*cr), // clear test
-          cc,
-          rr
+          cc, // color
+          rr // radius
           ]
       }
       return [0,'#0f0',1] // fail
@@ -255,37 +200,40 @@ onkeyup=e=>{
     Q=(x,y,w)=>({x,y,w,p:[]});
 
     function draw_circle(x, y, r) {
+      // I swear I got this from Stack Overflow or something
       C.moveTo(x + r, y); C.arc(x, y, r, 0, TAU); 
     }
-    let rpt=_=>[R(Y),R()];
+
+    let rpt=_=>[R(Y),R()]; // random point on the canvas
     function* E() {
       // rendering function
       // this function is a generator function to occasionally yield control to the calling function,
       // which is a setTimeout loop, so the browser can update and doesn't hang
+      // see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop for more info
       QT=Q(-2,-2,4); // init empty QuadTree
-      let nn=0,np=0;
-      maxf=0;
+      let nn=0;
       for(let I=0;I<999;I++){ // I = fail counter
-        let [qx,qy]=rpt();
-        let q = [qx-Y2,qy-.5];
-        if(Qh(QT,q[0]-DR,q[1]-DR,DR*2,(qu,qv)=>(q[0]-qu)**2+(q[1]-qv)**2<DR*DR))continue;
-        let [h,c,r]=u(q); // evaluate point
-        if(h){
-          Qa(QT,q);
-          C.fillStyle=c;
+        let [qx,qy]=rpt(); // get random point
+        let q = [qx-Y2,qy-.5]; // translate point, our raytrace function is centered on (0,0)
+        if(Qh(QT,q[0]-DR,q[1]-DR,DR*2,(qu,qv)=>(q[0]-qu)**2+(q[1]-qv)**2<DR*DR))continue; // fail early if there's no space
+        let [h,c,r]=u(q); // raytrace evaluate point
+        if (h) { // if the clear radius is clear 
+          Qa(QT,q); // add point to quadtree
+          C.fillStyle=c; // and we draw a small circle in the right colour
           C.beginPath();
           draw_circle(qx*ch, qy*ch, LW * ch * r);
           C.fill();
-          if(I>maxf){maxf=I;console.log(maxf);}
-          I=0;np++;
+          I=0; // reset fail counter
         }
-        if(++nn>999){nn=0;yield;}
+        if (++nn>999) {nn=0;yield;} // occasionally yield for the event loop
       }
-      done({n_test:Npts,n_pts:np,ratio:(1000*np/Npts|0)/1000});
     }
 
     J=_=>E.next().done||setTimeout(J); // timeout loop function loops until E iterator is done
     J(E=E()) // start the render generator function
   }
-  gen_img(); // also start the program, or something
+  logo.onclick = gen_img; // click to refresh
+  gen_img(); // also start the program
 })() // start the program for real
+
+// the end thank you for reading
