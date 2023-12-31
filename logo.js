@@ -232,6 +232,7 @@
     J=_=>E.next().done||setTimeout(J); // timeout loop function loops until E iterator is done
     J(E=E()) // start the render generator function
   }
+
   logo.onclick = gen_img; // click to refresh
   gen_img(); // also start the program
 })() // start the program for real
