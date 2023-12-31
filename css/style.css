@@ -134,8 +134,9 @@ section ul li {
   margin: .5em 0;
 }
 
+
 section pre {
-  background:#121416 url("../img/hibiscustile2.png");
+  background:#121416 url("../img/hibiscustile2_okay.png");
   border: solid 1px #000;
   border-radius: 0.25em;
   box-shadow: inset 0 0.25em 1em rgba(0,0,0,0.2);
