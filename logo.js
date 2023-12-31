@@ -215,7 +215,7 @@
       for(let I=0;I<999;I++){ // I = fail counter
         let [qx,qy]=rpt(); // get random point
         let q = [qx-Y2,qy-.5]; // translate point, our raytrace function is centered on (0,0)
-        if(Qh(QT,q[0]-DR,q[1]-DR,DR*2,(qu,qv)=>(q[0]-qu)**2+(q[1]-qv)**2<DR*DR))continue; // fail early if there's no space
+        if(Qh(QT,q[0]-DR,q[1]-DR,DR*2,(qu,qv)=>(q[0]-qu)**2+(q[1]-qv)**2<DR*DR))continue; // fail early if there's no space (this line is optional but yields a bit of speed improvement)
         let [h,c,r]=u(q); // raytrace evaluate point
         if (h) { // if the clear radius is clear 
           Qa(QT,q); // add point to quadtree
