@@ -11,12 +11,13 @@ hmix=(a,b,p)=>'#'+[1,3,5].map(i=>((1-p)*('0x'+a.substr(i,2))+p*('0x'+b.substr(i,
 :root {
   --bgcolor: #1D1828;
   --textcolor: #fc4;
-  --textstrong: #4bf; /*#f61;*/
+  --textstrong: #f61; /*#f61;*/
   --textstrongheader: #f80;
-  --textstronginverse: #f80;
-  --texthighlight: #cd1++++;
+  --textstrongheadertoday: #fa4;
+  --texthighlight: #cd1;
   --textcode: #cf4;
-  --textlink: #f61;/*#4bf;*/
+  --textlink: #4bf;/*#4bf;*/
+  --textlinkhover: #5df;/*#4bf;*/
   --infolink: #f34;
   --infocolor: #f61;
   --infolinkhover: #f68;
@@ -59,19 +60,20 @@ nav a {
   text-align: center;
   text-decoration: none;
   font-weight: bold;
-  color: var(--textlink);
+  color: var(--textstrong);
 }
 
 section strong { color: var(--textstrong); font-weight: bold; }
 section em { color: var(--texthighlight); font-style: italic; }
 section code { color: var(--textcode); font-family: monospace; }
 section a { color: var(--textlink); }
+section a:hover { color: var(--textlinkhover); }
 section .info { font-size: .7em; line-height: 1.25; color: var(--infocolor); }
 section .info a {color: var(--infolink); font-weight: bold; }
 section .info a:hover {color: var(--infolinkhover); }
 
-section .share { font-size: .7em; line-height: 1.25; color: var(--texthighlight); }
-section .share b { font-weight: bold; border: none; padding: 0; }
+section .share { font-size: .7em; line-height: 1; margin: 1rem 0 1rem 1.25rem; color: var(--texthighlight); opacity: .7; }
+section .share b { font-weight: bold; border: none; padding: 0; color: var(--textstrong); }
 
 p.shadows { text-shadow: .25em .25em .0625em #0004; }
 
@@ -137,7 +139,7 @@ section h1 {
 section h2 {
     border-top: 2px solid #333055;
     font-size: 1.5em;
-    margin: 0 -1em;
+    margin: 0 -2rem;
     padding: .5em 1em 0 1em;
 }
 
@@ -204,27 +206,28 @@ footer a { color: var(--infolinkhover); }
 
 .today {
   font-size: 2em;
-  color: var(--textcolor);
+  color: var(--textstrongheadertoday);
+  border-left: 3px solid #333055;
 /*  text-shadow: 0 0 0.1em #fff, .0625em .0625em 0 #fff;*/
 }
 
-.today::after {
+/*.today::after {
   background-color: #fff;
   color: var(--textstronginverse);
   content: "that's today!";
   display: inline-block;
   vertical-align: middle;
-  font-size: 0.4375em;
+  font-size: 0.2em;
   font-weight: bold;
   margin-left: 2em;
   padding: .5em .75em;
-  box-shadow: 0.25em 0.5em 0 var(--shadow);
   border-radius: .5em;
   text-shadow: none;
 }
-
+*/
 .credit {
   font-size: 0.5em;
+  color: var(--textstrongheader);
 }
 .credit a {
   text-decoration: none;
