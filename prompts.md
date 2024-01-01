@@ -1,70 +1,70 @@
 # PROMPTS
 
-## JAN. 1 <span class="credit">(credit: Melissa & Nicolas Barradeau)</span> {#jan1}
+## JAN. 1 <span class="credit">(credit: [Melissa Wiederrecht](https://twitter.com/mwiederrecht/) & [Nicolas Barradeau](https://twitter.com/nicoptere))</span> {#jan1}
 
 Particles, lots of them.
 
-## JAN. 2 <span class="credit">(credit: Luis Fraguada)</span> {#jan2}
+## JAN. 2 <span class="credit">(credit: [Luis Fraguada](https://twitter.com/luisfraguada))</span> {#jan2}
 
 No palettes.
 
 Generative colors, procedural colors, emergent colors.
 {:.info}
 
-## JAN. 3 <span class="credit">(credit: Stranger in the Q)</span> {#jan3}
+## JAN. 3 <span class="credit">(credit: [Stranger in the Q](https://strangerintheq.art/))</span> {#jan3}
 
 Droste effect.
 
 [Wikipedia: Droste effect](https://en.wikipedia.org/wiki/Droste_effect){:target="\_blank"}  
 {:.info}
 
-## JAN. 4 <span class="credit">(credit: Piter)</span> {#jan4}
+## JAN. 4 <span class="credit">(credit: [Piter Pasma](https://piterpasma.nl))</span> {#jan4}
 
 Pixels.
 
 [Wikipedia: Pixel](https://en.wikipedia.org/wiki/Pixel){:target="\_blank"}  
 
-## JAN. 5 <span class="credit">(credit: Melissa & Piter)</span> {#jan5}
+## JAN. 5 <span class="credit">(credit: [Melissa Wiederrecht](https://twitter.com/mwiederrecht/) & [Piter Pasma](https://piterpasma.nl))</span> {#jan5}
 
 In the style of Vera Molnár (1924-2023).
 
 [Wikipedia: Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r){:target="\_blank"}  
 {:.info}
 
-## JAN. 6 <span class="credit">(credit: Nicolas barradeau, Yazid & Jess Hewitt)</span> {#jan6}
+## JAN. 6 <span class="credit">(credit: [Nicolas Barradeau](https://twitter.com/nicoptere), [Yazid](https://twitter.com/Yazid/) & [Jess Hewitt](https://jesshewitt.art))</span> {#jan6}
 
 Screensaver.
 
-## JAN. 7 <span class="credit">(credit: Piter)</span> {#jan7}
+## JAN. 7 <span class="credit">(credit: [Piter Pasma](https://piterpasma.nl))</span> {#jan7}
 
 Progress bar / indicator / loading animation.
 
-## JAN. 8 <span class="credit">(credit: Darien)</span> {#jan8}
+## JAN. 8 <span class="credit">(credit: [Darien Brito](https://darienbrito.com/))</span> {#jan8}
 
 Chaotic system.
 
-## JAN. 9 <span class="credit">(credit: Camille Roux)</span> {#jan9}
+## JAN. 9 <span class="credit">(credit: [Camille Roux](https://twitter.com/camillerouxart))</span> {#jan9}
 
 ASCII.
 
 [Wikipedia: ASCII](https://en.wikipedia.org/wiki/ASCII){:target="\_blank"}  
 {:.info}
 
-## JAN. 10 <span class="credit">(credit: greweb)</span> {#jan10}
+## JAN. 10 <span class="credit">(credit: [greweb](https://greweb.me/))</span> {#jan10}
 
 Hexagonal.
 
 [Red Blob Games on Hexagonal Grids](https://www.redblobgames.com/grids/hexagons/){:target="\_blank"} is an in-depth article if you'd like to learn about hexagonal grids. Not all hexagons come in grids though, so use your creativity!
 {:.info}
 
-## JAN. 11 <span class="credit">(credit: Roni)</span> {#jan11}
+## JAN. 11 <span class="credit">(credit: [Roni Kaufman](https://twitter.com/KaufmanRoni))</span> {#jan11}
 
 In the style of Anni Albers (1899-1994).
 
 [Wikipedia: Anni Albers](https://en.wikipedia.org/wiki/Anni_Albers){:target="\_blank"}  
 {:.info}
 
-## JAN. 12 <span class="credit">(credit: Melissa)</span> {#jan12}
+## JAN. 12 <span class="credit">(credit: [Melissa Wiederrecht](https://twitter.com/mwiederrecht/))</span> {#jan12}
 
 Lava lamp.
 
@@ -72,7 +72,7 @@ Lava lamp.
 [Reddit: /r/Lavalamps](https://www.reddit.com/r/Lavalamps/){:target="\_blank"}  
 {:.info}
 
-## JAN. 13 <span class="credit">(credit: Piter)</span> {#jan13}
+## JAN. 13 <span class="credit">(credit: [Piter Pasma](https://piterpasma.nl))</span> {#jan13}
 
 Wobbly function day.
 
@@ -85,7 +85,7 @@ Wobbly function day.
 Or something along those lines. Don't worry about angles or trigonometric identities, just go with the wobble!
 {:.info}
 
-## JAN. 14 <span class="credit">(credit: Heeey)</span> {#jan14}
+## JAN. 14 <span class="credit">(credit: [Heeey](https://heeey.art/))</span> {#jan14}
 
 Less than 1KB artwork.
 
@@ -103,7 +103,7 @@ Use a physics library.
 
 Draw 10 000 of something.
 
-## JAN. 17 <span class="credit">(credit: Melissa)</span> {#jan17}
+## JAN. 17 <span class="credit">(credit: [Melissa Wiederrecht](https://twitter.com/mwiederrecht/))</span> {#jan17}
 
 Inspired by Islamic art.
 
@@ -128,7 +128,7 @@ Bauhaus.
 
 Flocking.
 
-## JAN. 20 <span class="credit">(credit: Roni)</span> {#jan20}
+## JAN. 20 <span class="credit">(credit: [Roni Kaufman](https://twitter.com/KaufmanRoni))</span> {#jan20}
 
 Generative typography.
 
@@ -136,7 +136,7 @@ Generative typography.
 
 Use a library that you haven't used before.
 
-## JAN. 22 <span class="credit">(credit: Paolo Curtoni & Piter)</span> {#jan22}
+## JAN. 22 <span class="credit">(credit: Paolo Curtoni)</span> {#jan22}
 
 Point - line - plane.
 
@@ -155,7 +155,7 @@ Point - line - plane.
 
 Impossible objects (undecided geometry).
 
-## JAN. 25 <span class="credit">(credit: Piter)</span> {#jan25}
+## JAN. 25 <span class="credit">(credit: [Piter Pasma](https://piterpasma.nl))</span> {#jan25}
 
 If you like generative art, you probably have some photos on your phone of cool looking patterns, textures, shapes or things that you've seen. You might have even thought, "I should try to recreate this with code". Today is the day.
 
@@ -163,21 +163,21 @@ If you like generative art, you probably have some photos on your phone of cool 
 
 Grow a seed.
 
-## JAN. 27 <span class="credit">(credit: Amy)</span> {#jan27}
+## JAN. 27 <span class="credit">(credit: [Amy Goodchild](https://www.amygoodchild.com/))</span> {#jan27}
 
 Code for one hour. At the one hour mark, you're done.
 
 Click [here](https://www.google.com/search?q=1+hour+timer){:target="\_blank"} to find out how long an hour takes. PRO-TIP: Use the progress indicator from Genuary 7th!
 {:.info}
 
-## JAN. 28 <span class="credit">(credit: Melissa)</span> {#jan28}
+## JAN. 28 <span class="credit">(credit: [Melissa Wiederrecht](https://twitter.com/mwiederrecht/))</span> {#jan28}
 
 Skeuomorphism.
 
 A skeuomorph is a derivative object that retains attributes from structures that were necessary in the original. Skeuomorphs are typically used to ~~gate keep generative art styles~~ make something new feel familiar in an effort to speed understanding and acclimation. They employ elements that, while essential to the original object, serve no pragmatic purpose in the new system. (from [Wikipedia on Skeuomorphs](https://en.wikipedia.org/wiki/Skeuomorph){:target="\_blank"})
 {:.info}
 
-## JAN. 29 <span class="credit">(credit: Melissa & Camille Roux)</span> {#jan29}
+## JAN. 29 <span class="credit">(credit: [Melissa Wiederrecht](https://twitter.com/mwiederrecht/) & [Camille Roux](https://twitter.com/camillerouxart))</span> {#jan29}
 
 Signed Distance Functions (if we keep trying once per year, eventually we will be good at it!).
 
@@ -188,14 +188,14 @@ Signed Distance Functions (if we keep trying once per year, eventually we will b
 [Wikipedia: Signed Distance Functions](https://en.wikipedia.org/wiki/Signed_distance_function){:target="\_blank"}  
 {:.info}
 
-## JAN. 30 <span class="credit">(credit: Melissa)</span> {#jan30}
+## JAN. 30 <span class="credit">(credit: [Melissa Wiederrecht](https://twitter.com/mwiederrecht/))</span> {#jan30}
 
 Shaders.
 
 Use the GPU. I did a [Shader Workshop](https://www.youtube.com/watch?v=EGvuSOvuREQ){:target="\_blank"} a while back where I explain how to code a shader in WebGL2 from scratch (and also finally a simple raymarcher, but you can do many other things with shaders too).
 {:.info}
 
-## JAN. 31 <span class="credit">(credit: Neel & Monokai)</span> {#jan31}
+## JAN. 31 <span class="credit">(credit: [Neel Shivdasani](https://neel.sh) & [Monokai](https://monokai.nl/))</span> {#jan31}
 
 Generative music / Generative audio / Generative sound.
 
