@@ -92,14 +92,15 @@ Less than 1KB artwork.
 You can decide if you want to go for size coding, for 1KB of output, or whatever you think would be appropriate, today. If you go for size coding, we made some [tiny boiler plate code samples](tinycode) for you to start with.
 {:.info}
 
-## JAN. 15 <span class="credit">(credit: Amy)</span> {#jan15}
+## JAN. 15 <span class="credit">(credit: [Amy Goodchild](https://www.amygoodchild.com/),
+)</span> {#jan15}
 
 Use a physics library.
 
 [The Coding Train: physics libraries](https://thecodingtrain.com/tracks/physics-libraries){:target="\_blank"}  
 {:.info}
 
-## JAN. 16 <span class="credit">(credit: Bruce Holmer & Michael Lowe)</span> {#jan16}
+## JAN. 16 <span class="credit">(credit: [Bruce Holmer](https://twitter.com/BruceHolmer) & [Michael Lowe](https:/twitter.com/mjrlowe))</span> {#jan16}
 
 Draw 10 000 of something.
 
@@ -117,14 +118,14 @@ Inspired by Islamic art.
 [Computer Generated Islamic Star Patterns](https://archive.bridgesmathart.org/2000/bridges2000-105.pdf){:target="\_blank"}  
 {:.info}
 
-## JAN. 18 <span class="credit">(credit: Chris Barber (code_rgb))</span> {#jan18}
+## JAN. 18 <span class="credit">(credit: [Chris Barber](https://twitter.com/code_rgb))</span> {#jan18}
 
 Bauhaus.
 
 [Wikipedia: Bauhaus](https://en.wikipedia.org/wiki/Bauhaus){:target="\_blank"}  
 {:.info}
 
-## JAN. 19 <span class="credit">(credit: Shaderism)</span> {#jan19}
+## JAN. 19 <span class="credit">(credit: [Shaderism](https://twitter.com/shaderism))</span> {#jan19}
 
 Flocking.
 
@@ -132,11 +133,11 @@ Flocking.
 
 Generative typography.
 
-## JAN. 21 <span class="credit">(credit: Neel)</span> {#jan21}
+## JAN. 21 <span class="credit">(credit: [Neel Shivdasani](https://neel.sh))</span> {#jan21}
 
 Use a library that you haven't used before.
 
-## JAN. 22 <span class="credit">(credit: Paolo Curtoni)</span> {#jan22}
+## JAN. 22 <span class="credit">(credit: [Paolo Curtoni](https://www.paolocurtoni.com/portfolio/))</span> {#jan22}
 
 Point - line - plane.
 
@@ -147,11 +148,11 @@ Point - line - plane.
 [Point, Line, Plane - The fundamental elements of design](https://bbadesign.jimdofree.com/design-foundations/point-line-plane/){:target="\_blank"}  
 {:.info}
 
-## JAN. 23 <span class="credit">(credit: Marc Edwards)</span> {#jan23}
+## JAN. 23 <span class="credit">(credit: [Marc Edwards](https://twitter.com/marcedwards))</span> {#jan23}
 
 16×16.
 
-## JAN. 24 <span class="credit">(credit: Jorge Ledezma)</span> {#jan24}
+## JAN. 24 <span class="credit">(credit: [Jorge Ledezma](https://twitter.com/zjorge))</span> {#jan24}
 
 Impossible objects (undecided geometry).
 
@@ -159,7 +160,7 @@ Impossible objects (undecided geometry).
 
 If you like generative art, you probably have some photos on your phone of cool looking patterns, textures, shapes or things that you've seen. You might have even thought, "I should try to recreate this with code". Today is the day.
 
-## JAN. 26 <span class="credit">(credit: Monokai)</span> {#jan26}
+## JAN. 26 <span class="credit">(credit: [Monokai](https://monokai.nl/))</span> {#jan26}
 
 Grow a seed.
 
