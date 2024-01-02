@@ -136,7 +136,7 @@ Generative typography.
 
 Use a library that you haven't used before.
 
-## JAN. 22 <span class="credit">(credit: [Paolo Curtoni](https://www.paolocurtoni.com/portfolio/))</span> {#jan22}
+## JAN. 22 <span class="credit">(credit: [Paolo Curtoni](https://twitter.com/Paolo_Curtoni))</span> {#jan22}
 
 Point - line - plane.
 
