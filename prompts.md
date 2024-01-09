@@ -47,7 +47,16 @@ Chaotic system.
 
 ASCII.
 
-[Wikipedia: ASCII](https://en.wikipedia.org/wiki/ASCII){:target="\_blank"}  
+The "ASCII font" you might see when your computer boots is actually called [Code page 437](https://en.wikipedia.org/wiki/Code_page_437){:target="\_blank"}. It is also known as CP437, OEM-US, OEM 437,[3] PC-8,[4] or DOS Latin US.
+{:.info}
+
+[`ASCII`](https://en.wikipedia.org/wiki/ASCII){:target="\_blank"} stands for "American Standard Code for Information Interchange", describing its original limited purpose. Feel free to explore "monospaced typography" (if we need a more general term) using glyphs from other locales. Or all of Unicode. Or not even monospaced. If you're from another dimension, [Zalgo Text](https://www.google.com/search?hl=en&q=zalgo%20text){:target="\_blank"} got you covered.
+{:.info}
+
+[ANSI Art](https://en.wikipedia.org/wiki/ANSI_art){:target="\_blank"} is also cool, which uses terminal characters and a limited set of 16 colours to create art.
+{:.info}
+
+Or anything else you deem related :) Just to make clear that `ASCII` is only a narrow keyword, loosely referring to a wide variety of broader fields of text based digital art. Don't confuse the encoding standard for the art forms.
 {:.info}
 
 ## JAN. 10 <span class="credit">(credit: [greweb](https://greweb.me/))</span> {#jan10}
