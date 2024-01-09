@@ -59,6 +59,9 @@ The "ASCII font" you might see when your computer boots is actually called [Code
 Or anything else you deem related :) Just to make clear that `ASCII` is only a narrow keyword, loosely referring to a wide variety of broader fields of text based digital art. Don't confuse the encoding standard for the art forms.
 {:.info}
 
+If you're curious about the history behind ASCII art, ANSI art, any terminal text based art, check out these pages: [artscene.textfiles.com](http://artscene.textfiles.com/){:target="\_blank"}
+{:.info}
+
 ## JAN. 10 <span class="credit">(credit: [greweb](https://greweb.me/))</span> {#jan10}
 
 Hexagonal.
