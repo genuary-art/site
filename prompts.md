@@ -69,6 +69,12 @@ Hexagonal.
 [Red Blob Games on Hexagonal Grids](https://www.redblobgames.com/grids/hexagons/){:target="\_blank"} is an in-depth article if you'd like to learn about hexagonal grids. Not all hexagons come in grids though, so use your creativity!
 {:.info}
 
+Check out the [Gosper Curve](https://en.wikipedia.org/wiki/Gosper_curve){:target="\_blank"} -- it's like the Hilbert Curve but made out of hexagons (sort of).
+{:.info}
+
+[Hexagons are the bestagons](https://www.youtube.com/watch?v=thOifuHs6eY){:target="\_blank"}.
+{:.info}
+
 ## JAN. 11 <span class="credit">(credit: [Roni Kaufman](https://twitter.com/KaufmanRoni))</span> {#jan11}
 
 In the style of Anni Albers (1899-1994).
