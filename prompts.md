@@ -94,7 +94,7 @@ Lava lamp.
 
 Wobbly function day.
 
-[Wobbly Functions](https://piterpasma.nl/articles/wobbly){:target="\_blank"} are a name I've given to smoothly undulating formulas made from modulated sine waves. Usually it's formulas of the form:
+[Wobbly Functions](https://piterpasma.nl/articles/wobbly){:target="\_blank"} (`article updated 2024/01/13`!!) are a name I've given to smoothly undulating formulas made from modulated sine waves. Usually it's formulas of the form:
 {:.info}
 
 `sin(a * b + c + d * sin(e * f + g)) + sin(h * i + j + k * sin(l * m + n)) + ...`
