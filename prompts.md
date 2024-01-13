@@ -110,6 +110,9 @@ Less than 1KB artwork.
 You can decide if you want to go for size coding, for 1KB of output, or whatever you think would be appropriate, today. If you go for size coding, we made some [tiny boiler plate code samples](tinycode) for you to start with.
 {:.info}
 
+[9 tips for Tsubuyaki processing](https://www.gorillasun.de/blog/9-tips-for-tsubuyaki-processing/) by [GorillaSun](https://twitter.com/gorillasu)
+{:.info}
+
 ## JAN. 15 <span class="credit">(credit: [Amy Goodchild](https://www.amygoodchild.com/))</span> {#jan15}
 
 Use a physics library.
