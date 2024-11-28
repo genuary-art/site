@@ -4,18 +4,22 @@
   box-sizing: border-box;
 }
 
+/*
+hmix=(a,b,p)=>'#'+[1,3,5].map(i=>((1-p)*('0x'+a.substr(i,2))+p*('0x'+b.substr(i,2))|0).toString(16).padStart(2,'0')).join('')
+*/
+
 :root {
-  --bgcolor: #000;
-  --textcolor: #ccc;
-  --textstrong: #9dc;
-  --textstrongheader: #9dc;
-  --textstrongheadertoday: #f0f;
-  --texthighlight: #9988ff;
-  --textcode: #8c88ef;
-  --textlink: #8c88ef;/*#4bf;*/
-  --textlinkhover: #a09cff;/*#4bf;*/
+  --bgcolor: #1D1828;
+  --textcolor: #fc4;
+  --textstrong: #f61; /*#f61;*/
+  --textstrongheader: #f80;
+  --textstrongheadertoday: #fa4;
+  --texthighlight: #cd1;
+  --textcode: #cf4;
+  --textlink: #4bf;/*#4bf;*/
+  --textlinkhover: #5df;/*#4bf;*/
   --infolink: #f34;
-  --infocolor: #524D88;
+  --infocolor: #f61;
   --infolinkhover: #f68;
   --shadow: #000;
 }
@@ -56,15 +60,13 @@ nav a {
   text-align: center;
   text-decoration: none;
   font-weight: bold;
-  color: var(--texthighlight);
+  color: var(--textstrong);
 }
 
-nav a:hover { background: #131313; }
-
 section strong { color: var(--textstrong); font-weight: bold; }
-section em { color: var(--texthighlight); font-style: normal; }
+section em { color: var(--texthighlight); font-style: italic; }
 section code { color: var(--textcode); font-family: monospace; }
-section a { color: var(--textlink); font-weight: bold; }
+section a { color: var(--textlink); }
 section a:hover { color: var(--textlinkhover); }
 section .info { font-size: .7em; line-height: 1.25; color: var(--infocolor); }
 section .info a {color: var(--infolink); font-weight: bold; }
@@ -153,30 +155,27 @@ section ul li {
 
 
 section pre {
-  background:#131313;
+  background:#121416 url("../img/hibiscustile2_okay.png");
   border: solid 1px #000;
   border-radius: 0.25em;
   box-shadow: inset 0 0.25em 1em rgba(0,0,0,0.2);
   color: #0fc;
   padding: 1em;
-  text-shadow: 0 0 3px #021, 0 0 10px #0fc;
+  text-shadow: 0 0 3px #120, 0 0 10px #0fc;
 /*  overflow-x: auto;*/
   margin-top: 1em;
   white-space: pre-wrap;
   word-break: break-all;
 }
 
-section pre .completion4 { color: #0fc4; text-shadow: 0 0 3px #0218, 0 0 10px #0fc8;}
-section pre .completion2 { color: #0fc2; text-shadow: 0 0 3px #0214, 0 0 10px #0fc4;}
-section pre .completion1 { color: #0fc1; text-shadow: 0 0 3px #0212, 0 0 10px #0fc2;}
-
 section pre code {
     color: #0fc;
-}
+  }
+
 
 section pre .cursor {
-  animation: blink 0.8s infinite;
-  border-bottom: solid 2px #0fc4;
+  animation: blink 0.7s infinite;
+  border-bottom: solid 2px #9ff;
   display: inline-block;
   height: 1.2em;
   width: 0.4em;
@@ -189,7 +188,7 @@ section pre .cursor {
 }
 
 footer {
-  color: var(--infocolor);
+  color: #68A;
   font-size: 0.6em;
   margin: 1em auto 0;
   max-width: 42em;

@@ -4,7 +4,7 @@
 
 # BEST PAGE
 
-Testing with **strong** text.
+Testing with *strong* text.
 
 Testing with *em text* wooopp.
 
@@ -32,10 +32,3 @@ and
 ```
 
 How does it look?
-
----
-
-If I were a paragraph below a horizontal line, this is exactly where I'd be.
-
-The above paragraph sure knows where it's at.
-

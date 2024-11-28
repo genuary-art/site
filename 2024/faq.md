@@ -2,7 +2,7 @@
 
 ## What is GENUARY?
 
-I have already answered this question in the very first paragraph of this site's [home page](/).
+Like a good copy writer, I answered this question in the very first paragraph of this site's [home page](/).
 
 ## Do I need to follow the prompts strictly?
 
@@ -22,13 +22,13 @@ No.
 
 ## Can I...?
 
-Yes. But please follow the Geneva Conventions. And AI alignment best practices.
+Yes. But please follow the Geneva Conventions.
 
 ## What if I don't understand a prompt?
 
 Try to give it the best inspiration that ends up with the coolest art piece. Write about your interpretation and how it reflects in your piece. Look at other people's artworks for inspiration and see how they interpreted the prompt. 
 
-Talk to people and discuss. Really do this, because other people are one of the best sources of inspiration. Every year I find new inspiration to a prompt I thought I already understood, by doing this! :) 
+Talk to people and discuss. Really do this, because other people are one of the best sources of inspiration. I even found new inspiration to a prompt I thought I already understood, by doing this! :)
 
 If something needs extra assumptions and you're not sure, just pick some that inspire you most creatively. Then write about which assumptions you picked and why, so that other people can either use the same or choose their own. 
 
@@ -56,17 +56,24 @@ Genuary is not a competition. It's about the challenge you set for yourself, and
 
 ## Nice logo you got there, can I steal teh code?
 
-No the code is copyrighted, but you are very much invited to [check it out](logo.js), read and learn from it :)
+No the code is copyrighted, but it is also not minified and commented extensively. You are very much invited to [check it out](logo.js), read and learn from it :)
 
 ## Is there a community or Discord server or something where I can discuss GENUARY with others?
 
 No. Well there are, but none of them officially organised by GENUARY. Every creative coding, generative art or other related *and* unrelated community is encouraged to create their own #GENUARY channel. The reason is that the organisers of GENUARY want to participate in the GENUARY challenge, and don't have the time to moderate a community.
 
-## Where did the old websites go?
+## Where did the 2023 website go?
 
-See [2024](/2024), [2023](/2023), [2022](/2022) and [2021](https://genuary2021.github.io/).
+See [genuary.art/2023](/2023).
+
+## Where did the 2022 website go?
+
+See [genuary.art/2022](/2022).
+
+## Where did the 2021 website go?
+
+See [genuary2021.github.io/](https://genuary2021.github.io/).
 
 ## How did Genuary?
 
-There is a story on the old Genuary 2021 webpage: [https://genuary2021.github.io/story](https://genuary2021.github.io/story)
-
+There is a story on the old Genuary 2021 webpage: [https://genuary2021.github.io/story](https://genuary2021.github.io/story) 

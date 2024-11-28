@@ -1,0 +1,522 @@
+this is a copypaste from an earlier thread in case it gets lost on Slack's 90 day history limit
+
+I guess we could start a preliminary prompt suggestion thread right now if people have ideas :-)
+Here are some guidelines (copied from last year) (no I'm not going to edit all the dates right now)
+A few tips / suggestions
+- When suggesting a prompt, imagine yourself taking part in GENUARY 2024 and spending a day on your prompt idea, instead of "it would be cool if people would do X for GENUARY 2024" (hope that makes sense)
+- Maybe not prompts like "In the style of <living artist>", unless you're in contact with that artist and they are cool with it. E.g. in 2022 we had a prompt "The next next Fidenza" and I asked Tyler Hobbs if he was okay with it, which he was. But in 2023 we had "Yayoi Kusama" and I kinda wasn't sure what she would think if she heard about it or how to ask her permission. Hilma af Klint is not alive, and was a great prompt. Though I just remembered, in 2021 we had "Eno's Oblique Strategies", who is not only alive, but his deck of inspirational cards is probably copyrighted (but he also called generative artists getting into NFTs "little capitalist assholes", so I think we're even).
+- Prefer concrete suggestions / complete prompts. E.g. instead of "use a specific colour palette (TBD)", "use colors #FF33FF #08CC22 #777777 #CCCCCC" (but please, not those colours). Mostly a request for myself to not have a lot of additional work filling in details when preparing the final list. Vague suggestions are fine for brainstorming purposes ofc.
+- Maybe not re-use prompts from last year (2023). Older than that (2021, 2022) is fine imho, because then people who already did them, get to brag about it.
+One of the coolest things about GENUARY is that everybody likes different kinds of generative prompts. If I had to come up with all the prompts, they would tend to be a little bit more math or code related. I think it's great the variety we've had over the years, and so don't feel like a prompt "should" be this or that (despite what I said above).
+:party_parrot:
+3
+
+
+
+Melissa
+  Sep 8th at 00:06
+Inspired by Encaustic (https://www.pinterest.com/pamjerseybird/contemporary-encaustic-painting/) (edited) 
+
+PinterestPinterest
+Contemporary  Encaustic Painting
+Discover pamjerseybird's collection, Contemporary Encaustic Painting
+
+
+Melissa
+  Sep 8th at 00:06
+Inspired by Fiber Art (https://www.pinterest.com/search/pins/?q=fiber%20art&rs=typed) (edited) 
+
+pinterest.compinterest.com
+Pinterest
+Discover recipes, home ideas, style inspiration and other ideas to try. (922 kB)
+https://www.pinterest.com/search/pins/?q=fiber%20art&rs=typed
+
+
+
+Piter
+  Sep 8th at 00:07
+what are those?
+
+
+Melissa
+  Sep 8th at 00:08
+Well, yeah, but like modern is what I was thinking
+
+
+Melissa
+  Sep 8th at 00:09
+Newspaper.
+
+
+Piter
+  Sep 8th at 00:09
+and Fiber Art is also an art technique? could you add links maybe?
+:+1::skin-tone-2:
+1
+
+
+
+Melissa
+  Sep 8th at 00:09
+Grid-based graphic design
+
+
+Piter
+  Sep 8th at 00:09
+(I thought they were names of art collectives or something at first :sweat_smile: )
+
+
+Melissa
+  Sep 8th at 00:11
+Inspired by brutalist architecture
+
+
+Melissa
+  Sep 8th at 00:12
+Study composition and apply a new composition technique
+
+
+Melissa
+  Sep 8th at 00:12
+Find a NEW way to make a blob.\
+
+
+Piter
+  Sep 8th at 00:13
+^--- might also make a cool thread in #techniques
+
+
+Melissa
+  Sep 8th at 00:13
+Non-psychedelic fractals
+
+
+Melissa
+  Sep 8th at 00:14
+Use fractals in non-obvious ways.  (like as noise or something)
+
+
+Melissa
+  Sep 8th at 00:14
+Magnets.
+
+
+Piter
+  Sep 8th at 00:14
+can you define "psychedelic"? :-) I mean I like the idea, but to me anything that is self-similar is already kinda psychedelic
+
+
+Melissa
+  Sep 8th at 00:15
+"Interpreted as you like"
+
+
+Melissa
+  Sep 8th at 00:15
+Jigsaw Puzzle
+
+
+Melissa
+  Sep 8th at 00:15
+"Something that would be cool to 3d print with clay"
+
+
+Melissa
+  Sep 8th at 00:15
+Generative Architecture
+
+
+Melissa
+  Sep 8th at 00:16
+A design for one of those sand ball kinetic table thingies
+
+
+Piter
+  Sep 8th at 00:16
+did you keep a list, or are these just coming from the top of your head? if the latter, don't let my remarks hinder you :) (keep going) (edited) 
+
+
+Melissa
+  Sep 8th at 00:16
+From the top of my head
+
+
+Melissa
+  Sep 8th at 00:16
+"Output in console only"
+
+
+Melissa
+  Sep 8th at 00:19
+Generative poetry
+
+
+Piter
+  Sep 8th at 00:20
+btw fractals as noise is pretty standard, fBm stands for "fractal Brownian motion" and it's the type of noise that p5 has. It was also what Mandelbrot studied, in a way, he studied stock markets and also fractal patterns in nature --- and there's basically two types of fractals in Nature: the ones that look like trees (sort of) and the ones that look like noise (rocks/mountains, ocean surface)
+but I like fractals in non-obvious ways -- I'd just say "as noise" is one of the obvious ways :)
+
+
+Piter
+  Sep 8th at 00:24
+btw I think I'll also have to dig up all the prompts from last years, including the ones that didn't make it
+
+
+Piter
+  Sep 8th at 00:24
+so we don't end up having the same ideas over and over again :)
+
+
+Piter
+  Sep 8th at 00:26
+also, from having seen votes coming in over the past few years, having clear wording in the prompt is kind of vital for the final voting round
+I'm gonna have to think about that
+
+
+Piter
+  Sep 8th at 00:29
+at least what I saw was above the cutoff (for 31 prompts), they were generally all good
+but below the cutoff it was either a case of the prompt just not being very good or perhaps it being worded awkwardly or unclearly
+so with the voting I guess, I specifically want to find the "not very good" ones, separated from the unclearly worded ones to perhaps rewrite those somehow
+
+
+Melissa
+  Sep 8th at 00:34
+Make something interesting with no randomness or noise or trig
+
+
+Melissa
+  Sep 8th at 00:34
+Iznik Tiles
+
+
+Piter
+  Sep 8th at 00:42
+Make something interesting with no randomness or noise or trig
+I could write a whole essay about how philosophical this prompt is :)
+Technically a PRNG is not random. And this matters because Rule 30 is a PRNG. That is a binary cellular automaton with a basic left-middle-right rule system. That's why it's called an elementary cellular automaton, and it can happen by accident in your algorithm if it gets complicated enough. So, when is something "interesting" and when is it "random", really?
+To me this is the whole crux of my genart practice :) (well I try, at least, I also get distracted a lot)
+
+mathworld.wolfram.commathworld.wolfram.com
+Rule 30 -- from Wolfram MathWorld
+Rule 30 is one of the elementary cellular automaton rules introduced by Stephen Wolfram in 1983 (Wolfram 1983, 2002). It specifies the next color in a cell, depending on its color and its immediate neighbors. Its rule outcomes are encoded in the binary representation 30=00011110_2. This rule is illustrated above together with the evolution of a single black cell it produces after 15 steps (Wolfram 2002, p. 55). 250 iterations of rule 30 are illustrated above. Starting with a single black...
+https://mathworld.wolfram.com/Rule30.html
+
+
+
+Melissa
+  Sep 8th at 01:28
+Make a simple game
+Make something inspired by your favorite game
+Abstract map
+Mirrors
+Symmetry
+Minecraft inspired
+Make something inspired by "gen art back in the day"
+Redo your "first gen art ever" but.... cooler
+
+
+Melissa
+  Sep 8th at 01:28
+Illustrate a recent dream
+
+
+Melissa
+  Sep 8th at 01:29
+Open and closed
+
+
+Melissa
+  Sep 8th at 01:29
+Invent a language and write us a secret message
+
+
+Melissa
+  Sep 8th at 01:31
+Re: What u were saying 
+@Piter
+ I've been thinking about it a lot recently.   Prompted by someone I respect a lot saying "gen artists are too caught up on randomess".   I have SO many words for them, lol.   And yes, very much around.... "as soon as you try to do stuff without randomness pretty soon u will find u just made your own prng and I have a feeling that's a pretty circular thing doomed to repeat itself"
+:100:
+1
+
+
+
+Melissa
+  Sep 8th at 01:32
+Like technically there is no REAL randomness.  It's all fake randomness.  So.... "make something without it" is such a weird goal!
+
+
+Melissa
+  Sep 8th at 01:32
+Anyway, not the place for it
+
+
+Melissa
+  Sep 8th at 01:34
+Make a crazy flow chart (https://www.google.com/search?client=ms-android-samsung-ss&sca_esv=4fd6679d0a9c996a&sca_upv=1&sxsrf=ADLYWILBgVlJAQHxPnMr-LqS-AgwMstykw:1725752018387&q=crazy+flow+chart&udm=2&fbs=AEQNm0AAT6S7P5KrYYcB3cxVmH12i9DhEonKMExCEfqm5AtLOlH_FeBwD1g17eDo83sUX3Ek9UEPoBmUj2RHQDz5s3JzSgklTdAPdcpK5Zk3PWRsZKp7TIKPlB4OaVa1DqrY_Vk9Am-Bx1Z0Dzo8R3nZ9hhHobhOx_vJ5PnLpZNLfJ6zYv_O5ovvOwa-U2crv55JI0GILgZk_xCV8hQPyPai1Vb7yIeOtg&sa=X&ved=2ahUKEwia4Zqg_7GIAxV2Q6QEHa1TALgQtKgLegQIDhAB&biw=384&bih=723&dpr=3.75)
+
+
+Melissa
+  Sep 8th at 01:34
+Mark making
+
+
+Melissa
+  Sep 8th at 01:35
+Seamless pattern
+
+
+Melissa
+  Sep 8th at 01:35
+Design a generative lamp
+
+
+Melissa
+  Sep 8th at 01:35
+Collage
+
+
+Melissa
+  Sep 8th at 01:36
+Mutilate a photograph
+
+
+Melissa
+  Sep 8th at 01:36
+DOM manipulation
+
+
+Melissa
+  Sep 8th at 01:36
+No <canvas>
+
+
+Melissa
+  Sep 8th at 01:37
+Take something you made before x1000 in complexity
+
+
+Melissa
+  Sep 8th at 01:38
+Take something you made before down to the simplest possible recognizable version
+
+
+Melissa
+  Sep 8th at 01:39
+Use packing without making it look like packing
+
+
+Melissa
+  Sep 8th at 01:40
+Design a rug
+
+
+Melissa
+  Sep 8th at 01:41
+Halftone
+
+
+Melissa
+  Sep 8th at 01:42
+Design something meant to be embroidered by an embroidery machine
+
+
+Melissa
+  Sep 8th at 01:43
+Design a few letters from a new "font"
+
+
+Melissa
+  Sep 8th at 01:43
+What does wind look like
+
+
+Melissa
+  Sep 8th at 01:43
+Filigree
+
+
+Melissa
+  Sep 8th at 01:44
+Use something "forbidden" in "pure" generative art.
+
+
+Melissa
+  Sep 8th at 01:46
+3 emotions on one canvas
+
+
+Melissa
+  Sep 8th at 01:46
+Pure black and white.   No gray.
+
+
+Melissa
+  Sep 8th at 01:46
+Pixel sorting
+
+
+Melissa
+  Sep 20th at 14:23
+Make lime green look good.  Gooooood luck.
+:exploding_head:
+1
+
+
+
+Melissa
+  Sep 20th at 14:27
+Illustrate a mathematical concept
+
+
+Melissa
+  Sep 20th at 14:27
+Filigree
+:sparkles:
+1
+
+
+
+Melissa
+  Sep 20th at 14:30
+Calligraphy
+
+
+Melissa
+  Sep 20th at 14:33
+Convolutions
+
+
+Melissa
+  Sep 20th at 14:34
+Ugly Concept Art
+
+
+Melissa
+  Sep 20th at 14:34
+Op art
+
+
+Melissa
+  Sep 20th at 14:34
+Escher
+
+
+Melissa
+  Sep 20th at 14:34
+Gears
+
+
+Melissa
+  Sep 20th at 14:36
+Gems and Jewels
+
+
+Melissa
+  Sep 20th at 14:36
+Food
+
+
+Melissa
+  Sep 20th at 14:39
+Surrealism
+
+
+Melissa
+  Sep 20th at 14:40
+Generate an AI image and use it as inspiration for code-based art.
+
+
+Melissa
+  Sep 20th at 14:43
+Gerhard Richter
+
+
+Melissa
+  Sep 20th at 14:44
+Artfully utilize 20 different neutral colors together.
+
+
+Melissa
+  Sep 20th at 14:46
+Screw up a webcam image
+
+
+Melissa
+  Sep 20th at 14:47
+Metallic
+
+
+Melissa
+  Sep 20th at 14:54
+Picasso
+
+
+Camille Roux
+  Sep 25th at 22:04
+Generate new names for "generative art" because nowadays, a lot a people think it's related to AI (edited) 
+
+
+Camille Roux
+  Sep 25th at 22:06
+The ugliest thing you can create (edited) 
+
+
+Camille Roux
+  Sep 25th at 22:07
+Snake game
+
+
+Camille Roux
+  Sep 25th at 22:09
+A declaration of love
+
+
+Camille Roux
+  Sep 25th at 22:13
+Nothing
+
+
+Camille Roux
+  Sep 25th at 22:14
+use a software not made to create art/image
+
+
+Camille Roux
+  Sep 25th at 22:17
+code 100% generated by AI
+
+
+Camille Roux
+  Sep 25th at 22:18
+Thanks Piter for doing this each year (yes, that's a theme :slightly_smiling_face:) (edited) 
+:heart:
+1
+
+
+
+Motus Art (Owen)
+  Sep 26th at 16:27
+Everything & nothing
+Flatland
+2.5d/parallax
+Fix/finish a nonsense AI code prompt
+Only use a dice for random number
+Code a random walker and follow it in real life. Then photograph something interesting there
+Shadows
+
+
+Bruce Holmer
+  Oct 13th at 21:37
+minimalist abstract flower
+make your own fractal (can't be anything you've already seen)
+make an iterative system - each image is a function of the previous - final art is the Nth image - videos encouraged
+plotter art - pen must stay on the paper for the entire plot (those without a plotter can do a line drawing)
+geometric art - pick either a circle, rectangle, or triangle and use only that geometric shape
+New
+
+
+Rachel Ehrlich (Joy of Randomness)
+  9 minutes ago
+impossible day. I’m borrowing this idea from recurse center. Try to do something that feels impossible for you to do. Maybe it is impossible. Maybe it’s too ambitious maybe it’s something you know nothing about how to accomplish
+
