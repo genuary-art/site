@@ -4,20 +4,11 @@
 
   gen_img = _=>{
     // init canvas
-    Y2=(Y=4)/2; // aspect ratio
-    V=document.createElement`canvas`;
-    C=V.getContext`2d`;
+    let Y2=(Y=4)/2; // aspect ratio
+    let V=document.createElement`canvas`;
+    let C=V.getContext`2d`,cw,ch;
     cw=V.width=Y*(ch=V.height=devicePixelRatio*logo.offsetWidth/Y);
     logo.replaceChildren(V);
-
-    // clear
-    C.fillStyle='#000';
-    C.fillRect(0,0,cw,ch);
-    console.log([cw,ch]);
-    C.fillStyle='#000';
-    C.strokeStyle='#0fc';
-    C.lineWidth=cw*.002;
-    C.lineJoin=C.lineCap="round";
 
     // init PRNG
     // seed="FIXXED";
@@ -220,7 +211,7 @@
       // I swear I got this from Stack Overflow or something
       C.moveTo(x + r, y); C.arc(x, y, r, 0, TAU); 
     }
-    poly=pp=>{
+    let poly=pp=>{
       let N=pp.length,N1=1/N,ar = 0,j=N-1;
       pp.map(([x,y],i)=>(ar+=x*pp[j][1]-y*pp[j][0],j=i));
       ar=abs(ar)/2;
@@ -264,8 +255,15 @@
     function* E() {
       // rendering function
       // dbglogv=[];
+      yield;
       start_time=Date.now();
-      pol=[poly([[-Y2-.1,-.6],[-Y2-.1,.6],[Y2+.1,.6],[Y2+.1,-.6]])];
+      // clear
+      C.fillStyle='#000';
+      C.fillRect(0,0,cw,ch);
+      // console.log([cw,ch]);
+      C.lineWidth=cw*.002;
+      C.lineJoin=C.lineCap="round";
+      let pol=[poly([[-Y2-.1,-.6],[-Y2-.1,.6],[Y2+.1,.6],[Y2+.1,-.6]])];
       let nn=0;
       for(;pol.length>0;){
         py=pol.pop();
@@ -282,7 +280,8 @@
             let [p0,p1] = py.split(R(),R()), e = max(p0.cf,p1.cf);
             if(e<be){be=e;b0=p0;b1=p1}
           }
-          pol.push(b0, b1);
+          pol.push(b0);
+          pol.push(b1);
         } else {
           // py.draw();
           // C.strokeStyle='#0fc';
@@ -290,9 +289,10 @@
           // C.stroke();
           py.draw();
           C.fillStyle='#131313';
-          C.strokeStyle=`hsl(170 100% ${15+85*(1-rv)**2})`;
-          C.lineWidth=cw*(.0005+r*.005);
-          C.fill();C.stroke();
+          C.strokeStyle=`hsl(170 100% ${(15+85*(1-rv)**2).toFixed(2)})`;
+          C.lineWidth=(cw*(.0005+r*.005)).toFixed(2);
+          C.fill();
+          C.stroke();
         }
         if (++nn>499) {nn=0;yield;} // occasionally yield for the event loop
         // console.log(nn);
@@ -305,7 +305,7 @@
       // console.log(dbglogv.slice(-9));
     }
 
-    J=_=>E.next().done||setTimeout(J); // timeout loop function loops until E iterator is done
+    let J=_=>E.next().done||setTimeout(J); // timeout loop function loops until E iterator is done
     J(E=E()) // start the render generator function
   }
 
