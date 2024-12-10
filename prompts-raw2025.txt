@@ -1,7 +1,14 @@
-prompt
+# No?
+
 [Aaron Penne] in another artist's style
 [Camille Roux] mix the style of two genart artists you like
 [Roni] In the style of Alma Thomas
+
+# Huh?
+
+[Melissa] Make something interesting with no randomness or noise or trig
+
+# The rest
 
 [Melissa, cariannshimsham] Find a NEW way to make or animate a blob
 [Camille Roux, Mellisa] The ugliest thing you can create
@@ -11,8 +18,8 @@ prompt
 [Chris Barber (code_rgb),cariannshimsham,Motus Art (Owen)] Create a random walker with a twist
 [sableraph, mellisa] Text only: make generative poetry
 [Fahad Karim, Stranger in the Q] model an ecosystem of organisms
-[Melissa] Inspired by Encaustic
-[Melissa] Inspired by Fiber Art
+[Melissa] Inspired by Encaustic art
+[Melissa] Inspired by Fiber art
 [Melissa] Newspaper
 [Melissa] Grid-based graphic design
 [Melissa] Study composition and apply a new composition technique
@@ -23,7 +30,6 @@ prompt
 [Melissa] Something that would be cool to 3d print with clay
 [Melissa] Generative Architecture
 [Melissa] A design for one of those sand ball kinetic table thingies
-[Melissa] Make something interesting with no randomness or noise or trig
 [Melissa] Iznik Tiles
 [Melissa] Make a simple game
 [Melissa] Make something inspired by your favorite game
