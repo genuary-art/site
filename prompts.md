@@ -36,7 +36,7 @@ Draw one million of something.
 
 The textile design patterns of public transport seating.
 
-## JAN. 10. <span class="credit">(credit: [Darien](#))</span> {#jan10}
+## JAN. 10. <span class="credit">(credit: [Darien](https://darienbrito.com/))</span> {#jan10}
 
 You can only use TAU in your code, no other number allowed.
 
@@ -83,7 +83,7 @@ Op Art.
 
 Generative Architecture.
 
-## JAN. 21. <span class="credit">(credit: [Darien](#))</span> {#jan21}
+## JAN. 21. <span class="credit">(credit: [Darien](https://darienbrito.com/))</span> {#jan21}
 
 Create a collision detection system (no libraries allowed).
 
@@ -95,11 +95,11 @@ Gradients only.
 
 Inspired by brutalism.
 
-## JAN. 24. <span class="credit">(credit: [Bruce Holmer](#))</span> {#jan24}
+## JAN. 24. <span class="credit">(credit: [Bruce Holmer](https://www.instagram.com/bruceholmer/))</span> {#jan24}
 
 Geometric art - pick either a circle, rectangle, or triangle and use only that geometric shape.
 
-## JAN. 25. <span class="credit">(credit: [Bruce Holmer](#), [Chris Barber (code_rgb)](#), [Heeey](https://heeey.art/), [Monokai](https://monokai.com/))</span> {#jan25}
+## JAN. 25. <span class="credit">(credit: [Bruce Holmer](https://www.instagram.com/bruceholmer/), [Chris Barber (code_rgb)](#), [Heeey](https://heeey.art/), [Monokai](https://monokai.com/))</span> {#jan25}
 
 One line that may or may not intersect itself
 
