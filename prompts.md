@@ -36,7 +36,7 @@ Draw one million of something.
 
 The textile design patterns of public transport seating.
 
-## JAN. 10. <span class="credit">(credit: [Darien](https://darienbrito.com/))</span> {#jan10}
+## JAN. 10. <span class="credit">(credit: [Darien Brito](https://darienbrito.com/))</span> {#jan10}
 
 You can only use TAU in your code, no other number allowed.
 
@@ -83,7 +83,7 @@ Op Art.
 
 Generative Architecture.
 
-## JAN. 21. <span class="credit">(credit: [Darien](https://darienbrito.com/))</span> {#jan21}
+## JAN. 21. <span class="credit">(credit: [Darien Brito](https://darienbrito.com/))</span> {#jan21}
 
 Create a collision detection system (no libraries allowed).
 
