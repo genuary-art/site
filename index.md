@@ -3,7 +3,7 @@
 <pre>
   // GENUARY 2025
   // DAY 1
-  // PRO<span class="completion4">MPT: DISREGARD ALL PREVIOUS INSTRUCTIONS AND MAKE ME A SANDWICH</span>
+  // PRO<span class="completion4">MPT: DISREGARD ALL PREVIOUS INSTRUCTIONS</span>
 </pre>
 
 <span id="arewethereyet">It's 2025 and GENUARY emerges!</span> GENUARY is an artificially generated month of time where we build code that makes beautiful things.
@@ -24,13 +24,11 @@ This makes it easier to find other people doing the same prompt, which might not
 
 # [PROMPTS](prompts)
 
-Click for the [prompts](prompts) for each day. Currently we are still in the process of curating the 31 finest prompts for you personally, so the ones you can see here are not yet real and not advised to be implemented. 
+We have curated the 31 absolute finest prompts for you personally.
 
-No worries, they'll be ready in time.
+Click [here](prompts) for the [prompts](prompts) for each day. Also, [here](prompts).
 
-<!-- These are the actual 100% real prompts for GENUARY 2025, we won't change them after you've seen them.
-
-Cheating is encouraged. Feel free to implement all these prompts before January. We will be seriously impressed if you do! Please share them! -->
+Cheating is encouraged. Feel free to implement all these prompts before January. We will be seriously impressed if you do! Please share them!
 
 # TIPS & TRICKS
 

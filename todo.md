@@ -2,7 +2,3 @@
 
 - write some stuff
 - launch site
-- gather prompts
-- edit prompts
-- vote prompts
-- select prompts
