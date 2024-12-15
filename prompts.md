@@ -16,7 +16,7 @@ Exactly 42 lines of code.
 
 Black on black.
 
-## JAN. 5. <span class="credit">(credit: [P1xelboy](#))</span> {#jan5}
+## JAN. 5. <span class="credit">(credit: [P1xelboy](https://linktr.ee/p1x3lboy))</span> {#jan5}
 
 Isometric Art - (No vanishing points).
 
@@ -28,11 +28,11 @@ Make a landscape using only primitive shapes.
 
 Use software that is not intended to create art or images.
 
-## JAN. 8. <span class="credit">(credit: [Piter](https://twitter.com/piterpasma))</span> {#jan8}
+## JAN. 8. <span class="credit">(credit: [Piter Pasma](https://twitter.com/piterpasma))</span> {#jan8}
 
 Draw one million of something.
 
-## JAN. 9. <span class="credit">(credit: [Piter](https://twitter.com/piterpasma))</span> {#jan9}
+## JAN. 9. <span class="credit">(credit: [Piter Pasma](https://twitter.com/piterpasma))</span> {#jan9}
 
 The textile design patterns of public transport seating.
 
