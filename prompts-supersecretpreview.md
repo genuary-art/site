@@ -91,7 +91,7 @@ Create a collision detection system (no libraries allowed).
 
 Gradients only.
 
-## JAN. 23. <span class="credit">(credit: [Melissa, Roni](#))</span> {#jan23}
+## JAN. 23. <span class="credit">(credit: [Melissa](#), [Roni](#))</span> {#jan23}
 
 Inspired by brutalism.
 
@@ -99,7 +99,7 @@ Inspired by brutalism.
 
 Geometric art - pick either a circle, rectangle, or triangle and use only that geometric shape.
 
-## JAN. 25. <span class="credit">(credit: [Bruce Holmer, Chris Barber (code_rgb), Heeey, Monokai](#))</span> {#jan25}
+## JAN. 25. <span class="credit">(credit: [Bruce Holmer](#), [Chris Barber (code_rgb)](#), [Heeey](#), [Monokai](#))</span> {#jan25}
 
 One line that may or may not intersect itself
 
