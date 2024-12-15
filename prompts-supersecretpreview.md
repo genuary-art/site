@@ -130,6 +130,9 @@ Not to be confused with [AbstractMap](https://docs.oracle.com/javase/8/docs/api/
 
 Pixel sorting.
 
+You can sort pixels by weight, size, age, etc.
+{:.info}
+
 # [THANKS](thanks)
 
 [Big thanks goes out to all these people](thanks) for contributing to GENUARY and generally being awesome.
