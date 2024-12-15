@@ -1,0 +1,31 @@
+Vertical or horizontal lines only;Stranger in the Q
+Layers upon layers upon layers;Monokai
+Exactly 42 lines of code;Roni
+Black on black;Stranger in the Q
+Isometric Art - (No vanishing points);P1xelboy
+Make a landscape using only primitive shapes;Jonathan Barbeau
+Use a software not made to create art/image;Camille Roux
+Draw one million of something;Piter
+The textile design patterns of public transport seating;Piter
+You can only use TAU in your code no other number allowed;Darien
+Impossible day - Try to do something that feels impossible for you to do. Maybe it is impossible. Maybe it’s too ambitious. Maybe it’s something you know nothing about how to accomplish.;Rachel Ehrlich (Joy of Randomness) 
+Subdivision;Melissa
+Triangles and nothing else;Heeey
+Pure black and white. No gray;Melissa
+Design a rug;Melissa
+Generative palette;Stranger in the Q
+What happens if π=4?;Roni
+What does wind look like;Melissa
+Op Art;Melissa
+Generative Architecture;Melissa
+Create a collision detection system (no libraries allowed);Darien
+Gradients only;Melissa
+Inspired by brutalism;Melissa, Roni
+Geometric art - pick either a circle, rectangle, or triangle and use only that geometric shape;Bruce Holmer
+One line that may or may not intersect itself;Bruce Holmer, Chris Barber (code_rgb), Heeey, Monokai
+Symmetry;Melissa
+Make something interesting with no randomness or noise or trig;Melissa
+Infinite Scroll;Sophia (fractal kitty)
+Grid-based graphic design;Melissa
+Abstract map;Melissa
+Pixel sorting;Melissa
