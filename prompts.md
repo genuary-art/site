@@ -20,7 +20,7 @@ Black on black.
 
 Isometric Art - (No vanishing points).
 
-## JAN. 6. <span class="credit">(credit: [Jonathan Barbeau](#))</span> {#jan6}
+## JAN. 6. <span class="credit">(credit: [Jonathan Barbeau](https://jbarbeau.art/))</span> {#jan6}
 
 Make a landscape using only primitive shapes.
 
