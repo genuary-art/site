@@ -43,7 +43,7 @@ You can only use TAU in your code, no other number allowed.
 TAU = 2 * pi = 6.2831853...
 {:.info}
 
-## JAN. 11. <span class="credit">(credit: [Rachel Ehrlich (Joy of Randomness) ](#))</span> {#jan11}
+## JAN. 11. <span class="credit">(credit: [Rachel Ehrlich (Joy of Randomness)](#) and the [Recurse Center](https://www.recurse.com/))</span> {#jan11}
 
 Impossible day - Try to do something that feels impossible for you to do. Maybe it is impossible. Maybe it’s too ambitious. Maybe it’s something you know nothing about how to accomplish.
 
