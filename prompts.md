@@ -18,11 +18,11 @@ Black on black.
 
 ## JAN. 5. <span class="credit">(credit: [P1xelboy](https://linktr.ee/p1x3lboy))</span> {#jan5}
 
-Isometric Art - (No vanishing points).
+Isometric Art (No vanishing points).
 
 ## JAN. 6. <span class="credit">(credit: [Jonathan Barbeau](https://jbarbeau.art/))</span> {#jan6}
 
-Make a landscape using only primitive shapes.
+Make a landscape using only [primitive shapes](https://en.wikipedia.org/wiki/Geometric_primitive).
 
 ## JAN. 7. <span class="credit">(credit: [Camille Roux](https://art.camilleroux.com/))</span> {#jan7}
 
