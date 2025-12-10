@@ -112,6 +112,7 @@
 [Piero] Rotate and shift. Draw one single line and rotate and shift it.
 [Piero] Self Referentiality. Copy the canvas onto itself in interesting ways
 [Piero] Write "Genuary". No loaded fonts allowed.
+[Piter Pasma] I asked ChatGPT to generate the worst GENUARY prompts. And then I selected the very worst of those. Pick one. (link to the list of terrible prompts)
 [Roni] Carve into it
 [Roni] Circle packing, but make it unrecognizable
 [Roni] Controlled chaos
