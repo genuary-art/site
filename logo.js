@@ -39,23 +39,26 @@
     }
 
     F sqr(F x) { return x*x; }
+    F cub(F x) { return x*x*x; }
+    X cub(X x) { return x*x*x; }
+    X sin3(X x) { return cub(sin(x)); }
     F k(F a,F b) {
       return a>0&&b>0?sqrt(a*a+b*b):a>b?a:b; // 2D edge distance function
     }
     const V K=V(1,-1);
     F wb4(V p) {    
-      const F ma = 2;
+      const F ma = 3;
       X q = X(p,p.yx*K*2);
       return dot(
-          sin(q.xyzw*${RF4()}+${RT4()}+ma*sin(q.yzwx*${RF4()}+${RT4()})),
-          sin(q.zwxy*${RF4()}+${RT4()}+ma*sin(q.wxyz*${RF4()}+${RT4()}))
+          sin(q.xyzw*${RF4()}+${RT4()}+ma*sin3(q.yzwx*${RF4()}+${RT4()})),
+          sin(q.zwxy*${RF4()}+${RT4()}+ma*sin3(q.wxyz*${RF4()}+${RT4()}))
         );
     }
 
 F GENUARY(V p) {
   F x = p.x, y = p.y;
   y += 7; // centre vertically
-  x += 49; // centre horizontally
+  x += 50; // centre horizontally
   F x0=x>0?3:0,ay9=B(y-9),ay12=B(y-12);
   F G_=k(U(x,y-8),B(k(B(x)-1-x0,ay9-3-x0)-3+x0));//G
   x -= 12;
@@ -106,8 +109,8 @@ F GENUARY(V p) {
     }
 
     W col(V p) {
-      F z = dot(p,V(${[T(2),T(4)]}))+17;
-      p *= 400/z;
+      F z = dot(p,V(${[T(2),T(4)]}))+23;
+      p *= 450/z;
       F f = S(-2,3,wb4(p*.05-73));
       F d = GENUARY(p)-tf*(2+S(-7,11,p.y))-f*.3,e;
       W c = W(0);
@@ -154,4 +157,4 @@ F GENUARY(V p) {
 
 // the end thank you for reading
 
-// document.write(`<script src="http://${location.host.split(':')[0]}:35729/livereload.js"></${'script>'}`);
+document.write(`<script src="http://${location.host.split(':')[0]}:35729/livereload.js"></${'script>'}`);
