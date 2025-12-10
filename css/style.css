@@ -144,7 +144,7 @@ section h1 {
   text-align: center;
 }
 section h1 a:hover { color: var(--highlight2);text-shadow: 0 .07em 0 var(--highlight); }
-section h2 a:hover { color: var(--highlight2);text-shadow: 0 .07em 0 var(--highlight); }
+section h2 a:hover { color: var(--highlight);text-shadow: 0 .07em 0 var(--highlight2); }
 
 
 section h2 {
@@ -153,6 +153,11 @@ section h2 {
     font-size: 1.5em;
     margin: 0 -2rem;
     padding: .5em 1em 0 1em;
+}
+
+section h2 span a {
+  color: var(--highlight2);
+  text-shadow: 0 .07em 0 var(--highlight);
 }
 
 section ul {
