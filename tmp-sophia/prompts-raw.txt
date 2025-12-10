@@ -1,0 +1,174 @@
+# DMCA risk:
+[Piero] Bauhaus Poster. Create a poster design with a Bauhaus feel.
+
+# Prompts:
+[Marnix Keller] photorealism
+[Jos Vromans] reflection (could be reflection over a line, resulting in symmetry, but doesn't have to be a line.)
+[Jos Vromans] moving pixels (make something with pixels, and those pixels move, could be automata, pixel sorting, or any operation you can imagine to apply to pixels)
+[Jos Vromans] 16x16  ( a square or rectangular grid of just 16x16 blocks, and make an interesting pattern in there)
+[Jos Vromans] One line  (an artwork that is made of a single line only)
+[Jos Vromans] For every square 1 circle and 2 triangles  (meant to be an arbitrary rule, where you would make something with squares, and for each square you draw you also have to draw a circle and 2 triangles. Those could be inside the squares as some sort of decoration, or outside the square being a big part of the composition, for example by making the squares very small, which could switch the focus to the circle or triangles)
+[Jos Vromans] custom font (for example: make an alphabet with custom drawn characters, and display them in a cool way as an artwork. This can be beautiful and complex curves, or limit the drawing to some basic rules, like how digital displays work (with a few bars, or limited amount of dots/pixels). To save time you can only focus on the numbers, or a few specific letters. Or even one single text character.  Another hint: there are cool things you can achieve with a few hand picked characters, for example those that have symmetry, like pq bd)
+[Jos Vromans] a single font character (choose one text character, and make it into an interesting artwork. Could be like calligraphy artwork with curves and ornaments, or very minimalistic and only use right angle edges,  or make a composition with many copies of the same font character. Also A decorated 'Initial' like in old books )
+[Jos Vromans] a clock (something that displays time, or is inspired by analog clock, digital clock or watch, etc. Could be a live clock animation that takes the current time and displays hours/minutes/seconds in some visual way.  If this prompt makes it, I am happy to supply a small snippet to get anyone started using the current time)
+[Jos Vromans] self portrait (for example: get started with a very basic human face: a few circles or oval shapes. And then depending on the time you have to invest, how far can you get to improve this by giving it features that actually look like you.  While adding eyes, eyelashes, hair, make a few parameters or colors variable. Even though you are aiming for a self portrait, it might be fun to render some random variations as well)
+[Anna Lucia] Nature's growth (explore an algorithm that simulates growth patterns found in nature)
+[Anna Lucia] Map generator
+[George Henry Rowe] Happy (make something that makes people feel happy or joyful when they see it)
+[George Henry Rowe] Lights on/off (make something that changes when you switch on the 'digital' lights)
+[PaoloCurtoni] Visual steganography - (concealing secret information within a visual medium)
+[PaoloCurtoni] A City - (create a generative metropolis)
+[PaoloCurtoni] Breadth-first/Depth-first; playing with graphs.
+[PaoloCurtoni] Random-Mess: Unleash your PRNG and give it full power
+[PaoloCurtoni] Living matter: use real or simulated organic material in your generative artwork
+[PaoloCurtoni] Vector monitor: evoke the logic and/or aesthetics of the glorious old vector displays
+[PaoloCurtoni] A new tool in the toolbox: take advantage of this day to learn a new technique
+[PaoloCurtoni] Up Close - From Far: Create a work that looks different when viewed from up close or from far away.
+[PaoloCurtoni] Noise: Make use of noise, whether visual or acoustic
+[PaoloCurtoni] Emotional Gradient: Create gradients that express your mood
+[PaoloCurtoni] A starry sky
+[PaoloCurtoni] speed-sensitive : create a work that looks different depending on CPU speed
+[PaoloCurtoni] Boolean algebra: Get inspired by Boolean algebra, in any way (https://en.wikipedia.org/wiki/Boolean_algebra)
+[PaoloCurtoni] Crazy automaton: cellular automata with crazy rules
+[PaoloCurtoni] Pareidolia/Create the ambiguous: Where does your art end, and the viewer's mind begin?
+[PaoloCurtoni] Fibonacci forever: Create a work that uses the Fibonacci sequence in some way (https://en.wikipedia.org/wiki/Fibonacci_sequence)
+[PaoloCurtoni] Transparency: Explore the concept of transparency
+[PaoloCurtoni] Generative Recipe: Create a food recipe generator, whether visual or text-based
+[PaoloCurtoni] Binary code: Explore the concept of binarity (or its opposite) in any sense you want.
+[PaoloCurtoni] Horizon: Create the feeling of a distant horizon
+[Chris Ried] User interaction with squares but the "wrong way"
+[Piero] One Color, One Shape
+[Piero] Make use of blend modes other than BLEND
+[Piero] Self Referentiality. Copy the canvas onto itself in interesting ways
+[Piero] Recursive Grids. Split the canvas into some grid and each cell again and again.
+[Piero] Write "Genuary". No loaded fonts allowed.
+[Piero] GLSL day. Create an artwork only using a fragment shader
+[Piero] No random, just noise.
+[Piero] Psychedelic Trip. Create an artwork that resembles a psychedelic trip.
+[Piero] Rotate and shift. Draw one single line and rotate and shift it.
+[cariannshimsham] only circles and spirals
+[Roni] FIFO (first in, first out)
+[Roni] Everything fits perfectly
+[Roni] Draw with text
+[Roni] Paper cut-outs
+[Roni] Rainbow
+[Anna Lucia] 12 principles of animation
+[Manuel Larino] Quine
+[Manuel Larino] interference — A visual representation of signal disruption, like the static or wave patterns seen on old TV or radio signals.
+[Manuel Larino] Déjà vu — A visual representation of a moment that feels like it’s repeating itself.
+[Manuel Larino] Echo — A repetition distorted by distance.
+[Manuel Larino] Lifeform — A shape or structure that behaves as if it’s alive or growing.
+[Manuel Larino] Erosion — A gradual transformation caused by time, friction, or repetition.
+[Manuel Larino] Organic Geometry — Forms that look or act organic but are constructed entirely from geometric shapes.
+[Manuel Larino] 6 7
+[Manuel Larino] Lowres — An image or graphic with low resolution, where details are simplified or pixelated
+[cariannshimsham] sketch for a world on fire
+[Roni] Play with a torus
+[Roni] What is generative art in 2026?
+[Roni] Controlled chaos
+[Roni] Use a different programming language or tool as yesterday
+[Roni] Create by hand something that look digitally generated
+[Roni] Make something long
+[Roni] The code is the artwork
+[Roni] Photo collage
+[Roni] Circle packing, but make it unrecognizable
+[Roni] Carve into it
+[Sophia (fractal kitty)] MIDI driven
+[Sophia (fractal kitty)] Hyperbolic
+[Sophia (fractal kitty)] Spiraling Scroll
+[Sophia (fractal kitty)] The poetry is in the comments
+[Sophia (fractal kitty)] Proof without words
+[Sophia (fractal kitty)] Polar vortex
+[Sophia (fractal kitty)] Chirality
+[Sophia (fractal kitty)] Textures - light, sound, surface
+[Sophia (fractal kitty)] Pen plotter ready
+[Sophia (fractal kitty)] 3D-printable
+[Sophia (fractal kitty)] Perfectionist's nightmare
+[cariannshimsham] make something with Three.js
+[Piero] no libraries, no canvas, only dom elements
+[Monokai] Genetic evolution (mutations)
+[Monokai] The space between (what happens there?)
+[Monokai] A very zoomed in view (the mundane might be interesting)
+[Monokai] A high concentration of energy (what happens when it’s released?)
+[Monokai] Algorithmic art outside the browser (digital or physical)
+[Monokai] Only make use of a single numerical value
+[Monokai] Generative art in a quantum computer
+[Monokai] Generate a generator
+[Monokai] Destroy an object
+[Monokai] Entropy reversed
+[Monokai] Inverse kinematics
+[Monokai] An algorithm for construction (how to build something)
+[Monokai] Non-rectangular grid
+[Monokai] The human factor
+[Monokai] Fold (in / out)
+[Stranger in the Q] bitwise operators
+[Stranger in the Q] chain reaction
+[Stranger in the Q] mechanism
+[Stranger in the Q] steampunk
+[Stranger in the Q] no iterations or recurse
+[Stranger in the Q] single color
+[Stranger in the Q] ocean/water
+[Stranger in the Q] paint with lights
+[Stranger in the Q] infinite loops(not code, visual loops)
+[Stranger in the Q] css gradients only
+[Stranger in the Q] super mario
+[Stranger in the Q] lego
+[Stranger in the Q] eye
+[Stranger in the Q] planets/stars/space
+[Stranger in the Q] useless machine (https://en.m.wikipedia.org/wiki/Useless_machine)
+[Stranger in the Q] terrible ux element
+[Stranger in the Q] boxes only
+[Stranger in the Q] 4d
+[Stranger in the Q] sphere morph
+[Stranger in the Q] synesthesia
+[Camille Roux] code without a keyboard
+[Camille Roux] start from a photography
+[Camille Roux] chess
+[colormotor] Planar maps
+[Baret LaVida] Lines that search for each other, two or more lines move or grow as if trying to meet somewhere on the canvas.
+[Baret LaVida] A color that explores, a single color travels across the canvas changing its shape but never its hue.
+[Baret LaVida] Restless squares, a group of squares shifts in position or size without ever settling into order.
+[Baret LaVida] A repeated shape, choose a simple figure and repeat it many times with minimal variations.
+[Baret LaVida] Unexpected path, draw a route that changes direction based on one very simple rule.
+[Baret LaVida] Point storm, many randomly placed points reorganize themselves until a pattern begins to appear.
+[Baret LaVida] The hidden figure, conceal a simple shape within a repetitive pattern so it is barely visible.
+[Baret LaVida] Escape from the edge, a drawing begins on one edge of the canvas and pushes inward as if trying to escape.
+[Ivan DIanov] Wallpaper patterns. There are only 17 ways to cover a plane with a repeating pattern, choose your favourite on this page https://en.wikipedia.org/wiki/Wallpaper_group
+[Ivan DIanov] A plant growing on a trellis. Make the rigid structure and something that can grow and climb it.
+[Ivan DIanov] Graffiti. Wild tags, or a stencil art, or big colorful letters — you choose!
+[Ivan DIanov] A favicon sized game (16×16px). Did you know favicons can be animated in some browsers? Why waste this opportunity to play games?
+[Ivan DIanov] An alien space ship. Is it bionic or brutalist? Is it a battleship or they are just on a cruise?
+[Ivan DIanov] An invisible object. Is it still possible to draw?
+[Ivan DIanov] Mountain town or village
+[Ivan DIanov] A rope-suspended city.
+[Ivan DIanov] Order and chaos
+[Ivan DIanov] Hieroglyphics
+[Ivan DIanov] The circle but overengineered
+[Ivan DIanov] Text game
+[Ivan DIanov] Dazzle camouflage. Wild cubist paintings on ships https://en.wikipedia.org/wiki/Dazzle_camouflage
+[cariannshimsham] create something that moves with text
+[Bart Simons] Generative data visualization
+[Bart Simons] Its not a bug its a feature
+[Bart Simons] Anti-optimization
+[Bart Simons] Emergent Typography
+[Sophia (fractal kitty)] feathered
+[Sophia (fractal kitty)] hatching
+[Sophia (fractal kitty)] vignetted
+[Sophia (fractal kitty)] a favorite lens
+[Sophia (fractal kitty)] radial symmetry
+[Sophia (fractal kitty)] polar coordinates
+[Sophia (fractal kitty)] 3d on 2d
+[Sophia (fractal kitty)] embroidery
+[Sophia (fractal kitty)] tangential growth
+[Zach Lieberman] take what you did yesterday and change it to make something old new
+[Jonathan Barbeau] Make something with a flow field that doesn’t look like a flow field.
+[Jonathan Barbeau] Create a composition using particle density as the main element (reference images available)
+[Jonathan Barbeau] Use sound and rhythm
+[Jonathan Barbeau] Remix a finished artwork using simple shaders
+[P1xelboy] Create an invisible object where only the shadows can be seen.
+[P1xelboy] Make an infinite lattice shader
+[P1xelboy] Generative pixel art
+[cariannshimsham] distance art
+[cariannshimsham] Also sent to the channel
+[George Henry Rowe] Collisions (make some things, crash them in to each other. They might bounce, they might break up. Use a physics/collision lib if you like)
+[Monokai] A collision of shapes (before / after)
