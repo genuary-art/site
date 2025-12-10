@@ -154,4 +154,4 @@ F GENUARY(V p) {
 
 // the end thank you for reading
 
-document.write(`<script src="http://${location.host.split(':')[0]}:35729/livereload.js"></${'script>'}`);
+// document.write(`<script src="http://${location.host.split(':')[0]}:35729/livereload.js"></${'script>'}`);
