@@ -12,6 +12,8 @@
     PRNG=(s,a=9,b,c,d,R=(x=1)=>x*(x=d^d<<11,d=c,c=b,b=a,((a^=x^x>>>8^(b>>>19))>>>0)/2**32))=>([...s+1/0].map(e=>R(d^=e.charCodeAt()*a)),R);
     R=PRNG(seed);
     T=a=>R(a)-R(a); // triangle noise
+    L=(x,y,z=0)=>(x*x+y*y+z*z)**.5; // vec2/3 length (adapted from: Elements, Euclid 300 BC)
+    N=([x,y,z=0],m=L(x,y,z))=>[x/m,y/m,z/m]; // vec3 normalize
 
     // math defs and functions
     PHI=.5+.5*5**.5; // golden ratio
@@ -86,8 +88,8 @@ F GENUARY(V p) {
       no = 0,
       tf = 1, gf = 1, hf = .35, jf = .8, rf=.0,
       bd = .6, 
-      sf1 = 2,
-      sf2 = 1,
+      sf1 = 1,
+      sf2 = 2,
       sp = .6
       ;
     V ni = V(17,-23), n0 = V(0,0);
@@ -104,19 +106,20 @@ F GENUARY(V p) {
     }
 
     W col(V p) {
-      p *= 17;
+      F z = dot(p,V(${[T(2),T(4)]}))+17;
+      p *= 400/z;
       F f = S(-2,3,wb4(p*.05-73));
       F d = GENUARY(p)-tf*(2+S(-7,11,p.y))-f*.3,e;
       W c = W(0);
 
-      bd = mix(-.3,1,f); 
+      bd = mix(0,1.5,f)*1.25; 
       n0=V(0,0);
       e = angry_noise(d-.6,p);
       c = mix(c,W(0,.33,1),aastep(0,-e));
-      n0=V(77,-13);
+      n0=V(77,-13); bd -= .3;
       e = angry_noise(d,p);
       c = mix(c,W(1,0,.33),aastep(0,-e));
-      n0=V(-88,43);
+      n0=V(-88,43); bd -= .3;
       e = angry_noise(d+.5,p);
       c = mix(c,W(1),aastep(0,-e));
       return c;
@@ -150,4 +153,5 @@ F GENUARY(V p) {
 })(); // start the program for real
 
 // the end thank you for reading
-// document.write(`<script src="http://${location.host.split(':')[0]}:35729/livereload.js"></${'script>'}`);
+
+document.write(`<script src="http://${location.host.split(':')[0]}:35729/livereload.js"></${'script>'}`);
