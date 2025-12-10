@@ -110,20 +110,27 @@ F GENUARY(V p) {
 
     W col(V p) {
       F z = dot(p,V(${[T(2),T(4)]}))+23;
+      const F oo = .4;
       p *= 450/z;
-      F f = S(-2,3,wb4(p*.05-73));
+      p += oo;
+      F f = S(0,3,sqr(wb4(p*.07-73)));
       F d = GENUARY(p)-tf*(2+S(-7,11,p.y))-f*.3,e;
       W c = W(0);
 
-      bd = mix(0,1.5,f)*1.25; 
+      bd = mix(.05,1.8,f); 
       n0=V(0,0);
       e = angry_noise(d-.6,p);
       c = mix(c,W(0,.33,1),aastep(0,-e));
       n0=V(77,-13); bd -= .3;
       e = angry_noise(d,p);
       c = mix(c,W(1,0,.33),aastep(0,-e));
+      n0=V(-87,42); bd -= .3;
+      e = angry_noise(d+.4,p);
+      c = mix(c,W(0),aastep(0,-e));
       n0=V(-88,43); bd -= .3;
-      e = angry_noise(d+.5,p);
+      p-=oo;
+      d = GENUARY(p)-tf*(2+S(-7,11,p.y))-f*.3,e;
+      e = angry_noise(d+.7,p);
       c = mix(c,W(1),aastep(0,-e));
       return c;
     }
