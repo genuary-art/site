@@ -6,20 +6,18 @@
 
 :root {
   --bgcolor: #000;
-  --textcolor: #fff;
-  --highlight: #f09;
-  --highlight2: #09f;
-  --textstrong: var(--highlight2);
-  --textstrongheader: var(--highlight);
-  --textstrongheadertoday: var(--highlight);
-  --texthighlight: var(--highlight);
-  --textcode: var(--highlight);
-  --textlink: var(--highlight2);/*#4bf;*/
-  --textlinkhover: var(--highlight);
-  --infolink: #bbb;
-  --infocolor: #888;
-  --infolinkhover: #ddd;
-  --shadow: var(--highlight2);
+  --textcolor: #ccc;
+  --textstrong: #9dc;
+  --textstrongheader: #9dc;
+  --textstrongheadertoday: #f0f;
+  --texthighlight: #9988ff;
+  --textcode: #8c88ef;
+  --textlink: #8c88ef;/*#4bf;*/
+  --textlinkhover: #a09cff;/*#4bf;*/
+  --infolink: #8c88ef;
+  --infocolor: #524D88;
+  --infolinkhover: #a09cff;
+  --shadow: #000;
 }
 
 body {
@@ -38,25 +36,18 @@ header, section, footer, nav {
   display:block;
 }
 
-header #logo {
-  max-width: 100vw;
-  max-height: 25vw;
-  height: 33vh; 
-  margin: 0 auto;
-}
-
 header #logo img,
 header #logo canvas { 
   max-width: 100%;
-  display: block;
-  object-fit: contain;          
+  max-height: 33vh; 
+  display: block; 
+  margin: 0 auto;
 }
 
 nav {
   margin: .25em auto 0 auto;
-  max-width: 40em;
+  max-width: 50em;
   text-align: center;
-  font-size: 1.2em;
 }
 
 nav a {
@@ -66,32 +57,31 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   color: var(--texthighlight);
-  text-shadow: 0 .07em 0 var(--shadow);
 }
 
-/*nav a:hover { background: #0004; }*/
+nav a:hover { background: #131313; }
 
 section strong { color: var(--textstrong); font-weight: bold; }
 section em { color: var(--texthighlight); font-style: normal; }
 section code { color: var(--textcode); font-family: monospace; }
 section a { color: var(--textlink); font-weight: bold; }
-section a:hover { color: var(--textlinkhover);}
-
+section a:hover { color: var(--textlinkhover); }
 section .info { font-size: .7em; line-height: 1.25; color: var(--infocolor); }
 section .info a {color: var(--infolink); font-weight: bold; }
 section .info a:hover {color: var(--infolinkhover); }
-/*
+
 section .share { font-size: .7em; line-height: 1; margin: 1rem 0 1rem 1.25rem; color: var(--texthighlight); opacity: .7; }
 section .share b { font-weight: bold; border: none; padding: 0; color: var(--textstrong); }
 
+p.shadows { text-shadow: .25em .25em .0625em #0004; }
+
 section b { /* for styling colour swatches in the prompts list */
-/*  padding: 0.25em;
+  padding: 0.25em;
   border: 2px solid #000;
   font-weight: bold;
 }
-*/
+
 section h1 a { color: inherit; text-decoration: none; }
-section h2 a { color: inherit; text-decoration: none; }
 
 section {
   box-sizing: border-box;
@@ -139,17 +129,13 @@ section h1, section h2, section h3, section h4, section h5, section h6 {
 }
 
 section h1 {
-  text-shadow: 0 .07em 0 var(--shadow);
+  text-shadow: .0625em .0625em 0 var(--shadow);
   font-size: 2em;
   text-align: center;
 }
-section h1 a:hover { color: var(--highlight2);text-shadow: 0 .07em 0 var(--highlight); }
-section h2 a:hover { color: var(--highlight2);text-shadow: 0 .07em 0 var(--highlight); }
-
 
 section h2 {
-    border-top: 2px solid var(--shadow);
-    text-shadow: 0 .07em 0 var(--shadow);
+    border-top: 2px solid #333055;
     font-size: 1.5em;
     margin: 0 -2rem;
     padding: .5em 1em 0 1em;
@@ -167,13 +153,13 @@ section ul li {
 
 
 section pre {
-  background:#111;
+  background:#131313;
   border: solid 1px #000;
   border-radius: 0.25em;
   box-shadow: inset 0 0.25em 1em rgba(0,0,0,0.2);
-  color: var(--highlight);
+  color: #0fc;
   padding: 1em;
-  text-shadow: 0 .1em .1em var(--highlight2), 0 0 10px var(--highlight);
+  text-shadow: 0 0 3px #021, 0 0 10px #0fc;
 /*  overflow-x: auto;*/
   margin-top: 1em;
   white-space: pre-wrap;

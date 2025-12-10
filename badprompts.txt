@@ -1,0 +1,77 @@
+Create a tileable pattern using only triangles that are not allowed to touch each other.
+Fill a grid with almost duplicates.
+Animate a static grid.
+Generate a texture that behaves like silk when you stare at it and like sand when you blink.
+Render light bending itself.
+Fill space with missing lines.
+Tile noise so it looks exactly the same everywhere.
+Draw a "perfectly random" grid where every row contains exactly one duplicate color.
+Generate color without repeating it.
+Render texture made entirely of negative pixels.
+Draw shadows without objects.
+Fill space with the opposite of texture.
+Create a perfect circle using only left-handed pixels.
+Design a poster for an event that both happened last year and will happen next month.
+Render a horizon that folds inward.
+Illustrate the exact midpoint between chaos and order as a neatly labeled SVG.
+Render yesterday's weather as a photorealistic object.
+Create a noise pattern that becomes progressively smoother the more you zoom in.
+Tile patterns that repel each other.
+Illustrate the concept 'less is more' using exactly 2,473 distinct objects.
+Generate a GIF of a bouncing ball that only moves when you blink.
+Draw silence as a waveform.
+Loop a line that never ends.
+Create a pattern where every repeated element is deliberately misaligned by one pixel.
+Generate order that mutates randomly.
+Generate a texture where each pixel copies the value of a random neighbor every frame.
+Render an image where every object casts a shadow in the wrong direction.
+Make a GIF of absolute silence (no frames should suggest motion or sound).
+Animate a bouncing dot on an infinite canvas.
+Draw a fractal that stops growing halfway and apologizes in a tooltip.
+Draw a map consisting only of roads that lead nowhere but are extremely useful.
+Render a looping GIF of a square slowly transforming into a circle and back, but never quite finishing.
+Draw a single pixel claiming the canvas.
+Illustrate an Escher staircase that's safe for toddlers and obeys gravity.
+Produce an image where every color is slightly "off" from the previous row.
+Fill canvas with one pixel, repeat 16K times.
+Fill a canvas with invisible shapes.
+Animate an invisible wave.
+Draw a grid where every cell is empty.
+Render a gradient that ignores boundaries.
+Draw a frame that erases itself.
+Produce an image made entirely of horizontal lines that are each exactly one pixel apart, except one line.
+Make pixels shy from each other.
+Produce a canvas where only the corners are filled with color.
+Tile squares that are too small to see.
+Cellular automaton based on arguing with its neighbors.
+Paint a landscape at the moment it decides to stop being a landscape.
+Generate an image where every pixel is a slightly different shade of gray except for one neon pink pixel.
+Produce a tileable pattern where no two tiles are allowed to be the same.
+Draw 'blue' but make it red.
+Generate a canvas filled with straight lines where exactly one line is wavy.
+Make a repeating pattern optimized for curtains that must never be hung.
+Draw lines only where there is no space.
+Create an image made of exactly one straight line.
+Generate a 16K photorealistic image of the smell of plywood.
+Create a pattern optimized for printing on water.
+Create a fractal forest where each tree is actually a single line.
+
+=====
+do you know about Genuary, the generative art month organised by Piter Pasma? could you give me 31 new imagined prompts for Genuary, but make them like really shitty? for context, these are the suggested hints Piter gives people when contributing prompts:
+
+```Tips for a great GENUARY prompt:
+- Be complete. While single-word prompts are fine, remember we're going to vote and if your prompt isn't very clear without context, consider adding a bit of context :)
+- Make a prompt that you would like to see _yourself_ spending a day on during GENUARY 2026 (even if you won't
+have time, pretend you have that day of time). The point is that we don't really want prompts that would be cool to see the outputs of if _other_ people would do them for a day (if you get what I mean). This is also a reminder to myself :) :)
+- Otherwise the sky's the limit, prompts come in many forms and shapes, and as far as I'm concerned, everything goes :)
+- Well, okay, so there is one type of prompt I don't really like to see: "In the style of <ARTIST>". First of, if the artist is still alive, this is not really cool unless we ask them. And even if the artist is no longer alive, there can be problems with the estate (this actually happened on OpenProcessing from the Vera Molnar estate ...) (which sucks but it is what it is).
+
+Inspiration from previous years:
+* https://genuary2021.github.io/prompts
+* https://genuary.art/2022/prompts
+* https://genuary.art/2023/prompts
+* https://genuary.art/2024/prompts
+* https://genuary.art/2025/prompts
+```
+
+But I want a list of humorous fake prompts that are actually really bad, stupid, wrong, mistaken, in an absurdistic way, that is not cringe, but actually quite clever every time, but also unique

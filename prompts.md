@@ -1,162 +1,33 @@
 # PROMPTS
 
-## JAN. 1. <span class="credit">(credit: [Stranger in the Q](https://x.com/stranger_intheq))</span> {#jan1}
-
-Vertical or horizontal lines only.
-
-## JAN. 2. <span class="credit">(credit: [Monokai](https://monokai.com/))</span> {#jan2}
-
-Layers upon layers upon layers.
-
-## JAN. 3. <span class="credit">(credit: [Roni Kaufman](https://ronikaufman.github.io/))</span> {#jan3}
-
-Exactly 42 lines of code.
-
-## JAN. 4. <span class="credit">(credit: [Stranger in the Q](https://x.com/stranger_intheq))</span> {#jan4}
-
-Black on black.
-
-## JAN. 5. <span class="credit">(credit: [P1xelboy](https://linktr.ee/p1x3lboy))</span> {#jan5}
-
-Isometric Art (No vanishing points).
-
-## JAN. 6. <span class="credit">(credit: [Jonathan Barbeau](https://jbarbeau.art/))</span> {#jan6}
-
-Make a landscape using only [primitive shapes](https://en.wikipedia.org/wiki/Geometric_primitive).
-
-## JAN. 7. <span class="credit">(credit: [Camille Roux](https://art.camilleroux.com/))</span> {#jan7}
-
-Use software that is not intended to create art or images.
-
-## JAN. 8. <span class="credit">(credit: [Piter Pasma](https://twitter.com/piterpasma))</span> {#jan8}
-
-Draw one million of something.
-
-## JAN. 9. <span class="credit">(credit: [Piter Pasma](https://twitter.com/piterpasma))</span> {#jan9}
-
-The textile design patterns of public transport seating.
-
-## JAN. 10. <span class="credit">(credit: [Darien Brito](https://darienbrito.com/))</span> {#jan10}
-
-You can only use TAU in your code, no other number allowed.
-
-TAU = 2 * pi = 6.2831853...
-{:.info}
-
-## JAN. 11. <span class="credit">(credit: [Rachel Ehrlich (Joy of Randomness)](#) and the [Recurse Center](https://www.recurse.com/))</span> {#jan11}
-
-Impossible day - Try to do something that feels impossible for you to do. Maybe it is impossible. Maybe it’s too ambitious. Maybe it’s something you know nothing about how to accomplish.
-
-## JAN. 12. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/))</span> {#jan12}
-
-Subdivision.
-
-## JAN. 13. <span class="credit">(credit: [Heeey](https://heeey.art/))</span> {#jan13}
-
-Triangles and nothing else.
-
-## JAN. 14. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/))</span> {#jan14}
-
-Pure black and white. No gray.
-
-## JAN. 15. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/))</span> {#jan15}
-
-Design a rug.
-
-## JAN. 16. <span class="credit">(credit: [Stranger in the Q](https://x.com/stranger_intheq))</span> {#jan16}
-
-Generative palette.
-
-## JAN. 17. <span class="credit">(credit: [Roni Kaufman](https://ronikaufman.github.io/))</span> {#jan17}
-
-What happens if pi=4?
-
-## JAN. 18. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/))</span> {#jan18}
-
-What does wind look like?
-
-## JAN. 19. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/))</span> {#jan19}
-
-Op Art.
-
-## JAN. 20. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/))</span> {#jan20}
-
-Generative Architecture.
-
-## JAN. 21. <span class="credit">(credit: [Darien Brito](https://darienbrito.com/))</span> {#jan21}
-
-Create a collision detection system (no libraries allowed).
-
-## JAN. 22. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/))</span> {#jan22}
-
-Gradients only.
-
-## JAN. 23. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/), [Roni Kaufman](https://ronikaufman.github.io/))</span> {#jan23}
-
-Inspired by brutalism.
-
-## JAN. 24. <span class="credit">(credit: [Bruce Holmer](https://www.instagram.com/bruceholmer/))</span> {#jan24}
-
-Geometric art - pick either a circle, rectangle, or triangle and use only that geometric shape.
-
-## JAN. 25. <span class="credit">(credit: [Bruce Holmer](https://www.instagram.com/bruceholmer/), [Chris Barber (code_rgb)](#), [Heeey](https://heeey.art/), [Monokai](https://monokai.com/))</span> {#jan25}
-
-One line that may or may not intersect itself
-
-## JAN. 26. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/))</span> {#jan26}
-
-Symmetry.
-
-## JAN. 27. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/))</span> {#jan27}
-
-Make something interesting with no randomness or noise or trig.
-
-## JAN. 28. <span class="credit">(credit: [Sophia (fractal kitty)](https://www.fractalkitty.com/))</span> {#jan28}
-
-Infinite Scroll.
-
-## JAN. 29. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/))</span> {#jan29}
-
-Grid-based graphic design.
-
-## JAN. 30. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/))</span> {#jan30}
-
-Abstract map.
-
-Not to be confused with [AbstractMap](https://docs.oracle.com/javase/8/docs/api/java/util/AbstractMap.html).
-{:.info}
-
-## JAN. 31. <span class="credit">(credit: [Melissa Wiederrecht](https://melissawiederrecht.com/))</span> {#jan31}
-
-Pixel sorting.
-
-You can sort pixels by weight, size, age, etc.
-{:.info}
+Prompts are currently under construction. Proper true prompts for really real will appear in due time. In the mean while, please enjoy my curated selection of asking Chat GPT for the worst *GENUARY* prompts ever!
+
+<script>
+  // the worst prompts, by ChatGPT
+  onload=_=>{
+    let R = (a=1)=>a*Math.random();
+    let shuf=a=>(a.map((j,i)=>[a[i],a[j]]=[a[j=i+R(a.length-i)|0],a[i]]),a);
+    let fake_artists1=["Lira","Jaxon","Nomi","Elio","Pixel","Maro","Tessa","Remy","Kiro","Soft","Vexen","Aero","Nata","Lumen","Echo","Vera","Heliot","Dorian","Kitsu","Claude","Neo","Orra","Mathilde","Vector","Oskar","Nova","Marten","Sable","Corin","Byte","Fera","Ren","Mira","Juno","Haxley","Liora","Knut","Ellin","Raster","Calyx","Milo","Echo","Kaia","Leonid","Paradox","Rhea","Yaro","Fynn","Indigo","Taro","Janis","Synthex","Lidia","Moss","Ravel","Ciel","Artif","Solin","Tekno","Arden","Phi","Corvo"];
+    let fake_artists2=["Montalvo","Leclair","Kestrel","Brammer","Druid","Pencini","Ruhl","Folds","Lumen","Collision","Marrot","Glyph","Solberg","Jax","Related","Kline","Fenn","Loops","Marvell","Vesper","Number","Devine","Quill","Nomad","Finch","Silvius","Lux","Orion","Ledger","Mantis","Linetti","Ardel","Voxell","Verstrand","Trent","Venn","Parallax","Zoré","Bard","Moreno","Hanford","Fragment","Drumm","Sharpe","Sprite","Solstice","Pelham","Calder","Circuit","Feldman","Orrell","Wisp","Farren","Line","Kincaid","Fontaine","Fendrix","Mercer","Lark","Vale","Solaris","Minuet"];
+    let worst_prompts=[`Animate a bouncing dot on an infinite canvas.`,`Animate a static grid.`,`Animate an invisible wave.`,`Cellular automaton based on arguing with its neighbors.`,`Create a fractal forest where each tree is actually a single line.`,`Create a noise pattern that becomes progressively smoother the more you zoom in.`,`Create a pattern optimized for printing on water.`,`Create a pattern where every repeated element is deliberately misaligned by one pixel.`,`Create a perfect circle using only left-handed pixels.`,`Create a tileable pattern using only triangles that are not allowed to touch each other.`,`Create an image made of exactly one straight line.`,`Design a poster for an event that both happened last year and will happen next month.`,`Draw 'blue' but make it red.`,`Draw a "perfectly random" grid where every row contains exactly one duplicate color.`,`Draw a fractal that stops growing halfway and apologizes in a tooltip.`,`Draw a frame that erases itself.`,`Draw a grid where every cell is empty.`,`Draw a map consisting only of roads that lead nowhere but are extremely useful.`,`Draw a single pixel claiming the canvas.`,`Draw lines only where there is no space.`,`Draw shadows without objects.`,`Draw silence as a waveform.`,`Fill a canvas with invisible shapes.`,`Fill a grid with almost duplicates.`,`Fill canvas with one pixel, repeat 16K times.`,`Fill space with missing lines.`,`Fill space with the opposite of texture.`,`Generate a 16K photorealistic image of the smell of plywood.`,`Generate a canvas filled with straight lines where exactly one line is wavy.`,`Generate a GIF of a bouncing ball that only moves when you blink.`,`Generate a texture that behaves like silk when you stare at it and like sand when you blink.`,`Generate a texture where each pixel copies the value of a random neighbor every frame.`,`Generate an image where every pixel is a slightly different shade of gray except for one neon pink pixel.`,`Generate color without repeating it.`,`Generate order that mutates randomly.`,`Illustrate an Escher staircase that's safe for toddlers and obeys gravity.`,`Illustrate the concept 'less is more' using exactly 2,473 distinct objects.`,`Illustrate the exact midpoint between chaos and order as a neatly labeled SVG.`,`Loop a line that never ends.`,`Make a GIF of absolute silence (no frames should suggest motion or sound).`,`Make a repeating pattern optimized for curtains that must never be hung.`,`Make pixels shy from each other.`,`Paint a landscape at the moment it decides to stop being a landscape.`,`Produce a canvas where only the corners are filled with color.`,`Produce a tileable pattern where no two tiles are allowed to be the same.`,`Produce an image made entirely of horizontal lines that are each exactly one pixel apart, except one line.`,`Produce an image where every color is slightly "off" from the previous row.`,`Render a gradient that ignores boundaries.`,`Render a horizon that folds inward.`,`Render a looping GIF of a square slowly transforming into a circle and back, but never quite finishing.`,`Render an image where every object casts a shadow in the wrong direction.`,`Render light bending itself.`,`Render texture made entirely of negative pixels.`,`Render yesterday's weather as a photorealistic object.`,`Tile noise so it looks exactly the same everywhere.`,`Tile patterns that repel each other.`,`Tile squares that are too small to see.`];
+    shuf(fake_artists1);
+    shuf(fake_artists2);
+    shuf(worst_prompts);
+    for(let i=1; i<=31; i++) {
+      let n1 = fake_artists1[i];
+      if (R(2)<1) n1 = n1.toLowerCase();
+      let n2 = fake_artists2[i];
+      if (R(2)<1) n2 = n2.toLowerCase();
+      let n = R(3)<1?n1+n2:n1+' '+n2;
+      thanks.insertAdjacentHTML("beforebegin",`<h2 id="jan${i}">JAN. ${i}. <span class="credit">(credit: <a href="https://en.wikipedia.org/wiki/Special:Random">${n}</a>)</span></h2>\n<p>${worst_prompts[i]}</p>\n`);
+    }
+  }
+</script>
 
 # [THANKS](thanks)
 
-[Big thanks goes out to all these people](thanks) for contributing to GENUARY and generally being awesome.
+[Big thanks goes out to all these people](thanks) for contributing to *GENUARY* and generally being awesome.
 
 # 2024 PROMPTS
 
 Looking for the 2024 prompts? They're at [2024/prompts](2024/prompts).
-
-<script>
-  // this is the script to highlight the right prompt every day
-  onload=_=>{
-    let now = new Date(),
-        year = now.getFullYear(),
-        month = now.getMonth(),
-        day = now.getDate();
-
-    if (year !== 2025 || month !== 0) return; // The if statement makes sure we only highlight days in January 2023 (TODO: somebody please update this comment)
-    let hash = `#jan${day}`;
-    if (!location.hash) location = hash;
-    let h2 = document.querySelector(hash);
-    h2.classList.add("today");
-    let p = document.createElement("p");
-    p.className="share";
-    p.innerHTML=`Share your results using the hashtags <b>#genuary${day}</b> (this prompt) and <b>#genuary</b>!`;
-    h2.after(p)
-  }
-</script>

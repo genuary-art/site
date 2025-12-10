@@ -4,8 +4,6 @@
 
 I have already answered this question in the very first paragraph of this site's [home page](/).
 
-But, it's 2026 which is the Year of Just Being Nice and Also Universal Peace For Once Please, so I can also just tell you. GENUARY is an artificially generated month of time where we build code that makes beautiful things.
-
 ## Do I need to follow the prompts strictly?
 
 No.
@@ -18,21 +16,21 @@ No.
 
 No.
 
-## Do I need to ...?
+## Does it need to be X?
 
 No.
 
 ## Can I...?
 
-Yes. But please follow the Geneva Conventions. And AI alignment best practices. 
+Yes. But please follow the Geneva Conventions. And AI alignment best practices.
 
 ## What if I don't understand a prompt?
 
 Try to give it the best inspiration that ends up with the coolest art piece. Write about your interpretation and how it reflects in your piece. Look at other people's artworks for inspiration and see how they interpreted the prompt. 
 
-Talk to people and discuss. Really do this, because other people are one of the best sources of inspiration.
+Talk to people and discuss. Really do this, because other people are one of the best sources of inspiration. Every year I find new inspiration to a prompt I thought I already understood, by doing this! :) 
 
-If something needs extra assumptions and you're not sure, pick some that inspire you most creatively. Then write about which assumptions you picked and why, so that other people can either use the same or choose their own. 
+If something needs extra assumptions and you're not sure, just pick some that inspire you most creatively. Then write about which assumptions you picked and why, so that other people can either use the same or choose their own. 
 
 ## Do I need to make the thing on the day when the prompt is?
 
@@ -54,7 +52,7 @@ No.
 
 ## Is GENUARY a competition?
 
-Genuary is not a competition. It's about the challenge you set for yourself, and we put it together to provide people with prompts to find fruitful creative challenges that other people are also participating in, at the same time.
+Genuary is not a competition. It's about the challenge you set for yourself, and providing people with prompts to find fruitful challenges that other people are also participating in.
 
 ## Nice logo you got there, can I steal teh code?
 
@@ -66,7 +64,7 @@ No. Well there are, but none of them officially organised by GENUARY. Every crea
 
 ## Where did the old websites go?
 
-See [2025](/2025), [2024](/2024), [2023](/2023), [2022](/2022) and [2021](https://genuary2021.github.io/).
+See [2024](/2024), [2023](/2023), [2022](/2022) and [2021](https://genuary2021.github.io/).
 
 ## How did Genuary?
 
