@@ -146,7 +146,7 @@ F GENUARY(V p) {
   };
 
   logo.onclick = e=>gen_img(); // click to refresh
-  gen_img("blammorb"); // start the program
+  gen_img(); // start the program
 })(); // start the program for real
 
 // the end thank you for reading
