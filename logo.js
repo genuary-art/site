@@ -62,7 +62,7 @@
       X q = X(p,p.yx*K*2);
       return dot(
           sin(q.xyzw*f0+p0+ma*sin(q.yzwx*f1+p1)),
-          sin(q.zwxy*f2+p2+ma*sin(q.wxyz*f3+p3))
+          sin(q.zwyx*f2+p2+ma*sin(q.xwyz*f3+p3))
         );
     }
 
@@ -112,7 +112,7 @@ F GENUARY(V p) {
 
     W col(V p) {
       // perspectiv
-      F z = dot(p,zz)+23;
+      F z = dot(p,sin(zz.x*V(23,17)*.1+V(${[R(TAU),R(TAU)]}))*V(2,4))+23;
       p *= 450/z; 
       // shadow offset
       const F oo = .4;
@@ -165,12 +165,13 @@ F GENUARY(V p) {
 
     pp=F(4,i=>(un('4f','f'+i,vRF4()),vRT4()));
     pd = F(16,i=>RS(1+R(3)));
-    un('2f','zz',[T(2),T(4)]);
+    z0 = R(TAU);
     k=_=>{
       let t = performance.now() * 5e-5;
       F(4,i=>{
         un('4f','p'+i,pp[i].map((v,j)=>v+t * pd[i*4+j]));
       });
+      un('2f','zz',[t,z0]);
       g.drawArrays(5,0,3);
       if(anim)requestAnimationFrame(k);
     };
