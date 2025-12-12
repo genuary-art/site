@@ -3,7 +3,7 @@
 Thanks go out to these wonderful people for contributing prompts, website help, editing and being amazing:
 
 Anna Lucia,
-Baret LaVida,
+[Baret LaVida]( https://www.artbaret.com/),
 [Bart Simons](https://www.bartsimons.com),
 [Camille Roux](https://art.camilleroux.com/),
 [cari ann shim sham*](https://linktr.ee/cariannshimsham),
