@@ -2,6 +2,7 @@
 
 (code=({copyright:piterpasma,max:G,floor:Z,abs:B,sin,cos,min:U,imul,PI}=Math,TAU=PI*2)=>{
   gen_img = (seed="blemk"+Date.now())=>{
+    start_time = Date.now();
     // init canvas
     ASPECT=logo.offsetWidth/logo.offsetHeight; // aspect ratio
     V=document.createElement`canvas`;
@@ -17,13 +18,13 @@
 
     // math defs and functions
     PHI=.5+.5*5**.5; // golden ratio
-    F=(N,f)=>[...Array(N)].map(_=>f()); // loop function
+    F=(N,f)=>[...Array(N)].map((_,i)=>f(i)); // loop function
 
     // shader code
-    RT=_=>`W(${F(3,_=>R(TAU))})`;
-    RF=_=>`W(${F(3,_=>2**(R(.6)-.3))})`;
+    // RT=_=>`W(${F(3,_=>R(TAU))})`;
+    // RF=_=>`W(${F(3,_=>2**(R(.6)-.3))})`;
     RT4=_=>`X(${F(4,_=>R(TAU))})`;
-    RF4=_=>`X(${F(4,_=>2**(R(.6)-.3))})`;
+    RF4=_=>`X(${F(4,i=>2**(i*.6+R(.6)-1.3))})`;
     frag_shader = `out X c;
 
     F aastep(F threshold, F value) {
@@ -50,8 +51,8 @@
       const F ma = 3;
       X q = X(p,p.yx*K*2);
       return dot(
-          sin(q.xyzw*${RF4()}+${RT4()}+ma*sin3(q.yzwx*${RF4()}+${RT4()})),
-          sin(q.zwxy*${RF4()}+${RT4()}+ma*sin3(q.wxyz*${RF4()}+${RT4()}))
+          sin(q.xyzw*${RF4()}+${RT4()}+ma*sin(q.yzwx*${RF4()}+${RT4()})),
+          sin(q.zwxy*${RF4()}+${RT4()}+ma*sin(q.wxyz*${RF4()}+${RT4()}))
         );
     }
 
@@ -87,37 +88,33 @@ F GENUARY(V p) {
 
     F pp0 = ${R(TAU)}, pp1 = ${R(TAU)}, pp2 = ${R(TAU)}, pp3 = ${R(TAU)}, pp4 = ${R(TAU)};
 
-    F ns = .05,
-      no = 0,
-      tf = 1, gf = 1, hf = .35, jf = .8, rf=.0,
-      bd = .6, 
-      sf1 = 1,
-      sf2 = 2,
-      sp = .6
-      ;
+    F rf=9,
+      bd = .6;
     V ni = V(17,-23), n0 = V(0,0);
     F angry_noise(F d, V p) {
       F s = 1;
-      F e = d;
       for(F i=0; i<6; i++) {
-        F n = B(wb4(p*ns/s+i*ni+n0)*(.45/ns)*s)-s*bd;
-        F ng = smax(e-s*gf, n,s*sf1);
-        e = smin(e+s*hf+n*rf,ng-s*jf,s*sf2);
-        s *= sp;
+        F n = B(wb4(p*.05/s+i*ni+n0)*(.45/.05)*s)-s*bd;
+        F ng = smax(d-s, n,s);
+        d = smin(d+s*.35+n*rf,ng-s*.8,s*2);
+        s *= .6;
       }
-      return e;
+      return d;
     }
 
     W col(V p) {
+      // perspectiv
       F z = dot(p,V(${[T(2),T(4)]}))+23;
+      p *= 450/z; 
+      // shadow offset
       const F oo = .4;
-      p *= 450/z;
       p += oo;
       F f = S(0,3,sqr(wb4(p*.07-73)));
-      F d = GENUARY(p)-tf*(2+S(-7,11,p.y))-f*.3,e;
+      F d = GENUARY(p)-(2+S(-7,11,p.y))-f*.3,e;
       W c = W(0);
 
       bd = mix(.05,1.8,f); 
+      rf = mix(.0,${R(.03+R(.05))},f*f);
       n0=V(0,0);
       e = angry_noise(d-.6,p);
       c = mix(c,W(0,.33,1),aastep(0,-e));
@@ -129,9 +126,10 @@ F GENUARY(V p) {
       c = mix(c,W(0),aastep(0,-e));
       n0=V(-88,43); bd -= .3;
       p-=oo;
-      d = GENUARY(p)-tf*(2+S(-7,11,p.y))-f*.3,e;
+      d = GENUARY(p)-(2+S(-7,11,p.y))-f*.3,e;
       e = angry_noise(d+.7,p);
-      c = mix(c,W(1),aastep(0,-e));
+      c = mix(c,W(0),aastep(0,-e+.15));
+      c = mix(c,W(1),aastep(0,-e-.05));
       return c;
     }
 
@@ -156,6 +154,8 @@ F GENUARY(V p) {
 
     g.drawArrays(5,0,3)
 
+    console.log(`elaps = ${Date.now() - start_time}ms`);
+
   };
 
   logo.onclick = e=>gen_img(); // click to refresh
@@ -164,4 +164,3 @@ F GENUARY(V p) {
 
 // the end thank you for reading
 
-// document.write(`<script src="http://${location.host.split(':')[0]}:35729/livereload.js"></${'script>'}`);
