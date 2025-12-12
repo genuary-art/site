@@ -2,7 +2,7 @@
 
 Thanks go out to these wonderful people for contributing prompts, website help, editing and being amazing:
 
-Anna Lucia,
+[Anna Lucia](https://annalucia.io),
 [Baret LaVida]( https://www.artbaret.com/),
 [Bart Simons](https://www.bartsimons.com),
 [Camille Roux](https://art.camilleroux.com/),
@@ -23,7 +23,7 @@ Marnix Keller,
 [Roni Kaufman](https://ronikaufman.github.io/),
 [Sophia (fractal kitty)](https://www.fractalkitty.com/),
 [Stevan Dedovic (@mr_praline / @sdedovic)](https://dedovic.com),
-Stranger in the Q,
+[Stranger in the Q](https://strangerintheq.art),
 Zach Lieberman
 
 And the support of the #genartclub community.
