@@ -1,6 +1,6 @@
 # PROMPTS
 
-*THESE ARE NOT YET THE ACTUAL PROMPTS*
+**THESE ARE NOT YET THE ACTUAL PROMPTS**
 
 Prompts are currently under construction. Proper true prompts for really real will appear in due time. In the mean while, please enjoy my curated selection of asking Chat GPT for the worst *GENUARY* prompts ever!
 

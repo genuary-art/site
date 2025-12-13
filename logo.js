@@ -1,45 +1,31 @@
 // Genuary 2026 logo code, Copyright by Piter Pasma
+let seed;
+gen_img = (anim)=>{
+  let start_time = Date.now();
 
-(code=({copyright:piterpasma,max:G,floor:Z,abs:B,sin,cos,min:U,imul,PI}=Math,TAU=PI*2)=>{
-  seed="ANGRUARY"+Date.now();
-  gen_img = (anim)=>{
-    start_time = Date.now();
-    if(anim)seed="ANGRUARY"+Date.now();
-    // init canvas
-    ASPECT=logo.offsetWidth/logo.offsetHeight; // aspect ratio
-    V=document.createElement`canvas`;
-    cw=V.width=ASPECT*(ch=V.height=devicePixelRatio*logo.offsetWidth/ASPECT);
-    logo.replaceChildren(V);
+  // math defs and functions
+  PHI=.5+.5*5**.5; // golden ratio
+  F=(N,f)=>[...Array(N)].map((_,i)=>f(i)); // loop function
+  let {max:G,floor:Z,abs:B,sin,cos,min:U,imul,PI}=Math,TAU=PI*2;
 
-    // init PRNG
-    PRNG=(s,a=9,b,c,d,R=(x=1)=>x*(x=d^d<<11,d=c,c=b,b=a,((a^=x^x>>>8^(b>>>19))>>>0)/2**32))=>([...s+1/0].map(e=>R(d^=e.charCodeAt()*a)),R);
-    R=PRNG(seed);
-    T=a=>R(a)-R(a); // triangle noise
-    RS=a=>R(2)<1?a:-a;
-    L=(x,y,z=0)=>(x*x+y*y+z*z)**.5; // vec2/3 length (adapted from: Elements, Euclid 300 BC)
-    N=([x,y,z=0],m=L(x,y,z))=>[x/m,y/m,z/m]; // vec3 normalize
+  // init PRNG
+  if(anim||!seed)seed="ANGRUARY"+Date.now();
+  PRNG=(s,a=9,b,c,d,R=(x=1)=>x*(x=d^d<<11,d=c,c=b,b=a,((a^=x^x>>>8^(b>>>19))>>>0)/2**32))=>([...s+1/0].map(e=>R(d^=e.charCodeAt()*a)),R);
+  R=PRNG(seed);
 
-    // math defs and functions
-    PHI=.5+.5*5**.5; // golden ratio
-    F=(N,f)=>[...Array(N)].map((_,i)=>f(i)); // loop function
+  // PRNG functions
+  T=a=>R(a)-R(a); // triangle noise
+  RS=a=>R(2)<1?a:-a; // random +/- sign
 
-    // shader code
-    // RT=_=>`W(${F(3,_=>R(TAU))})`;
-    // RF=_=>`W(${F(3,_=>2**(R(.6)-.3))})`;
-    RT4=_=>`X(${F(4,_=>R(TAU))})`;
-    RF4=_=>`X(${F(4,i=>2**(i*.6+R(.6)-1.3))})`;
-    vRT4=_=>F(4,_=>R(TAU));
-    vRF4=_=>F(4,i=>2**(i*.6+R(.6)-1.3));
-
-    // frarg shade
-    frag_shader = `out X c;
+  // frarg shade
+  frag_shader = `out X c;
 
     uniform X f0,f1,f2,f3,p0,p1,p2,p3;
     uniform V zz;
 
-    F aastep(F threshold, F value) {
-      F afwidth = L(vec2(dFdx(value), dFdy(value))) * 0.7;
-      return S(threshold-afwidth, threshold+afwidth, value);
+    F aastep(F t, F v) {
+      F w = L(vec2(dFdx(v), dFdy(v))) * 0.7;
+      return S(t-w, t+w, v);
     }
     F smin(F a,F b,F k){
       F h=G(0,1-B(a-b)/k);
@@ -54,10 +40,13 @@
     X cub(X x) { return x*x*x; }
     X sin3(X x) { return cub(sin(x)); }
     F k(F a,F b) {
-      return a>0&&b>0?sqrt(a*a+b*b):a>b?a:b; // 2D edge distance function
+      // 2D corner distance function
+      return a>0&&b>0?sqrt(a*a+b*b):a>b?a:b; 
     }
+
     const V K=V(1,-1);
     F wb4(V p) {    
+      // wobbly noise
       const F ma = 3;
       X q = X(p,p.yx*K*2);
       return dot(
@@ -143,24 +132,36 @@ F GENUARY(V p) {
 
     in O{
       c=X(pow(col(u),W(1/2.2)),1);
-    }`;
+  }`;
 
-    // fix GLSL so you can type `4` instead of `4.`
-    fix_GLSL = s=>s.replace(/([^a-zA-Z_0-9.])([0-9]+)(?![.0-9u])/g,'$1$2.').replace(/([0-9.]e-[0-9]+)\./gi,'$1');
+  // fix GLSL so you can type `4` instead of `4.`
+  fix_GLSL = s=>s.replace(/([^a-zA-Z_0-9.])([0-9]+)(?![.0-9u])/g,'$1$2.').replace(/([0-9.]e-[0-9]+)\./gi,'$1');
 
-    // WebGL2 init / wow very plate, such boiler
-    g=V.getContext`webgl2`;p=g.createProgram(t=35633);[`out O{X x=X(-1);x[gl_VertexID]=3.;gl_Position=X(u=x.xy,0,1);u.x*=${ASPECT};}`,frag_shader].map(x=>g.attachShader(p,s=g.createShader(t--),g.shaderSource(s,src=`#version 300 es\n~V vec2~W vec3~X vec4~F float~O V u;void main()~L length~S smoothstep~U min~B abs~G max\nprecision highp F;`.split`~`.join`\n#define `+fix_GLSL(x)),g.compileShader(s)));g.linkProgram(p);g.useProgram(p);
-    // fine, if you also want error messages
-    if (!g.getProgramParameter(p,g.LINK_STATUS)) {
-      // display error with (possibly generated) code and line numbers
-      console.log(src.split('\n').map((v,i)=>`${i+1}: ${v}`).join('\n'));
-      console.log(`Link failed:\n${g.getProgramInfoLog(p)}`);
-      console.log(`S LOG:\n${g.getShaderInfoLog(s)}`);
-      throw 'AARG DED';
-    }
-// fpz
+  // init canvas
+  let ASPECT=logo.offsetWidth/logo.offsetHeight; // aspect ratio
+  let V=document.createElement`canvas`;
+  let cw,ch;
+  cw=V.width=ASPECT*(ch=V.height=devicePixelRatio*logo.offsetWidth/ASPECT);
+  logo.replaceChildren(V);
+
+  // WebGL2 init / wow very plate, such boiler
+  g=V.getContext`webgl2`;p=g.createProgram(t=35633);[`out O{X x=X(-1);x[gl_VertexID]=3.;gl_Position=X(u=x.xy,0,1);u.x*=${ASPECT};}`,frag_shader].map(x=>g.attachShader(p,s=g.createShader(t--),g.shaderSource(s,src=`#version 300 es\n~V vec2~W vec3~X vec4~F float~O V u;void main()~L length~S smoothstep~U min~B abs~G max\nprecision highp F;`.split`~`.join`\n#define `+fix_GLSL(x)),g.compileShader(s)));g.linkProgram(p);g.useProgram(p);
+
+  // fine, if you also want error messages
+  if (!g.getProgramParameter(p,g.LINK_STATUS)) {
+    // display error with (possibly generated) code and line numbers
+    console.log(src.split('\n').map((v,i)=>`${i+1}: ${v}`).join('\n'));
+    console.log(`Link failed:\n${g.getProgramInfoLog(p)}`);
+    console.log(`S LOG:\n${g.getShaderInfoLog(s)}`);
+    throw 'AARG DED';
+  }
+
+  // TODO add cmts
     c=[];
     un = (t,n,v)=>g[`uniform${t}v`](g.getUniformLocation(p,n),v);
+
+    vRT4=_=>F(4,_=>R(TAU));
+    vRF4=_=>F(4,i=>2**(i*.6+R(.6)-1.3));
 
 
     pp=F(4,i=>(un('4f','f'+i,vRF4()),vRT4()));
@@ -183,7 +184,6 @@ F GENUARY(V p) {
   anim=0;
   logo.onclick = e=>gen_img(anim^=1); // click to refresh
   gen_img(anim); // start the program
-})(); // start the program for real
 
 // the end thank you for reading
 
