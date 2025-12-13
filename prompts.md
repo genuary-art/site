@@ -1,10 +1,12 @@
 # PROMPTS
 
-* THESE ARE NOT YET THE ACTUAL PROMPTS *
+*THESE ARE NOT YET THE ACTUAL PROMPTS*
 
 Prompts are currently under construction. Proper true prompts for really real will appear in due time. In the mean while, please enjoy my curated selection of asking Chat GPT for the worst *GENUARY* prompts ever!
 
 ## FAKE PROMPTS BELOW, IMPLEMENT AT YOUR PERIL
+
+Not the prompts you are looking for, below:
 
 <script>
   // the worst prompts, by ChatGPT
