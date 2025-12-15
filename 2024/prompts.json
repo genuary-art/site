@@ -1,0 +1,252 @@
+{
+  "genuaryPrompts": [
+    {
+      "name": "Genuary 1st",
+      "date": "2024-01-01",
+      "description": "Particles, lots of them.",
+      "shorthand": "particles",
+      "credit": ["Melissa Wiederrecht","Nicolas Barradeau"],
+      "creditUrl": ["https://twitter.com/mwiederrecht/","https://twitter.com/nicoptere"]
+    },
+    {
+      "name": "Genuary 2nd",
+      "date": "2024-01-02",
+      "description": "No palettes.",
+      "shorthand": "no_palettes",
+      "credit": ["Luis Fraguada"],
+      "creditUrl": ["https://twitter.com/luisfraguada"]
+    },
+    {
+      "name": "Genuary 3rd",
+      "date": "2024-01-03",
+      "description": "Droste effect.",
+      "shorthand": "droste_effect",
+      "credit": ["Stranger in the Q"],
+      "creditUrl": ["https://strangerintheq.art"]
+    },
+    {
+      "name": "Genuary 4th",
+      "date": "2024-01-04",
+      "description": "Pixels.",
+      "shorthand": "pixels",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://piterpasma.nl"]
+    },
+    {
+      "name": "Genuary 5th",
+      "date": "2024-01-05",
+      "description": "In the style of Vera Molnár (1924-2023).",
+      "shorthand": "vera_molnar",
+      "credit": ["Melissa Wiederrecht","Piter Pasma"],
+      "creditUrl": ["https://twitter.com/mwiederrecht/","https://piterpasma.nl"]
+    },
+    {
+      "name": "Genuary 6th",
+      "date": "2024-01-06",
+      "description": "Screensaver.",
+      "shorthand": "screensaver",
+      "credit": ["Nicolas Barradeau","Yazid","Jess Hewitt"],
+      "creditUrl": ["https://twitter.com/nicoptere","https://twitter.com/Yazid/","https://jesshewitt.art"]
+    },
+    {
+      "name": "Genuary 7th",
+      "date": "2024-01-07",
+      "description": "Progress bar / indicator / loading animation.",
+      "shorthand": "progress_bar",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://piterpasma.nl"]
+    },
+    {
+      "name": "Genuary 8th",
+      "date": "2024-01-08",
+      "description": "Chaotic system.",
+      "shorthand": "chaotic_system",
+      "credit": ["Darien Brito"],
+      "creditUrl": ["https://darienbrito.com"]
+    },
+    {
+      "name": "Genuary 9th",
+      "date": "2024-01-09",
+      "description": "ASCII.",
+      "shorthand": "ascii",
+      "credit": ["Camille Roux"],
+      "creditUrl": ["https://twitter.com/camilleroux"]
+    },
+    {
+      "name": "Genuary 10th",
+      "date": "2024-01-10",
+      "description": "Hexagonal.",
+      "shorthand": "hexagonal",
+      "credit": ["greweb"],
+      "creditUrl": ["https://greweb.me"]
+    },
+    {
+      "name": "Genuary 11th",
+      "date": "2024-01-11",
+      "description": "In the style of Anni Albers (1899-1994).",
+      "shorthand": "anni_albers",
+      "credit": ["Roni Kaufman"],
+      "creditUrl": ["https://twitter.com/ronikaufman"]
+    },
+    {
+      "name": "Genuary 12th",
+      "date": "2024-01-12",
+      "description": "Lava lamp.",
+      "shorthand": "lava_lamp",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://twitter.com/mwiederrecht/"]
+    },
+    {
+      "name": "Genuary 13th",
+      "date": "2024-01-13",
+      "description": "Wobbly function day.",
+      "shorthand": "wobbly_function",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://piterpasma.nl"]
+    },
+    {
+      "name": "Genuary 14th",
+      "date": "2024-01-14",
+      "description": "Less than 1KB artwork.",
+      "shorthand": "1kb_artwork",
+      "credit": ["Heeey"],
+      "creditUrl": ["https://heeey.art"]
+    },
+    {
+      "name": "Genuary 15th",
+      "date": "2024-01-15",
+      "description": "Use a physics library.",
+      "shorthand": "physics_library",
+      "credit": ["Amy Goodchild"],
+      "creditUrl": ["https://www.amygoodchild.com"]
+    },
+    {
+      "name": "Genuary 16th",
+      "date": "2024-01-16",
+      "description": "Draw 10 000 of something.",
+      "shorthand": "draw_10000",
+      "credit": ["Bruce Holmer","Michael Lowe"],
+      "creditUrl": ["https://twitter.com/bruceholmer","https://twitter.com/mjrlowe"]
+    },
+    {
+      "name": "Genuary 17th",
+      "date": "2024-01-17",
+      "description": "Inspired by Islamic art.",
+      "shorthand": "islamic_art",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://twitter.com/mwiederrecht/"]
+    },
+    {
+      "name": "Genuary 18th",
+      "date": "2024-01-18",
+      "description": "Bauhaus.",
+      "shorthand": "bauhaus",
+      "credit": ["Chris Barber"],
+      "creditUrl": ["https://twitter.com/code_rgb"]
+    },
+    {
+      "name": "Genuary 19th",
+      "date": "2024-01-19",
+      "description": "Flocking.",
+      "shorthand": "flocking",
+      "credit": ["Shaderism"],
+      "creditUrl": ["https://twitter.com/shaderism"]
+    },
+    {
+      "name": "Genuary 20th",
+      "date": "2024-01-20",
+      "description": "Generative typography.",
+      "shorthand": "generative_typography",
+      "credit": ["Roni Kaufman"],
+      "creditUrl": ["https://twitter.com/ronikaufman"]
+    },
+    {
+      "name": "Genuary 21st",
+      "date": "2024-01-21",
+      "description": "Use a library that you haven’t used before.",
+      "shorthand": "new_library",
+      "credit": ["Neel Shivdasani"],
+      "creditUrl": ["https://neel.sh"]
+    },
+    {
+      "name": "Genuary 22nd",
+      "date": "2024-01-22",
+      "description": "Point-line-plane.",
+      "shorthand": "point_line_plane",
+      "credit": ["Paolo Curtoni"],
+      "creditUrl": ["https://twitter.com/Paolo_Curtoni"]
+    },
+    {
+      "name": "Genuary 23rd",
+      "date": "2024-01-23",
+      "description": "16×16.",
+      "shorthand": "16x16",
+      "credit": ["Marc Edwards"],
+      "creditUrl": ["https://twitter.com/marcedwards"]
+    },
+    {
+      "name": "Genuary 24th",
+      "date": "2024-01-24",
+      "description": "Impossible objects (undecided geometry).",
+      "shorthand": "impossible_objects",
+      "credit": ["Jorge Ledezma"],
+      "creditUrl": ["https://twitter.com/zjorge"]
+    },
+    {
+      "name": "Genuary 25th",
+      "date": "2024-01-25",
+      "description": "Recreate a pattern you’ve seen.",
+      "shorthand": "photo_pattern",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://piterpasma.nl"]
+    },
+    {
+      "name": "Genuary 26th",
+      "date": "2024-01-26",
+      "description": "Grow a seed.",
+      "shorthand": "grow_a_seed",
+      "credit": ["Monokai"],
+      "creditUrl": ["https://monokai.nl"]
+    },
+    {
+      "name": "Genuary 27th",
+      "date": "2024-01-27",
+      "description": "Code for one hour.",
+      "shorthand": "code_one_hour",
+      "credit": ["Amy Goodchild"],
+      "creditUrl": ["https://www.amygoodchild.com"]
+    },
+    {
+      "name": "Genuary 28th",
+      "date": "2024-01-28",
+      "description": "Skeuomorphism.",
+      "shorthand": "skeuomorphism",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://twitter.com/mwiederrecht/"]
+    },
+    {
+      "name": "Genuary 29th",
+      "date": "2024-01-29",
+      "description": "Signed Distance Functions.",
+      "shorthand": "signed_distance_functions",
+      "credit": ["Melissa Wiederrecht","Camille Roux"],
+      "creditUrl": ["https://twitter.com/mwiederrecht/","https://twitter.com/camilleroux"]
+    },
+    {
+      "name": "Genuary 30th",
+      "date": "2024-01-30",
+      "description": "Shaders.",
+      "shorthand": "shaders",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://twitter.com/mwiederrecht/"]
+    },
+    {
+      "name": "Genuary 31st",
+      "date": "2024-01-31",
+      "description": "Generative audio.",
+      "shorthand": "generative_audio",
+      "credit": ["Neel Shivdasani","Monokai"],
+      "creditUrl": ["https://neel.sh","https://monokai.nl"]
+    }
+  ]
+}
