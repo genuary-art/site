@@ -127,6 +127,7 @@ F GENUARY(V p) {
       e = angry_noise(d+.7,p);
       c = mix(c,W(0),aastep(0,-e+.15));
       c = mix(c,W(1),aastep(0,-e-.05));
+      // c.b=1;
       return c;
     }
 
