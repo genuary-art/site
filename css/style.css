@@ -16,9 +16,12 @@
   --textcode: var(--highlight);
   --textlink: var(--highlight2);/*#4bf;*/
   --textlinkhover: var(--highlight);
-  --infolink: #bbb;
+  --infolink: #999;
   --infocolor: #888;
-  --infolinkhover: #ddd;
+  --infolinkhover: #ccc;
+  --footlink: #bbb;
+  --footcolor: #888;
+  --footlinkhover: #ddd;
   --shadow: var(--highlight2);
   --shadowmute: #09f7;
 }
@@ -81,6 +84,7 @@ section a:hover { color: var(--textlinkhover);}
 section .info { font-size: .7em; line-height: 1.25; color: var(--infocolor); }
 section .info a {color: var(--infolink); font-weight: bold; }
 section .info a:hover {color: var(--infolinkhover); }
+section .info code {color: var(--highlight2); font-weight: bold; }
 
 section .share { font-size: .7em; line-height: 1; margin: .5rem 0 2rem 0rem; color: var(--texthighlight); }
 section .share b { font-weight: bold; border: none; padding: 0; color: var(--textstrong); }
@@ -209,7 +213,7 @@ section pre .cursor {
 }
 
 footer {
-  color: var(--infocolor);
+  color: var(--footcolor);
   font-size: 0.6em;
   margin: 1em auto 0;
   max-width: 42em;
@@ -217,7 +221,7 @@ footer {
   text-align: left;
 }
 
-footer a { color: var(--infolinkhover); }
+footer a { color: var(--footlinkhover); }
 
 @media (max-width: 640px) {
   .wrapper {
