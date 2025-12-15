@@ -11,7 +11,7 @@
   --highlight2: #09f;
   --textstrong: var(--highlight2);
   --textstrongheader: var(--highlight);
-  --textstrongheadertoday: var(--highlight);
+  --textstrongheadertoday: #fff;
   --texthighlight: var(--highlight);
   --textcode: var(--highlight);
   --textlink: var(--highlight2);/*#4bf;*/
@@ -20,6 +20,7 @@
   --infocolor: #888;
   --infolinkhover: #ddd;
   --shadow: var(--highlight2);
+  --shadowmute: #09f7;
 }
 
 body {
@@ -80,12 +81,12 @@ section a:hover { color: var(--textlinkhover);}
 section .info { font-size: .7em; line-height: 1.25; color: var(--infocolor); }
 section .info a {color: var(--infolink); font-weight: bold; }
 section .info a:hover {color: var(--infolinkhover); }
-/*
-section .share { font-size: .7em; line-height: 1; margin: 1rem 0 1rem 1.25rem; color: var(--texthighlight); opacity: .7; }
+
+section .share { font-size: .7em; line-height: 1; margin: .5rem 0 2rem 0rem; color: var(--texthighlight); }
 section .share b { font-weight: bold; border: none; padding: 0; color: var(--textstrong); }
 
-section b { /* for styling colour swatches in the prompts list */
-/*  padding: 0.25em;
+/*section b { for styling colour swatches in the prompts list 
+  padding: 0.25em;
   border: 2px solid #000;
   font-weight: bold;
 }
@@ -148,7 +149,7 @@ section h2 a:hover { color: var(--highlight);text-shadow: 0 .07em 0 var(--highli
 
 
 section h2 {
-    border-top: 2px solid var(--shadow);
+    border-top: 2px solid var(--shadowmute);
     text-shadow: 0 .07em 0 var(--shadow);
     font-size: 1.5em;
     margin: 0 -2rem;
@@ -224,27 +225,17 @@ footer a { color: var(--infolinkhover); }
   }
 }
 
-.today {
+h2.today {
   font-size: 2em;
   color: var(--textstrongheadertoday);
-  border-left: 3px solid #333055;
-/*  text-shadow: 0 0 0.1em #fff, .0625em .0625em 0 #fff;*/
-}
+  text-shadow: 0 .07em 0 var(--highlight);
+  border-top: 1rem solid var(--shadow);
+  border-right: 1rem solid var(--shadow);
 
-/*.today::after {
-  background-color: #fff;
-  color: var(--textstronginverse);
-  content: "that's today!";
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 0.2em;
-  font-weight: bold;
-  margin-left: 2em;
-  padding: .5em .75em;
-  border-radius: .5em;
-  text-shadow: none;
+  .credit {
+    color: var(--textstrongheadertoday);
+  }
 }
-*/
 .credit {
   font-size: 0.5em;
   color: var(--textstrongheader);

@@ -1,135 +1,128 @@
 # PROMPTS
 
-## JAN. 1 <span class="credit">(credit: [Piero](https://genuary.art))</span> {#jan1}
+## JAN. 1 <span class="credit">(credit: [Piero](https://pifragile.com/))</span> {#jan1}
 
 One color, one shape.
 
-## JAN. 2 <span class="credit">(credit: [Anna Lucia](https://genuary.art))</span> {#jan2}
+## JAN. 2 <span class="credit">(credit: [Anna Lucia](https://annalucia.io))</span> {#jan2}
 
-Twelve principles of animation. See https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation
+[Twelve principles of animation](https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation).
 
-## JAN. 3 <span class="credit">(credit: [PaoloCurtoni](https://genuary.art))</span> {#jan3}
+## JAN. 3 <span class="credit">(credit: [PaoloCurtoni](https://www.paolocurtoni.com))</span> {#jan3}
 
-Fibonacci forever: Create a work that uses the Fibonacci sequence in some way. See https://en.wikipedia.org/wiki/Fibonacci_sequence
+Fibonacci forever. Create a work that uses the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence) in some way.
 
-## JAN. 4 <span class="credit">(credit: [Manuel Larino](https://genuary.art))</span> {#jan4}
+## JAN. 4 <span class="credit">(credit: [Manuel Larino](https://mlarino.com))</span> {#jan4}
 
 Lowres. An image or graphic with low resolution, where details are simplified or pixelated.
 
-## JAN. 5 <span class="credit">(credit: [Piero](https://genuary.art))</span> {#jan5}
+## JAN. 5 <span class="credit">(credit: [Piero](https://pifragile.com/))</span> {#jan5}
 
-Write "Genuary" without using any loaded fonts.
+Write "Genuary". Avoid using a font.
 
-## JAN. 6 <span class="credit">(credit: [George Henry Rowe](https://genuary.art))</span> {#jan6}
+## JAN. 6 <span class="credit">(credit: [George Henry Rowe](https://georgehenryrowe.co.uk/))</span> {#jan6}
 
 Lights on/off. Make something that changes when you switch on or off the "digital" lights.
 
-## JAN. 7 <span class="credit">(credit: [PaoloCurtoni](https://genuary.art))</span> {#jan7}
+## JAN. 7 <span class="credit">(credit: [PaoloCurtoni](https://www.paolocurtoni.com))</span> {#jan7}
 
-Boolean algebra. Get inspired by Boolean algebra, in any way. See https://en.wikipedia.org/wiki/Boolean_algebra
+Boolean algebra. Get inspired by [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra), in any way.
 
-## JAN. 8 <span class="credit">(credit: [PaoloCurtoni](https://genuary.art))</span> {#jan8}
+## JAN. 8 <span class="credit">(credit: [PaoloCurtoni](https://www.paolocurtoni.com))</span> {#jan8}
 
 A City. Create a generative metropolis.
 
-## JAN. 9 <span class="credit">(credit: [PaoloCurtoni](https://genuary.art))</span> {#jan9}
+## JAN. 9 <span class="credit">(credit: [PaoloCurtoni](https://www.paolocurtoni.com))</span> {#jan9}
 
 Crazy automaton. Cellular automata with crazy rules.
 
-## JAN. 10 <span class="credit">(credit: [Sophia (fractal kitty)](https://genuary.art))</span> {#jan10}
+## JAN. 10 <span class="credit">(credit: [Sophia (fractal kitty)](https://www.fractalkitty.com/))</span> {#jan10}
 
 Polar coordinates.
 
-## JAN. 11 <span class="credit">(credit: [Manuel 01. Larino](https://genuary.art))</span> {#jan11}
+## JAN. 11 <span class="credit">(credit: [Manuel Larino](https://mlarino.com))</span> {#jan11}
 
-Quine. A "Quine" is a form of code poetry, it's a computer program that outputs exactly its own source code, see https://en.wikipedia.org/wiki/Quine_(computing).
+Quine. A [Quine](https://en.wikipedia.org/wiki/Quine_(computing)) is a form of code poetry, it's a computer program that outputs exactly its own source code.
 
-## JAN. 12 <span class="credit">(credit: [Stranger in the Q](https://genuary.art))</span> {#jan12}
+## JAN. 12 <span class="credit">(credit: [Stranger in the Q](https://strangerintheq.art))</span> {#jan12}
 
 Boxes only.
 
-## JAN. 13 <span class="credit">(credit: [Jos Vromans](https://genuary.art))</span> {#jan13}
+## JAN. 13 <span class="credit">(credit: [Jos Vromans](https://www.josvromans.art))</span> {#jan13}
 
 Self portrait. For example, get started with a very basic human face, a few circles or oval shapes. How far can you improve this by adding features that actually look like you. Try adding eyes, eyelashes, hair, and make a few parameters or colors variable. Even though you are aiming for a self portrait, it might be fun to render some random 01. variations as well.
 
-## JAN. 14 <span class="credit">(credit: [Roni](https://genuary.art))</span> {#jan14}
+## JAN. 14 <span class="credit">(credit: [Roni](https://ronikaufman.github.io/))</span> {#jan14}
 
-Everything fits perfectly
+Everything fits perfectly.
 
-## JAN. 15 <span class="credit">(credit: [P1xelboy](https://genuary.art))</span> {#jan15}
+## JAN. 15 <span class="credit">(credit: [P1xelboy](https://linktr.ee/p1x3lboy))</span> {#jan15}
 
 Create an invisible object where only the shadows can be seen.
 
-## JAN. 16 <span class="credit">(credit: [Ivan Dianov](https://genuary.art))</span> {#jan16}
+## JAN. 16 <span class="credit">(credit: [Ivan Dianov](https://ivandianov.com))</span> {#jan16}
 
 Order and disorder.
 
-## JAN. 17 <span class="credit">(credit: [01. Ivan Dianov](https://genuary.art))</span> {#jan17}
+## JAN. 17 <span class="credit">(credit: [01. Ivan Dianov](https://ivandianov.com))</span> {#jan17}
 
-Wallpaper patterns. There are only 17 ways to cover a plane with a repeating pattern, choose your favourite on this page: https://en.wikipedia.org/wiki/Wallpaper_group).
+Wallpaper group. There are only 17 ways to cover a plane with a repeating pattern, choose your favourite on this page: https://en.wikipedia.org/wiki/Wallpaper_group.
 
-## JAN. 18 <span class="credit">(credit: [Baret LaVida](https://genuary.art))</span> {#jan18}
+## JAN. 18 <span class="credit">(credit: [Baret LaVida](https://www.artbaret.com/))</span> {#jan18}
 
 Unexpected path. Draw a route that changes direction based on one very simple rule.
 
-## JAN. 19 <span class="credit">(credit: [Jos Vromans](https://genuary.art))</span> {#jan19}
+## JAN. 19 <span class="credit">(credit: [Jos Vromans](https://www.josvromans.art))</span> {#jan19}
 
 16x16
 
-## JAN. 20 <span class="credit">(credit: [Jos Vromans](https://genuary.art))</span> {#jan20}
+## JAN. 20 <span class="credit">(credit: [Jos Vromans](https://www.josvromans.art))</span> {#jan20}
 
 One line. An artwork that is made of a single line only.
 
-## JAN. 21 <span class="credit">(credit: [Piero](https://genuary.art))</span> {#jan21}
+## JAN. 21 <span class="credit">(credit: [Piero](https://pifragile.com/))</span> {#jan21}
 
-Bauhaus Poster. Create a poster design inspired by Bauhaus. See https://en.wikipedia.org/wiki/Bauhaus
+Bauhaus Poster. Create a poster design inspired by the German art school [Bauhaus](https://en.wikipedia.org/wiki/Bauhaus).
 
-## JAN. 22 <span class="credit">(credit: [Sophia (fractal kitty)](https://genuary.art))</span> {#jan22}
+## JAN. 22 <span class="credit">(credit: [Sophia (fractal kitty)](https://www.fractalkitty.com/))</span> {#jan22}
 
 Pen plotter ready.
 
-## JAN. 23 <span class="credit">(credit: [Sophia (fractal kitty)](https://genuary.art))</span> {#jan23}
-
-Perfectionist's nightmare.
-
-## JAN. 24 <span class="credit">(credit: [PaoloCurtoni](https://genuary.art))</span> {#jan24}
+## JAN. 23 <span class="credit">(credit: [PaoloCurtoni](https://www.paolocurtoni.com))</span> {#jan23}
 
 Transparency. Explore the concept of transparency.
 
-## JAN. 25 <span class="credit">(credit: [Manuel Larino](https://genuary.art))</span> {#jan25}
+## JAN. 24 <span class="credit">(credit: [Sophia (fractal kitty)](https://www.fractalkitty.com/))</span> {#jan24}
+
+Perfectionist's nightmare.
+
+## JAN. 25 <span class="credit">(credit: [Manuel Larino](https://mlarino.com))</span> {#jan25}
 
 Organic Geometry. Forms that look or act organic but are constructed entirely from geometric shapes.
 
-## JAN. 26 <span class="credit">(credit: [Piero](https://genuary.art))</span> {#jan26}
+## JAN. 26 <span class="credit">(credit: [Piero](https://pifragile.com/))</span> {#jan26}
 
 Recursive Grids. Split the canvas into a grid of some kind and recurse on each cell again and again.
 
-## JAN. 27 <span class="credit">(credit: [Manuel Larino](https://genuary.art))</span> {#jan27}
+## JAN. 27 <span class="credit">(credit: [Manuel Larino](https://mlarino.com))</span> {#jan27}
 
-Lifeform. A shape or structure that behaves as if it’s alive or growing.
+Lifeform. A shape or structure that behaves as if it's alive or growing.
 
-## JAN. 28 <span class="credit">(credit: [Piero](https://genuary.art))</span> {#jan28}
+## JAN. 28 <span class="credit">(credit: [Piero](https://pifragile.com/))</span> {#jan28}
 
 No libraries, no canvas, only DOM elements.
 
-## JAN. 29 <span class="credit">(credit: [Monokai](https://genuary.art))</span> {#jan29}
+## JAN. 29 <span class="credit">(credit: [Monokai](https://monokai.com/))</span> {#jan29}
 
-Genetic evolution / mutations.
+Genetic evolution and mutation.
 
-## JAN. 30 <span class="credit">(credit: [Bart Simons](https://genuary.art))</span> {#jan30}
+## JAN. 30 <span class="credit">(credit: [Bart Simons](https://www.bartsimons.com))</span> {#jan30}
 
 Its not a bug, its a feature.
 
-## JAN. 31 <span class="credit">(credit: [Piero](https://genuary.art))</span> {#jan31}
+## JAN. 31 <span class="credit">(credit: [Piero](https://pifragile.com/))</span> {#jan31}
 
 GLSL day. Create an artwork using only shaders.
-
-
-
-
-
-The circle but overengineeredIvan Dianov 
-
 
 <script>
   // this is the script to highlight the right prompt every day
@@ -139,18 +132,15 @@ The circle but overengineeredIvan Dianov
         month = now.getMonth(),
         day = now.getDate();
 
-    if (year !== 2024 || month !== 0) return; // The if statement makes sure we only highlight days in January 2023
+    if (year !== 2025 || month !== 11) return; // The if statement makes sure we only highlight days in January 1987
+
     let hash = `#jan${day}`;
     if (!location.hash) location = hash;
     let h2 = document.querySelector(hash);
     h2.classList.add("today");
     let p = document.createElement("p");
     p.className="share";
-    p.innerHTML=`Share your results using the hashtags <b>#genuary${day}</b> (this prompt) and <b>#genuary</b>!`;
+    p.innerHTML=`This is today! Share your results using the hashtags <b>#genuary${day}</b> (this prompt) and <b>#genuary</b>!`;
     h2.after(p)
   }
-
-  // this is the bit of code that may infuriate people
-  a=localStorage['g2004jan23']||(localStorage['g2004jan23']=2**(3+Math.random()*5|0));
-  document.querySelector('#jan23 + p').innerText=a+'×'+a+'.';
 </script>

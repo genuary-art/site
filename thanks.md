@@ -3,7 +3,7 @@
 Thanks go out to these wonderful people for contributing prompts, website help, editing and being amazing:
 
 [Anna Lucia](https://annalucia.io),
-[Baret LaVida]( https://www.artbaret.com/),
+[Baret LaVida](https://www.artbaret.com/),
 [Bart Simons](https://www.bartsimons.com),
 [Camille Roux](https://art.camilleroux.com/),
 [cari ann shim sham*](https://linktr.ee/cariannshimsham),
@@ -20,7 +20,7 @@ Marnix Keller,
 [Paolo Curtoni](https://www.paolocurtoni.com),
 [Piero](https://pifragile.com/),
 [Piter Pasma](https://piterpasma.nl),
-Quag,
+[Quag](https://www.instagram.com/quagnz/),
 [Roni Kaufman](https://ronikaufman.github.io/),
 [Sophia (fractal kitty)](https://www.fractalkitty.com/),
 [Stevan Dedovic (@mr_praline / @sdedovic)](https://dedovic.com),
