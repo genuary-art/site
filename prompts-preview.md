@@ -4,9 +4,6 @@
 
 One color, one shape.
 
-One takes, yeah, If one takes another three as a preposition... Which qualities does the one have? One, the one. The one that is itself and remains. The one that is different from all others and remains. The one. The one that if it is seen with others, it is in the position to become more, than one. Yet remains, one. It's like one, plus one, plus one, never ending. The connection loses itself where it cannot exist without a representation to the production and maintenance of its own wholeness. And it maintains itself only by recurring on that border, or extremity that is the extremity, or border, of its own dissapearance
-{:.info}
-
 ## JAN. 2 <span class="credit">(credit: [Anna Lucia](https://annalucia.io))</span> {#jan2}
 
 [Twelve principles of animation](https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation).
