@@ -66,7 +66,7 @@ Order and disorder.
 
 ## JAN. 17 <span class="credit">(credit: [01. Ivan Dianov](https://ivandianov.com))</span> {#jan17}
 
-Wallpaper group. There are only 17 ways to cover a plane with a repeating pattern, choose your favourite on this page: https://en.wikipedia.org/wiki/Wallpaper_group.
+Wallpaper group. There are only 17 ways to cover a plane with a repeating pattern, choose your favourite on this page: [Wallpaper group](https://en.wikipedia.org/wiki/Wallpaper_group).
 
 ## JAN. 18 <span class="credit">(credit: [Baret LaVida](https://www.artbaret.com/))</span> {#jan18}
 
