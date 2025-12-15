@@ -50,7 +50,7 @@ Boxes only.
 
 ## JAN. 13 <span class="credit">(credit: [Jos Vromans](https://www.josvromans.art))</span> {#jan13}
 
-Self portrait. For example, get started with a very basic human face, a few circles or oval shapes. How far can you improve this by adding features that actually look like you. Try adding eyes, eyelashes, hair, and make a few parameters or colors variable. Even though you are aiming for a self portrait, it might be fun to render some random 01. variations as well.
+Self portrait. For example, get started with a very basic human face, a few circles or oval shapes. How far can you improve this by adding features that actually look like you. Try adding eyes, eyelashes, hair, and make a few parameters or colors variable. Even though you are aiming for a self portrait, it might be fun to render some random variations as well.
 
 ## JAN. 14 <span class="credit">(credit: [Roni](https://ronikaufman.github.io/))</span> {#jan14}
 
@@ -64,7 +64,7 @@ Create an invisible object where only the shadows can be seen.
 
 Order and disorder.
 
-## JAN. 17 <span class="credit">(credit: [01. Ivan Dianov](https://ivandianov.com))</span> {#jan17}
+## JAN. 17 <span class="credit">(credit: [Ivan Dianov](https://ivandianov.com))</span> {#jan17}
 
 Wallpaper group. There are only 17 ways to cover a plane with a repeating pattern, choose your favourite on this page: [Wallpaper group](https://en.wikipedia.org/wiki/Wallpaper_group).
 
