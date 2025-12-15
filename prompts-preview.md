@@ -132,7 +132,7 @@ GLSL day. Create an artwork using only shaders.
         month = now.getMonth(),
         day = now.getDate();
 
-    if (year !== 2025 || month !== 11) return; // The if statement makes sure we only highlight days in January 1987
+    if (year !== 2026 || month !== 0) return; // The if statement makes sure we only highlight days in January 1987
 
     let hash = `#jan${day}`;
     if (!location.hash) location = hash;
