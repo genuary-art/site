@@ -22,7 +22,9 @@
   --footlink: #bbb;
   --footcolor: #888;
   --footlinkhover: #ddd;
-  --shadow: var(--highlight2);
+/*  --shadow: var(--highlight2);*/
+  --shadow: #551388;
+  --shadowblue: #991388;
   --shadowmute: #09f7;
 }
 
@@ -70,7 +72,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   color: var(--texthighlight);
-  text-shadow: 0 .07em 0 var(--shadow);
+  text-shadow: 0 .1em 0 var(--shadow);
 }
 
 /*nav a:hover { background: #0004; }*/
@@ -162,7 +164,7 @@ section h2 {
 
 section h2 span a {
   color: var(--highlight2);
-  text-shadow: 0 .07em 0 var(--highlight);
+  text-shadow: 0 .07em 0 var(--shadowblue);
 }
 
 section ul {
@@ -232,7 +234,7 @@ footer a { color: var(--footlinkhover); }
 h2.today {
   font-size: 2em;
   color: var(--textstrongheadertoday);
-  text-shadow: 0 .07em 0 var(--highlight);
+  text-shadow: 0 .07em 0 var(--shadow);
   border-top: 1rem solid var(--shadow);
   border-right: 1rem solid var(--shadow);
 

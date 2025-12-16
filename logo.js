@@ -17,6 +17,9 @@ gen_img = (anim)=>{
   T=a=>R(a)-R(a); // triangle noise
   RS=a=>R(2)<1?a:-a; // random +/- sign
 
+  RT4=_=>`X(${F(4,_=>R(TAU))})`;
+  RF4=_=>`X(${F(4,i=>2**(i*.6+R(.6)-1.3))})`;
+
   // frarg shade
   frag_shader = `out X c;
 
@@ -100,31 +103,35 @@ F GENUARY(V p) {
     }
 
     W col(V p) {
+      // stuf
+      X q = X(p,p.yx*K*2-p);
+      X r0 = sin(q.xyzw*${RF4()}+${RT4()}+3*sin(q.yzwx*${RF4()}+${RT4()}));
       // perspectiv
-      F z = dot(p,sin(zz.x*V(23,17)*.1+V(${[R(TAU),R(TAU)]}))*V(2,4))+23;
-      p *= 450/z; 
+      F z = dot(p,sin(zz.x*V(23,17)*.1+V(${[R(TAU),R(TAU)]}))*V(2,4))+70;
+      p *= 1100/z; 
       // shadow offset
       const F oo = .4;
       p += oo;
       F f = S(0,3,sqr(wb4(p*.07-73)));
       F d = GENUARY(p)-(2+S(-7,11,p.y))-f*.3,e;
       W c = W(0);
+      V po = V(zz.x*25,zz.x*-8)*.7;
 
       bd = mix(.05,1.8,f); 
       rf = mix(.0,${R(.03+R(.05))},f*f);
       n0=V(0,0);
-      e = angry_noise(d-.6,p);
+      e = angry_noise(d-.6,p+po);
       c = mix(c,W(0,.33,1),aastep(0,-e));
       n0=V(77,-13); bd -= .3;
-      e = angry_noise(d,p);
+      e = angry_noise(d,p+po);
       c = mix(c,W(1,0,.33),aastep(0,-e));
       n0=V(-87,42); bd -= .3;
-      e = angry_noise(d+.4,p);
+      e = angry_noise(d+.4,p+po);
       c = mix(c,W(0),aastep(0,-e));
       n0=V(-88,43); bd -= .3;
       p-=oo;
       d = GENUARY(p)-(2+S(-7,11,p.y))-f*.3,e;
-      e = angry_noise(d+.7,p);
+      e = angry_noise(d+.7,p+po);
       c = mix(c,W(0),aastep(0,-e+.15));
       c = mix(c,W(1),aastep(0,-e-.05));
       // c.b=1;
@@ -164,12 +171,11 @@ F GENUARY(V p) {
     vRT4=_=>F(4,_=>R(TAU));
     vRF4=_=>F(4,i=>2**(i*.6+R(.6)-1.3));
 
-
     pp=F(4,i=>(un('4f','f'+i,vRF4()),vRT4()));
-    pd = F(16,i=>RS(1+R(3)));
+    pd = F(16,i=>.5*RS(1+R(3)));
     z0 = R(TAU);
     k=_=>{
-      let t = performance.now() * 5e-5;
+      let t = performance.now() * 6e-5;
       F(4,i=>{
         un('4f','p'+i,pp[i].map((v,j)=>v+t * pd[i*4+j]));
       });
