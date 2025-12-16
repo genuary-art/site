@@ -189,7 +189,7 @@ F GENUARY(V p) {
     console.log(`elaps = ${Date.now() - start_time}ms`);
 
   };
-  anim=1;
+  anim=0;
   logo.onclick = e=>gen_img(anim^=1); // click to refresh
   gen_img(anim); // start the program
 
