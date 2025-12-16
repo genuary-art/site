@@ -1,252 +1,252 @@
 {
   "genuaryPrompts": [
     {
-      "name": "Genuary 1st",
       "date": "2024-01-01",
-      "description": "Particles, lots of them.",
+      "name": "Particles, lots of them.",
       "shorthand": "particles",
-      "credit": ["Melissa Wiederrecht","Nicolas Barradeau"],
-      "creditUrl": ["https://twitter.com/mwiederrecht/","https://twitter.com/nicoptere"]
+      "credit": ["Melissa Wiederrecht", "Nicolas Barradeau"],
+      "creditUrl": ["https://twitter.com/mwiederrecht/", "https://twitter.com/nicoptere"],
+      "description": "Particles, lots of them."
     },
     {
-      "name": "Genuary 2nd",
       "date": "2024-01-02",
-      "description": "No palettes.",
-      "shorthand": "no_palettes",
+      "name": "No palettes.",
+      "shorthand": "no-palettes",
       "credit": ["Luis Fraguada"],
-      "creditUrl": ["https://twitter.com/luisfraguada"]
+      "creditUrl": ["https://twitter.com/luisfraguada"],
+      "description": "No palettes.\n\nGenerative colors, procedural colors, emergent colors."
     },
     {
-      "name": "Genuary 3rd",
       "date": "2024-01-03",
-      "description": "Droste effect.",
-      "shorthand": "droste_effect",
+      "name": "Droste effect.",
+      "shorthand": "droste-effect",
       "credit": ["Stranger in the Q"],
-      "creditUrl": ["https://strangerintheq.art"]
+      "creditUrl": ["https://strangerintheq.art/"],
+      "description": "Droste effect.\n\n[Wikipedia: Droste effect](https://en.wikipedia.org/wiki/Droste_effect)"
     },
     {
-      "name": "Genuary 4th",
       "date": "2024-01-04",
-      "description": "Pixels.",
+      "name": "Pixels.",
       "shorthand": "pixels",
       "credit": ["Piter Pasma"],
-      "creditUrl": ["https://piterpasma.nl"]
+      "creditUrl": ["https://piterpasma.nl/"],
+      "description": "Pixels.\n\n[Wikipedia: Pixel](https://en.wikipedia.org/wiki/Pixel)"
     },
     {
-      "name": "Genuary 5th",
       "date": "2024-01-05",
-      "description": "In the style of Vera Molnár (1924-2023).",
-      "shorthand": "vera_molnar",
-      "credit": ["Melissa Wiederrecht","Piter Pasma"],
-      "creditUrl": ["https://twitter.com/mwiederrecht/","https://piterpasma.nl"]
+      "name": "In the style of Vera Molnár (1924-2023).",
+      "shorthand": "vera-molnar",
+      "credit": ["Melissa Wiederrecht", "Piter Pasma"],
+      "creditUrl": ["https://twitter.com/mwiederrecht/", "https://piterpasma.nl/"],
+      "description": "In the style of Vera Molnár (1924-2023).\n\n[Wikipedia: Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r)"
     },
     {
-      "name": "Genuary 6th",
       "date": "2024-01-06",
-      "description": "Screensaver.",
+      "name": "Screensaver.",
       "shorthand": "screensaver",
-      "credit": ["Nicolas Barradeau","Yazid","Jess Hewitt"],
-      "creditUrl": ["https://twitter.com/nicoptere","https://twitter.com/Yazid/","https://jesshewitt.art"]
+      "credit": ["Nicolas Barradeau", "Yazid", "Jess Hewitt"],
+      "creditUrl": ["https://twitter.com/nicoptere", "https://twitter.com/Yazid/", "https://jesshewitt.art/"],
+      "description": "Screensaver."
     },
     {
-      "name": "Genuary 7th",
       "date": "2024-01-07",
-      "description": "Progress bar / indicator / loading animation.",
-      "shorthand": "progress_bar",
+      "name": "Progress bar / indicator / loading animation.",
+      "shorthand": "progress-bar",
       "credit": ["Piter Pasma"],
-      "creditUrl": ["https://piterpasma.nl"]
+      "creditUrl": ["https://piterpasma.nl/"],
+      "description": "Progress bar / indicator / loading animation."
     },
     {
-      "name": "Genuary 8th",
       "date": "2024-01-08",
-      "description": "Chaotic system.",
-      "shorthand": "chaotic_system",
+      "name": "Chaotic system.",
+      "shorthand": "chaotic-system",
       "credit": ["Darien Brito"],
-      "creditUrl": ["https://darienbrito.com"]
+      "creditUrl": ["https://darienbrito.com/"],
+      "description": "Chaotic system."
     },
     {
-      "name": "Genuary 9th",
       "date": "2024-01-09",
-      "description": "ASCII.",
+      "name": "ASCII.",
       "shorthand": "ascii",
       "credit": ["Camille Roux"],
-      "creditUrl": ["https://twitter.com/camilleroux"]
+      "creditUrl": ["https://twitter.com/camillerouxart"],
+      "description": "ASCII.\n\nThe \"ASCII font\" you might see when your computer boots is actually called [Code page 437](https://en.wikipedia.org/wiki/Code_page_437). It is also known as CP437, OEM-US, OEM 437, PC-8, or DOS Latin US.\n\n[`ASCII`](https://en.wikipedia.org/wiki/ASCII) stands for \"American Standard Code for Information Interchange\", describing its original limited purpose. Feel free to explore \"monospaced typography\" (if we need a more general term) using glyphs from other locales. Or all of Unicode. Or not even monospaced. If you're from another dimension, [Zalgo Text](https://www.google.com/search?hl=en&q=zalgo%20text) got you covered.\n\n[ANSI Art](https://en.wikipedia.org/wiki/ANSI_art) is also cool, which uses terminal characters and a limited set of 16 colours to create art.\n\nOr anything else you deem related :) Just to make clear that `ASCII` is only a narrow keyword, loosely referring to a wide variety of broader fields of text based digital art. Don't confuse the encoding standard for the art forms.\n\nIf you're curious about the history behind ASCII art, ANSI art, any terminal text based art, check out these pages: [artscene.textfiles.com](http://artscene.textfiles.com/) and [16colo.rs](https://16colo.rs/)"
     },
     {
-      "name": "Genuary 10th",
       "date": "2024-01-10",
-      "description": "Hexagonal.",
+      "name": "Hexagonal.",
       "shorthand": "hexagonal",
       "credit": ["greweb"],
-      "creditUrl": ["https://greweb.me"]
+      "creditUrl": ["https://greweb.me/"],
+      "description": "Hexagonal.\n\n[Red Blob Games on Hexagonal Grids](https://www.redblobgames.com/grids/hexagons/) is an in-depth article if you'd like to learn about hexagonal grids. Not all hexagons come in grids though, so use your creativity!\n\nCheck out the [Gosper Curve](https://en.wikipedia.org/wiki/Gosper_curve) -- it's like the Hilbert Curve but made out of hexagons (sort of).\n\n[Hexagons are the bestagons](https://www.youtube.com/watch?v=thOifuHs6eY)."
     },
     {
-      "name": "Genuary 11th",
       "date": "2024-01-11",
-      "description": "In the style of Anni Albers (1899-1994).",
-      "shorthand": "anni_albers",
+      "name": "In the style of Anni Albers (1899-1994).",
+      "shorthand": "anni-albers",
       "credit": ["Roni Kaufman"],
-      "creditUrl": ["https://twitter.com/ronikaufman"]
+      "creditUrl": ["https://twitter.com/KaufmanRoni"],
+      "description": "In the style of Anni Albers (1899-1994).\n\n[Wikipedia: Anni Albers](https://en.wikipedia.org/wiki/Anni_Albers)"
     },
     {
-      "name": "Genuary 12th",
       "date": "2024-01-12",
-      "description": "Lava lamp.",
-      "shorthand": "lava_lamp",
+      "name": "Lava lamp.",
+      "shorthand": "lava-lamp",
       "credit": ["Melissa Wiederrecht"],
-      "creditUrl": ["https://twitter.com/mwiederrecht/"]
+      "creditUrl": ["https://twitter.com/mwiederrecht/"],
+      "description": "Lava lamp.\n\n[Wikipedia: Lava lamp](https://en.wikipedia.org/wiki/Lava_lamp)\\\n[Reddit: /r/Lavalamps](https://www.reddit.com/r/Lavalamps/)"
     },
     {
-      "name": "Genuary 13th",
       "date": "2024-01-13",
-      "description": "Wobbly function day.",
-      "shorthand": "wobbly_function",
+      "name": "Wobbly function day.",
+      "shorthand": "wobbly-function-day",
       "credit": ["Piter Pasma"],
-      "creditUrl": ["https://piterpasma.nl"]
+      "creditUrl": ["https://piterpasma.nl/"],
+      "description": "Wobbly function day.\n\n[Wobbly Functions](https://piterpasma.nl/articles/wobbly) (`article updated 2024/01/13`!!) are a name I've given to smoothly undulating formulas made from modulated sine waves. Usually it's formulas of the form:\n\n`sin(a * b + c + d * sin(e * f + g)) + sin(h * i + j + k * sin(l * m + n)) + ...`\n\nOr something along those lines. Don't worry about angles or trigonometric identities, just go with the wobble!"
     },
     {
-      "name": "Genuary 14th",
       "date": "2024-01-14",
-      "description": "Less than 1KB artwork.",
-      "shorthand": "1kb_artwork",
+      "name": "Less than 1KB artwork.",
+      "shorthand": "less-than-1kb-artwork",
       "credit": ["Heeey"],
-      "creditUrl": ["https://heeey.art"]
+      "creditUrl": ["https://heeey.art/"],
+      "description": "Less than 1KB artwork.\n\nYou can decide if you want to go for size coding, for 1KB of output, or whatever you think would be appropriate, today. If you go for size coding, we made some [tiny boiler plate code samples](https://genuary.art/2024/tinycode) for you to start with.\n\n[9 tips for Tsubuyaki processing](https://www.gorillasun.de/blog/9-tips-for-tsubuyaki-processing/) by [GorillaSun](https://twitter.com/gorillasu)"
     },
     {
-      "name": "Genuary 15th",
       "date": "2024-01-15",
-      "description": "Use a physics library.",
-      "shorthand": "physics_library",
+      "name": "Use a physics library.",
+      "shorthand": "use-a-physics-library",
       "credit": ["Amy Goodchild"],
-      "creditUrl": ["https://www.amygoodchild.com"]
+      "creditUrl": ["https://www.amygoodchild.com/"],
+      "description": "Use a physics library.\n\n[The Coding Train: physics libraries](https://thecodingtrain.com/tracks/physics-libraries)"
     },
     {
-      "name": "Genuary 16th",
       "date": "2024-01-16",
-      "description": "Draw 10 000 of something.",
-      "shorthand": "draw_10000",
-      "credit": ["Bruce Holmer","Michael Lowe"],
-      "creditUrl": ["https://twitter.com/bruceholmer","https://twitter.com/mjrlowe"]
+      "name": "Draw 10 000 of something.",
+      "shorthand": "draw-10000",
+      "credit": ["Bruce Holmer", "Michael Lowe"],
+      "creditUrl": ["https://twitter.com/BruceHolmer", "https://genuary.art/twitter.com/mjrlowe"],
+      "description": "Draw 10 000 of something."
     },
     {
-      "name": "Genuary 17th",
       "date": "2024-01-17",
-      "description": "Inspired by Islamic art.",
-      "shorthand": "islamic_art",
+      "name": "Inspired by Islamic art.",
+      "shorthand": "islamic-art",
       "credit": ["Melissa Wiederrecht"],
-      "creditUrl": ["https://twitter.com/mwiederrecht/"]
+      "creditUrl": ["https://twitter.com/mwiederrecht/"],
+      "description": "Inspired by Islamic art.\n\n[Islamic star patterns](https://cs.uwaterloo.ca/~csk/other/starpatterns/)\\\n[Producing computer generated Islamic patterns](https://www.researchgate.net/figure/A-typical-workflow-for-producing-computer-generated-Islamic-patterns-Further_fig1_221448409)\\\n[Quasicrystals and Islamic patterns](https://medium.com/@orkhanart/forbidden-symmetry-unveiling-the-interconnections-of-quasicrystals-islamic-patterns-and-3caa27445d71)\\\n[Shape grammar model for Islamic patterns](https://www.semanticscholar.org/paper/Paper%3A-A-SHAPE-GRAMMAR-MODEL-TO-GENERATE-ISLAMIC-Ulu-Ener/fdf81ccdb9536d9374ec208c90cc3e0db6e60ae6)\\\n[More publications on/related to Islamic patterns](https://www.researchgate.net/profile/Lars-Eriksson-11)\\\n[Best practice in Islamic geometric design](https://www.amazon.com/dp/B07N6CWWQ4?ref_=k4w_ss_dp_lp_uc)\\\n[Islamic Star Patterns in Absolute Geometry](https://grail.cs.washington.edu/wp-content/uploads/2015/08/kaplan-2004-isp.pdf)\\\n[Computer Generated Islamic Star Patterns](https://archive.bridgesmathart.org/2000/bridges2000-105.pdf)"
     },
     {
-      "name": "Genuary 18th",
       "date": "2024-01-18",
-      "description": "Bauhaus.",
+      "name": "Bauhaus.",
       "shorthand": "bauhaus",
       "credit": ["Chris Barber"],
-      "creditUrl": ["https://twitter.com/code_rgb"]
+      "creditUrl": ["https://twitter.com/code_rgb"],
+      "description": "Bauhaus.\n\n[Wikipedia: Bauhaus](https://en.wikipedia.org/wiki/Bauhaus)"
     },
     {
-      "name": "Genuary 19th",
       "date": "2024-01-19",
-      "description": "Flocking.",
+      "name": "Flocking.",
       "shorthand": "flocking",
       "credit": ["Shaderism"],
-      "creditUrl": ["https://twitter.com/shaderism"]
+      "creditUrl": ["https://twitter.com/shaderism"],
+      "description": "Flocking."
     },
     {
-      "name": "Genuary 20th",
       "date": "2024-01-20",
-      "description": "Generative typography.",
-      "shorthand": "generative_typography",
+      "name": "Generative typography.",
+      "shorthand": "generative-typography",
       "credit": ["Roni Kaufman"],
-      "creditUrl": ["https://twitter.com/ronikaufman"]
+      "creditUrl": ["https://twitter.com/KaufmanRoni"],
+      "description": "Generative typography."
     },
     {
-      "name": "Genuary 21st",
       "date": "2024-01-21",
-      "description": "Use a library that you haven’t used before.",
-      "shorthand": "new_library",
+      "name": "Use a library that you haven't used before.",
+      "shorthand": "new-library",
       "credit": ["Neel Shivdasani"],
-      "creditUrl": ["https://neel.sh"]
+      "creditUrl": ["https://neel.sh/"],
+      "description": "Use a library that you haven't used before."
     },
     {
-      "name": "Genuary 22nd",
       "date": "2024-01-22",
-      "description": "Point-line-plane.",
-      "shorthand": "point_line_plane",
+      "name": "Point - line - plane.",
+      "shorthand": "point-line-plane",
       "credit": ["Paolo Curtoni"],
-      "creditUrl": ["https://twitter.com/Paolo_Curtoni"]
+      "creditUrl": ["https://twitter.com/Paolo_Curtoni"],
+      "description": "Point - line - plane.\n\n[Wassily Kandinsky - Point and line to plane](https://www.wassilykandinsky.net/book-117.php)\\\n[Wikipedia: Wassily Kandinsky](https://en.wikipedia.org/wiki/Wassily_Kandinsky)\\\n[Wikipedia: Point--line--plane postulate](https://en.wikipedia.org/wiki/Point%E2%80%93line%E2%80%93plane_postulate)\\\n[2D Design Basics: Points, Lines, and Planes](https://www.aiga.org/sites/default/files/2021-03/2B_2D_Design_PointsLinesAndPlains.pdf)\\\n[Point, Line, Plane - The fundamental elements of design](https://bbadesign.jimdofree.com/design-foundations/point-line-plane/)"
     },
     {
-      "name": "Genuary 23rd",
       "date": "2024-01-23",
-      "description": "16×16.",
-      "shorthand": "16x16",
+      "name": "8×8.",
+      "shorthand": "8x8",
       "credit": ["Marc Edwards"],
-      "creditUrl": ["https://twitter.com/marcedwards"]
+      "creditUrl": ["https://twitter.com/marcedwards"],
+      "description": "8×8."
     },
     {
-      "name": "Genuary 24th",
       "date": "2024-01-24",
-      "description": "Impossible objects (undecided geometry).",
-      "shorthand": "impossible_objects",
+      "name": "Impossible objects (undecided geometry).",
+      "shorthand": "impossible-objects",
       "credit": ["Jorge Ledezma"],
-      "creditUrl": ["https://twitter.com/zjorge"]
+      "creditUrl": ["https://twitter.com/zjorge"],
+      "description": "Impossible objects (undecided geometry)."
     },
     {
-      "name": "Genuary 25th",
       "date": "2024-01-25",
-      "description": "Recreate a pattern you’ve seen.",
-      "shorthand": "photo_pattern",
+      "name": "Recreate a photo",
+      "shorthand": "recreate-a-photo",
       "credit": ["Piter Pasma"],
-      "creditUrl": ["https://piterpasma.nl"]
+      "creditUrl": ["https://piterpasma.nl/"],
+      "description": "Recreate a photo\n\nIf you like generative art, you probably have some photos on your phone of cool looking patterns, textures, shapes or things that you've seen. You might have even thought, \"I should try to recreate this with code\". Today is the day."
     },
     {
-      "name": "Genuary 26th",
       "date": "2024-01-26",
-      "description": "Grow a seed.",
-      "shorthand": "grow_a_seed",
+      "name": "Grow a seed.",
+      "shorthand": "grow-a-seed",
       "credit": ["Monokai"],
-      "creditUrl": ["https://monokai.nl"]
+      "creditUrl": ["https://monokai.nl/"],
+      "description": "Grow a seed."
     },
     {
-      "name": "Genuary 27th",
       "date": "2024-01-27",
-      "description": "Code for one hour.",
-      "shorthand": "code_one_hour",
+      "name": "Code for one hour. At the one hour mark, you're done.",
+      "shorthand": "one-hour",
       "credit": ["Amy Goodchild"],
-      "creditUrl": ["https://www.amygoodchild.com"]
+      "creditUrl": ["https://www.amygoodchild.com/"],
+      "description": "Code for one hour. At the one hour mark, you're done.\n\nClick [here](https://www.google.com/search?q=1+hour+timer) to find out how long an hour takes. PRO-TIP: Use the progress indicator from Genuary 7th!"
     },
     {
-      "name": "Genuary 28th",
       "date": "2024-01-28",
-      "description": "Skeuomorphism.",
+      "name": "Skeuomorphism.",
       "shorthand": "skeuomorphism",
       "credit": ["Melissa Wiederrecht"],
-      "creditUrl": ["https://twitter.com/mwiederrecht/"]
+      "creditUrl": ["https://twitter.com/mwiederrecht/"],
+      "description": "Skeuomorphism.\n\nA skeuomorph is a derivative object that retains attributes from structures that were necessary in the original. Skeuomorphs are typically used to ~~gate keep generative art styles~~ make something new feel familiar in an effort to speed understanding and acclimation. They employ elements that, while essential to the original object, serve no pragmatic purpose in the new system. (from [Wikipedia on Skeuomorphs](https://en.wikipedia.org/wiki/Skeuomorph))"
     },
     {
-      "name": "Genuary 29th",
       "date": "2024-01-29",
-      "description": "Signed Distance Functions.",
-      "shorthand": "signed_distance_functions",
-      "credit": ["Melissa Wiederrecht","Camille Roux"],
-      "creditUrl": ["https://twitter.com/mwiederrecht/","https://twitter.com/camilleroux"]
+      "name": "Signed Distance Functions (if we keep trying once per year, eventually we will be good at it!).",
+      "shorthand": "sdf",
+      "credit": ["Melissa Wiederrecht", "Camille Roux"],
+      "creditUrl": ["https://twitter.com/mwiederrecht/", "https://twitter.com/camillerouxart"],
+      "description": "Signed Distance Functions (if we keep trying once per year, eventually we will be good at it!).\n\n[Piter explains how to SDFs in 2023](https://genuary.art/2024/2023/wtsdf)\\\n[Video tutorial about 2D SDFs](https://youtu.be/KRB57wyo8_4)\\\n[2D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions2d/)\\\n[3D distance functions by Inigo Quilez](https://iquilezles.org/articles/distfunctions/)\\\n[Wikipedia: Signed Distance Functions](https://en.wikipedia.org/wiki/Signed_distance_function)"
     },
     {
-      "name": "Genuary 30th",
       "date": "2024-01-30",
-      "description": "Shaders.",
+      "name": "Shaders.",
       "shorthand": "shaders",
       "credit": ["Melissa Wiederrecht"],
-      "creditUrl": ["https://twitter.com/mwiederrecht/"]
+      "creditUrl": ["https://twitter.com/mwiederrecht/"],
+      "description": "Shaders.\n\nUse the GPU. \n\nI did a [Shader Workshop](https://www.youtube.com/watch?v=EGvuSOvuREQ) a while back where I explain how to code a shader in WebGL2 from scratch (and also finally a simple raymarcher, but you can do many other things with shaders too)."
     },
     {
-      "name": "Genuary 31st",
       "date": "2024-01-31",
-      "description": "Generative audio.",
-      "shorthand": "generative_audio",
-      "credit": ["Neel Shivdasani","Monokai"],
-      "creditUrl": ["https://neel.sh","https://monokai.nl"]
+      "name": "Generative music / Generative audio / Generative sound.",
+      "shorthand": "generative-sound",
+      "credit": ["Neel Shivdasani", "Monokai"],
+      "creditUrl": ["https://neel.sh/", "https://monokai.nl/"],
+      "description": "Generative music / Generative audio / Generative sound.\n\nWhile many of you probably know that Ambient music often employs generative strategies, Psy-Trance is another genre that uses generative techniques. Check out e.g. [Dash Glitch on YouTube](https://www.youtube.com/results?search_query=dash+glitch+generative)"
     }
   ]
 }
