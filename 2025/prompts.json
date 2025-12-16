@@ -1,0 +1,252 @@
+{
+  "genuaryPrompts": [
+    {
+      "date": "2025-01-01",
+      "name": "Vertical or horizontal lines only.",
+      "shorthand": "vertical-horizontal-lines",
+      "credit": ["Stranger in the Q"],
+      "creditUrl": ["https://x.com/stranger_intheq"],
+      "description": "Vertical or horizontal lines only."
+    },
+    {
+      "date": "2025-01-02",
+      "name": "Layers upon layers upon layers.",
+      "shorthand": "layers",
+      "credit": ["Monokai"],
+      "creditUrl": ["https://monokai.com/"],
+      "description": "Layers upon layers upon layers."
+    },
+    {
+      "date": "2025-01-03",
+      "name": "Exactly 42 lines of code.",
+      "shorthand": "42-lines",
+      "credit": ["Roni Kaufman"],
+      "creditUrl": ["https://ronikaufman.github.io/"],
+      "description": "Exactly 42 lines of code."
+    },
+    {
+      "date": "2025-01-04",
+      "name": "Black on black.",
+      "shorthand": "black-on-black",
+      "credit": ["Stranger in the Q"],
+      "creditUrl": ["https://x.com/stranger_intheq"],
+      "description": "Black on black."
+    },
+    {
+      "date": "2025-01-05",
+      "name": "Isometric Art (No vanishing points).",
+      "shorthand": "isometric-art",
+      "credit": ["P1xelboy"],
+      "creditUrl": ["https://linktr.ee/p1x3lboy"],
+      "description": "Isometric Art (No vanishing points)."
+    },
+    {
+      "date": "2025-01-06",
+      "name": "Primitive shapes landscape.",
+      "shorthand": "primitive-shapes-landscape",
+      "credit": ["Jonathan Barbeau"],
+      "creditUrl": ["https://jbarbeau.art/"],
+      "description": "Make a landscape using only [primitive shapes](https://en.wikipedia.org/wiki/Geometric_primitive)."
+    },
+    {
+      "date": "2025-01-07",
+      "name": "Unintended software.",
+      "shorthand": "unintended-software",
+      "credit": ["Camille Roux"],
+      "creditUrl": ["https://art.camilleroux.com/"],
+      "description": "Use software that is not intended to create art or images."
+    },
+    {
+      "date": "2025-01-08",
+      "name": "One million.",
+      "shorthand": "one-million",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://twitter.com/piterpasma"],
+      "description": "Draw one million of something."
+    },
+    {
+      "date": "2025-01-09",
+      "name": "Transport textiles.",
+      "shorthand": "transport-textiles",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://twitter.com/piterpasma"],
+      "description": "The textile design patterns of public transport seating."
+    },
+    {
+      "date": "2025-01-10",
+      "name": "TAU only.",
+      "shorthand": "tau-only",
+      "credit": ["Darien Brito"],
+      "creditUrl": ["https://darienbrito.com/"],
+      "description": "You can only use TAU in your code, no other number allowed.\n\nTAU = 2 * pi = 6.2831853..."
+    },
+    {
+      "date": "2025-01-11",
+      "name": "Impossible day.",
+      "shorthand": "impossible-day",
+      "credit": ["Rachel Ehrlich (Joy of Randomness)", "Recurse Center"],
+      "creditUrl": ["#", "https://www.recurse.com/"],
+      "description": "Impossible day - Try to do something that feels impossible for you to do. Maybe it is impossible. Maybe it’s too ambitious. Maybe it’s something you know nothing about how to accomplish."
+    },
+    {
+      "date": "2025-01-12",
+      "name": "Subdivision.",
+      "shorthand": "subdivision",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://melissawiederrecht.com/"],
+      "description": "Subdivision."
+    },
+    {
+      "date": "2025-01-13",
+      "name": "Triangles only.",
+      "shorthand": "triangles-only",
+      "credit": ["Heeey"],
+      "creditUrl": ["https://heeey.art/"],
+      "description": "Triangles and nothing else."
+    },
+    {
+      "date": "2025-01-14",
+      "name": "Pure black and white.",
+      "shorthand": "black-white-only",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://melissawiederrecht.com/"],
+      "description": "Pure black and white. No gray."
+    },
+    {
+      "date": "2025-01-15",
+      "name": "Design a rug.",
+      "shorthand": "design-a-rug",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://melissawiederrecht.com/"],
+      "description": "Design a rug."
+    },
+    {
+      "date": "2025-01-16",
+      "name": "Generative palette.",
+      "shorthand": "generative-palette",
+      "credit": ["Stranger in the Q"],
+      "creditUrl": ["https://x.com/stranger_intheq"],
+      "description": "Generative palette."
+    },
+    {
+      "date": "2025-01-17",
+      "name": "pi equals four.",
+      "shorthand": "pi-equals-four",
+      "credit": ["Roni Kaufman"],
+      "creditUrl": ["https://ronikaufman.github.io/"],
+      "description": "What happens if pi=4?"
+    },
+    {
+      "date": "2025-01-18",
+      "name": "Wind.",
+      "shorthand": "wind",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://melissawiederrecht.com/"],
+      "description": "What does wind look like?"
+    },
+    {
+      "date": "2025-01-19",
+      "name": "Op Art.",
+      "shorthand": "op-art",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://melissawiederrecht.com/"],
+      "description": "Op Art."
+    },
+    {
+      "date": "2025-01-20",
+      "name": "Generative Architecture.",
+      "shorthand": "generative-architecture",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://melissawiederrecht.com/"],
+      "description": "Generative Architecture."
+    },
+    {
+      "date": "2025-01-21",
+      "name": "Collision detection.",
+      "shorthand": "collision-detection",
+      "credit": ["Darien Brito"],
+      "creditUrl": ["https://darienbrito.com/"],
+      "description": "Create a collision detection system (no libraries allowed)."
+    },
+    {
+      "date": "2025-01-22",
+      "name": "Gradients only.",
+      "shorthand": "gradients-only",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://melissawiederrecht.com/"],
+      "description": "Gradients only."
+    },
+    {
+      "date": "2025-01-23",
+      "name": "Brutalism.",
+      "shorthand": "brutalism",
+      "credit": ["Melissa Wiederrecht", "Roni Kaufman"],
+      "creditUrl": ["https://melissawiederrecht.com/", "https://ronikaufman.github.io/"],
+      "description": "Inspired by brutalism."
+    },
+    {
+      "date": "2025-01-24",
+      "name": "Single geometric shape.",
+      "shorthand": "single-shape",
+      "credit": ["Bruce Holmer"],
+      "creditUrl": ["https://www.instagram.com/bruceholmer/"],
+      "description": "Geometric art - pick either a circle, rectangle, or triangle and use only that geometric shape."
+    },
+    {
+      "date": "2025-01-25",
+      "name": "One line.",
+      "shorthand": "one-line",
+      "credit": ["Bruce Holmer", "Chris Barber (code_rgb)", "Heeey", "Monokai"],
+      "creditUrl": ["https://www.instagram.com/bruceholmer/", "#", "https://heeey.art/", "https://monokai.com/"],
+      "description": "One line that may or may not intersect itself"
+    },
+    {
+      "date": "2025-01-26",
+      "name": "Symmetry.",
+      "shorthand": "symmetry",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://melissawiederrecht.com/"],
+      "description": "Symmetry."
+    },
+    {
+      "date": "2025-01-27",
+      "name": "No randomness.",
+      "shorthand": "no-randomness",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://melissawiederrecht.com/"],
+      "description": "Make something interesting with no randomness or noise or trig."
+    },
+    {
+      "date": "2025-01-28",
+      "name": "Infinite Scroll.",
+      "shorthand": "infinite-scroll",
+      "credit": ["Sophia (fractal kitty)"],
+      "creditUrl": ["https://www.fractalkitty.com/"],
+      "description": "Infinite Scroll."
+    },
+    {
+      "date": "2025-01-29",
+      "name": "Grid-based graphic design.",
+      "shorthand": "grid-graphic-design",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://melissawiederrecht.com/"],
+      "description": "Grid-based graphic design."
+    },
+    {
+      "date": "2025-01-30",
+      "name": "Abstract map.",
+      "shorthand": "abstract-map",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://melissawiederrecht.com/"],
+      "description": "Abstract map.\n\nNot to be confused with [AbstractMap](https://docs.oracle.com/javase/8/docs/api/java/util/AbstractMap.html)."
+    },
+    {
+      "date": "2025-01-31",
+      "name": "Pixel sorting.",
+      "shorthand": "pixel-sorting",
+      "credit": ["Melissa Wiederrecht"],
+      "creditUrl": ["https://melissawiederrecht.com/"],
+      "description": "Pixel sorting.\n\nYou can sort pixels by weight, size, age, etc."
+    }
+  ]
+}
