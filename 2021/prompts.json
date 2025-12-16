@@ -1,0 +1,254 @@
+{
+  "year": 2021,
+  "genuaryPrompts": [
+    {
+      "date": "2021-01-01",
+      "name": "// TRIPLE NESTED LOOP",
+      "shorthand": "triple-nested-loop",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://www.instagram.com/piterpasma/"],
+      "description": "```\n// TRIPLE NESTED LOOP\n```"
+    },
+    {
+      "date": "2021-01-02",
+      "name": "Rule 30",
+      "shorthand": "rule-30",
+      "credit": ["Harold"],
+      "creditUrl": ["https://www.instagram.com/_hrrld/"],
+      "description": "[Rule 30](https://www.wolframalpha.com/input/?i=rule+30) ([elementary cellular automaton](https://en.wikipedia.org/wiki/Rule_30))"
+    },
+    {
+      "date": "2021-01-03",
+      "name": "Make something human.",
+      "shorthand": "make-something-human",
+      "credit": ["Sam Corzine"],
+      "creditUrl": ["https://www.instagram.com/company__a_guardian_angel/"],
+      "description": "Make something human."
+    },
+    {
+      "date": "2021-01-04",
+      "name": "Small areas of symmetry.",
+      "shorthand": "small-symmetry",
+      "credit": ["Louis-André Labadie"],
+      "creditUrl": ["https://www.instagram.com/lalabadie/"],
+      "description": "Small areas of symmetry."
+    },
+    {
+      "date": "2021-01-05",
+      "name": "Do some code golf!",
+      "shorthand": "code-golf",
+      "credit": ["Louis-André Labadie"],
+      "creditUrl": ["https://www.instagram.com/lalabadie/"],
+      "description": "Do some code golf! How little code can you write to make something interesting? Share the sketch and its code together if you can."
+    },
+    {
+      "date": "2021-01-06",
+      "name": "Triangle subdivision.",
+      "shorthand": "triangle-subdivision",
+      "credit": ["Stevan Dedovic"],
+      "creditUrl": ["https://www.instagram.com/mr_praline/"],
+      "description": "Triangle subdivision."
+    },
+    {
+      "date": "2021-01-07",
+      "name": "Generate some rules, then follow them by hand on paper.",
+      "shorthand": "rules-by-hand",
+      "credit": ["Louis-André Labadie"],
+      "creditUrl": ["https://www.instagram.com/lalabadie/"],
+      "description": "Generate some rules, then follow them by hand on paper."
+    },
+    {
+      "date": "2021-01-08",
+      "name": "Curve only.",
+      "shorthand": "curve-only",
+      "credit": ["Licia He"],
+      "creditUrl": ["https://www.instagram.com/blahblahpaperblah/"],
+      "description": "Curve only."
+    },
+    {
+      "date": "2021-01-09",
+      "name": "Interference patterns.",
+      "shorthand": "interference-patterns",
+      "credit": ["Sam Corzine"],
+      "creditUrl": ["https://www.instagram.com/company__a_guardian_angel/"],
+      "description": "Interference patterns."
+    },
+    {
+      "date": "2021-01-10",
+      "name": "// TREE",
+      "shorthand": "tree",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://www.instagram.com/piterpasma/"],
+      "description": "```\n// TREE\n```"
+    },
+    {
+      "date": "2021-01-11",
+      "name": "Non-computer autonomous process.",
+      "shorthand": "non-computer-process",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://www.instagram.com/piterpasma/"],
+      "description": "Use something other than a computer as an autonomous process (or use a non-computer random source)."
+    },
+    {
+      "date": "2021-01-12",
+      "name": "Use an API (e.g. the weather).",
+      "shorthand": "use-an-api",
+      "credit": ["Jonathan Barbeau"],
+      "creditUrl": ["https://www.instagram.com/jbarbeau.art/"],
+      "description": "Use an API (e.g. the weather). Here's [a huge list of free public APIs](https://github.com/public-apis/public-apis)."
+    },
+    {
+      "date": "2021-01-13",
+      "name": "Do not repeat.",
+      "shorthand": "do-not-repeat",
+      "credit": ["Louis-André Labadie"],
+      "creditUrl": ["https://www.instagram.com/lalabadie/"],
+      "description": "Do not repeat."
+    },
+    {
+      "date": "2021-01-14",
+      "name": "// SUBDIVISION",
+      "shorthand": "subdivision",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://www.instagram.com/piterpasma/"],
+      "description": "```\n// SUBDIVISION\n```"
+    },
+    {
+      "date": "2021-01-15",
+      "name": "Let someone else decide the general rules of your piece.",
+      "shorthand": "someone-else-rules",
+      "credit": ["Louis-André Labadie"],
+      "creditUrl": ["https://www.instagram.com/lalabadie/"],
+      "creditUrl": ["https://www.instagram.com/lalabadie/"],
+      "description": "Let someone else decide the general rules of your piece."
+    },
+    {
+      "date": "2021-01-16",
+      "name": "Circles only",
+      "shorthand": "circles-only",
+      "credit": ["Aaron Penne"],
+      "creditUrl": ["https://www.instagram.com/aaron_penne/"],
+      "description": "Circles only"
+    },
+    {
+      "date": "2021-01-17",
+      "name": "Draw a line, pick a new color, move a bit.",
+      "shorthand": "line-color-move",
+      "credit": ["Louis-André Labadie"],
+      "creditUrl": ["https://www.instagram.com/lalabadie/"],
+      "description": "Draw a line, pick a new color, move a bit."
+    },
+    {
+      "date": "2021-01-18",
+      "name": "One process grows, another process prunes.",
+      "shorthand": "grows-prunes",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://www.instagram.com/piterpasma/"],
+      "description": "One process grows, another process prunes."
+    },
+    {
+      "date": "2021-01-19",
+      "name": "Increase the randomness along the Y-axis.",
+      "shorthand": "randomness-y-axis",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://www.instagram.com/piterpasma/"],
+      "description": "Increase the randomness along the Y-axis."
+    },
+    {
+      "date": "2021-01-20",
+      "name": "No loops.",
+      "shorthand": "no-loops",
+      "credit": ["Aaron Penne"],
+      "creditUrl": ["https://www.instagram.com/aaron_penne/"],
+      "description": "No loops."
+    },
+    {
+      "date": "2021-01-21",
+      "name": "Recursive function.",
+      "shorthand": "recursive-function",
+      "credit": ["Harold"],
+      "creditUrl": ["https://www.instagram.com/_hrrld/"],
+      "description": "```\nfunction f(x) { \n    DRAW(x); \n    f(1 * x / 4); \n    f(2 * x / 4); \n    f(3 * x / 4); \n}\n```"
+    },
+    {
+      "date": "2021-01-22",
+      "name": "Draw a line. Wrong answers only.",
+      "shorthand": "wrong-answers-only",
+      "credit": ["Louis-André Labadie"],
+      "creditUrl": ["https://www.instagram.com/lalabadie/"],
+      "description": "Draw a line. Wrong answers only."
+    },
+    {
+      "date": "2021-01-23",
+      "name": "Palette, no gradients.",
+      "shorthand": "palette-no-gradients",
+      "credit": ["Richard Vigniel"],
+      "creditUrl": ["https://www.instagram.com/rvig.art/"],
+      "description": "<b style=\"background-color: #264653\">#264653</b>\n<b style=\"background-color: #2a9d8f\">#2a9d8f</b>\n<b style=\"background-color: #e9c46a\">#e9c46a</b>\n<b style=\"background-color: #f4a261\">#f4a261</b>\n<b style=\"background-color: #e76f51\">#e76f51</b>, no gradients. \n\nOptionally, you can use a black or white background."
+    },
+    {
+      "date": "2021-01-24",
+      "name": "500 lines.",
+      "shorthand": "500-lines",
+      "credit": ["Aaron Penne"],
+      "creditUrl": ["https://www.instagram.com/aaron_penne/"],
+      "description": "500 lines."
+    },
+    {
+      "date": "2021-01-25",
+      "name": "Make a grid of permutations of something.",
+      "shorthand": "grid-of-permutations",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://www.instagram.com/piterpasma/"],
+      "description": "Make a grid of permutations of something."
+    },
+    {
+      "date": "2021-01-26",
+      "name": "2D Perspective.",
+      "shorthand": "2d-perspective",
+      "credit": ["Stevan Dedovic"],
+      "creditUrl": ["https://www.instagram.com/mr_praline/"],
+      "description": "2D Perspective."
+    },
+    {
+      "date": "2021-01-27",
+      "name": "Monochrome gradients without lines.",
+      "shorthand": "monochrome-gradients",
+      "credit": ["Aaron Penne"],
+      "creditUrl": ["https://www.instagram.com/aaron_penne/"],
+      "description": "Monochrome gradients without lines."
+    },
+    {
+      "date": "2021-01-28",
+      "name": "Use sound.",
+      "shorthand": "use-sound",
+      "credit": ["Louis-André Labadie"],
+      "creditUrl": ["https://www.instagram.com/lalabadie/"],
+      "description": "Use sound."
+    },
+    {
+      "date": "2021-01-29",
+      "name": "Any shape, none can touch.",
+      "shorthand": "shapes-cannot-touch",
+      "credit": ["Aaron Penne"],
+      "creditUrl": ["https://www.instagram.com/aaron_penne/"],
+      "description": "Any shape, none can touch."
+    },
+    {
+      "date": "2021-01-30",
+      "name": "Replicate a natural concept.",
+      "shorthand": "replicate-natural-concept",
+      "credit": ["Jonathan Barbeau"],
+      "creditUrl": ["https://www.instagram.com/jbarbeau.art/"],
+      "description": "Replicate a natural concept (e.g. gravity, flocking, path following)."
+    },
+    {
+      "date": "2021-01-31",
+      "name": "Oblique strategies prompt.",
+      "shorthand": "oblique-strategies",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://www.instagram.com/piterpasma/"],
+      "description": "```\n10 SEARCH FOR \"ENO'S OBLIQUE STRATEGIES\"\n20 OBTAIN ONE\n30 THAT IS YOUR PROMPT FOR TODAY\n```"
+    }
+  ]
+}

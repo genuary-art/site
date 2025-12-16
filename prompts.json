@@ -1,0 +1,253 @@
+{
+  "year": 2026,
+  "genuaryPrompts": [
+    {
+      "date": "2026-01-01",
+      "name": "One color, one shape.",
+      "shorthand": "one-color-one-shape",
+      "credit": ["Piero"],
+      "creditUrl": ["https://pifragile.com/"],
+      "description": "One color, one shape."
+    },
+    {
+      "date": "2026-01-02",
+      "name": "Twelve principles of animation.",
+      "shorthand": "twelve-principles-animation",
+      "credit": ["Anna Lucia"],
+      "creditUrl": ["https://annalucia.io/"],
+      "description": "[Twelve principles of animation](https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation)."
+    },
+    {
+      "date": "2026-01-03",
+      "name": "Fibonacci forever.",
+      "shorthand": "fibonacci",
+      "credit": ["Paolo Curtoni"],
+      "creditUrl": ["https://www.paolocurtoni.com/"],
+      "description": "Fibonacci forever.\n\nCreate a work that uses the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence) in some way."
+    },
+    {
+      "date": "2026-01-04",
+      "name": "Lowres.",
+      "shorthand": "lowres",
+      "credit": ["Manuel Larino"],
+      "creditUrl": ["https://mlarino.com/"],
+      "description": "Lowres.\n\nAn image or graphic with low resolution, where details are simplified or pixelated."
+    },
+    {
+      "date": "2026-01-05",
+      "name": "Write \"Genuary\". Avoid using a font.",
+      "shorthand": "write-genuary",
+      "credit": ["Piero"],
+      "creditUrl": ["https://pifragile.com/"],
+      "description": "Write \"Genuary\". Avoid using a font."
+    },
+    {
+      "date": "2026-01-06",
+      "name": "Lights on/off.",
+      "shorthand": "lights-on-off",
+      "credit": ["George Henry Rowe"],
+      "creditUrl": ["https://georgehenryrowe.co.uk/"],
+      "description": "Lights on/off.\n\nMake something that changes when you switch on or off the \"digital\" lights."
+    },
+    {
+      "date": "2026-01-07",
+      "name": "Boolean algebra.",
+      "shorthand": "boolean-algebra",
+      "credit": ["Paolo Curtoni"],
+      "creditUrl": ["https://www.paolocurtoni.com/"],
+      "description": "Boolean algebra.\n\nGet inspired by [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra), in any way."
+    },
+    {
+      "date": "2026-01-08",
+      "name": "A City.",
+      "shorthand": "a-city",
+      "credit": ["Paolo Curtoni"],
+      "creditUrl": ["https://www.paolocurtoni.com/"],
+      "description": "A City.\n\nCreate a generative metropolis."
+    },
+    {
+      "date": "2026-01-09",
+      "name": "Crazy automaton.",
+      "shorthand": "crazy-automaton",
+      "credit": ["Paolo Curtoni"],
+      "creditUrl": ["https://www.paolocurtoni.com/"],
+      "description": "Crazy automaton.\n\nCellular automata with crazy rules."
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Polar coordinates.",
+      "shorthand": "polar-coordinates",
+      "credit": ["Sophia (fractal kitty)"],
+      "creditUrl": ["https://www.fractalkitty.com/"],
+      "description": "Polar coordinates."
+    },
+    {
+      "date": "2026-01-11",
+      "name": "Quine.",
+      "shorthand": "quine",
+      "credit": ["Manuel Larino"],
+      "creditUrl": ["https://mlarino.com/"],
+      "description": "Quine.\n\nA [Quine](https://en.wikipedia.org/wiki/Quine_(computing)) is a form of code poetry, it's a computer program that outputs exactly its own source code."
+    },
+    {
+      "date": "2026-01-12",
+      "name": "Boxes only.",
+      "shorthand": "boxes-only",
+      "credit": ["Stranger in the Q"],
+      "creditUrl": ["https://strangerintheq.art/"],
+      "description": "Boxes only."
+    },
+    {
+      "date": "2026-01-13",
+      "name": "Self portrait.",
+      "shorthand": "self-portrait",
+      "credit": ["Jos Vromans"],
+      "creditUrl": ["https://www.josvromans.art/"],
+      "description": "Self portrait.\n\nFor example, get started with a very basic human face, a few circles or oval shapes. How far can you improve this by adding features that actually look like you. Try adding eyes, eyelashes, hair, and make a few parameters or colors variable. Even though you are aiming for a self portrait, it might be fun to render some random variations as well."
+    },
+    {
+      "date": "2026-01-14",
+      "name": "Everything fits perfectly.",
+      "shorthand": "everything-fits",
+      "credit": ["Roni"],
+      "creditUrl": ["https://ronikaufman.github.io/"],
+      "description": "Everything fits perfectly."
+    },
+    {
+      "date": "2026-01-15",
+      "name": "Invisible object, visible shadows.",
+      "shorthand": "invisible-object",
+      "credit": ["P1xelboy"],
+      "creditUrl": ["https://linktr.ee/p1x3lboy"],
+      "description": "Create an invisible object where only the shadows can be seen."
+    },
+    {
+      "date": "2026-01-16",
+      "name": "Order and disorder.",
+      "shorthand": "order-disorder",
+      "credit": ["Ivan Dianov"],
+      "creditUrl": ["https://ivandianov.com/"],
+      "description": "Order and disorder."
+    },
+    {
+      "date": "2026-01-17",
+      "name": "Wallpaper group.",
+      "shorthand": "wallpaper-group",
+      "credit": ["Ivan Dianov"],
+      "creditUrl": ["https://ivandianov.com/"],
+      "description": "Wallpaper group.\n\nThere are only 17 ways to cover a plane with a repeating pattern, choose your favourite on this page: [Wallpaper group](https://en.wikipedia.org/wiki/Wallpaper_group)."
+    },
+    {
+      "date": "2026-01-18",
+      "name": "Unexpected path.",
+      "shorthand": "unexpected-path",
+      "credit": ["Baret LaVida"],
+      "creditUrl": ["https://www.artbaret.com/"],
+      "description": "Unexpected path.\n\nDraw a route that changes direction based on one very simple rule."
+    },
+    {
+      "date": "2026-01-19",
+      "name": "16x16.",
+      "shorthand": "16x16",
+      "credit": ["Jos Vromans"],
+      "creditUrl": ["https://www.josvromans.art/"],
+      "description": "16x16"
+    },
+    {
+      "date": "2026-01-20",
+      "name": "One line.",
+      "shorthand": "one-line",
+      "credit": ["Jos Vromans"],
+      "creditUrl": ["https://www.josvromans.art/"],
+      "description": "One line.\n\nAn artwork that is made of a single line only."
+    },
+    {
+      "date": "2026-01-21",
+      "name": "Bauhaus Poster.",
+      "shorthand": "bauhaus-poster",
+      "credit": ["Piero"],
+      "creditUrl": ["https://pifragile.com/"],
+      "description": "Bauhaus Poster.\n\nCreate a poster design inspired by the German art school [Bauhaus](https://en.wikipedia.org/wiki/Bauhaus)."
+    },
+    {
+      "date": "2026-01-22",
+      "name": "Pen plotter ready.",
+      "shorthand": "pen-plotter-ready",
+      "credit": ["Sophia (fractal kitty)"],
+      "creditUrl": ["https://www.fractalkitty.com/"],
+      "description": "Pen plotter ready.\n\nWhat if I don't have a plotter? A work is considered \"plotter ready\" if it can be drawn using a plotter. That's a drawing robot holding a pen. Kind of like a 3D printer, except for 2D. The limitation here is that a plotter can only draw lines. And also that it cannot erase lines. It can also not draw over the same spot 20 times because the robot doesn't care and the pen will rip through the paper. In theory you can draw a dot with a very short line or small circle, however it takes a small but non-trivial amount of time to lift up the pen and lower it again, so if you have 50 000 dots, this will take a lot of time. Another thing is that changing pens is a hassle, so you don't want to do that too often, preferably not at all. It's also hard to make sure each new pen is neatly aligned with the earlier ones. Generally plotter artists use SVG files to represent their plots. However, you don't get to use the fancy SVG filters or anything. In fact you don't get to use the `fill` attribute! Because only lines, which includes having to use lines to hatch any filled areas. Now you might wonder why people even bother. The upside of plotters is that they are ridiculously precise and can draw with a super fine 0.25mm line on a 297x420 (A3) paper or larger, that you can get more interesting textures than printers (using e.g. ballpoint or fountain pens). And they work at night even when you're not looking. Another upside is that if you didn't know SVG, you only need to know a super tiny bit about SVG, because you only need/get to draw lines."
+    },
+    {
+      "date": "2026-01-23",
+      "name": "Transparency.",
+      "shorthand": "transparency",
+      "credit": ["Paolo Curtoni"],
+      "creditUrl": ["https://www.paolocurtoni.com/"],
+      "description": "Transparency.\n\nExplore the concept of transparency."
+    },
+    {
+      "date": "2026-01-24",
+      "name": "Perfectionist's nightmare.",
+      "shorthand": "perfectionists-nightmare",
+      "credit": ["Sophia (fractal kitty)"],
+      "creditUrl": ["https://www.fractalkitty.com/"],
+      "description": "Perfectionist's nightmare."
+    },
+    {
+      "date": "2026-01-25",
+      "name": "Organic Geometry.",
+      "shorthand": "organic-geometry",
+      "credit": ["Manuel Larino"],
+      "creditUrl": ["https://mlarino.com/"],
+      "description": "Organic Geometry.\n\nForms that look or act organic but are constructed entirely from geometric shapes."
+    },
+    {
+      "date": "2026-01-26",
+      "name": "Recursive Grids.",
+      "shorthand": "recursive-grids",
+      "credit": ["Piero"],
+      "creditUrl": ["https://pifragile.com/"],
+      "description": "Recursive Grids.\n\nSplit the canvas into a grid of some kind and recurse on each cell again and again."
+    },
+    {
+      "date": "2026-01-27",
+      "name": "Lifeform.",
+      "shorthand": "lifeform",
+      "credit": ["Manuel Larino"],
+      "creditUrl": ["https://mlarino.com/"],
+      "description": "Lifeform.\n\nA shape or structure that behaves as if it's alive or growing."
+    },
+    {
+      "date": "2026-01-28",
+      "name": "No libraries, no canvas, only HTML elements.",
+      "shorthand": "html-only",
+      "credit": ["Piero"],
+      "creditUrl": ["https://pifragile.com/"],
+      "description": "No libraries, no canvas, only HTML elements.\n\nIf you want to cheat and say that `<canvas>` or `<svg>` or even `<img>` are perfectly fine HTML elements, just remember that nobody ever hears the Genuary Police. I mean, has heard about the Genuary Police. It's not true and there's no such thing, stop asking. Anyhow, I don't know have you heard about `<div>`'s? I heard they are pretty cool. Good luck!"
+    },
+    {
+      "date": "2026-01-29",
+      "name": "Genetic evolution and mutation.",
+      "shorthand": "genetic-evolution",
+      "credit": ["Monokai"],
+      "creditUrl": ["https://monokai.com/"],
+      "description": "Genetic evolution and mutation."
+    },
+    {
+      "date": "2026-01-30",
+      "name": "Its not a bug, its a feature.",
+      "shorthand": "not-a-bug",
+      "credit": ["Bart Simons"],
+      "creditUrl": ["https://www.bartsimons.com/"],
+      "description": "Its not a bug, its a feature."
+    },
+    {
+      "date": "2026-01-31",
+      "name": "GLSL day.",
+      "shorthand": "glsl-day",
+      "credit": ["Piero"],
+      "creditUrl": ["https://pifragile.com/"],
+      "description": "GLSL day. Create an artwork using only shaders."
+    }
+  ]
+}
