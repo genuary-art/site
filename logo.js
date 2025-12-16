@@ -94,8 +94,8 @@ F GENUARY(V p) {
     F angry_noise(F d, V p) {
       F s = 1;
       for(F i=0; i<6; i++) {
-        F n = B(wb4(p*.05/s+i*ni+n0)*(.45/.05)*s)-s*bd;
-        F ng = smax(d-s, n,s);
+        F n = B(wb4(p*.05/s+i*ni+n0)*(.35/.05)*s)-s*bd;
+        F ng = smax(d-s, n,s*2);
         d = smin(d+s*.35+n*rf,ng-s*.8,s*2);
         s *= .6;
       }
@@ -103,22 +103,23 @@ F GENUARY(V p) {
     }
 
     W col(V p) {
-      // stuf
-      X q = X(p,p.yx*K*2-p);
-      X r0 = sin(q.xyzw*${RF4()}+${RT4()}+3*sin(q.yzwx*${RF4()}+${RT4()}));
+      // worb
+      X q = X(p,p.yx*K*2-p)*2;
+      q = sin(q.xyzw*${RF4()}+${RT4()}+3*sin(q.yzwx*${RF4()}+${RT4()}));
+
       // perspectiv
       F z = dot(p,sin(zz.x*V(23,17)*.1+V(${[R(TAU),R(TAU)]}))*V(2,4))+70;
       p *= 1100/z; 
       // shadow offset
       const F oo = .4;
       p += oo;
-      F f = S(0,3,sqr(wb4(p*.07-73)));
-      F d = GENUARY(p)-(2+S(-7,11,p.y))-f*.3,e;
+      F f = S(0,1,sqr(q.x));
+      F d = GENUARY(p)-(2+S(-7,11,p.y))-S(0,1,sqr(q.x))*.2, e;
       W c = W(0);
       V po = V(zz.x*25,zz.x*-8)*.7;
 
-      bd = mix(.05,1.8,f); 
-      rf = mix(.0,${R(.03+R(.05))},f*f);
+      bd = mix(.05,1.3,S(0,1,sqr(q.x))); 
+      rf = mix(.0,${R(.02+R(.04))},S(0,1,cub(q.y)));
       n0=V(0,0);
       e = angry_noise(d-.6,p+po);
       c = mix(c,W(0,.33,1),aastep(0,-e));
@@ -175,7 +176,7 @@ F GENUARY(V p) {
     pd = F(16,i=>.5*RS(1+R(3)));
     z0 = R(TAU);
     k=_=>{
-      let t = performance.now() * 6e-5;
+      let t = performance.now() * 5e-5;
       F(4,i=>{
         un('4f','p'+i,pp[i].map((v,j)=>v+t * pd[i*4+j]));
       });
@@ -188,7 +189,7 @@ F GENUARY(V p) {
     console.log(`elaps = ${Date.now() - start_time}ms`);
 
   };
-  anim=0;
+  anim=1;
   logo.onclick = e=>gen_img(anim^=1); // click to refresh
   gen_img(anim); // start the program
 
