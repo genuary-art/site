@@ -17,7 +17,7 @@ gen_img = (anim)=>{
   T=a=>R(a)-R(a); // triangle noise
   RS=a=>R(2)<1?a:-a; // random +/- sign
 
-  RT4=_=>`X(${F(4,_=>R(TAU))})`;
+  RT4=(a=TAU)=>`X(${F(4,_=>R(a))})`;
   RF4=_=>`X(${F(4,i=>2**(i*.6+R(.6)-1.3))})`;
 
   // frarg shade
@@ -26,6 +26,12 @@ gen_img = (anim)=>{
     uniform X f0,f1,f2,f3,p0,p1,p2,p3;
     uniform V zz;
 
+    mat2 rot1(F a) {
+      // 2D rotation matrix
+      a *= ${TAU};
+      F s = sin(a), c = cos(a);
+      return mat2(c, -s, s, c);
+    }
     F aastep(F t, F v) {
       F w = L(vec2(dFdx(v), dFdy(v))) * 0.7;
       return S(t-w, t+w, v);
@@ -90,11 +96,12 @@ F GENUARY(V p) {
 
     F rf=9,
       bd = .6;
+    const F scal=.05;
     V ni = V(17,-23), n0 = V(0,0);
     F angry_noise(F d, V p) {
       F s = 1;
       for(F i=0; i<6; i++) {
-        F n = B(wb4(p*.05/s+i*ni+n0)*(.35/.05)*s)-s*bd;
+        F n = B(wb4(p*scal/s+i*ni+n0)*(.4/scal)*s)-s*bd;
         F ng = smax(d-s, n,s*2);
         d = smin(d+s*.35+n*rf,ng-s*.8,s*2);
         s *= .6;
@@ -104,11 +111,11 @@ F GENUARY(V p) {
 
     W col(V p) {
       // worb
-      X q = X(p,p.yx*K*2-p)*2;
-      q = sin(q.xyzw*${RF4()}+${RT4()}+3*sin(q.yzwx*${RF4()}+${RT4()}));
+      X q = X(p,p.yx*K*2-p);
+      q = sin(q.xyzw*${RF4()}+${RT4()}+${RT4(.1)}*zz.x+3*sin(q.yzwx*${RF4()}+${RT4()}+${RT4(.1)}*zz.x));
 
       // perspectiv
-      F z = dot(p,sin(zz.x*V(23,17)*.1+V(${[R(TAU),R(TAU)]}))*V(2,4))+70;
+      F z = dot(p,q.zw*V(.2,.8)+sin(zz.x*V(23,17)*.1+V(${[R(TAU),R(TAU)]}))*V(2,4))+70;
       p *= 1100/z; 
       // shadow offset
       const F oo = .4;
@@ -120,16 +127,16 @@ F GENUARY(V p) {
 
       bd = mix(.05,1.3,S(0,1,sqr(q.x))); 
       rf = mix(.0,${R(.02+R(.04))},S(0,1,cub(q.y)));
-      n0=V(0,0);
+      n0=V(0,0-.5*zz.x);
       e = angry_noise(d-.6,p+po);
       c = mix(c,W(0,.33,1),aastep(0,-e));
-      n0=V(77,-13); bd -= .3;
+      n0=V(77,-13-.5*zz.x); bd -= .3;
       e = angry_noise(d,p+po);
       c = mix(c,W(1,0,.33),aastep(0,-e));
-      n0=V(-87,42); bd -= .3;
+      n0=V(-87,42-.5*zz.x); bd -= .3;
       e = angry_noise(d+.4,p+po);
       c = mix(c,W(0),aastep(0,-e));
-      n0=V(-88,43); bd -= .3;
+      n0=V(-88,43-.5*zz.x); bd -= .3;
       p-=oo;
       d = GENUARY(p)-(2+S(-7,11,p.y))-f*.3,e;
       e = angry_noise(d+.7,p+po);
