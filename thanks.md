@@ -29,5 +29,5 @@ colormotor,
 
 And the support of the #genartclub community.
 
-If you prefer a different link to your name, please send me a message or if you helped out with Genuary 2025 and I forgot your name also please send me a message I am really sorry and fix it ASAP.
+If you prefer a different link to your name, please send me a message or if you helped out with Genuary 2026 and I forgot your name also please send me a message I am really sorry and fix it ASAP.
 {:.info}
