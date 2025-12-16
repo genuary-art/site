@@ -25,7 +25,7 @@ Marnix Keller,
 [Sophia (fractal kitty)](https://www.fractalkitty.com/),
 [Stevan Dedovic (@mr_praline / @sdedovic)](https://dedovic.com),
 [Stranger in the Q](https://strangerintheq.art),
-Zach Lieberman
+[Zach Lieberman](https://www.instagram.com/zach.lieberman/)
 
 And the support of the #genartclub community.
 
