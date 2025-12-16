@@ -1,0 +1,252 @@
+{
+  "genuaryPrompts": [
+    {
+      "date": "2022-01-01",
+      "name": "Draw 10,000 of something.",
+      "shorthand": "draw-10000",
+      "credit": ["Michael Lowe"],
+      "creditUrl": ["https://twitter.com/mjrlowe"],
+      "description": "Draw 10,000 of something.\n\n[John Green drawing 170,000 circles](https://www.youtube.com/watch?v=ILMEVnVD8m8)  \n{:.info}"
+    },
+    {
+      "date": "2022-01-02",
+      "name": "Dithering.",
+      "shorthand": "dithering",
+      "credit": ["Anna Lucia"],
+      "creditUrl": ["https://twitter.com/annaluciacodes"],
+      "description": "Dithering.\n\n[Code Golf: Dither a Grayscale Image](https://codegolf.stackexchange.com/questions/26554/dither-a-grayscale-image)  \n[The article I wish I had about monochrome image dithering](https://surma.dev/things/ditherpunk/)  \n[Joel Yliluoma's arbitrary-palette positional dithering algorithm](https://bisqwit.iki.fi/story/howto/dither/jy/)  \n[Free blue noise textures](http://momentsingraphics.de/BlueNoise.html)  \n[DHALF.TXT](http://web.archive.org/web/20190316064436/http://www.efg2.com/Lab/Library/ImageProcessing/DHALF.TXT)  \n{:.info}"
+    },
+    {
+      "date": "2022-01-03",
+      "name": "Space.",
+      "shorthand": "space",
+      "credit": ["Lionel Radisson"],
+      "creditUrl": ["https://twitter.com/makIO135/"],
+      "description": "Space."
+    },
+    {
+      "date": "2022-01-04",
+      "name": "The next next Fidenza.",
+      "shorthand": "next-next-fidenza",
+      "credit": ["Alexis André"],
+      "creditUrl": ["https://twitter.com/macTuitui"],
+      "description": "The next next Fidenza.\n\n[Tyler Hobbs' Fidenza](https://tylerxhobbs.com/fidenza)  \n{:.info}"
+    },
+    {
+      "date": "2022-01-05",
+      "name": "Destroy a square.",
+      "shorthand": "destroy-a-square",
+      "credit": ["Thomas Lin Pedersen"],
+      "creditUrl": ["https://twitter.com/thomasp85"],
+      "description": "Destroy a square."
+    },
+    {
+      "date": "2022-01-06",
+      "name": "Trade styles with a friend.",
+      "shorthand": "trade-styles",
+      "credit": ["Alex Naka"],
+      "creditUrl": ["https://www.instagram.com/bb_bygones"],
+      "description": "Trade styles with a friend."
+    },
+    {
+      "date": "2022-01-07",
+      "name": "Sol LeWitt Wall Drawing.",
+      "shorthand": "sol-lewitt-wall-drawing",
+      "credit": ["Roni Kaufman"],
+      "creditUrl": ["https://twitter.com/KaufmanRoni"],
+      "description": "Sol LeWitt Wall Drawing.\n\n[Sol LeWitt: A Wall Drawing Retrospective](https://massmoca.org/sol-lewitt/)  \n[Here Are the Instructions for Sol LeWitt’s 1971 Wall Drawing for the School of the MFA Boston](https://observer.com/2012/10/here-are-the-instructions-for-sol-lewitts-1971-wall-drawing-for-the-school-of-the-mfa-boston/)  \n[Why are Sol LeWitt’s wall drawings so influential?](https://publicdelivery.org/sol-lewitt-wall-drawings/)  \n[Sol Lewitt-Wall Painting 118](https://illmindofryza1.wordpress.com/2016/08/17/sol-lewitt-wall-painting-118/)  \n{:.info}"
+    },
+    {
+      "date": "2022-01-08",
+      "name": "Single curve only.",
+      "shorthand": "single-curve-only",
+      "credit": ["Bruce Holmer"],
+      "creditUrl": ["https://twitter.com/bruceHolmer"],
+      "description": "Single curve only."
+    },
+    {
+      "date": "2022-01-09",
+      "name": "Architecture.",
+      "shorthand": "architecture",
+      "credit": ["Lionel Radisson"],
+      "creditUrl": ["https://twitter.com/makIO135/"],
+      "description": "Architecture."
+    },
+    {
+      "date": "2022-01-10",
+      "name": "Machine learning, wrong answers only.",
+      "shorthand": "ml-wrong-answers",
+      "credit": ["Roni Kaufman"],
+      "creditUrl": ["https://twitter.com/KaufmanRoni"],
+      "description": "Machine learning, wrong answers only."
+    },
+    {
+      "date": "2022-01-11",
+      "name": "No computer.",
+      "shorthand": "no-computer",
+      "credit": ["Lionel Radisson"],
+      "creditUrl": ["https://twitter.com/makIO135/"],
+      "description": "No computer."
+    },
+    {
+      "date": "2022-01-12",
+      "name": "Packing (squares, circles, any shape…)",
+      "shorthand": "packing",
+      "credit": ["Richard Vigniel"],
+      "creditUrl": ["https://twitter.com/rvig_art"],
+      "description": "Packing (squares, circles, any shape…)"
+    },
+    {
+      "date": "2022-01-13",
+      "name": "800x80.",
+      "shorthand": "800x80",
+      "credit": ["Ben Kovach"],
+      "creditUrl": ["https://twitter.com/bendotk"],
+      "description": "800x80.\n\n[#800x80](https://twitter.com/hashtag/800x80)  \n{:.info}"
+    },
+    {
+      "date": "2022-01-14",
+      "name": "Something you'd never make.",
+      "shorthand": "never-make",
+      "credit": ["Devi Parikh"],
+      "creditUrl": ["https://twitter.com/deviparikh"],
+      "description": "Something you'd never make."
+    },
+    {
+      "date": "2022-01-15",
+      "name": "Sand.",
+      "shorthand": "sand",
+      "credit": ["Thomas Lin Pedersen"],
+      "creditUrl": ["https://twitter.com/thomasp85"],
+      "description": "Sand."
+    },
+    {
+      "date": "2022-01-16",
+      "name": "Color gradients gone wrong.",
+      "shorthand": "gradients-gone-wrong",
+      "credit": ["Quag"],
+      "creditUrl": ["https://www.instagram.com/quagnz"],
+      "description": "Color gradients gone wrong."
+    },
+    {
+      "date": "2022-01-17",
+      "name": "3 colors.",
+      "shorthand": "3-colors",
+      "credit": ["Deniz"],
+      "creditUrl": ["https://twitter.com/ojelibalon"],
+      "description": "3 colors."
+    },
+    {
+      "date": "2022-01-18",
+      "name": "VHS.",
+      "shorthand": "vhs",
+      "credit": ["GenerateMe"],
+      "creditUrl": ["https://twitter.com/generateme_blog"],
+      "description": "VHS."
+    },
+    {
+      "date": "2022-01-19",
+      "name": "Use text/typography.",
+      "shorthand": "use-text",
+      "credit": ["Piter Pasma"],
+      "creditUrl": ["https://twitter.com/piterpasma"],
+      "description": "Use text/typography."
+    },
+    {
+      "date": "2022-01-20",
+      "name": "Make a sea of shapes.",
+      "shorthand": "sea-of-shapes",
+      "credit": ["Sabin T"],
+      "creditUrl": ["https://twitter.com/artbysabin"],
+      "description": "Make a sea of shapes."
+    },
+    {
+      "date": "2022-01-21",
+      "name": "Combine two (or more) of your pieces from previous days to make a new piece.",
+      "shorthand": "combine-previous",
+      "credit": ["Michael Lowe"],
+      "creditUrl": ["https://twitter.com/mjrlowe"],
+      "description": "Combine two (or more) of your pieces from previous days to make a new piece."
+    },
+    {
+      "date": "2022-01-22",
+      "name": "Make something that will look completely different in a year.",
+      "shorthand": "different-in-a-year",
+      "credit": ["Michael Lowe"],
+      "creditUrl": ["https://twitter.com/mjrlowe"],
+      "description": "Make something that will look completely different in a year."
+    },
+    {
+      "date": "2022-01-23",
+      "name": "Abstract vegetation.",
+      "shorthand": "abstract-vegetation",
+      "credit": ["Louis-André Labadie"],
+      "creditUrl": ["https://twitter.com/lalabadie"],
+      "description": "Abstract vegetation."
+    },
+    {
+      "date": "2022-01-24",
+      "name": "Create your own pseudo-random number generator and visually check the results.",
+      "shorthand": "own-prng",
+      "credit": ["Quag"],
+      "creditUrl": ["https://www.instagram.com/quagnz"],
+      "description": "Create your own pseudo-random number generator and visually check the results."
+    },
+    {
+      "date": "2022-01-25",
+      "name": "Perspective.",
+      "shorthand": "perspective",
+      "credit": ["Jos Vromans"],
+      "creditUrl": ["https://twitter.com/josVromans"],
+      "description": "Perspective."
+    },
+    {
+      "date": "2022-01-26",
+      "name": "Airport carpet.",
+      "shorthand": "airport-carpet",
+      "credit": ["Quag"],
+      "creditUrl": ["https://www.instagram.com/quagnz"],
+      "description": "Airport carpet.\n\n[Google image search](https://www.google.com/search?q=airport+carpet&tbm=isch)  \n[Bing image search](https://www.bing.com/images/search?q=airport+carpet)  \n[Portland International Airport carpet](https://en.wikipedia.org/wiki/Portland_International_Airport_carpet)  \n[Hotel carpets photographed by Bill Young](https://www.instagram.com/myhotelcarpet/)\n{:.info}"
+    },
+    {
+      "date": "2022-01-27",
+      "name": "Palette.",
+      "shorthand": "palette",
+      "credit": ["Michael Lowe"],
+      "creditUrl": ["https://twitter.com/mjrlowe"],
+      "description": "<b style=\"background-color: #2E294E\">#2E294E</b>\n<b style=\"background-color: #541388\">#541388</b>\n<b style=\"background-color: #F1E9DA; color:#161616\">#F1E9DA</b>\n<b style=\"background-color: #FFD400\">#FFD400</b>\n<b style=\"background-color: #D90368\">#D90368</b>"
+    },
+    {
+      "date": "2022-01-28",
+      "name": "Self portrait.",
+      "shorthand": "self-portrait",
+      "credit": ["Michael Lowe"],
+      "creditUrl": ["https://twitter.com/mjrlowe"],
+      "description": "Self portrait."
+    },
+    {
+      "date": "2022-01-29",
+      "name": "Isometric perspective.",
+      "shorthand": "isometric-perspective",
+      "credit": ["Chris Ried"],
+      "creditUrl": ["https://www.twitter.com/generativecoll"],
+      "description": "Isometric perspective."
+    },
+    {
+      "date": "2022-01-30",
+      "name": "Organic looking output using only rectangular shapes.",
+      "shorthand": "organic-rectangles",
+      "credit": ["Bart Simons"],
+      "creditUrl": ["https://twitter.com/Unordered__list"],
+      "description": "Organic looking output using only rectangular shapes."
+    },
+    {
+      "date": "2022-01-31",
+      "name": "Negative space.",
+      "shorthand": "negative-space",
+      "credit": ["Michael Lowe"],
+      "creditUrl": ["https://twitter.com/mjrlowe"],
+      "description": "Negative space."
+    }
+  ]
+}
