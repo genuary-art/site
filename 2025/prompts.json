@@ -2,252 +2,314 @@
   "year": 2025,
   "genuaryPrompts": [
     {
+      "day": 1,
       "date": "2025-01-01",
       "name": "Vertical or horizontal lines only.",
       "shorthand": "vertical-horizontal-lines",
       "credit": ["Stranger in the Q"],
       "creditUrl": ["https://x.com/stranger_intheq"],
-      "description": "Vertical or horizontal lines only."
+      "description": "Vertical or horizontal lines only.",
+      "folderName": "01_vertical_horizontal_lines"
     },
     {
+      "day": 2,
       "date": "2025-01-02",
       "name": "Layers upon layers upon layers.",
       "shorthand": "layers",
       "credit": ["Monokai"],
       "creditUrl": ["https://monokai.com/"],
-      "description": "Layers upon layers upon layers."
+      "description": "Layers upon layers upon layers.",
+      "folderName": "02_layers"
     },
     {
+      "day": 3,
       "date": "2025-01-03",
       "name": "Exactly 42 lines of code.",
       "shorthand": "42-lines",
       "credit": ["Roni Kaufman"],
       "creditUrl": ["https://ronikaufman.github.io/"],
-      "description": "Exactly 42 lines of code."
+      "description": "Exactly 42 lines of code.",
+      "folderName": "03_42_lines"
     },
     {
+      "day": 4,
       "date": "2025-01-04",
       "name": "Black on black.",
       "shorthand": "black-on-black",
       "credit": ["Stranger in the Q"],
       "creditUrl": ["https://x.com/stranger_intheq"],
-      "description": "Black on black."
+      "description": "Black on black.",
+      "folderName": "04_black_on_black"
     },
     {
+      "day": 5,
       "date": "2025-01-05",
       "name": "Isometric Art (No vanishing points).",
       "shorthand": "isometric-art",
       "credit": ["P1xelboy"],
       "creditUrl": ["https://linktr.ee/p1x3lboy"],
-      "description": "Isometric Art (No vanishing points)."
+      "description": "Isometric Art (No vanishing points).",
+      "folderName": "05_isometric_art"
     },
     {
+      "day": 6,
       "date": "2025-01-06",
       "name": "Primitive shapes landscape.",
       "shorthand": "primitive-shapes-landscape",
       "credit": ["Jonathan Barbeau"],
       "creditUrl": ["https://jbarbeau.art/"],
-      "description": "Make a landscape using only [primitive shapes](https://en.wikipedia.org/wiki/Geometric_primitive)."
+      "description": "Make a landscape using only [primitive shapes](https://en.wikipedia.org/wiki/Geometric_primitive).",
+      "folderName": "06_primitive_shapes_landscape"
     },
     {
+      "day": 7,
       "date": "2025-01-07",
       "name": "Unintended software.",
       "shorthand": "unintended-software",
       "credit": ["Camille Roux"],
       "creditUrl": ["https://art.camilleroux.com/"],
-      "description": "Use software that is not intended to create art or images."
+      "description": "Use software that is not intended to create art or images.",
+      "folderName": "07_unintended_software"
     },
     {
+      "day": 8,
       "date": "2025-01-08",
       "name": "One million.",
       "shorthand": "one-million",
       "credit": ["Piter Pasma"],
       "creditUrl": ["https://twitter.com/piterpasma"],
-      "description": "Draw one million of something."
+      "description": "Draw one million of something.",
+      "folderName": "08_one_million"
     },
     {
+      "day": 9,
       "date": "2025-01-09",
       "name": "Transport textiles.",
       "shorthand": "transport-textiles",
       "credit": ["Piter Pasma"],
       "creditUrl": ["https://twitter.com/piterpasma"],
-      "description": "The textile design patterns of public transport seating."
+      "description": "The textile design patterns of public transport seating.",
+      "folderName": "09_transport_textiles"
     },
     {
+      "day": 10,
       "date": "2025-01-10",
       "name": "TAU only.",
       "shorthand": "tau-only",
       "credit": ["Darien Brito"],
       "creditUrl": ["https://darienbrito.com/"],
-      "description": "You can only use TAU in your code, no other number allowed.\n\nTAU = 2 * pi = 6.2831853..."
+      "description": "You can only use TAU in your code, no other number allowed.\n\nTAU = 2 * pi = 6.2831853...",
+      "folderName": "10_tau_only"
     },
     {
+      "day": 11,
       "date": "2025-01-11",
       "name": "Impossible day.",
       "shorthand": "impossible-day",
       "credit": ["Rachel Ehrlich (Joy of Randomness)", "Recurse Center"],
       "creditUrl": ["#", "https://www.recurse.com/"],
-      "description": "Impossible day - Try to do something that feels impossible for you to do. Maybe it is impossible. Maybe it’s too ambitious. Maybe it’s something you know nothing about how to accomplish."
+      "description": "Impossible day - Try to do something that feels impossible for you to do. Maybe it is impossible. Maybe it’s too ambitious. Maybe it’s something you know nothing about how to accomplish.",
+      "folderName": "11_impossible_day"
     },
     {
+      "day": 12,
       "date": "2025-01-12",
       "name": "Subdivision.",
       "shorthand": "subdivision",
       "credit": ["Melissa Wiederrecht"],
       "creditUrl": ["https://melissawiederrecht.com/"],
-      "description": "Subdivision."
+      "description": "Subdivision.",
+      "folderName": "12_subdivision"
     },
     {
+      "day": 13,
       "date": "2025-01-13",
       "name": "Triangles only.",
       "shorthand": "triangles-only",
       "credit": ["Heeey"],
       "creditUrl": ["https://heeey.art/"],
-      "description": "Triangles and nothing else."
+      "description": "Triangles and nothing else.",
+      "folderName": "13_triangles_only"
     },
     {
+      "day": 14,
       "date": "2025-01-14",
       "name": "Pure black and white.",
       "shorthand": "black-white-only",
       "credit": ["Melissa Wiederrecht"],
       "creditUrl": ["https://melissawiederrecht.com/"],
-      "description": "Pure black and white. No gray."
+      "description": "Pure black and white. No gray.",
+      "folderName": "14_black_white_only"
     },
     {
+      "day": 15,
       "date": "2025-01-15",
       "name": "Design a rug.",
       "shorthand": "design-a-rug",
       "credit": ["Melissa Wiederrecht"],
       "creditUrl": ["https://melissawiederrecht.com/"],
-      "description": "Design a rug."
+      "description": "Design a rug.",
+      "folderName": "15_design_a_rug"
     },
     {
+      "day": 16,
       "date": "2025-01-16",
       "name": "Generative palette.",
       "shorthand": "generative-palette",
       "credit": ["Stranger in the Q"],
       "creditUrl": ["https://x.com/stranger_intheq"],
-      "description": "Generative palette."
+      "description": "Generative palette.",
+      "folderName": "16_generative_palette"
     },
     {
+      "day": 17,
       "date": "2025-01-17",
       "name": "pi equals four.",
       "shorthand": "pi-equals-four",
       "credit": ["Roni Kaufman"],
       "creditUrl": ["https://ronikaufman.github.io/"],
-      "description": "What happens if pi=4?"
+      "description": "What happens if pi=4?",
+      "folderName": "17_pi_equals_four"
     },
     {
+      "day": 18,
       "date": "2025-01-18",
       "name": "Wind.",
       "shorthand": "wind",
       "credit": ["Melissa Wiederrecht"],
       "creditUrl": ["https://melissawiederrecht.com/"],
-      "description": "What does wind look like?"
+      "description": "What does wind look like?",
+      "folderName": "18_wind"
     },
     {
+      "day": 19,
       "date": "2025-01-19",
       "name": "Op Art.",
       "shorthand": "op-art",
       "credit": ["Melissa Wiederrecht"],
       "creditUrl": ["https://melissawiederrecht.com/"],
-      "description": "Op Art."
+      "description": "Op Art.",
+      "folderName": "19_op_art"
     },
     {
+      "day": 20,
       "date": "2025-01-20",
       "name": "Generative Architecture.",
       "shorthand": "generative-architecture",
       "credit": ["Melissa Wiederrecht"],
       "creditUrl": ["https://melissawiederrecht.com/"],
-      "description": "Generative Architecture."
+      "description": "Generative Architecture.",
+      "folderName": "20_generative_architecture"
     },
     {
+      "day": 21,
       "date": "2025-01-21",
       "name": "Collision detection.",
       "shorthand": "collision-detection",
       "credit": ["Darien Brito"],
       "creditUrl": ["https://darienbrito.com/"],
-      "description": "Create a collision detection system (no libraries allowed)."
+      "description": "Create a collision detection system (no libraries allowed).",
+      "folderName": "21_collision_detection"
     },
     {
+      "day": 22,
       "date": "2025-01-22",
       "name": "Gradients only.",
       "shorthand": "gradients-only",
       "credit": ["Melissa Wiederrecht"],
       "creditUrl": ["https://melissawiederrecht.com/"],
-      "description": "Gradients only."
+      "description": "Gradients only.",
+      "folderName": "22_gradients_only"
     },
     {
+      "day": 23,
       "date": "2025-01-23",
       "name": "Brutalism.",
       "shorthand": "brutalism",
       "credit": ["Melissa Wiederrecht", "Roni Kaufman"],
       "creditUrl": ["https://melissawiederrecht.com/", "https://ronikaufman.github.io/"],
-      "description": "Inspired by brutalism."
+      "description": "Inspired by brutalism.",
+      "folderName": "23_brutalism"
     },
     {
+      "day": 24,
       "date": "2025-01-24",
       "name": "Single geometric shape.",
       "shorthand": "single-shape",
       "credit": ["Bruce Holmer"],
       "creditUrl": ["https://www.instagram.com/bruceholmer/"],
-      "description": "Geometric art - pick either a circle, rectangle, or triangle and use only that geometric shape."
+      "description": "Geometric art - pick either a circle, rectangle, or triangle and use only that geometric shape.",
+      "folderName": "24_single_shape"
     },
     {
+      "day": 25,
       "date": "2025-01-25",
       "name": "One line.",
       "shorthand": "one-line",
       "credit": ["Bruce Holmer", "Chris Barber (code_rgb)", "Heeey", "Monokai"],
       "creditUrl": ["https://www.instagram.com/bruceholmer/", "#", "https://heeey.art/", "https://monokai.com/"],
-      "description": "One line that may or may not intersect itself"
+      "description": "One line that may or may not intersect itself",
+      "folderName": "25_one_line"
     },
     {
+      "day": 26,
       "date": "2025-01-26",
       "name": "Symmetry.",
       "shorthand": "symmetry",
       "credit": ["Melissa Wiederrecht"],
       "creditUrl": ["https://melissawiederrecht.com/"],
-      "description": "Symmetry."
+      "description": "Symmetry.",
+      "folderName": "26_symmetry"
     },
     {
+      "day": 27,
       "date": "2025-01-27",
       "name": "No randomness.",
       "shorthand": "no-randomness",
       "credit": ["Melissa Wiederrecht"],
       "creditUrl": ["https://melissawiederrecht.com/"],
-      "description": "Make something interesting with no randomness or noise or trig."
+      "description": "Make something interesting with no randomness or noise or trig.",
+      "folderName": "27_no_randomness"
     },
     {
+      "day": 28,
       "date": "2025-01-28",
       "name": "Infinite Scroll.",
       "shorthand": "infinite-scroll",
       "credit": ["Sophia (fractal kitty)"],
       "creditUrl": ["https://www.fractalkitty.com/"],
-      "description": "Infinite Scroll."
+      "description": "Infinite Scroll.",
+      "folderName": "28_infinite_scroll"
     },
     {
+      "day": 29,
       "date": "2025-01-29",
       "name": "Grid-based graphic design.",
       "shorthand": "grid-graphic-design",
       "credit": ["Melissa Wiederrecht"],
       "creditUrl": ["https://melissawiederrecht.com/"],
-      "description": "Grid-based graphic design."
+      "description": "Grid-based graphic design.",
+      "folderName": "29_grid_graphic_design"
     },
     {
+      "day": 30,
       "date": "2025-01-30",
       "name": "Abstract map.",
       "shorthand": "abstract-map",
       "credit": ["Melissa Wiederrecht"],
       "creditUrl": ["https://melissawiederrecht.com/"],
-      "description": "Abstract map.\n\nNot to be confused with [AbstractMap](https://docs.oracle.com/javase/8/docs/api/java/util/AbstractMap.html)."
+      "description": "Abstract map.\n\nNot to be confused with [AbstractMap](https://docs.oracle.com/javase/8/docs/api/java/util/AbstractMap.html).",
+      "folderName": "30_abstract_map"
     },
     {
+      "day": 31,
       "date": "2025-01-31",
       "name": "Pixel sorting.",
       "shorthand": "pixel-sorting",
       "credit": ["Melissa Wiederrecht"],
       "creditUrl": ["https://melissawiederrecht.com/"],
-      "description": "Pixel sorting.\n\nYou can sort pixels by weight, size, age, etc."
+      "description": "Pixel sorting.\n\nYou can sort pixels by weight, size, age, etc.",
+      "folderName": "31_pixel_sorting"
     }
   ]
 }
