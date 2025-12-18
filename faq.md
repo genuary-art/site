@@ -24,7 +24,7 @@ No.
 
 ## Can I...?
 
-Yes. But please follow the Geneva Conventions. And AI alignment best practices. 
+Yes. But please follow the Geneva Conventions. And don't build the torment nexus. 
 
 ## What if I don't understand a prompt?
 
