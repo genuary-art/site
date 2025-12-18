@@ -1,8 +1,10 @@
 # GENUARY 2026
 
 <pre>
-  # GENUARY 2026
-  :(){:|: &};:
+  // GENUARY 2026
+  G=g=>`G=${G},G()`,G(); // GGGgg?
+  g=G(); // gG!
+  [g,G,...g,G,G].map(_=>g=eval(g)); // ggg
 </pre>
 
 <span id="arewethereyet">It's 2026 and GENUARY emerges!</span> GENUARY is an artificially generated month of time where we build code that makes beautiful things.
