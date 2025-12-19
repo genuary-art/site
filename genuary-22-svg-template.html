@@ -100,7 +100,7 @@ OPTS={
   // *** time to draw something cool ***
 
   spiral = (cp,maxr)=>{ // centre point, maxradius
-    let res=[];
+    let res=[]; // the return value is an Array of points
     let r = LW, a = 0;
     let M = .2; // this controls amount of windings
     let R = .5*LW/M;
@@ -110,9 +110,9 @@ OPTS={
       a += da;
       let dr = R*r**-.5; // I swear I think this is probably correct
       r += dr;
-      res.push(A(cp,[cos(a),sin(a)],r));
+      res.push(A(cp,[cos(a),sin(a)],r)); // add the point to the result Array
     }
-    return res;
+    return res; // return the result
   }
 
   something_cool = spiral([VW/2,VH/2], VW*.45);
