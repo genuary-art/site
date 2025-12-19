@@ -84,7 +84,7 @@ OPTS={
   // now we make a group element <g>, which is useful to define a lot of properties for the lines inside it at once
   svg.push(`<g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="${fix(LW)}">`);
 
-  // random number stuff
+  // random number stuff (not really used in this demo)
   PRNGG=(s,a=9,b,c,d,R=(x=1)=>x*(x=d^d<<11,d=c,c=b,b=a,((a^=x^x>>>8^(b>>>19))>>>0)/2**32))=>([...s+'ThxPiter'].map(e=>R(d^=e.charCodeAt()*a)),R); // pseudo random number generator generator
   R=PRNGG(OPTS.seed); // your PRNG
   RS=(a=1)=>R()<.5?a:-a; // random sign 1 / -1
