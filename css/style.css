@@ -146,7 +146,8 @@ section h1, section h2, section h3, section h4, section h5, section h6 {
 }
 
 section h1 {
-  text-shadow: 0 .07em 0 var(--shadow);
+  color: var(--highlight2);
+  text-shadow: 0 .07em 0 var(--shadowblue);
   font-size: 2em;
   text-align: center;
 }

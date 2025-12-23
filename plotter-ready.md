@@ -22,7 +22,7 @@ Now you might wonder why people even bother.
 
 ## I'm wondering why people even bother
 
-The upside of plotters is that they are ridiculously precise and can draw with a super fine lines (it's hard to find reliable pens finer than 0.25mm). And you can get more interesting textures than printers using e.g. ballpoint or fountain pens. 
+The upside of plotters is that they are ridiculously precise and can draw with a super fine lines (although it's hard to find reliable pens finer than 0.25mm). And you can get more interesting textures than printers using e.g. ballpoint or fountain pens. 
 
 You can even use paint brushes or charcoal or whatever else you can think about, though each of these methods comes with their own unique challenges.
 
@@ -36,10 +36,12 @@ In case you don't know how to SVG, you only need to learn a super tiny bit about
 
 To help you out we have made various pieces of code available that you can download and change and adopt into your own thing:
 
-* [template D](genuary-22-svg-template-d) ([src]())
+* [template D](genuary-22-svg-template-d) ([src](https://github.com/genuary-art/site/blob/main/genuary-22-svg-template-d.html)) is probably the simplest to use template. This one splits the generating of lines and generating of the corresponding SVG into two functions. It draws a version of Georg Nees's *Schotter*.
+* [template A](genuary-22-svg-template-a) ([src](https://github.com/genuary-art/site/blob/main/genuary-22-svg-template-a.html)) is also probably the simplest to use template, if you happen to prefer it. It doesn't really split stuff into functions, but builds the SVG step by step. It draws a simple spiral.
 
+And then because I decided to get fancy and/or distracted, I made these templates for you to enjoy:
 
-genuary-22-svg-template-d2.html
-genuary-22-svg-template-c.html
-genuary-22-svg-template-b.html
-genuary-22-svg-template-a.html
+* [template B](genuary-22-svg-template-b) ([src](https://github.com/genuary-art/site/blob/main/genuary-22-svg-template-b.html)). This one also draws a spiral, but it distorts it using some wobbly noise. Then it draws the same spiral again but backwards, and distorting in the opposite direction. This creates a cool moiré pattern.
+* [template C](genuary-22-svg-template-c) ([src](https://github.com/genuary-art/site/blob/main/genuary-22-svg-template-c.html)) might take a while to render. It kinda does the same as the previous one, except the distortion is based on the lighting of a 3D raymarched scene instead of a noise function. 
+* [template D2](genuary-22-svg-template-d2) ([src](https://github.com/genuary-art/site/blob/main/genuary-22-svg-template-d2.html)) is iterating on Georg Nees's *Schotter*, a variation.
+
