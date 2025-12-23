@@ -1,0 +1,189 @@
+<!doctype html><html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SVG template</title>
+<style>
+  *{border:none;margin:0;padding:0;box-sizing:border-box}
+  body{background:#CCA}
+  img{width:100vw;height:100vh;object-fit:contain;position:absolute}
+</style>
+</head><body><script>
+
+// *** PITER'S TOTALLY SIMPLE PLOTTER READY SVG DRAWING TEMPLATE ***
+
+// URL options, defaults
+OPTS={
+  // define physical paper size. note, a common max size for plotters is A3 paper size or 420x297mm.
+  mmh: 140,     // page height in mm (equals inches * 25.4) 
+  aspect: 4/5,  // aspect ratio (width divided by height)
+  lw: .3,       // pen line width in mm. many fine liners are about 0.3mm wide. if you have a pen, and a plotter, and
+                // want to experimentally find out its exact line width, see https://piterpasma.nl/articles/line-test 
+
+  bgrect: 1,    // whether we want a background rectangle. SVGs are transparent by default unless you put a big rect
+                // behind everything. This is useful for copying/sharing the img to social media, but when plotting 
+                // the SVG you don't want to plot this rect, so you can use this option to turn it off.
+
+  seed:'flurp'+Date.now(), // random seed
+};
+
+// here comes the code
+(code=_=>{
+  // update the default opts from the URL search params and output as a nice table to the console
+  console.table(OPTS={...OPTS,...Object.fromEntries(new URL(location).searchParams)});
+
+  // random number generator
+  console.log(`Random seed = ${OPTS.seed}`);
+  PRNGG=(s,a=9,b,c,d,R=(x=1)=>x*(x=d^d<<11,d=c,c=b,b=a,((a^=x^x>>>8^(b>>>19))>>>0)/2**32))=>([...s+'ThxPiter'].map(e=>R(d^=e.charCodeAt()*a)),R); // pseudo random number generator generator
+  R=PRNGG(OPTS.seed); // your PRNG
+  // random functions
+  RS=(a=1)=>R()<.5?a:-a; // random sign 1 / -1
+  RR=(a=1,b=-a)=>a+R(b-a); // uniform random range [a..b]
+  RA=a=>a[R(a.length)|0]; // random element from Array
+  T=a=>R(a)-R(a); // triangular distribution
+
+  // get some math definitions and useful functions
+  ({abs,sin,cos,PI,max,min,floor}=Math); TAU=PI*2;
+
+  F=(N,f)=>[...Array(N)].map((_,i)=>f(i)); // loop function
+  SM=(a,b,x)=>(x-=a,x/=b-a)<0?0:x>1?1:x*x*(3-2*x); // smoothstep 48
+  cl=(x,a,b)=>x<a?a:x>b?b:x; // clamp
+
+  // define coordinates
+  aspect = OPTS.aspect;
+  // While the page size is in physical units, the coordinates for drawing into the SVG are based on its "viewbox",
+  // which we can set to any size we like (very nice). We'll set it to a height of 1000 units.
+  VH = 1000; // viewbox height
+  VW = VH * aspect; // viewbox width
+  LW = OPTS.lw/OPTS.mmh*VH; // line width in viewbox units (like a pixel it's the smallest size you can draw)
+
+  drawing = _=> {
+    // A plotter only draws lines. 
+    // A drawing is an Array (list) of lines (paths),
+    // A path (line) is an Array of points. 
+    // A point is a 2-element Array [x,y].
+    // so we return an Array of Arrays of points.
+    let result = [];
+
+    // let's define some shapes
+    // a shape is a closed path and we close a path by going back to the first point
+    close=a=>[...a,a[0]];
+
+    circle=(x,y,r,N=.5*TAU*r/LW|0,a0=0)=>close(F(N,i=>[cos(i=i*TAU/N+a0)*r+x,sin(i)*r+y])); // a circle
+
+    let sqrt2 = 2 ** .5;
+    square=(x,y,r,a=0)=>circle(x,y,r*sqrt2,4,a+TAU/8); // 4-sided circle
+
+    // let's do a Schotter
+    let square_dist = 36;
+    let square_size = square_dist / 2;
+    let k = 0, a = 0;
+    for(let j = 0; j < 22; j++) {
+      for(let i = 0; i < 12; i++) {
+        let r = k / 264;
+        r *= r; 
+        let a = R(TAU * r), 
+            dx = r * (R(2) - 1),
+            dy = r * (R(2) - 1);
+        let x = VW/2 + (dx+i-5.5) * square_dist;
+        let y = VH/2 + (dy+j-10.5) * square_dist;
+        result.push(square(x,y,square_size,a));
+        k++;
+      }
+    }
+    return result;
+  }
+
+  make_svg = lines => {
+    // OK let's build an SVG
+
+    // By default JS prints about 17 decimals after the point, and we really don't need that many, it just 
+    // bloats the SVG. So we round all our numbers to 2 decimals.
+    let fix = x => (x*1).toFixed(2); // Multiply by 1 to force cast to a Number, and round to two decimals.
+    let fix2 = ([x, y]) => [fix(x), fix(y)]; // Coordinates are Arrays and it's useful to round those too.
+
+    // SVG comment helper function (avoid writing "minus minus" in the SVG, for reasons)
+    let cmt = (str, d='-' + '-') => `<!${d} ${str.replaceAll(d, '_-_-_')} ${d}>`;
+
+    // SVG path definition.
+    let path=([q, ...pp]) => `M ${fix2(q)} L ` + pp.map(fix2).join(` `); // (M)ove to first coord, then (L)ine to rest
+
+    let svg=[
+      // starting with the main svg tag, don't forget to close it later
+      `<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 ${fix(VW)} ${fix(VH)}" width="${fix(OPTS.mmh * aspect)}mm" height="${fix(OPTS.mmh)}mm">`,
+
+      // let's comment the date!
+      cmt(Date()), 
+
+      // in fact, let's comment the OPTS options and the entire code of this very program, 
+      // because we can (hah, and you thought Genuary day 11 "Quine" was a useless exercise!)
+      cmt(`\n\nOPTS=${JSON.stringify(OPTS,null,2)};\n(code=${code})();\n\n`)
+    ];
+
+    // now we append a background rectangle maybe
+    if(OPTS.bgrect>0) {
+      svg.push(
+        // this <g> group tag makes Axidraw plotters ignore the bg rect
+        `<g inkscape:groupmode="layer" inkscape:label="%">`,
+        // but not all plotters support that, so we also make the bg rect way larger than the page, which should 
+        // give an error when trying to plot, if you forgot to remove it (because you really don't want the plotter 
+        // to draw exactly at the edges of a paper)
+        `<rect x="${fix(-VW)}" y="${fix(-VH)}" width="${fix(VW*3)}" height="${fix(VH*3)}" fill="#ffffff" />`,
+        `</g>`
+      );
+    }
+
+    svg.push(
+      // now we make a group element <g>, to define a lot of properties for the lines inside it at once
+      `<g fill="none" stroke="#220033" stroke-linecap="round" stroke-linejoin="round" stroke-width="${fix(LW)}">`,
+      // we can put all the paths of the drawing in one big path definition, it's fine
+      `<path d="${lines.map(pp=>path(pp)).join(' ')}" />`,
+      // close the group
+      `</g>`,
+      // close the svg
+      `</svg>`
+    );
+
+    return svg;
+  }
+
+  // put the SVG into the image
+  let im = new Image();
+  let blob = new Blob(make_svg(drawing()),{type:'image/svg+xml'});
+  im.src=URL.createObjectURL(blob);
+  // put the image into the webpage
+  document.body.append(im);
+
+  console.log(`Done. SVG size = ${(blob.size/1000|0).toFixed(1)}KB`);
+})();
+
+onkeyup=e=>{
+  // Keyboard shortcuts:
+  //
+  // L - lock seed
+  // U - unlock seed
+  // S - save SVG
+
+  if(e.key=='l'){
+    // press L to lock seed
+    location.search=`seed=${OPTS.seed}`;
+  }
+  if(e.key=='u'){
+    // press U to unlock seed
+    location.search=``;
+  }
+  if(e.key=='s'){
+    // press S to save
+    a=document.createElement('a');
+    d=new Date();
+    let filename=['FullYear','Month','Date','Hours','Minutes'].map((v,i)=>(d['get'+v]()+(i==1)+'').padStart(2,0)).join('-')+`-output-${1000+R(8999)|0}.svg`;
+    a.download=filename;
+    console.log(`SAVING ${filename}`);
+    a.href=document.querySelector('img').src;
+    a.click();
+  }
+}
+</script>
+            <script src="http://localhost:35729/livereload.js"></script>
+
+
+</body></html>

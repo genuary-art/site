@@ -1,0 +1,234 @@
+<!doctype html><html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SVG template</title>
+<style>
+  *{border:none;margin:0;padding:0;box-sizing:border-box}
+  body{background:#CCA}
+  img{width:100vw;height:100vh;object-fit:contain;position:absolute}
+</style>
+</head><body><script>
+
+// *** PITER'S TOTALLY SIMPLE PLOTTER READY SVG DRAWING TEMPLATE ***
+
+// URL options, defaults
+OPTS={
+  // define physical paper size. note, a common max size for plotters is A3 paper size or 420x297mm.
+  mmh: 140,     // page height in mm (equals inches * 25.4) 
+  aspect: 16/9,  // aspect ratio (width divided by height)
+  lw: .5,       // pen line width in mm. many fine liners are about 0.3mm wide. if you have a pen, and a plotter, and
+                // want to experimentally find out its exact line width, see https://piterpasma.nl/articles/line-test 
+
+  bgrect: 1,    // whether we want a background rectangle. SVGs are transparent by default unless you put a big rect
+                // behind everything. This is useful for copying/sharing the img to social media, but when plotting 
+                // the SVG you don't want to plot this rect, so you can use this option to turn it off.
+
+  seed:'flurp'+Date.now(), // random seed
+};
+
+// here comes the code
+(code=_=>{
+  // update the default opts from the URL search params and output as a nice table to the console
+  console.table(OPTS={...OPTS,...Object.fromEntries(new URL(location).searchParams)});
+
+  // random number generator
+  console.log(`Random seed = ${OPTS.seed}`);
+  PRNGG=(s,a=9,b,c,d,R=(x=1)=>x*(x=d^d<<11,d=c,c=b,b=a,((a^=x^x>>>8^(b>>>19))>>>0)/2**32))=>([...s+'ThxPiter'].map(e=>R(d^=e.charCodeAt()*a)),R); // pseudo random number generator generator
+  R=PRNGG(OPTS.seed); // your PRNG
+  // random functions
+  RS=(a=1)=>R()<.5?a:-a; // random sign 1 / -1
+  RR=(a=1,b=-a)=>a+R(b-a); // uniform random range [a..b]
+  RA=a=>a[R(a.length)|0]; // random element from Array
+  T=a=>R(a)-R(a); // triangular distribution
+
+  // get some math definitions and vector functions
+  ({abs,sin,cos,PI,max,min,floor}=Math); TAU=PI*2;
+  A=([x,y,z=0],[a,b,c=0],t=1)=>[x+a*t,y+b*t,z+c*t]; // vec3 add
+  A2=([x,y],[a,b],t=1)=>[x+a*t,y+b*t]; // vec2 add/mul
+
+  mag=0;N=([x,y,z])=>[x/(mag=1e-99+(x*x+y*y+z*z)**.5),y/mag,z/mag]; // vec3 normalize + save length in mag
+  X=([x,y,z],[a,b,c])=>[y*c-z*b,z*a-x*c,x*b-y*a]; // vec3 cross product
+  D=([x,y,z=0],[a,b,c=0])=>x*a+y*b+z*c; // vec2/vec3 dot product
+
+  F=(N,f)=>[...Array(N)].map((_,i)=>f(i)); // loop function
+  SM=(a,b,x)=>(x-=a,x/=b-a)<0?0:x>1?1:x*x*(3-2*x); // smoothstep 48
+  cl=(x,a,b)=>x<a?a:x>b?b:x; // clamp
+
+  // define coordinates
+  aspect = OPTS.aspect;
+  // While the page size is in physical units, the coordinates for drawing into the SVG are based on its "viewbox",
+  // which we can set to any size we like (very nice). We'll set it to a height of 1000 units.
+  VH = 1000; // viewbox height
+  VW = VH * aspect; // viewbox width
+  LW = OPTS.lw/OPTS.mmh*VH; // line width in viewbox units (like a pixel it's the smallest size you can draw)
+
+  drawing = _=> {
+    // A plotter only draws lines. 
+    // A drawing is an Array (list) of lines,
+    // A line is an Array of points. 
+    // A point is a 2-element Array [x,y].
+    // an Array of Arrays of points.
+    let B=abs,U=min,G=max,k=(a,b)=>a>0&&b>0?(a*a+b*b)**.5:a>b?a:b; 
+    let GEN=([x,y],x0=(y+=7,x+=49)>0?3:0,ay9=B(y-9),ay12=B(y-12),G_=k(U(x,y-8),B(k(B(x)-1-x0,ay9-3-x0)-3+x0)),E=k(B(k(-4-(x-=12),B(ay9-3)-3)),x-3),N=k(y-12-(x-=12,x0=x<0?3:0),B(x)-1-x0)-3+x0,U_=k(B(k(6-y-(x-=12,x0=x>0?3:0),B(x)-1-x0)-3+x0),y-15),A=G(-B(6-B(y-3)),k(y-12,B(x-=12)-1)-3),R=k((y>9?ay12:y-6)-(x-=12,x0=x<0?3:0),B(x)-1-x0)-3+x0,Y=G(k(U(B(k(-1-(x-=12),12-y)-3),B(k(x-1,-y+1)-3)),y-15),x-4),d2a=B((x0=y<6?3:0,x-=16)<0?k(B(y-6)-x0,-x-1-x0)-3+x0:k(B(y-12),x-1)-3),d2b=k(B(x+(y<9?-1.5:1.5))-1.5,B(B(y-9)-6)),d6a=B(k(B(6-y)-(x-=12,x0=x<0&&B(y-9)<3?3:0),B(x)-1-x0)-3+x0),d6b=k(B(k(y-12-x0,-x-1-x0)-3+x0),G(6-y,x-3)))=>U(G_,U(E,U(k(B(U(N,U(A,R))),3-y),U(U_,U(Y,U(d2a,U(d2b,U(d6a,d6b))))))));
+    let ma=0;
+    let SDF=([x,y,z])=>{
+      let bal = 6-z;
+      let yw = SM(15,3,y); // makes the letters fatter at the bottom
+      let br = 1 + 1 * yw; // letter thickness
+      z -= cl(z,yw-1,1-yw); // make the thinner parts of letters a bit fatter in z-direction
+      let letters = (z*z+GEN([x,y])**2)**.5-br; // union of letters inflated by br
+      // letters = L(z,letters)-.5-br*.5;
+      ma=bal<.5||z<-.8?2:1;
+      return U(bal,letters);
+    };
+    let MAXD=300;
+        // init 3D stuff
+    let Z=1; // zoom / FOV
+    let cp=[0,-9,-35]; // camera pos
+    let lp=[-40,20,-40]; // light pos
+
+    let fw=N(A([0,0,0],cp,-1)); // camera forward axis
+    let rt=N(X(fw,N([-.15,-1,0]))); // camera right axis
+    let up=X(rt,fw); // camera up axis
+
+    fw=fw.map(v=>v*Z); // pre multiply fwd vector (used later in raytrace fn)
+
+    let u=([x,y])=>{ // raytrace function, evaluate point (x,y) on screen
+      // fd=k(abs(x)-.5+.03,abs(y)-.5+.03)-.012; // 2D SDF for page margins
+      if(1) {
+        d=IX(cp,rd=N(A(A(fw,rt,x),up,y)),MAXD); // trace a ray
+        if(d<MAXD){ // did we hit anything
+          n=nl(p=A(cp,rd,d)); // calc normal
+          lv=N(A(lp,p,-1));ld=mag; // lv = light vector, ld = light distance
+          shade=.4+.6*(ld<MAXD && IX(A(p,n,.02),lv,ld,.02)>=ld); // apply shadow
+          shade *= max(0,D(n,lv)); // apply diffuse lighting
+          shade *= SM(MAXD,.3*MAXD,d); // depth shading
+          d=cl(shade,0,1); // clamp brightness
+          SDF(p); // evaluate dist func to get material
+        } else {
+          d=1;ma=0;
+        }
+        return d;
+      }
+      ma=0;
+      return 1;
+    };
+    IX=(o,d,z,t=0,h=9)=>{for(;t<z&&h>.005;t+=h=.7*SDF(A(o,d,t)));return t}; // ray intersect
+    nl=([x,y,z],e=1e-4,l=SDF([x+e,y,z]),s=SDF([x,y,z+e]),n=SDF([x,y+=e,z]),o=SDF([x+e,y,z+e]))=>N([l-s-n+o,o-l-s+n,o-l+s-n]); // normal (tetrahedral method)
+
+    let wobl=([f0,f1,f2,f3]=F(4,_=>.01*.7**T()),[p0,p1,p2,p3]=F(4,_=>R(TAU)))=>([x,y])=>sin(f0*x+p0+2*sin(f1*y+p1)**3)*sin(f2*y+p2+2*sin(f3*x+p3)**3);
+    let [wb0,wb1,wb2,wb3] = F(4,_=>wobl()); // random wobble functions
+    let fpat=(p,r,q=A([0,0],p,r*.002))=>(1-u(q))*LW*.6;
+    let d1 = "bla";
+    let spiral = (cp,maxr,d=1)=>{ // centre point, maxradius
+      let res=[]; // the return value is an Array of points
+      let r = LW, a = TAU*.67;
+      let M = 2.3/LW; // this controls amount of windings
+      let R = .03*LW/M;
+      let K = M * R;
+      for(; r<maxr; ) {
+        let da = K/r**.5;
+        a += da;
+        let dr = R*r**-.5; // I swear I think this is probably correct
+        r += dr;
+        let p = [cos(a),sin(a)];
+        let r0 = r+d*fpat(p,r);
+        let d0 = d*fpat(p,r0);
+        if(d1==="bla"){d1=d0;}else{d1+=(d0-d1)*(.1+.3*r/maxr);}
+        res.push(A2(cp,p,r+d1)); // add the point to the result Array
+      }
+      return res; // return the result
+    }
+    let line0 = spiral([VW/2,VH/2], VW*.6, 1);
+    let line1 = spiral([VW/2,VH/2], VW*.6, 0).reverse();
+    let line2 = spiral([VW/2,VH/2], VW*.6, -1);
+    console.log(`N spiral pts = ${line0.length+line1.length+line2.length}`);
+    return [line0,line1,line2];
+  }
+
+  make_svg = lines => {
+    // By default JS prints about 17 decimals after the point, and we really don't need that many, it just 
+    // bloats the SVG. So we round all our numbers to 2 decimals.
+    let fix = x => (x*1).toFixed(2); // Multiply by 1 to force cast to a Number, and round to two decimals.
+    let fix2 = ([x, y]) => [fix(x), fix(y)]; // Coordinates are Arrays and it's useful to round those too.
+
+    // SVG comment helper function (avoid writing "minus minus" in the SVG, for reasons)
+    let cmt = (str, d='-' + '-') => `<!${d} ${str.replaceAll(d, '_-_-_')} ${d}>`;
+
+    // SVG path definition.
+    let path=([q, ...pp]) => `M ${fix2(q)} L ` + pp.map(fix2).join(` `); // (M)ove to first coord, then (L)ine to rest
+
+    // ok let's build an SVG
+    let svg=[
+      // starting with the main svg tag, don't forget to close it later
+      `<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 ${fix(VW)} ${fix(VH)}" width="${fix(OPTS.mmh * aspect)}mm" height="${fix(OPTS.mmh)}mm">`,
+
+      // let's comment the date!
+      cmt(Date()), 
+
+      // in fact, let's comment the OPTS options and the entire code of this very program, 
+      // because we can (hah, and you thought Genuary day 11 "Quine" was a useless exercise!)
+      cmt(`\n\nOPTS=${JSON.stringify(OPTS,null,2)};\n(code=${code})();\n\n`)
+    ];
+
+    // now we append a background rectangle maybe
+    if(OPTS.bgrect>0) {
+      svg.push(
+        // this <g> group tag makes Axidraw plotters ignore the bg rect
+        `<g inkscape:groupmode="layer" inkscape:label="%">`,
+        // but not all plotters support that, so we also make the bg rect way larger than the page, which should 
+        // give an error instead (cause you really don't want the plotter to draw exactly the edges of a paper)
+        `<rect x="${fix(-VW)}" y="${fix(-VH)}" width="${fix(VW*3)}" height="${fix(VH*3)}" fill="#ff00aa" />`,
+        `</g>`
+      );
+    }
+
+    svg.push(
+      // now we make a group element <g>, to define a lot of properties for the lines inside it at once
+      `<g fill="none" stroke="#002299" stroke-linecap="round" stroke-linejoin="round" stroke-width="${fix(LW)}">`,
+      // we can put all the paths of the drawing in one big path definition, it's fine
+      `<path d="${lines.map(pp=>path(pp)).join(' ')}" />`,
+      // close the group
+      `</g>`,
+      // close the svg
+      `</svg>`
+    );
+
+    return svg;
+  }
+
+  // put the SVG into the image
+  let im = new Image();
+  let blob = new Blob(make_svg(drawing()),{type:'image/svg+xml'});
+  im.src=URL.createObjectURL(blob);
+  // put the image into the webpage
+  document.body.append(im);
+
+  console.log(`Done. SVG size = ${(blob.size/1000|0).toFixed(1)}KB`);
+})();
+
+onkeyup=e=>{
+  if(e.key=='l'){
+    // press L to lock seed
+    location.search=`seed=${OPTS.seed}`;
+  }
+  if(e.key=='u'){
+    // press U to unlock seed
+    location.search=``;
+  }
+  if(e.key=='s'){
+    // press S to save
+    a=document.createElement('a');
+    d=new Date();
+    let filename=['FullYear','Month','Date','Hours','Minutes'].map((v,i)=>(d['get'+v]()+(i==1)+'').padStart(2,0)).join('-')+`-output-${1000+R(8999)|0}.svg`;
+    a.download=filename;
+    console.log(`SAVING ${filename}`);
+    a.href=document.querySelector('img').src;
+    a.click();
+  }
+}
+</script>
+            <script src="http://localhost:35729/livereload.js"></script>
+
+
+</body></html>
