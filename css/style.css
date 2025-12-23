@@ -16,9 +16,9 @@
   --textcode: var(--highlight);
   --textlink: var(--highlight2);/*#4bf;*/
   --textlinkhover: var(--highlight);
-  --infolink: #999;
+  --infolink: var(--highlight2);
   --infocolor: #888;
-  --infolinkhover: #ccc;
+  --infolinkhover: var(--highlight);
   --footlink: #bbb;
   --footcolor: #888;
   --footlinkhover: #ddd;

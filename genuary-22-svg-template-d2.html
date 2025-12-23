@@ -65,27 +65,20 @@ OPTS={
     let result = [];
 
     // let's define some shapes
-    // a shape is a closed path and we close a path by going back to the first point of the list
-    close = a => [...a, a[0]];
-    // however, if you've never used a plotter you probably didn't know that if the robot plotter lifts the pen from
-    // the paper, this results in a slightly darker dot of ink at the end of the line, and if you draw a lot of the same
-    // shapes that becomes really apparent, and therefore if you randomize the starting point of a closed shape it 
-    // looks nicer because it's not as obvious
-    close = (a, i = R(a.length)|0) => [...a.slice(i), ...a.slice(0, i + 1)];
+    // a shape is a closed path and we close a path by going back to the first point
+    close=a=>[...a,a[0]];
 
     circle=(x,y,r,N=.5*TAU*r/LW|0,a0=0)=>close(F(N,i=>[cos(i=i*TAU/N+a0)*r+x,sin(i)*r+y])); // a circle
 
     let sqrt2 = 2 ** .5;
     square=(x,y,r,a=0)=>circle(x,y,r*sqrt2,4,a+TAU/8); // 4-sided circle
 
-    // let's do Schotter
-    // ("Schotter" is a 1968 generative plotter work by Georg Nees, see https://zellyn.com/2024/06/schotter-1/ for 
-    // some really cool background info)
-
-    let square_dist = 36;
-    let square_size = square_dist / 2;
-    let rows = 22, cols = 12, r2=rows/2, c2=cols/2;
-    let offset_amt = .5;
+    // let's do a Schotter
+    // ("Schotter" is a 1968 generative plotter work by Georg Nees, see https://zellyn.com/2024/06/schotter-1/ )
+    let square_dist = 40;
+    let square_size = square_dist * .4;
+    let rows = 10*2, cols = 8*2, r2=rows/2, c2=cols/2;
+    let offset_amt = 1;
     let k = 0, a = 0;
     for(let j = 0; j < rows; j++) {
       for(let i = 0; i < cols; i++) {
@@ -94,9 +87,14 @@ OPTS={
         let a = (R() - .5) * TAU * r, 
             dx = r * (R(2) - 1) * offset_amt,
             dy = r * (R(2) - 1) * offset_amt;
-        let x = VW/2 + (dx+i-c2+.5) * square_dist;
-        let y = VH/2 + (dy+j-r2+.5) * square_dist;
+        let x = VW*.50 + (dx+i-c2+.5) * square_dist;
+        let y = VH*.48 + (dy+j-r2+.5) * square_dist;
         result.push(square(x,y,square_size,a));
+        r *= r;
+        a += (R() - .5) * TAU * r; 
+        x += r * (R(2) - 1) * offset_amt * square_dist;
+        y += r * (R(2) - 1) * offset_amt * square_dist;
+        result.push(square(x,y,square_size*.7,a));
         k++;
       }
     }

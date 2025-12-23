@@ -187,7 +187,7 @@ F GENUARY(V p) {
       F(4,i=>{
         un('4f','p'+i,pp[i].map((v,j)=>v+t * pd[i*4+j]));
       });
-      un('2f','zz',[t,z0]);
+      un('2f','zz',[t,0]);
       g.drawArrays(5,0,3);
       if(anim)requestAnimationFrame(k);
     };
