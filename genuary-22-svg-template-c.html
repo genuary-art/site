@@ -60,8 +60,9 @@ OPTS={
   // define coordinates
   aspect = OPTS.aspect;
   // While the page size is in physical units, the coordinates for drawing into the SVG are based on its "viewbox",
-  // which we can set to any size we like (very nice). We'll set it to a height of 1000 units.
-  VH = 1000; // viewbox height
+  // which we can set to any size we like (very nice). We'll set it to a height of 100000 units, that way we can use
+  // integer coordinates.
+  VH = 100000; // viewbox height
   VW = VH * aspect; // viewbox width
   LW = OPTS.lw/OPTS.mmh*VH; // line width in viewbox units (like a pixel it's the smallest size you can draw)
   VH2=VH/2;VW2=VW/2;
@@ -155,13 +156,13 @@ OPTS={
     }).flat().filter(pp=>pp[0]);
 
     // drawing the stuff
-    let fpat=(p,r,q=A([0,0],p,r*.002))=>(1-u(q))*LW*.6; // spiral brightness func
+    let fpat=(p,r,q=A([0,0],p,r*2e-5))=>(1-u(q))*LW*.6; // spiral brightness func
     let d1 = "bla";
     let spiral = (cp,maxr,d=1)=>{ // centre point, maxradius
       let res=[]; // the return value is an Array of points
       let r = LW, a = TAU*.67;
       let M = 2.3/LW; // this controls amount of windings
-      let R = .03*LW/M;
+      let R = .003*LW/M;
       let K = M * R;
       for(; r<maxr; ) {
         let da = K/r**.5;
@@ -190,21 +191,21 @@ OPTS={
   }
 
   make_svg = lines => {
-    // By default JS prints about 17 decimals after the point, and we really don't need that many, it just 
-    // bloats the SVG. So we round all our numbers to 2 decimals.
-    let fix = x => (x*1).toFixed(2); // Multiply by 1 to force cast to a Number, and round to two decimals.
+    // We round all our numbers to integers.
+    let fix = x => x|0;
     let fix2 = ([x, y]) => [fix(x), fix(y)]; // Coordinates are Arrays and it's useful to round those too.
 
     // SVG comment helper function (avoid writing "minus minus" in the SVG, for reasons)
     let cmt = (str, d='-' + '-') => `<!${d} ${str.replaceAll(d, '_-_-_')} ${d}>`;
 
     // SVG path definition.
-    let path=([q, ...pp]) => `M ${fix2(q)} L ` + pp.map(fix2).join(` `); // (M)ove to first coord, then (L)ine to rest
+  // path=([q,...pp])=>`M ${q} l ${pp.map(p=>V(A(p,q,-1,q=p))).join(` `)}`;
+  let path=([q, ...pp]) => `M ${q=fix2(q)} l ` + pp.map(p=>fix2(A(p=fix2(p),q,-1),q=p)).join(` `); // (M)ove to first coord, then relative (l)ine to rest
 
     // ok let's build an SVG
     let svg=[
       // starting with the main svg tag, don't forget to close it later
-      `<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 ${fix(VW)} ${fix(VH)}" width="${fix(OPTS.mmh * aspect)}mm" height="${fix(OPTS.mmh)}mm">`,
+      `<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 ${fix(VW)} ${fix(VH)}" width="${(OPTS.mmh * aspect).toFixed(2)}mm" height="${(OPTS.mmh).toFixed(2)}mm">`,
 
       // let's comment the date!
       cmt(Date()), 
@@ -272,6 +273,7 @@ onkeyup=e=>{
   }
 }
 </script>
+            <script src="http://localhost:35729/livereload.js"></script>
 
 
 </body></html>
