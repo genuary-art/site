@@ -205,7 +205,7 @@ OPTS={
     // ok let's build an SVG
     let svg=[
       // starting with the main svg tag, don't forget to close it later
-      `<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 ${fix(VW)} ${fix(VH)}" width="${(OPTS.mmh * aspect).toFixed(2)}mm" height="${(OPTS.mmh).toFixed(2)}mm">`,
+      `<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 ${fix(VW)} ${fix(VH)}" width="${(OPTS.mmh * aspect).toFixed(2)}mm" height="${(OPTS.mmh * 1).toFixed(2)}mm">`,
 
       // let's comment the date!
       cmt(Date()), 
