@@ -15,7 +15,7 @@
 OPTS={
   // define physical paper size. note, a common max size for plotters is A3 paper size or 420x297mm.
   mmh: 140,     // page height in mm (equals inches * 25.4) 
-  aspect: 16/9,  // aspect ratio (width divided by height)
+  aspect: 420/297,  // aspect ratio (width divided by height)
   lw: .5,       // pen line width in mm. many fine liners are about 0.3mm wide. if you have a pen, and a plotter, and
                 // want to experimentally find out its exact line width, see https://piterpasma.nl/articles/line-test 
 
@@ -92,7 +92,7 @@ OPTS={
     let MAXD=300;
         // init 3D stuff
     let Z=1; // zoom / FOV
-    let cp=[0,-9,-35]; // camera pos
+    let cp=[0,-9,-45]; // camera pos
     let lp=[-40,20,-40]; // light pos
 
     let fw=N(A([0,0,0],cp,-1)); // camera forward axis
@@ -182,7 +182,8 @@ OPTS={
     );
 
     // clip to the page    
-    let page_sdf = ([x,y])=>VH2*.03 - k(B(x-VW2)-VW2+.05*VH,B(y-VH2)-VH2+.05*VH);
+    let ww = VW2 - .03 * VW;
+    let page_sdf = ([x,y])=>VH2*.03 - k(B(x-VW2)-ww,B(y-VH2)-ww*9/16);
     result = clip(result, page_sdf);
     console.log(`N pts = ${result.flat().length}`);
     return result;
@@ -240,13 +241,14 @@ OPTS={
   }
 
   // put the SVG into the image
+  let start_time = Date.now();
   let im = new Image();
   let blob = new Blob(make_svg(drawing()),{type:'image/svg+xml'});
   im.src=URL.createObjectURL(blob);
   // put the image into the webpage
   document.body.append(im);
 
-  console.log(`Done. SVG size = ${(blob.size/1000|0).toFixed(1)}KB`);
+  console.log(`Done in ${((Date.now()-start_time)/1000).toFixed(2)}s. SVG size = ${(blob.size/1000|0).toFixed(1)}KB`);
 })();
 
 onkeyup=e=>{
