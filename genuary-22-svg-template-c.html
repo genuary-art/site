@@ -18,6 +18,7 @@ OPTS={
   aspect: 420/297,  // aspect ratio (width divided by height)
   lw: .5,       // pen line width in mm. many fine liners are about 0.3mm wide. if you have a pen, and a plotter, and
                 // want to experimentally find out its exact line width, see https://piterpasma.nl/articles/line-test 
+  res: .01,  // line simplification threshold (you can often use a higher number, the lines are very subtle in this particular piece)
 
   bgrect: 1,    // whether we want a background rectangle. SVGs are transparent by default unless you put a big rect
                 // behind everything. This is useful for copying/sharing the img to social media, but when plotting 
@@ -56,6 +57,8 @@ OPTS={
   F=(N,f)=>[...Array(N)].map((_,i)=>f(i)); // loop function
   SM=(a,b,x)=>(x-=a,x/=b-a)<0?0:x>1?1:x*x*(3-2*x); // smoothstep 48
   cl=(x,a,b)=>x<a?a:x>b?b:x; // clamp
+  let B=abs,U=min,G=max,k=(a,b)=>a>0&&b>0?(a*a+b*b)**.5:a>b?a:b;
+  let mx2=([a,b],[c,d],t=.5,s=1-t)=>[s*a+t*c,s*b+t*d];
 
   // define coordinates
   aspect = OPTS.aspect;
@@ -76,8 +79,6 @@ OPTS={
     let result = [];
 
     // ==== raymarching stuff
-    let B=abs,U=min,G=max,k=(a,b)=>a>0&&b>0?(a*a+b*b)**.5:a>b?a:b; 
-    let mx2=([a,b],[c,d],t=.5,s=1-t)=>[s*a+t*c,s*b+t*d];
     let GEN=([x,y],x0=(y+=7,x+=49)>0?3:0,ay9=B(y-9),ay12=B(y-12),G_=k(U(x,y-8),B(k(B(x)-1-x0,ay9-3-x0)-3+x0)),E=k(B(k(-4-(x-=12),B(ay9-3)-3)),x-3),N=k(y-12-(x-=12,x0=x<0?3:0),B(x)-1-x0)-3+x0,U_=k(B(k(6-y-(x-=12,x0=x>0?3:0),B(x)-1-x0)-3+x0),y-15),A=G(-B(6-B(y-3)),k(y-12,B(x-=12)-1)-3),R=k((y>9?ay12:y-6)-(x-=12,x0=x<0?3:0),B(x)-1-x0)-3+x0,Y=G(k(U(B(k(-1-(x-=12),12-y)-3),B(k(x-1,-y+1)-3)),y-15),x-4),d2a=B((x0=y<6?3:0,x-=16)<0?k(B(y-6)-x0,-x-1-x0)-3+x0:k(B(y-12),x-1)-3),d2b=k(B(x+(y<9?-1.5:1.5))-1.5,B(B(y-9)-6)),d6a=B(k(B(6-y)-(x-=12,x0=x<0&&B(y-9)<3?3:0),B(x)-1-x0)-3+x0),d6b=k(B(k(y-12-x0,-x-1-x0)-3+x0),G(6-y,x-3)))=>U(G_,U(E,U(k(B(U(N,U(A,R))),3-y),U(U_,U(Y,U(d2a,U(d2b,U(d6a,d6b))))))));
     let ma=0;
     let SDF=([x,y,z])=>{
@@ -191,6 +192,7 @@ OPTS={
   }
 
   make_svg = lines => {
+
     // We round all our numbers to integers.
     let fix = x => x|0;
     let fix2 = ([x, y]) => [fix(x), fix(y)]; // Coordinates are Arrays and it's useful to round those too.
@@ -199,8 +201,13 @@ OPTS={
     let cmt = (str, d='-' + '-') => `<!${d} ${str.replaceAll(d, '_-_-_')} ${d}>`;
 
     // SVG path definition.
-  // path=([q,...pp])=>`M ${q} l ${pp.map(p=>V(A(p,q,-1,q=p))).join(` `)}`;
-  let path=([q, ...pp]) => `M ${q=fix2(q)} l ` + pp.map(p=>fix2(A(p=fix2(p),q,-1),q=p)).join(` `); // (M)ove to first coord, then relative (l)ine to rest
+    let path=([q, ...pp]) => `M ${q=fix2(q)} l ` + pp.map(p=>fix2(A(p=fix2(p),q,-1),q=p)).join(` `); // (M)ove to first coord, then relative (l)ine to rest
+
+    // Reumann-Witkam line simplification function
+    let LD=([a,b],[c,d],e=c-a,f=d-b,l=L(e,f),z=c*b-d*a)=>([x,y])=>l>0?B(f*x-e*y+z)/l:L(a-x,b-y); // perpendicular distance between point [x,y] and ray [a,b]->[c,d]
+    let simplify=([o,p,...s],t,r=[o],q=p,ra=LD(o,p))=>(s.map(p=>{if(ra(p)>t){r.push(q);ra=LD(q,p)}q=p}),[...r,q]); // use flatMap?
+    lines = lines.map(line=>simplify(line,LW*OPTS.res));
+    console.log(`N pts simplified = ${lines.flat().length}`);
 
     // ok let's build an SVG
     let svg=[
