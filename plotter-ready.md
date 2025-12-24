@@ -1,4 +1,6 @@
 # GENUARY Day 22 -- Pen plotter Ready
+by Piter Pasma
+{:.info}
 
 ## What's a plotter?
 
