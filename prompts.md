@@ -68,6 +68,9 @@ Order and disorder.
 
 Wallpaper group. There are only 17 ways to cover a plane with a repeating pattern, choose your favourite on this page: [Wallpaper group](https://en.wikipedia.org/wiki/Wallpaper_group).
 
+[List of planar symmetry groups](https://en.wikipedia.org/wiki/List_of_planar_symmetry_groups) is another Wikipedia page with a good summary of the wallpaper group.
+{:.info}
+
 ## JAN. 18 <span class="credit">(credit: [Baret LaVida](https://www.artbaret.com/))</span> {#jan18}
 
 Unexpected path. Draw a route that changes direction based on one very simple rule.
