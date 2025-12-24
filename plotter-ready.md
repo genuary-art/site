@@ -42,6 +42,6 @@ To help you out we have made various pieces of code available that you can downl
 And then because I decided to get fancy and/or distracted, I made these templates for you to enjoy:
 
 * [template B](genuary-22-svg-template-b) ([src](https://github.com/genuary-art/site/blob/main/genuary-22-svg-template-b.html)). This one also draws a spiral, but it distorts it using some wobbly noise. Then it draws the same spiral again but backwards, and distorting in the opposite direction. This creates a cool moiré pattern.
-* [template C](genuary-22-svg-template-c) ([src](https://github.com/genuary-art/site/blob/main/genuary-22-svg-template-c.html)) might take a while to render. It kinda does the same as the previous one, except the distortion is based on the lighting of a 3D raymarched scene instead of a noise function. 
+* [template C](genuary-22-svg-template-c) ([src](https://github.com/genuary-art/site/blob/main/genuary-22-svg-template-c.html)) might take a while to render. It kinda does the same as the previous one, except the distortion is based on the lighting of a 3D raymarched scene instead of a noise function, showing the GENUARY logo. It also contains a nice "clip" function, allowing you to clip a bunch of lines against a 2D SDF.
 * [template D2](genuary-22-svg-template-d2) ([src](https://github.com/genuary-art/site/blob/main/genuary-22-svg-template-d2.html)) is iterating on Georg Nees's *Schotter*, a variation.
 
