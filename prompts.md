@@ -68,6 +68,8 @@ Order and disorder.
 
 Wallpaper group. There are only 17 ways to cover a plane with a repeating pattern, choose your favourite on this page: [Wallpaper group](https://en.wikipedia.org/wiki/Wallpaper_group).
 
+This is a great article about [Classifying Symmetries](https://tiled.art/en/symmetryClassification/) that says there are actually 35 tiling patterns!
+
 [List of planar symmetry groups](https://en.wikipedia.org/wiki/List_of_planar_symmetry_groups) is another Wikipedia page with a good summary of the wallpaper group.
 {:.info}
 
