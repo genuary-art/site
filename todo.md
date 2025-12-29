@@ -3,14 +3,9 @@
 - finis logo
 - make SDF digits
 - write some stuff
-- launch site
-- genuary2021 onto repo
-- 
 
+- 4:5 ratio video
+- socials at 14:00
+- audio?
 
-I don’t understand what prompts 4 and 6 are about.
-
-I also don’t know what DOM is (28)
-
-And also 22 (pen plotter ready). Should the output look like plotted?
-
+- logos 2021 en 2022

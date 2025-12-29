@@ -100,7 +100,7 @@ F GENUARY(V p) {
     V ni = V(17,-23), n0 = V(0,0);
     F angry_noise(F d, V p) {
       F s = 1;
-      for(F i=0; i<6; i++) {
+      for(F i=0; i<5; i++) {
         F n = B(wb4(p*scal/s+i*ni+n0)*(.4/scal)*s)-s*bd;
         F ng = smax(d-s, n,s*2);
         d = smin(d+s*.35+n*rf,ng-s*.8,s*2);
@@ -123,7 +123,7 @@ F GENUARY(V p) {
       F f = S(0,1,sqr(q.x));
       F d = GENUARY(p)-(2+S(-7,11,p.y))-S(0,1,sqr(q.x))*.2, e;
       W c = W(0);
-      V po = V(zz.x*25,zz.x*-8)*.7;
+      V po = V(zz.x*25,zz.x*-8)*.2;
 
       bd = mix(.05,1.3,S(0,1,sqr(q.x))); 
       rf = mix(.0,${R(.02+R(.04))},S(0,1,cub(q.y)));
@@ -180,7 +180,7 @@ F GENUARY(V p) {
     vRF4=_=>F(4,i=>2**(i*.6+R(.6)-1.3));
 
     pp=F(4,i=>(un('4f','f'+i,vRF4()),vRT4()));
-    pd = F(16,i=>.5*RS(1+R(3)));
+    pd = F(16,i=>.2*RS(1+R(3)));
     z0 = R(TAU);
     k=_=>{
       let t = performance.now() * 5e-5;

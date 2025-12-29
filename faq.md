@@ -4,7 +4,9 @@
 
 I have already answered this question in the very first paragraph of this site's [home page](/).
 
-But, it's 2026 which is the Year of Just Being Nice and Also Universal Peace For Once Please, so I can also just tell you. GENUARY is an artificially generated month of time where we build code that makes beautiful things.
+But, it's 2026 which is the Year of Just Being Nice and Also Universal Peace For Once Please, so I can also just tell you. 
+
+GENUARY is an artificially generated month of time where we build code that makes beautiful things.
 
 ## Do I need to follow the prompts strictly?
 

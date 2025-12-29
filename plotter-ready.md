@@ -24,7 +24,7 @@ Now you might wonder why people even bother.
 
 ## I'm wondering why people even bother
 
-The upside of plotters is that they are ridiculously precise and can draw with a super fine lines (although it's hard to find reliable pens finer than 0.25mm). And you can get more interesting textures than printers using e.g. ballpoint or fountain pens. 
+The upside of plotters is that they are ridiculously precise and can draw with super fine lines (although it's hard to find reliable pens finer than 0.25mm). And you can get more interesting textures than printers using e.g. ballpoint or fountain pens. 
 
 You can even use paint brushes or charcoal or whatever else you can think about, though each of these methods comes with their own unique challenges.
 
