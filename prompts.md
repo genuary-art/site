@@ -8,6 +8,9 @@ One color, one shape.
 
 [Twelve principles of animation](https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation).
 
+A video here is probably even better than reading the Wikipedia page: [12 Principles of Animation (on youtube)](https://www.youtube.com/watch?v=uDqjIdI4bF4)
+{:.info}
+
 ## JAN. 3 <span class="credit">(credit: [PaoloCurtoni](https://www.paolocurtoni.com))</span> {#jan3}
 
 Fibonacci forever. Create a work that uses the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence) in some way.

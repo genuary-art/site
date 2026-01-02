@@ -16,15 +16,15 @@ OPTS={
   // define physical paper size. note, a common max size for plotters is A3 paper size or 420x297mm.
   mmh: 140,     // page height in mm (equals inches * 25.4) 
   aspect: 4/5,  // aspect ratio (width divided by height)
-  lw: .3,       // pen line width in mm. many fine liners are about 0.3mm wide. if you have a pen, and a plotter, and
+  lw: .9,       // pen line width in mm. many fine liners are about 0.3mm wide. if you have a pen, and a plotter, and
                 // want to experimentally find out its exact line width, see https://piterpasma.nl/articles/line-test 
   res: .01,
   bgrect: 1,    // whether we want a background rectangle. SVGs are transparent by default unless you put a big rect
                 // behind everything. This is useful for copying/sharing the img to social media, but when plotting 
                 // the SVG you don't want to plot this rect, so you can use this option to turn it off.
 
-  seed:'falurpaa', // not so random seed
-  // seed:'flurp'+Date.now(), // random seed
+  // seed:'falurpaa', // not so random seed
+  seed:'flurp'+Date.now(), // random seed
 };
 
 // here comes the code
@@ -90,10 +90,11 @@ OPTS={
 
     circle=(x,y,r,N=.5*TAU*r/LW|0,a0=0)=>F(N,i=>[cos(i=i*TAU/N+a0)*r+x,sin(i)*r+y]); // a circle
 
-    wob=([p0,p1,p2,p3]=F(4,_=>R(TAU)),[f0,f1,f2,f3]=F(4,_=>.012*3**T()))=>([x,y])=>sin(x*f0+p0+3*sin(y*f1+p1)**3)*sin(y*f2+p2+3*sin(x*f3+p3)**3);
+
+    wob=([p0,p1,p2,p3]=F(4,_=>R(TAU)),[f0,f1,f2,f3]=F(4,_=>.012*3**T()))=>([x,y])=>sin(x*f0+p0+a0+3*sin(y*f1+p1+a1)**3)*sin(y*f2+p2+a2+3*sin(x*f3+p3+a3)**3);
 
     fp = (pp,i,N=pp.length,f=i-(i=floor(i)))=>mx2(pp[i++],pp[i>=N?i-N:i],f);
-    pdiz = (pp,d0=LW*2)=>{
+    pdiz = (pp,d0=LW*.75)=>{
       let i = 0, p = pp[i], res = [p], q = pp[++i];
       let dp =A(q, p, -1), d = Lv2(dp);
       dp = A([],dp,d0/d);    
@@ -112,26 +113,25 @@ OPTS={
       return res;
     }
 
-    kip = close(rrot(circle(VW2,VH2,VW2*.5)));
-
-    let difc = .01;
-    let fdc = d=>-difc * (SM(LW*9,LW*6,d)-4*SM(LW*3,0,d));
-    let wx = wob(), wy = wob();
-      for(let i=0;i<30; i++){
+    makshap = (wx,wy)=>{
+      let kip = close(rrot(circle(VW2,VH2,VW2*.5)));
+      for(let i=0;i<300; i++){
         console.log(i);
         let N = kip.length, q;
         let cp = A([-VW2,-VH2],kip.reduce((a,c)=>A(a,c)),1/N)
-        kip = kip.map((p,i)=>A(p,A([wx(p),wy(p)],cp,-1),.5));        
-        kip = rrot(kip); q = kip[N-1];
-        kip = kip.map(p=>(q=mx2(q,p,.12),A(p,q,fdc(H(p,q))) ));
-        kip.reverse();
-        kip = rrot(kip); q = kip[N-1];
-        kip = kip.map(p=>(q=mx2(q,p,.12),A(p,q,fdc(H(p,q))) ));
-        kip.reverse();
+        kip = kip.map((p,i)=>A(p,A([wx(p),wy(p)],cp,-1),1));
         kip=pdiz(close(rrot(kip)));
       }
+      return kip;
+    }
 
-      result.push(kip);
+    ([a0,a1,a2,a3]=F(4,_=>R(TAU)));
+    let w0 = wob(), w1 = wob();
+    result.push(makshap(w0,w1));
+
+    // let difc = .01;
+    // let fdc = d=>-difc * (SM(LW*9,LW*6,d)-4*SM(LW*3,0,d));
+    // let wx = wob(), wy = wob();
     return result;
   }
 
@@ -176,16 +176,16 @@ OPTS={
         // but not all plotters support that, so we also make the bg rect way larger than the page, which should 
         // give an error when trying to plot, if you forgot to remove it (because you really don't want the plotter 
         // to draw exactly at the edges of a paper)
-        `<rect x="${fix(-VW)}" y="${fix(-VH)}" width="${fix(VW*3)}" height="${fix(VH*3)}" fill="#ffffff" />`,
+        `<rect x="${fix(-VW)}" y="${fix(-VH)}" width="${fix(VW*3)}" height="${fix(VH*3)}" fill="#dddddd" />`,
         `</g>`
       );
     }
 
     svg.push(
       // now we make a group element <g>, to define a lot of properties for the lines inside it at once
-      `<g fill="none" stroke="#220033" stroke-linecap="round" stroke-linejoin="round" stroke-width="${fix(LW)}">`,
+      `<g fill="#009" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="${fix(LW)}">`,
       // we can put all the paths of the drawing in one big path definition, it's fine
-      `<path d="${lines.map(pp=>path(pp)).join(' ')}" />`,
+      `<path d="${lines.map(pp=>path(pp)).join(' ')} Z" />`,
       // close the group
       `</g>`,
       // close the svg
